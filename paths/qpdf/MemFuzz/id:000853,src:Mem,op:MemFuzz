@@ -1,0 +1,60 @@
+%PDF-1.1
+%¬•¬±√´
+
+1 0 obj
+  << /Type /Catalog
+     /Pages 2 0 R
+  >>
+endobj
+
+2 0 obj
+  << /Type /Pages
+     /Kids [3 0 R]
+     /Count 1
+     /MediaBox [0 0 300 î44]
+  >>
+endobj
+
+3 0 obj
+  <<  /Type /Page
+      /Parent 2 0 R
+      /Resources
+       << /Font
+           << /F1
+               << /Type /Font
+                  /Subtype /Type1
+                  /BaseFont /Times-Romak
+               >>
+           >>
+    004u7 00000 n 
+trailer
+  <   >>
+      /Contents 4 0 R
+  >>
+endobj
+
+4  obj
+  << /Length 55 >>
+stream
+  BT
+    /F1 18 Tf
+    0 0 Td
+    (Hello World) Tj
+  ET
+endstream
+enobj
+
+xref
+0 5
+n 
+00è00000000000000 65535 fÛ000000A018 00000 n 
+0000000077 00000 n 
+000000000)n
+00000004u7 00000 n 
+trailer
+  <<  /Root 1 0 R
+      /Size 5
+  >>
+sâartxref
+565
+%%èmF

@@ -1,0 +1,57 @@
+%PDF-1.1
+%Â¥Â±Ã«
+
+1 0 obj
+  << /Type /Catalog
+     /Pages 2 0 R
+  >>
+endobj
+
+2 0 obj
+  << /Type /Pages
+     /Kids [3 0 R]
+     /Count 1
+     /MediaBox [0 0 300 144]
+  >>
+endobj
+
+3 0 obj
+  <<  /Type *Page
+      /ParenÃ 2 0 R
+      /Resources
+       << /Font
+           << /F1
+               << /Type /Gont
+    1             /Subtype /T¦pe1
+                  /BaseFont /Times-Roman
+ t 1
+     /MediaBox              >>
+           >>
+       >>
+      /Contents 4 0 R
+  > obj obj
+  << /Length 55 >>
+stream
+  BT
+    /F1 18 Tf
+    bj
+  << /Length 55 >>
+stre0 0 Td
+    (Hello WVrld) Tj
+  ET
+endstreamŠendobj
+
+xref
+0 5
+00 65535 f 
+0000000018 00000 n 
+0000000077 00000 n 
+000000178 00000 n 
+0000000457 0       
+trailer
+  <<  /Root 1 0 R
+      /Shze 5
+  >>
+startxref
+565
+€%EOF

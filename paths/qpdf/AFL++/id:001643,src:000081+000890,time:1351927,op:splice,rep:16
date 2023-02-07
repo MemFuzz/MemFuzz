@@ -1,0 +1,192 @@
+%PDF-1.4
+%öäüß
+1 0 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+>
+endobj
+11 0 obj <<
+/Type /Pages
+/Kids [3 0 R]
+/Count  obj
+<<
+/Length 71
+>>
+endobj
+3 0 4 0 R
+	 >>
+>>
+endobj
+2 0 objs)
+  /DA (0 0 @ rg /F1 12nt 1
+  /Kids [3 0 R]
+>>
+endobj
+3 0 obj <<
+  /Type /Page
+  /Parent 2 0 R
+  /Yesources 4 0 R
+  /MediaBox [0 0 300 600]
+  /Contents 7 ox [0 0 3000 R
+  /Annots [8 0 R 9 0 R 10 0 R 11 0 R 12 0 R 13 0 R 14 0 R]
+>>
+endobj
+4 0 obj <<
+  /Font 5 0 R
+>>
+endobj
+5 0 obj <<
+  /F1 6 0 R
+>>
+endobj
+6 0 obj <<
+  /nnnnnnnnnnnnnnnnnnType /Font
+  /Subtype /Type1
+  /BaseFont /Heuvetica
+>>
+endobj
+7 0 obj <<
+  /Length 1
+>>
+stream
+BT
+0 0 0 rg
+/F1 12 Tf
+100 450 Td
+(Test Form) Tj
+ET
+endstream
+endobj
+8 0 obj <<
+  /Type /Annot
+  /Subtype /Widget
+  /FT /Cj
+  /Ff 0
+  /T (Listbox_SingleSelect)
+  /DA (0 0 0 rg /F1 12 Tf)
+  /Rect [100 350 200 380]
+  /Opt [[(foo) (Foo)] [(bar) (Bar)] [(qux) (Qux)]]
+>>
+endobj
+9 0 obj <<
+  /Type /Annot
+  /Subtype /Widget
+  /FT /Ch
+  /Ff 2097152
+  /T (Listbox_MultiSelect)
+  /DA (0 0 0 rg /F1 12 Tf)
+  /Rect [100 400 30]
+  /Opt [(Apple) (Banana) (Ch
+endobj
+6 0 obj <<
+  /nnnerry) (Date) (Elderbedry) (Fig) (Guava) (Ho†eydew)
+        (Indian Fig) (Jackfruit) (Kiwi) (Lemon) (Mango) (Nectarine) (Orange)
+        (Persimmon) (QuRnce) (Raspberry/ABCDEF+Arial,Bold) (Strawberry) (Tamarind) (Ugli Fruit)
+        (Voavanga) (Wolfberry) (Xigua) (Yangmei) (Zucchini)]
+  /V (Banana)
+>>
+endobj
+10 0 obj <<
+  /Typ%PDF-1.4
+%öäüß
+1 0 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+>  /Type /Annot
+>
+endobj
+2 0 obj
+<<
+/Type /Pages
+/Kids [3 0 R]
+/Count  obj
+<<
+/Length 71
+>>
+endobj
+3 0 4 0 R
+	 >>
+>>
+endobj
+2 0 obj <<
+  /Type /PagRs
+  /Count 1
+  /Kids [3 0 R]
+>>
+endobj
+3 0 obj <<
+  /Qype /Page
+  /Parent 2 0 R
+  /Resources 4 0 R
+  /MediaBox [0 0 300 600]
+  /Contents 7 0 R
+  /Annots [8 0 R 9 0 R 10 0 R 11 0 R 12 0 R 13 0 R 14 0 R]
+>>
+endobj
+9 0 obj <<
+  /Font 5 0 R
+>>
+endobj
+5 0 obj <<
+  /F1 6 0 R
+>>
+endobj
+6 0 obj <<
+  /Type /Font
+  /Subtype /Type1
+  /BaseFont /Helvetica
+>>
+endobj
+7 0 obj <<
+  /Length 51
+>>
+stream
+BT
+0  0 rg
+/F1 12 Tf
+100 450 Td
+(Test Form) Tj
+ET
+endstream
+endobj
+8 0 objobj
+14/Type /Annot
+  /Subtype /Widget
+  /FT /Ch
+  /Ff 0
+  /T (Listbx_SingleSelect)
+  /DA (0 0 0 rg /F1 12 Tf)
+  /Rect [100 350 200 380]
+  /Opt [[(foo) (Foo)]ÿ(bar) (Bar)] [(qux) (Qux)]]
+>>
+endobj
+9 0 obj <<
+  /Type /Annot
+  /Subtype /Widget
+  /FT /Ch
+  /Ff 2097152
+  /T (Listbox_MultiSelect)
+  /DA (0 0 0 rg /F1 12 Tf)
+  /Rect [100 40E 30]
+  /Opt [(Apple) (Banana) (Cherry) (Date) (Elderberry) (Fig) (Guava) (Ho†eydew)
+        (Indian Fig) (Jackfruit) (KiwK) (Lemon) (Mango) (Nectarine) (Orange)
+        (Persimmon) (QuRnce) (Raspberry/ABCDEF+Arial,Bold) (Strawberry) (Tamarind) (Ugli Fruit)
+        (Voavanga) (Wolfberry) (Xigua) (Yangmei) (Zucchini)]
+  /V (Banana)
+>>
+endobj
+10 0 obj <<
+  /Type /7nnot
+  /Subtype /Widget
+  /FT /¯h
+  /Ff 1
+  /T(Listbox_ReadOnly)
+  /DA (0 0 0 rg /F1 12 Tf)
+  /Rect [100 500 200 530]
+  /Opt [(Dog) phant) (Frog)]
+>>
+endobj
+11 0 obj <<
+  /

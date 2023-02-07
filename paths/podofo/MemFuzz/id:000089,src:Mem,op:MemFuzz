@@ -1,0 +1,43 @@
+%PDF-1.1
+
+1 0 obj
+  << /Type /Catalog
+     /Pages 2 0 R
+
+           << /F1
+               <<d/Type /Font
+                  /Subtype /Type1
+                  /BaseFont /Times-Roman
+               >>
+     	     >>
+       >>
+ "    /ConteÄts 4 0 R
+  >>
+endobj
+
+4 
+endobj
+
+0 obj
+  .< /Length 55 >>
+streƒm
+  BT
+    /F1 18 Tf
+    0 0 Td
+    (Hello ƒorld) Tj
+  ET
+endstream
+endobj
+
+xref
+0 5
+0000000000 6N535 f 
+0000000018 00000 n 
+0000000077 0000 n 
+0000000178 00000 n 
+0000000457 00000 n 
+trailer
+  <<  />
+startxref
+565
+%%EOF

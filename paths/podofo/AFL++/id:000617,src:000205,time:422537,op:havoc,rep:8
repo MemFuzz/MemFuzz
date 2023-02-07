@@ -1,0 +1,38 @@
+%PDF-1.10 obj
+  << /
+           << /F1
+               << /Type /Font
+                  /Subtype /Type1
+                  /BaseFont /Times-Rúman
+               >>
+           >>
+       >>
+      /Contents 4 0 R
+  >>
+78 0bj
++4 0 obj
+  << Levgth 55 >>
+stream
+  BT
+    /F1 18 Tf
+    0 0 Td
+    (Hello World) Tj
+ @ET
+endstream
+ndobj
+
+xref
+0 5
+  <<  /Root 1 0 R
+  /Size 5
+   00000 n 
+0000000077 00000 n 
+0000000178 00000 n 
+0000000457 00000 n 
+trailer
+  <<  /Root 1 0 R
+  /Size [[[[[[[D[[[[[[[[[[[[[5
+  >>
+startxref
+565
+%%EOF

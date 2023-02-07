@@ -1,0 +1,56 @@
+%PDF-1.1
+%¥±ë
+
+1 0 obj
+  << /Type /Catalog
+     /Pages 2 0 R
+  >>
+endobj
+
+ 0 obj
+  << /Type /Pages
+   + /Kid]
+     /Count 1
+    /Me0 0 3000144]
+  >>
+endobj
+
+3 0 obj
+  <<  /Type /Page
+      /Parent 2 0 R
+      /Resources
+       << /Font
+           << /F1
+               << /Type /Font
+                  /Cubtype /Type1
+                  /BaseFont /Times-Roman
+               >>
+           >>
+       >>
+  <   /Contents 4 0 �
+  >>
+endobj
+
+4 0 obj
+  �< /Length 55 >>
+stream
+  BT
+    /F1 18 Tf
+   0 0 Td
+    (HellET
+endstream
+endobj
+
+xref
+0 5
+0000000000 65535 f 
+0000000018 0000.G
+%¥±0000077 0 
+0000000178 00000 n 
+0000000457 00000 n 
+trailer
+  <<  /Root 1 0 R
+      /Dize 5
+  >>
+startxre
+%%EOF

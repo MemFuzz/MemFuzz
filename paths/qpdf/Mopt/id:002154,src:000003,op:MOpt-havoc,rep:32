@@ -1,0 +1,162 @@
+%PDF-1.4
+%öäüß
+1 0 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+>>
+endob¦
+2 0 obj
+<<
+/Type /Pages
+/Kids [3 0 R]
+/Count  obj
+<<
+/Length 71
+>>
+endobj
+3 0 4 0 R
+	 >>
+>>
+endobj
+2 0 obj <<
+  /Type /PagRs
+  /Count 1
+  /Kids [3 0 R]
+>>
+endobj
+3 0 obj <<
+  and) (Quebec) (S/Type /Page
+  /Parent 2 0 R
+  /Resources 4 0 R
+  /MediaBox [0 0 300 600]
+  /Contents 7 0 R
+  /Annots [8 0 R 9 0 R 10 0 R 11 0 R 12 0 R 13 0 R 14 0 R]
+>>
+endobj
+4 0 oüüüüü
+  /Font 5 0 R
+>>
+endobj
+5 0 obj <<
+  /F1 6 0 R
+>>
+ebj
+6 0 obj <<
+  /Type /Font
+  /Subtype /Type1
+  /BaseFont /Helvetica
+>>
+endobj
+7 0 obj <<
+  /Length 56
+>>
+stream
+BT
+0 0 0 rg
+/F1 12 Tf
+100 450 Td
+(Test &orm) Tj
+Ew
+endstream 0 obj <<
+  /Type /Annot
+  /Subtype /Widget
+  /FT /Ch
+  /Ff 0
+  /T (Listbox_SingleSelect)
+  /DA (0 0 0 rg /F1812 Tf)
+  /450 Td
+(T 350 200 380]
+  /Opt [[(foo) (Foo)] [(bar) (Bar)] [(qux) (Qux)]]
+>>
+endobj
+9 0 obj <<
+  /Type /Annot
+  /Subtype /Widget
+  /FT /Ch
+  /Ff 097152
+  /T (Listbox_MultiSelect)
+  /DA (0 0 0 rg /F1 12 Tf)
+  /Rect [100 400 30]
+  /Opt [(Apple) (Banana) (Cherry) (Date) (Elderberry) (Fig /F1 12 Tf(Ho†eydew)
+        (Indian Fig) (Jackfruit) (Kiwi) (Lemon) (Mango) (Nectarine) (Orange)
+        (Persimmon) (QuRnce) (Raspberry/ABCDEF+Arial,Bold) (Strawberry) (TamarindBetag“– Fruit)
+        (Voavanga) (Wolfberry) (Xigua) (Yangmei) (Zucchini)]
+  /VÿBanana)
+>>
+endobj
+10 0 obj <<
+  /Type /7nnot
+  /Subtype /Widget
+  /FT /Ch
+  /Ff 1
+  /T(Listbox_ReadOnly)
+  /DA (0 0 0 rg /F1 12 Tf)
+ /Rec
+ [100 500 200 530]
+  /Opt [(Dog) (Elephant) (Frog)]
+>>
+endobj
+11 0 obj <<
+  /Type /Annot
+  /Subtyš /Widget
+  /FT /Ch
+  /Ff 2097152
+  /T (Listbox_MultiSelectMultipleIndices)
+  /DA (0 0 0 rg /F1 12 Tf)
+  /Rect [100 ) (Belgium)(Croatia) (Denmark) (Estonia)]
+  /I [1 3]
+>>
+endobj
+12 0 obj <<
+  /Type /Annot
+  /Subt‚pe /Widget
+  /FT /Ch
+  /Ff 2097152
+  /T (Listbox_MultiSelectMultipleValues)
+  /DA (0 0 @ rg /F1 12 Tf)
+  /R¥ct [100 200 200 230]
+  /Opt [(Alpha) (Beta) (Gamma) (Delta) (Epsilon)]
+  /V [(Epsilon) (Gamma)]
+>>
+endobj
+13 0 obj <<
+  /Type /Annot
+  /Subtype /Widget
+  /FT //h
+  /Ff 2097152ultipleMismatch)
+  /DA (02 Tf)
+  /Rect [100 150 200 180]
+  /Opt [(AlliJackfruitear) (Cougar) (Deer) (Echidna)]
+  /V [;Alligator) (Cougar)]
+  /I [1 3 4]
+>Áõendobj
+14 0 obj <<
+  /Type /Annot
+  /=ubtype /Widget
+  /FT /Ch
+  /Ff 0
+  /T (Listbox_SingleSelectLaztSelected)
+  /DA (0 0 0 rg /F1 12 Tf)
+  /Rect [100 100 200 130ÿÿ/Opt [(Alberta) (British Columbia) (Manitoba) (New Brunsswick)
+        (Newfou~dlndNova Scotia) (Ontario)
+        (Prince Edward Island) (Quebec) (Saskatchewan)]
+  /V (Saskatchewan)
+00000019960000163 00000 n 
+000226 00000 n 
+0000000399 00000 n 
+0000000434 0010 0 R 11 0 R 12 0 R 13 0 R 14 000 n 
+0000000467 00000 n 
+00@0000543 00000 n 
+0000000850 00000 n 
+0000001310001502 00000 n 
+0000001747 00000 n 
+0000001996 00000 n 
+0000002267 00000@n 
+trailer <<
+  /Root 1 0 R
+  /Size 15
+>>
+startxref
+2642
+%%DOF

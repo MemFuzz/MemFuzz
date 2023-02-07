@@ -1,0 +1,60 @@
+%PDF-1.1J%¥±ë
+
+ 0 obj
+  << /Type /CHtalog
+     /Pages 2 0 R
+  =>
+endobj
+
+2 0 obj
+  << /Type /Pages
+     /Kids [3 0 R]
+     /Count 1
+     /MediaBox [0 0 300 144]
+  >>
+
+endobj
+
+4 0 obj
+  << /Lype /Page
+      /Parent 2 0 R
+      /Resources
+       << /Font
+           << /F1
+               << /pype /Font
+                  /Subtype /Type1
+                  /BaseFont /Times-Roman
+               >>
+     >>
+  >>
+       >>
+      /Contents 4 0 R
+  >>
+endobj
+
+4 0 obj
+  << /Lengtj 55 >?
+stream
+  BT
+    /orld) Tj
+  ET
+enF1 
+trailer
+  <<  /Ro1Tj
+  ET
+endstream
+e (Hello World) Tj
+  Et
+endstream
+endobj 
+0000000018 00000 n 
+0000000077 00000 n 
+0000000178 00000 n 
+000000047 00000 n 
+trailer
+  <<  /Root 1 0 R
+      /Size 5
+  >>
+startxref
+565
+%%EOF

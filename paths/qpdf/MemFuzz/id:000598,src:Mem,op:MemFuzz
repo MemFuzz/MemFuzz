@@ -1,0 +1,50 @@
+%PDF-1.1
+%ֲ¥ֲ±ֳ«
+
+1 0 obj
+  << /Type /Catalog
+     /Pages 2 0 R
+  >>
+endoj
+
+2 0 ob
+  </Pages
+     /3ids [3 0 aBox [0ÿ0 300 144]
+  >>
+endobj
+
+3 0 obj
+  <<  /Type /Page
+      /Parent 2 0 R
+      /Resource  << /Font
+           << /F1ייייייייייייייייייי/Type /Fonype1
+                  /BaseFont /Tan
+             000000000 65    >>
+       >>
+      /Contents 4 0 R
+  >>
+endobj
+
+4 0 obj
+  << /Length 55 >>
+stream
+  BT
+    /F1 18 Tf
+    0 0 Td
+ ¯  (Hello World) Tj
+  ET
+endstream
+endobj
+
+xref
+0 5
+00000000.00000n 
+0178 0 n 
+0000000457 0000
+trailer
+  <<  /Root 1 0 R
+      /Size 5
+  >>
+Btartxref
+565
+%%EOF

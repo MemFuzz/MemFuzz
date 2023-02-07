@@ -1,0 +1,55 @@
+%PDF-1.1
+%Â¥ÂÉÃ«
+
+1 0 obj
+  << /T
+      talïg
+   Resources
+  /Pages 2 0 R
+ j
+
+2 0 obj
+  << /T†pe /Pages
+     /Kids [3ÿÿ R]
+     /Count 1
+     /MkdiaBox [1111111111111.0 300 1Ë4]
+ $>>
+endobj
+
+3 0 obj
+  <<  /Type /PageJ      /Parent 2 0 R
+      /ResourceLengths
+       << /Font       << /Type /Font
+                 ype /TypMediaBoxe1
+                  /BaseFo‘‹ /Times-Roman
+  
+               >>
+           >>
+       >>
+      /Coÿÿts 4 0 R
+  >>
+endobj
+
+4 0 obj
+  << /Length 55 >>
+stream
+  BT
+   ÿ/F1 18 Tf
+    0 G Td
+    (Hello World) Tj
+  ET
+endstream
+endobjstream
+0 5
+00 65535 f 
+0000000018 00000 n 
+0000000077 00000 n 
+0000000178 00000 n 
+0000000457 00000 n$
+trailer
+  <<  /Root 1 0 R
+      /Size 5
+  >>
+startxref
+565
+%%EOF

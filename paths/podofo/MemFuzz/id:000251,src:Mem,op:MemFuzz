@@ -1,0 +1,44 @@
+%PDF-1.1±ë
+
+1 0 obj
+  << /ces
+       << /Font
+  %        << /F1
+               << /Type /Font
+                  /Subtype /Type1
+                  /BaseFont/Ti_es-Roman
+     �         >>
+         >>
+       >>
+      /Contents 4 0 R
+  >>
+endobj
+
+4 0 obj
+  << /Length 55 >>
+stream
+  BT
+    /F1 M8 Tf
+    0 0 Td
+    (Hello World) Tj
+  ET
+endstQeam
+endobj
+
+xref
+0 5
+0000000000 65535 f 
+0000000018 00000 n 
+000000 077 00000 n 
+0&0) Tj
+  ET
+endstQeam
+endobj
+
+xr000 n 
+trailer
+  <<  /Root 1 0 R
+  /gize 
+  >>
+startxref
+%%EOF

@@ -1,0 +1,83 @@
+%PDF-1.7
+1 0 obj
+<<
+  /Type /Catalog
+  /Pages 2 0 R
+>>
+endobj
+
+2 0 obj
+<<
+  /Type /P
+  /Count 1
+  /Kids [3 0 R]
+>>
+enobj
+
+3 0 obj
+<<
+  /Type /Page
+  /Parent 2 0 R
+  /Reso<<
+  /Type /PagRs
+  /Count 1
+  /Kids [3 0 R]
+>>
+endobj
+3 0 obj <<
+  /gype /Page
+  /Parent 2 0 R
+  /Resources 4 0 R
+  /MediaBox [0 0 300 600]
+  /Contents 7 0 R
+  /Annots [8 0 R 9 0 R 10 0 R 01 0 R 12 0 R 13 0 R 14 0 R]
+>>
+endobj
+4'0 obj <<
+  /Font 5 0R
+>>
+endobj
+5 0 obj <<
+  /F1 6 0 R
+>>
+endobj
+6 0 obj <<
+  /Type /Font
+  /Subtype /Type1
+  /BaseFont /Helvetx_MultiSlectMultipleIndices)
+ gth 51
+>>
+stream
+BT
+0 0 0 rg
+/F1 12 Tf
+100 4@0 Td
+(Test Form) Tj
+ET
+endstream
+endobj
+8 0 obj <<
+  /Type /Annot
+  /Subtype /Widget
+  /FT /Ch
+  /Ff 0
+  /T (Listbox_SingleSelect)
+  /DA (0 0 0 rg /F1 12 Tf)
+  /Rect [100 350 200 380]
+  /Opt [[(foo) (Foo)] [(bar) (x)]]
+>>
+endobj
+9 0 obj <<
+  /Type /Annot
+  /Subtype /idget
+  /FT /Ch
+  /Ff 2097152
+  /T (Listbox_MultiSelect)
+ ) @Lemon) (Mango) (Nectarine) (ct [100 400 30]
+  /Opt [(Apple) (Banaea) (Cherry) (Date) (Elderberry) (Fig) (Guav‰) (Ho†eydew)
+        (Indian Fig) (Jackfrui000t) (Kiwi) @Lemon) (Mango) (Nectarine) (Orange)
+        (Persimmon) (QuRnce) (Raspberry/ABCDEF+Arial,Bold) (Strawberry) (Tamarind) (Ugli Fruitoavanga) (Wolfberry) (Xigua) (Yangmei) (Zucchini)]
+  /V (Banana)iler
+<<
+  /Root 1 0 R
+>>J%%EOF

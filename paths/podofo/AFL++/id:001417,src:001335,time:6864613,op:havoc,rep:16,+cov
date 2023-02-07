@@ -1,0 +1,37 @@
+%PDF-1.1trailer
+   [3 0 R       /Cou     /Resources
+       << /Foft
+           << /F1
+       (      << /Tyqe /Font
+                  /Subtype /Type1
+                  /BaseFont /Times-Roman
+               >>
+     $>>
+      AF>
+      /Contents 4 0 R
+  >>
+endobj
+
+4 0 obj
+  << /Length 55 >>
+stream
+  BT
+    /F1 18 Tf
+    0 0 Td
+   ?(.ello World) Tj
+  E
+endstream
+endobj
+
+xref
+0 5
+0000000000 65535 f 
+0000000018 00000 n 
+0000000077 0008 00000 n 
+0000000457 00002 s 
+trai /BaseFont /Times-0 R
+  /Size 5
+  >>
+startxref
+565
+%%EOF
