@@ -1,0 +1,5 @@
+# Hashes of file build rules.
+ad2cc2bec92ca672364ea0595d44e7d3 xpdf-qt/moc_XpdfApp.cxx
+3173e447438917a790b71407451da149 xpdf-qt/moc_XpdfViewer.cxx
+0f9e4d3cddcb25ca098e591c58f52cfd xpdf-qt/moc_XpdfWidget.cxx
+087ee3f2b2087d8a29f992e28f98e5bc xpdf-qt/qrc_icons.cxx

@@ -1,0 +1,361 @@
+dnl Fig2dev: Translate Fig code to various Devices
+dnl Copyright (c) 1991 by Micah Beck
+dnl Parts Copyright (c) 1985-1988 by Supoj Sutanthavibul
+dnl Parts Copyright (c) 1989-2015 by Brian V. Smith
+dnl Parts Copyright (c) 2015-2021 by Thomas Loimer
+dnl
+dnl Any party obtaining a copy of these files is granted, free of charge, a
+dnl full and unrestricted irrevocable, world-wide, paid up, royalty-free,
+dnl nonexclusive right and license to deal in this software and documentation
+dnl files (the "Software"), including without limitation the rights to use,
+dnl copy, modify, merge, publish, distribute, sublicense and/or sell copies
+dnl of the Software, and to permit persons who receive copies from any such
+dnl party to do so, with the only requirement being that the above copyright
+dnl and this permission notice remain intact.
+
+dnl output.at
+dnl Author: Thomas Loimer, 2016-2021
+
+dnl Check various features related to the output languages of fig2dev.
+
+
+AT_BANNER([Test epic/eepic output language.])
+
+AT_SETUP([Write complete output file in page mode (-P)])
+AT_KEYWORDS(epic)
+AT_CHECK([fig2dev -Lepic -P $srcdir/data/line.fig line.tex])
+AT_CLEANUP
+
+AT_BANNER([Test Gerber output language.])
+
+AT_SETUP([allow polygons with four points])
+AT_KEYWORDS(gbx)
+AT_CHECK([fig2dev -L gbx <<EOF
+FIG_FILE_TOP
+2 3 0 1 0 7 50 0 -1 0 1 0 0 0 0 4
+	0 0 0 600 600 600 0 0
+EOF
+],0,ignore,ignore)
+AT_CLEANUP
+
+AT_BANNER([Test PostScript output language.])
+
+AT_SETUP([compare arrow tips with template])
+AT_KEYWORDS(eps arrows)
+dnl AT_TESTED(pnmarith) does not start the testsuite, if pnmarith does not exist
+# Skip this test, if the necessary programs are not found
+AT_SKIP_IF([NO_GS || ! pnmarith -version || ! ppmhist -version])
+
+# The original must be saved as eps, not converted to pdf.
+# Conversion to pdf introduces a few pixel errors.
+$GSEXE -sDEVICE=pgmraw -dEPSCrop -r1200 -dNOPAUSE -dBATCH -dQUIET \
+	-sOutputFile=a.pgm $srcdir/data/arrows.eps
+
+fig2dev -L eps $srcdir/data/arrows.fig | \
+	$GSEXE -sDEVICE=pgmraw -dEPSCrop -r1200 -dNOPAUSE -dBATCH -dQUIET \
+	   -sOutputFile=b.pgm -
+
+# Was pamsumm -sum -brief, to expect 0\n on stdout - but pamsumm does not
+# exist on Debian stretch, so use ppmhist -noheader
+AT_CHECK([pnmarith -difference a.pgm b.pgm | ppmhist -noheader | tr -d ' \t'],
+0, [000026673361
+], ignore, [pnmarith -difference a.pgm b.pgm >diff.pgm
+mv a.pgm orig.pgm; mv b.pgm current.pgm])
+AT_CAPTURE_FILE(orig.pgm)
+AT_CAPTURE_FILE(current.pgm)
+AT_CAPTURE_FILE(diff.pgm)
+AT_CLEANUP
+
+AT_SETUP([do not clip 0-width objects having arrows, #53])
+AT_KEYWORDS(eps clip0)
+# The lines of objects which have a line thickness of zero and which
+# have arrow heads do not need to be clipped.
+AT_SKIP_IF([NO_GS || ! pnmarith -version || ! ppmhist -version])
+AT_DATA(clip0.fig, [FIG_FILE_TOP
+2 2 0 0 0 7 60 -1 20 0.000 0 0 -1 0 0 5
+	 0 -300 0 300 450 300 450 -300 0 -300
+2 1 0 0 0 0 50 -1 20 0.000 0 0 -1 1 1 4
+	0 0 1.00 60.00 120.00
+	0 0 1.00 60.00 120.00
+	 0 0 0 -300 150 -300 150 0
+2 1 0 0 0 0 50 -1 20 0.000 0 0 -1 1 1 4
+	13 0 1.00 60.00 120.00
+	13 0 1.00 60.00 120.00
+	 150 0 150 -300 300 -300 300 0
+2 1 0 0 0 0 50 -1 20 0.000 0 0 -1 1 1 4
+	13 1 1.0 60.0 120.0
+	13 1 1.0 60.0 120.0
+	 300 0 300 -300 450 -300 450 0
+2 1 0 0 0 0 50 -1 20 0.0 0 0 -1 1 1 4
+	14 0 1.0 60.00 120.00
+	14 0 1.0 60.00 120.00
+	 0 300 0 0 150 0 150 300
+2 1 0 0 0 0 50 -1 20 0.0 0 0 -1 1 1 4
+	14 1 1.00 60.00 120.00
+	14 1 1.00 60.00 120.00
+	 150 300 150 0 300 0 300 300
+2 2 0 0 0 0 50 -1 20 0.0 0 0 -1 0 0 5
+	 300 0 300 300 450 300 450 0 300 0
+])
+dnl The file above shows five rectangular polylines, one abreast of each other,
+dnl each with line thickness zero, filled with black, having five different
+dnl arrow-heads. The background is a white rectangle. If the lines are clipped,
+dnl the white background would show through. A sixth black rectangle covers the
+dnl remaining white area.
+dnl The command below extracts a box slightly smaller than the six rectangles.
+dnl At a resolution of 80 dpi, this box is 28 x 30 pixels = 1064 pixels.
+AT_CHECK([fig2dev -L eps -B '0.325 0.45 0.025 0.025' clip0.fig | \
+	$GSEXE -sDEVICE=pbmraw -dEPSCrop -r80 -dNOPAUSE -dBATCH -dQUIET \
+	-sOutputFile=- - | ppmhist -noheader | tr -d ' \t'], 0, [00001064
+])
+AT_CLEANUP
+
+AT_SETUP([honor SOURCE_DATE_EPOCH environment variable])
+AT_KEYWORDS(eps creationdate SOURCE_DATE_EPOCH)
+AT_CHECK([SOURCE_DATE_EPOCH=123456789 fig2dev -L eps $srcdir/data/line.fig | \
+	$FGREP 'CreationDate'], 0, [%%CreationDate: 1973-11-29 21:33:09
+])
+AT_CLEANUP
+
+AT_SETUP([fail on text in SOURCE_DATE_EPOCH])
+AT_KEYWORDS(eps creationdate SOURCE_DATE_EPOCH)
+AT_CHECK([SOURCE_DATE_EPOCH=7here fig2dev -L eps $srcdir/data/line.fig
+], 0, ignore-nolog,
+[Environment variable $SOURCE_DATE_EPOCH: Trailing garbage: here
+])
+AT_CLEANUP
+
+
+AT_BANNER([Test pict2e output language.])
+dnl AT_SETUP([include color.sty, but only if necessary])
+dnl AT_KEYWORDS(pict2e)
+dnl
+dnl # Currently, color.sty must be unconditionally included.
+dnl AT_XFAIL_IF([true])
+dnl
+dnl FIG_WCOLOR='usepackage{pict2e,graphics,color}'
+dnl FIG_NCOLOR='usepackage{pict2e,graphics}'
+dnl
+dnl AT_DATA(black.fig, [FIG_FILE_TOP
+dnl 2 1 0 2 0 7 50 -1 -1 0.000 0 0 -1 0 0 2
+dnl	0 10200 1200 10200
+dnl ])
+dnl
+dnl AT_DATA(default.fig, [FIG_FILE_TOP
+dnl 2 1 0 2 -1 7 50 -1 -1 0.000 0 0 -1 0 0 2
+dnl	 0 10200 1200 10200
+dnl ])
+dnl
+dnl AT_DATA(black+red.fig, [FIG_FILE_TOP
+dnl 2 1 0 2 0 7 50 -1 -1 0.000 0 0 -1 0 0 2
+dnl	 0 10200 1200 10200
+dnl 2 1 0 2 4 7 50 -1 -1 0.000 0 0 -1 0 0 2
+dnl	 0 9900 600 9900
+dnl ])
+dnl
+dnl dnl do not count on grep to support -q, or -s
+dnl AT_CHECK([fig2dev -L pict2e -P -C -1 black.fig | $FGREP $FIG_WCOLOR && \
+dnl	fig2dev -L pict2e -P -C 0 black.fig | $FGREP $FIG_NCOLOR && \
+dnl	fig2dev -L pict2e -P black.fig | $FGREP $FIG_NCOLOR
+dnl ],0,ignore)
+dnl
+dnl AT_CHECK([fig2dev -L pict2e -P -C -1 default.fig | $FGREP $FIG_NCOLOR
+dnl ],0,ignore)
+dnl
+dnl AT_CHECK([fig2dev -L pict2e -P black+red.fig | $FGREP $FIG_WCOLOR
+dnl ],0,ignore)
+dnl
+dnl AT_CLEANUP
+
+AT_SETUP([ignore -G option])
+AT_KEYWORDS(pict2e options)
+AT_DATA(default.fig, [FIG_FILE_TOP
+2 1 0 2 -1 7 50 -1 -1 0.000 0 0 -1 0 0 2
+	 0 10200 1200 10200
+])
+AT_CHECK([fig2dev -L pict2e -G0.2:1cm default.fig
+], 0, ignore-nolog)
+AT_CLEANUP
+
+AT_SETUP([accept large coordinates])
+AT_KEYWORDS(pict2e)
+AT_SKIP_IF([! latex --version])
+AT_DATA(big1.fig, [FIG_FILE_TOP
+2 1 0 8 0 7 50 -1 -1 0.0 0 0 -1 0 0 2
+-18000 0 0 -18000
+])
+AT_DATA(big2.fig, [FIG_FILE_TOP
+2 1 0 8 0 7 50 -1 -1 0.0 0 0 -1 0 0 2
+0 18000 18000 0
+])
+AT_CHECK([fig2dev -L pict2e -P big1.fig big1.tex && \
+	fig2dev -L pict2e -P big2.fig big2.tex && \
+	latex -halt-on-error big1.tex && latex -halt-on-error big2.tex
+], 0, ignore)
+AT_CLEANUP
+
+AT_SETUP([accept arc arrows with zero height, ticket #74])
+AT_KEYWORDS(pict2e)
+AT_CHECK([fig2dev -L pict2e <<EOF
+FIG_FILE_TOP
+5 1 0 1 0 7 50 -1 -1 0.0 0 0 1 0 0.0 0.0 600 0 0 600 -600 0
+	1 1 1.0 60.0 0.0
+EOF], 0, ignore)
+AT_CLEANUP
+
+
+AT_BANNER([Test svg output language.])
+AT_SETUP([compare patterns with template])
+AT_KEYWORDS(svg pattern creationdate)
+
+dnl Do not compare the "Creator: fig2dev Version ..." line of the original with
+dnl the produced svg. In case "make check" is run before "make", probably an
+dnl older, installed fig2dev is called, resulting in a difference in this line.
+AT_CHECK([SOURCE_DATE_EPOCH=1483528980 fig2dev -L svg \
+	$srcdir/data/patterns.fig | \
+	diff -I '^<!-- Creator: fig2dev Version .* -->$' \
+		- $builddir/data/patterns.svg])
+# Bitwise comparison failed because of the unreliable rendering provided
+# by, e.g., convert. Commented out.
+dnl AS_IF([false],
+dnl [
+dnl # Skip this test, if the necessary programs are not found
+dnl AT_SKIP_IF([NO_GS || ! pnmarith -version || ! ppmhist -version])
+dnl
+dnl convert -density 1200 $srcdir/data/patterns.svg a.pbm
+dnl
+dnl # It makes a difference, whether convert... svg:-  or convert... -  is used.
+dnl fig2dev -L svg $srcdir/data/patterns.fig | convert -density 1200 - b.pbm
+dnl
+dnl # Was pamsumm -sum -brief, to expect 0\n on stdout - but pamsumm does not
+dnl # exist on Debian stretch, so use ppmhist -noheader
+dnl AT_CHECK([pnmarith -difference a.pbm b.pbm | ppmhist -noheader | tr -d ' \1'],
+dnl 0, [00008207389
+dnl ], ignore, [pnmtopng -compression=9 -comp_mem_level=9 a.pbm > orig.png
+dnl pnmtopng -compression=9 -comp_mem_level=9 b.pbm > current.png
+dnl pnmarith -difference a.pbm b.pbm | \
+dnl	pnmtopng -compression=9 -comp_mem_level=9 >diff.png
+dnl rm a.pbm b.pbm
+dnl ])
+dnl AT_CAPTURE_FILE(orig.png)
+dnl AT_CAPTURE_FILE(current.png)
+dnl AT_CAPTURE_FILE(diff.png)
+dnl ]) dnl AS_IF()
+AT_CLEANUP
+
+AT_SETUP([compare fills with arrows to template])
+AT_KEYWORDS(svg arrows pattern fill creationdate)
+AT_CHECK([SOURCE_DATE_EPOCH=1483564881 fig2dev -L svg \
+	$srcdir/data/fillswclip.fig | \
+	diff -I '^<!-- Creator: fig2dev Version .* -->$' \
+		- $builddir/data/fillswclip.svg])
+AT_CLEANUP
+
+AT_SETUP([truncated sub/superscript, tickets #113, #117])
+AT_KEYWORDS(read.c svg)
+AT_CHECK([fig2dev -L svg <<EOF
+#FIG 2
+1200 2
+4 2 0 0 1 0 0 0 6 110 376 0 0 ^
+4 2 0 0 1 0 0 0 6 110 376 0 200 ^{
+EOF
+], 0, ignore)
+AT_CLEANUP
+
+AT_SETUP([omit arrows without points, ticket #115])
+AT_KEYWORDS(svg arrow)
+AT_CHECK([fig2dev -L svg <<EOF
+FIG_FILE_TOP
+5 1 0 1 7 7 44 -1 6 0.000 0 1 1 1 50 -1 -1500 200 -1 7 50 -1  900 750 975
+	0 0 1.00 45.00 90.00
+	5 0 1.003 1426 1068 1426
+EOF], 0, ignore)
+AT_CLEANUP
+
+
+AT_BANNER([Test tikz output language.])
+
+AT_SETUP([conditionally allocate \XFigu])
+AT_KEYWORDS(tikz newdimen)
+AT_SKIP_IF([! latex --version])
+AT_DATA(latex.tex, [\documentclass{minimal}\usepackage{tikz}\begin{document}
+\input line.tikz\immediate\write16{\meaning\XFigu}
+\input line.tikz\immediate\write16{\meaning\XFigu}\end{document}
+])
+fig2dev -L tikz $srcdir/data/line.fig line.tikz
+dnl do not count on grep to support -q, or -s
+AT_CHECK([latex latex.tex | $FGREP dimen | uniq | wc -l | tr -d ' \t'
+],0,[1
+],ignore-nolog)
+AT_CLEANUP
+
+AT_SETUP([pattern with stroke color equal to fill color])
+AT_KEYWORDS(tikz pattern)
+AT_DATA(box.fig, [FIG_FILE_TOP
+2 2 0 0 1 1 50 -1 49 0.0 0 0 -1 0 0 4
+	 0 0 600 0 600 600 0 600
+])
+dnl do not count on grep to support -q, or -s
+AT_CHECK([fig2dev -L tikz -P box.fig | $FGREP '\pgfsetfillpattern{xfigp8}{blue}
+\pattern'
+],0,ignore,ignore)
+AT_CLEANUP
+
+AT_SETUP([accept large coordinates])
+AT_KEYWORDS(tikz)
+AT_SKIP_IF([! latex --version])
+AT_DATA(big1.fig, [FIG_FILE_TOP
+2 1 0 8 0 7 50 -1 -1 0.0 0 0 -1 0 0 2
+-18000 0 0 -18000
+])
+AT_DATA(big2.fig, [FIG_FILE_TOP
+2 1 0 8 0 7 50 -1 -1 0.0 0 0 -1 0 0 2
+0 18000 18000 0
+])
+AT_CHECK([fig2dev -L tikz -P big1.fig big1.tex && \
+	fig2dev -L tikz -P big2.fig big2.tex && \
+	latex -halt-on-error big1.tex && latex -halt-on-error big2.tex
+], 0, ignore)
+AT_CLEANUP
+
+
+AT_BANNER([Test other output languages.])
+
+AT_SETUP([Respect -F option for bitmap outputs])
+AT_KEYWORDS(bitmaps)
+AT_SKIP_IF([NO_GS])
+AT_CHECK([fig2dev -F - textbox.ppm <<EOF
+FIG_FILE_TOP
+4 0 0 50 -1 16 32 0.0000 6 511 7993 0 0 Some own ways ongoing in cases\001
+2 2 0 1 0 7 50 -1 -1 0.000 0 0 -1 0 0 5
+	 0 0 8025 0 8025 -300 0 -300 0 0
+EOF], 0)
+AT_CLEANUP
+
+AT_SETUP([allow default color in ge, cgm output, #72, #73])
+AT_KEYWORDS(cgm ge)
+AT_CHECK([fig2dev -L cgm $srcdir/data/line.fig
+], 0, ignore)
+AT_CHECK([fig2dev -L ge $srcdir/data/line.fig
+], 0, ignore)
+AT_CLEANUP
+
+AT_SETUP([tk output: allow arbitrarily long text, #134])
+AT_KEYWORDS(tk)
+AT_CHECK([fig2dev -L tk <<EOF
+FIG_FILE_TOP
+4 0 0 1 0 1 12 0 4 135 36000 0 0 dnl
+m4_for([i], [1], [39], [],dnl
+[ this is a long text string exceeding 2048 characters])\001
+EOF], 0, ignore, ignore)
+AT_CLEANUP
+
+AT_SETUP([ptk output: allow arbitrarily long text, #134])
+AT_KEYWORDS(ptk)
+AT_CHECK([fig2dev -L ptk <<EOF
+FIG_FILE_TOP
+4 0 0 1 0 1 12 0 4 135 36000 0 0 dnl
+m4_for([i], [1], [39], [],dnl
+[ this is a long text string exceeding 2048 characters])\001
+EOF], 0, ignore, ignore)
+AT_CLEANUP

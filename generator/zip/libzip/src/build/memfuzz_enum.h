@@ -1,0 +1,14 @@
+enum zip_source_write_state {
+		ZIP_SOURCE_WRITE_CLOSED  = 0,
+		ZIP_SOURCE_WRITE_OPEN    = 1,
+		ZIP_SOURCE_WRITE_FAILED  = 2,
+		ZIP_SOURCE_WRITE_REMOVED = 3,
+	};
+enum zip_encoding_type {
+		ZIP_ENCODING_UNKNOWN      = 0,
+		ZIP_ENCODING_ASCII        = 1,
+		ZIP_ENCODING_UTF8_KNOWN   = 2,
+		ZIP_ENCODING_UTF8_GUESSED = 3,
+		ZIP_ENCODING_CP437        = 4,
+		ZIP_ENCODING_ERROR        = 5,
+	};

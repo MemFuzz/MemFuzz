@@ -1,0 +1,1 @@
+/usr/bin/cc  -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -Wall -Werror -ggdb -O0 -rdynamic CMakeFiles/dtagnames.dir/dtagnames.c.o -o dtagnames  -Wl,-rpath,/home/liu2598/MemFuzz/src/third/gen_struct libdwarves.so.1.0.0 -ldw -lelf -lz 

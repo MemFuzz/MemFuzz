@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/test_permissions.out.dir/test_permissions.c.o -o test_permissions.out  ../libzip.a 

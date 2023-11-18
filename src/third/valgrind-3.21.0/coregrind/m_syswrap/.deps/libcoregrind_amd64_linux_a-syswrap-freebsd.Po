@@ -1,0 +1,4 @@
+m_syswrap/libcoregrind_amd64_linux_a-syswrap-freebsd.o: \
+ m_syswrap/syswrap-freebsd.c /usr/include/stdc-predef.h
+
+/usr/include/stdc-predef.h:

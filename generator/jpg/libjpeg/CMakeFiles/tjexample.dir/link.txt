@@ -1,0 +1,1 @@
+/usr/bin/cc -O3 -DNDEBUG CMakeFiles/tjexample.dir/tjexample.c.o -o tjexample  -Wl,-rpath,/home/liu2598/MemFuzz/generator/jpg/src libturbojpeg.so.0.2.0 

@@ -1,0 +1,267 @@
+dnl Fig2dev: Translate Fig code to various Devices
+dnl Copyright (c) 1991 by Micah Beck
+dnl Parts Copyright (c) 1985-1988 by Supoj Sutanthavibul
+dnl Parts Copyright (c) 1989-2015 by Brian V. Smith
+dnl Parts Copyright (c) 2015-2020 by Thomas Loimer
+dnl
+dnl Any party obtaining a copy of these files is granted, free of charge, a
+dnl full and unrestricted irrevocable, world-wide, paid up, royalty-free,
+dnl nonexclusive right and license to deal in this software and documentation
+dnl files (the "Software"), including without limitation the rights to use,
+dnl copy, modify, merge, publish, distribute, sublicense and/or sell copies
+dnl of the Software, and to permit persons who receive copies from any such
+dnl party to do so, with the only requirement being that the above copyright
+dnl and this permission notice remain intact.
+
+dnl bitmaps.at
+dnl Author: Thomas Loimer, 2017-2018
+
+
+AT_BANNER([Create and embed bitmaps in fig-file.])
+
+# This also tests file name allocation, the pipe to the gs-command and
+# finding the picture file in the current directory.
+
+AT_SETUP([gif])
+AT_KEYWORDS(bitmaps gif)
+AT_SKIP_IF([NO_GS || ! giftopnm -version || ! ppmtopcx -version || \
+	( ! ppmtogif -version && ! convert -version &&  ! gm version)])
+AT_CHECK([fig2dev -L gif $srcdir/data/line.fig line.gif && \
+	$SED '11 s/eps/gif/' $srcdir/data/boxwimg.fig | fig2dev -L eps
+], 0, ignore)
+AT_CLEANUP
+
+AT_SETUP([jpeg])
+AT_KEYWORDS(bitmaps jpeg jpg)
+AT_SKIP_IF([NO_GS])
+AT_CHECK([fig2dev -L jpeg $srcdir/data/line.fig line.jpg && \
+	$SED '11 s/eps/jpg/' $srcdir/data/boxwimg.fig | fig2dev -L eps
+], 0, ignore)
+AT_CLEANUP
+
+AT_SETUP([pcx])
+AT_KEYWORDS(bitmaps pcx)
+AT_SKIP_IF([NO_GS])
+AT_CHECK([fig2dev -L pcx $srcdir/data/line.fig line.pcx && \
+	$SED '11 s/eps/pcx/' $srcdir/data/boxwimg.fig | fig2dev -L eps
+], 0, ignore)
+AT_CLEANUP
+
+AT_SETUP([png])
+AT_KEYWORDS(bitmaps png)
+AT_SKIP_IF([test -n "$WITH_PNG_TRUE" || NO_GS])
+AT_CHECK([fig2dev -L png $srcdir/data/line.fig line.png && \
+	$SED '11 s/eps/png/' $srcdir/data/boxwimg.fig | fig2dev -L eps
+], 0, ignore)
+AT_CLEANUP
+
+AT_SETUP([png with smoothing])
+AT_KEYWORDS(bitmaps png smoothing)
+AT_SKIP_IF([test -n "$WITH_PNG_TRUE" || NO_GS])
+AT_CHECK([fig2dev -L png -S 4 $srcdir/data/line.fig line.png && \
+	$SED '11 s/eps/png/' $srcdir/data/boxwimg.fig | fig2dev -L eps
+], 0, ignore)
+AT_CLEANUP
+
+AT_SETUP([ppm])
+AT_KEYWORDS(bitmaps ppm)
+AT_SKIP_IF([NO_GS])
+AT_CHECK([fig2dev -L ppm $srcdir/data/line.fig line.ppm && \
+	$SED '11 s/eps/ppm/' $srcdir/data/boxwimg.fig | fig2dev -L eps
+], 0, ignore)
+AT_CLEANUP
+
+AT_SETUP([tiff])
+AT_KEYWORDS(bitmaps tiff tif)
+AT_SKIP_IF([NO_GS || ((! tifftopnm -version || ! ppmtopcx -version) &&
+				! convert -version &&  ! gm version)])
+AT_CHECK([fig2dev -L tiff $srcdir/data/line.fig line.tif && \
+	$SED '11 s/eps/tif/' $srcdir/data/boxwimg.fig | fig2dev -L eps
+], 0, ignore)
+AT_CLEANUP
+
+AT_SETUP([xbm])
+AT_KEYWORDS(bitmaps xbm)
+AT_SKIP_IF([NO_GS || \
+	( ! pbmtoxbm -version && ! convert -version && ! gm version)])
+AT_CHECK([fig2dev -L xbm $srcdir/data/line.fig line.xbm && \
+	$SED '11 s/eps/xbm/' $srcdir/data/boxwimg.fig | fig2dev -L eps
+], 0, ignore)
+AT_CLEANUP
+
+AT_SETUP([xbm with smoothing])
+AT_KEYWORDS(bitmaps xbm smoothing)
+AT_SKIP_IF([NO_GS || \
+	( ! pbmtoxbm -version && ! convert -version && ! gm version)])
+AT_CHECK([fig2dev -L xbm -S 4 $srcdir/data/line.fig line.xbm && \
+	$SED '11 s/eps/xbm/' $srcdir/data/boxwimg.fig | fig2dev -L eps
+], 0, ignore)
+AT_CLEANUP
+
+AT_SETUP([xpm])
+AT_KEYWORDS(bitmaps xpm)
+AT_SKIP_IF([NO_GS || \
+	( ! pbmtoxbm -version && ! convert -version && ! gm version)])
+AT_CHECK([fig2dev -L xpm $srcdir/data/line.fig line.xpm && \
+	$SED '11 s/eps/xpm/' $srcdir/data/boxwimg.fig | fig2dev -L eps
+], 0, ignore, ignore)
+AT_CLEANUP
+
+AT_BANNER([Creation of temporary files and diversions.])
+
+# Embedding EPS with ascii or tiff-preview creates a temporary file.
+
+AT_SETUP([eps with acscii preview])
+AT_KEYWORDS(bitmaps tmpfile eps-ascii)
+AT_SKIP_IF([NO_GS])
+AT_CHECK([fig2dev -L eps -A $srcdir/data/line.fig | \
+	$FGREP %%BeginPreview
+], 0, ignore)
+AT_CLEANUP
+
+AT_SETUP([eps with tiff preview])
+AT_KEYWORDS(bitmaps tmpfile eps-tiff)
+AT_SKIP_IF([NO_GS])
+AT_CHECK([fig2dev -L eps -T $srcdir/data/line.fig line-tiff.eps
+], 0, ignore)
+AT_CLEANUP
+
+AT_SETUP([eps with tiff preview, use "-" for stdin])
+AT_KEYWORDS(diversions)
+AT_SKIP_IF([NO_GS])
+AT_CHECK([fig2dev -Leps -T - out.eps <$srcdir/data/line.fig
+],0)
+AT_CLEANUP
+
+AT_SETUP([create ppm, use "-" for stdin])
+AT_KEYWORDS(diversions)
+AT_SKIP_IF([NO_GS])
+AT_CHECK([fig2dev -Lppm - out.ppm <$srcdir/data/line.fig
+],0)
+AT_CLEANUP
+
+AT_BANNER([Embed postscript variants.])
+
+AT_SETUP(epsi)
+AT_KEYWORDS(embed epsi)
+AT_SKIP_IF([NO_GS || ! ppmhist -version])
+fig2dev -L eps -T $srcdir/data/line.fig line-epsi.eps
+blackpixels=`$SED '11 s/line/line-epsi/' $srcdir/data/boxwimg.fig | \
+	fig2dev -L ppm | ppmhist -noheader | $SED -n '2p' | tr -d ' 	'`
+# $blackpixels are 220 on archlinux with ghostscript 9.20,
+#		219 on ubuntu 16.04.2 with ghostscript 9.18
+#		263 on archlinux with ghostscript 9.22
+AT_CHECK([test $blackpixels -gt 218 && test $blackpixels -lt 264])
+AT_CLEANUP
+
+AT_SETUP([postscript, created by fig2dev])
+AT_KEYWORDS(embed ps)
+AT_SKIP_IF([NO_GS || ! ppmhist -version])
+AT_DATA(fig2dev.ps, [%!PS-Adobe-3.0
+%%Orientation: Portrait
+%%Pages: 1
+%%BoundingBox: 0 0 420 595
+%%DocumentPaperSizes: A5
+%%EndComments
+%%BeginSetup
+@<:@{
+%%BeginFeature: *PageRegion A5
+<</PageSize @<:@420 595@:>@>> setpagedevice
+%%EndFeature
+} stopped cleartomark
+%%EndSetup
+%%BeginProlog
+/m {moveto} bind def
+/s {show} bind def
+%%EndProlog
+%%Page: 1 1
+%%BeginPageSetup
+%%EndPageSetup
+/Helvetica findfont 12 scalefont setfont
+24 559 m (Upper left) s
+336 559 m (Upper right) s
+24 24 m (Lower left) s
+336 24 m (Lower right) s
+170 340 m (Postscript Test) s
+showpage
+%%Trailer
+%EOF
+])
+
+blackpixels=`fig2dev -L ppm <<EOF | ppmhist -noheader | $SED -n '2p' | \
+	tr -d '	 '
+FIG_FILE_TOP
+2 5 0 1 0 -1 50 -1 -1 0.000 0 0 -1 0 0 5
+	0 fig2dev.ps
+	 0 0 7000 0 7000 9917 0 9917 0 0
+4 0 0 50 -1 16 12 4.7124 4 210 2100 7225 1575 Included postscript file\001
+EOF`
+# $blackpixels are 1236 on archlinux wiht ghostscript 9.20,
+#		1198 on ubuntu 16.04.2 with ghostscript 9.18
+AT_CHECK([test $blackpixels -gt 1197 && test $blackpixels -lt 1240])
+AT_CLEANUP
+
+AT_SETUP([postscript, created by latex])
+AT_KEYWORDS(embed ps)
+AT_SKIP_IF([NO_GS || ! ppmhist -version])
+AT_DATA(latex.ps, [%!PS-Adobe-2.0
+%%Pages: 1
+%%PageOrder: Ascend
+%%BoundingBox: 0 0 420 596
+%%DocumentFonts: Helvetica
+%%DocumentPaperSizes: a5
+%%EndComments
+%%BeginProlog
+/m {moveto} bind def
+/s {show} bind def
+%%EndProlog
+%%BeginSetup
+%%Feature: *Resolution 600dpi
+%%BeginPaperSize: a5
+/setpagedevice where
+{ pop << /PageSize @<:@420 595@:>@ >> setpagedevice }
+{ /a5 where { pop a5 } if }
+ifelse
+%%EndPaperSize
+%%EndSetup
+%%Page: 1 1
+/Helvetica findfont 12 scalefont setfont
+24 559 m (Upper left) s
+336 559 m (Upper right) s
+24 24 m (Lower left) s
+336 24 m (Lower right) s
+126 340 m (Postscript as created by LaTeX) s
+%%Trailer
+userdict /end-hook known{end-hook}if
+%%EOF
+])
+
+blackpixels=`fig2dev -L ppm <<EOF | ppmhist -noheader | $SED -n '2p' | \
+tr -d '\t '
+FIG_FILE_TOP
+2 5 0 1 0 -1 50 -1 -1 0.000 0 0 -1 0 0 5
+	0 latex.ps
+	 0 0 7000 0 7000 9917 0 9917 0 0
+4 0 0 50 -1 16 12 4.7124 4 210 2100 7225 1575 Included postscript file\001
+EOF`
+# $blackpixels are 1488 on archlinux with ghostscript 9.20,
+#		1433 on ubuntu 16.04.2 with ghostscript 9.18
+AT_CHECK([test $blackpixels -gt 1431 && test $blackpixels -lt 1494])
+AT_CLEANUP
+
+AT_SETUP([find /MediaBox in pdf file])
+AT_KEYWORDS(pdf)
+AT_CHECK(["$abs_builddir"/test2 "$srcdir/data/cross.pdf"], 0, ignore)
+AT_CLEANUP
+
+AT_SETUP([pdf])
+AT_KEYWORDS(pdf)
+AT_SKIP_IF([NO_GS])
+AT_CHECK([fig2dev -L pdf <<EOF
+FIG_FILE_TOP
+2 5 0 1 0 -1 50 -1 -1 0.000 0 0 -1 0 0 5
+	0 $srcdir/data/cross.pdf
+	 75 75 585 75 585 285 75 285 75 75
+EOF
+], 0, ignore)
+AT_CLEANUP

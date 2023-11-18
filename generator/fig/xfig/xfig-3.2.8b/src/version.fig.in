@@ -1,0 +1,16 @@
+#FIG 3.2  Produced by xfig version 3.2.5c
+Landscape
+Center
+Inches
+Letter
+100.00
+Single
+-2
+1200 2
+4 0 0 50 -1 27 80 0.0000 4 1200 8000 0 0 @VERSION@\001
+# On my archlinux-powered laptop, the text bounding
+# box is, unfortunately, not correctly computed.
+# Place a invisible, large box around the text and process
+# further with pnmcrop.
+2 2 0 0 -1 1 60 0 -1 0. 0 0 0 0 0 5
+-100 -1200 9000 -1200 9000 200 -100 200 -100 -1200

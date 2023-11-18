@@ -1,0 +1,102 @@
+Performing C SOURCE FILE Test HAVE_REALLOCARRAY_SUPPORT failed with the following output:
+Change Dir: /home/youwei/pahole/pahole/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3b61e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3b61e.dir/build.make CMakeFiles/cmTC_3b61e.dir/build
+make[1]: Entering directory '/home/youwei/pahole/pahole/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3b61e.dir/src.c.o
+/usr/bin/cc    -DHAVE_REALLOCARRAY_SUPPORT   -o CMakeFiles/cmTC_3b61e.dir/src.c.o   -c /home/youwei/pahole/pahole/CMakeFiles/CMakeTmp/src.c
+/home/youwei/pahole/pahole/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/youwei/pahole/pahole/CMakeFiles/CMakeTmp/src.c:6:18: warning: implicit declaration of function ‘reallocarray’; did you mean ‘realloc’? [-Wimplicit-function-declaration]
+         return !!reallocarray(NULL, 1, 1);
+                  ^~~~~~~~~~~~
+                  realloc
+Linking C executable cmTC_3b61e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3b61e.dir/link.txt --verbose=1
+/usr/bin/cc   -DHAVE_REALLOCARRAY_SUPPORT    CMakeFiles/cmTC_3b61e.dir/src.c.o  -o cmTC_3b61e -rdynamic /usr/lib/x86_64-linux-gnu/libdw.so /usr/lib/x86_64-linux-gnu/libelf.so 
+CMakeFiles/cmTC_3b61e.dir/src.c.o: In function `main':
+src.c:(.text+0x19): undefined reference to `reallocarray'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_3b61e.dir/build.make:99: recipe for target 'cmTC_3b61e' failed
+make[1]: *** [cmTC_3b61e] Error 1
+make[1]: Leaving directory '/home/youwei/pahole/pahole/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_3b61e/fast' failed
+make: *** [cmTC_3b61e/fast] Error 2
+
+Source file was:
+
+#define _GNU_SOURCE
+#include <stdlib.h>
+int main(void)
+{
+        return !!reallocarray(NULL, 1, 1);
+}
+
+Performing C SOURCE FILE Test HAVE_REALLOCARRAY_SUPPORT failed with the following output:
+Change Dir: /home/youwei/MemFuzz/src/third/src/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_03eaf/fast"
+/usr/bin/make -f CMakeFiles/cmTC_03eaf.dir/build.make CMakeFiles/cmTC_03eaf.dir/build
+make[1]: Entering directory '/home/youwei/MemFuzz/src/third/src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_03eaf.dir/src.c.o
+/usr/bin/cc    -DHAVE_REALLOCARRAY_SUPPORT   -o CMakeFiles/cmTC_03eaf.dir/src.c.o   -c /home/youwei/MemFuzz/src/third/src/CMakeFiles/CMakeTmp/src.c
+/home/youwei/MemFuzz/src/third/src/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/youwei/MemFuzz/src/third/src/CMakeFiles/CMakeTmp/src.c:6:18: warning: implicit declaration of function ‘reallocarray’; did you mean ‘realloc’? [-Wimplicit-function-declaration]
+         return !!reallocarray(NULL, 1, 1);
+                  ^~~~~~~~~~~~
+                  realloc
+Linking C executable cmTC_03eaf
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_03eaf.dir/link.txt --verbose=1
+/usr/bin/cc   -DHAVE_REALLOCARRAY_SUPPORT    CMakeFiles/cmTC_03eaf.dir/src.c.o  -o cmTC_03eaf -rdynamic /usr/lib/x86_64-linux-gnu/libdw.so /usr/lib/x86_64-linux-gnu/libelf.so 
+CMakeFiles/cmTC_03eaf.dir/src.c.o: In function `main':
+src.c:(.text+0x19): undefined reference to `reallocarray'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_03eaf.dir/build.make:99: recipe for target 'cmTC_03eaf' failed
+make[1]: *** [cmTC_03eaf] Error 1
+make[1]: Leaving directory '/home/youwei/MemFuzz/src/third/src/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_03eaf/fast' failed
+make: *** [cmTC_03eaf/fast] Error 2
+
+Source file was:
+
+#define _GNU_SOURCE
+#include <stdlib.h>
+int main(void)
+{
+        return !!reallocarray(NULL, 1, 1);
+}
+
+Performing C SOURCE FILE Test HAVE_REALLOCARRAY_SUPPORT failed with the following output:
+Change Dir: /home/youwei/MemFuzz/src/third/pahole/src/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_edd78/fast"
+/usr/bin/make -f CMakeFiles/cmTC_edd78.dir/build.make CMakeFiles/cmTC_edd78.dir/build
+make[1]: Entering directory '/home/youwei/MemFuzz/src/third/pahole/src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_edd78.dir/src.c.o
+/usr/bin/cc    -DHAVE_REALLOCARRAY_SUPPORT   -o CMakeFiles/cmTC_edd78.dir/src.c.o   -c /home/youwei/MemFuzz/src/third/pahole/src/CMakeFiles/CMakeTmp/src.c
+/home/youwei/MemFuzz/src/third/pahole/src/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/youwei/MemFuzz/src/third/pahole/src/CMakeFiles/CMakeTmp/src.c:6:18: warning: implicit declaration of function ‘reallocarray’; did you mean ‘realloc’? [-Wimplicit-function-declaration]
+         return !!reallocarray(NULL, 1, 1);
+                  ^~~~~~~~~~~~
+                  realloc
+Linking C executable cmTC_edd78
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_edd78.dir/link.txt --verbose=1
+/usr/bin/cc   -DHAVE_REALLOCARRAY_SUPPORT    CMakeFiles/cmTC_edd78.dir/src.c.o  -o cmTC_edd78 -rdynamic /usr/lib/x86_64-linux-gnu/libdw.so /usr/lib/x86_64-linux-gnu/libelf.so 
+CMakeFiles/cmTC_edd78.dir/src.c.o: In function `main':
+src.c:(.text+0x19): undefined reference to `reallocarray'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_edd78.dir/build.make:99: recipe for target 'cmTC_edd78' failed
+make[1]: *** [cmTC_edd78] Error 1
+make[1]: Leaving directory '/home/youwei/MemFuzz/src/third/pahole/src/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_edd78/fast' failed
+make: *** [cmTC_edd78/fast] Error 2
+
+Source file was:
+
+#define _GNU_SOURCE
+#include <stdlib.h>
+int main(void)
+{
+        return !!reallocarray(NULL, 1, 1);
+}
+

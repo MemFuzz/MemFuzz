@@ -1,0 +1,4 @@
+m_initimg/libcoregrind_amd64_linux_a-initimg-freebsd.o: \
+ m_initimg/initimg-freebsd.c /usr/include/stdc-predef.h
+
+/usr/include/stdc-predef.h:

@@ -1,0 +1,2 @@
+/home/youwei/MemFuzz/src//afl-2.52b/afl-fuzz -S generator -m 8G -t 5000  -G ~/MemFuzz/generator/pdf/xpdf/master/exe_raw/bin/pdfinfo -i input -o output -- ~/MemFuzz/Product/xpdf/master/exe_fuzz/bin/pdftops -f 2 -l 4 -level2 -noembt1 -preload -nocrop -noshrink -nocenter -pagecrop -userunit -duplex -upw rome @@ /dev/null
+#pdftops -f 2 -l 4 -level2 -noembt1 -preload -nocrop -noshrink -nocenter -pagecrop -userunit -duplex -upw rome @@ /tmp/a.ps

@@ -1,0 +1,16 @@
+#FIG 3.2  Produced by xfig version 3.2.7a
+Portrait
+Center
+Inches
+Letter
+100.00
+Single
+-2
+# Logic ground
+1200 2
+6 225 825 600 1200
+2 1 0 1 -1 -1 0 0 -1 0.000 0 0 -1 0 0 2
+	 390 850 390 1000
+2 1 0 1 -1 7 0 0 20 0.000 0 0 -1 0 0 4
+	 240 1000 540 1000 390 1150 240 1000
+-6

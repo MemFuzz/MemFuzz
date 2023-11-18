@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Creator: fig2dev Version @PACKAGE_VERSION@ -->
+<!-- CreationDate: 2017-01-04 11:23:00 -->
+<!-- Magnification: 1 -->
+<svg	xmlns="http://www.w3.org/2000/svg"
+	xmlns:xlink="http://www.w3.org/1999/xlink"
+	width="271pt" height="109pt"
+	viewBox="-1 -601 4502 1802">
+<g fill="none">
+<!-- Line -->
+<defs>
+<rect x="0" y="-600" width="600" height="600" id="p0"/>
+<pattern id="tile0" patternUnits="userSpaceOnUse"
+	x="0" y="0" width="134" height="67">
+<g stroke-width="7.5" stroke="#000000" fill="none">
+<path d="M -7,30 73,70 M 61,-3 141,37"/>
+</g>
+</pattern>
+</defs>
+<use xlink:href="#p0" fill="#ffffff"/>
+<use xlink:href="#p0" fill="url(#tile0)"/>
+<!-- Line -->
+<defs>
+<rect x="600" y="-600" width="600" height="600" id="p1"/>
+<pattern id="tile1" patternUnits="userSpaceOnUse"
+	x="0" y="0" width="134" height="67">
+<g stroke-width="7.5" stroke="#000000" fill="none">
+<path d="M -7,37 73,-3 M 61,70 141,30"/>
+</g>
+</pattern>
+</defs>
+<use xlink:href="#p1" fill="#ffffff"/>
+<use xlink:href="#p1" fill="url(#tile1)"/>
+<!-- Line -->
+<defs>
+<rect x="1200" y="-600" width="600" height="600" id="p2"/>
+<pattern id="tile2" patternUnits="userSpaceOnUse"
+	x="0" y="0" width="134" height="67">
+<g stroke-width="7.5" stroke="#000000" fill="none">
+<path d="M -7,30 73,70 M 61,-3 141,37 M -7,37 73,-3 M 61,70 141,30"/>
+</g>
+</pattern>
+</defs>
+<use xlink:href="#p2" fill="#ffffff"/>
+<use xlink:href="#p2" fill="url(#tile2)"/>
+<!-- Line -->
+<defs>
+<rect x="1800" y="-600" width="600" height="600" id="p3"/>
+<pattern id="tile3" patternUnits="userSpaceOnUse"
+	x="0" y="0" width="134" height="134">
+<g stroke-width="7.5" stroke="#000000" fill="none">
+<path d="M -4,63 71,138 M 63,-4 138,71"/>
+</g>
+</pattern>
+</defs>
+<use xlink:href="#p3" fill="#ffffff"/>
+<use xlink:href="#p3" fill="url(#tile3)"/>
+<!-- Line -->
+<defs>
+<rect x="2400" y="-600" width="600" height="600" id="p4"/>
+<pattern id="tile4" patternUnits="userSpaceOnUse"
+	x="0" y="0" width="134" height="134">
+<g stroke-width="7.5" stroke="#000000" fill="none">
+<path d="M -4,71 71,-4 M 63,138 138,63"/>
+</g>
+</pattern>
+</defs>
+<use xlink:href="#p4" fill="#ffffff"/>
+<use xlink:href="#p4" fill="url(#tile4)"/>
+<!-- Line -->
+<defs>
+<rect x="3000" y="-600" width="600" height="600" id="p5"/>
+<pattern id="tile5" patternUnits="userSpaceOnUse"
+	x="0" y="0" width="134" height="134">
+<g stroke-width="7.5" stroke="#000000" fill="none">
+<path d="M-4,63 71,138 M63,-4 138,71 M-4,71 71,-4 M63,138 138,63"/>
+</g>
+</pattern>
+</defs>
+<use xlink:href="#p5" fill="#ffffff"/>
+<use xlink:href="#p5" fill="url(#tile5)"/>
+<!-- Line -->
+<defs>
+<rect x="3600" y="-600" width="600" height="600" id="p6"/>
+<pattern id="tile6" patternUnits="userSpaceOnUse"
+	x="0" y="0" width="268" height="268">
+<g stroke-width="7.5" stroke="#000000" fill="none">
+<path d="M-1,67 H269 M-1,201 H269 M67,-1 V67 M67,201 V269 M201,67 V201"/>
+</g>
+</pattern>
+</defs>
+<use xlink:href="#p6" fill="#ffffff"/>
+<use xlink:href="#p6" fill="url(#tile6)"/>
+<!-- Line -->
+<defs>
+<rect x="0" y="0" width="600" height="600" id="p7"/>
+<pattern id="tile7" patternUnits="userSpaceOnUse"
+	x="0" y="0" width="268" height="268">
+<g stroke-width="7.5" stroke="#000000" fill="none">
+<path d="M67,-1 V269 M201,-1 V269 M-1,67 H67 M201,67 H269 M67,201 H201"/>
+</g>
+</pattern>
+</defs>
+<use xlink:href="#p7" fill="#ffffff"/>
+<use xlink:href="#p7" fill="url(#tile7)"/>
+<!-- Line -->
+<defs>
+<rect x="600" y="0" width="600" height="600" id="p8"/>
+<pattern id="tile8" patternUnits="userSpaceOnUse"
+	x="0" y="0" width="268" height="67">
+<g stroke-width="7.5" stroke="#000000" fill="none">
+<path d="M -1,30 H 269"/>
+</g>
+</pattern>
+</defs>
+<use xlink:href="#p8" fill="#ffffff"/>
+<use xlink:href="#p8" fill="url(#tile8)"/>
+<!-- Line -->
+<defs>
+<rect x="1200" y="0" width="600" height="600" id="p9"/>
+<pattern id="tile9" patternUnits="userSpaceOnUse"
+	x="0" y="0" width="67" height="268">
+<g stroke-width="7.5" stroke="#000000" fill="none">
+<path d="M 30,-1 V 269"/>
+</g>
+</pattern>
+</defs>
+<use xlink:href="#p9" fill="#ffffff"/>
+<use xlink:href="#p9" fill="url(#tile9)"/>
+<!-- Line -->
+<defs>
+<rect x="1800" y="0" width="600" height="600" id="p10"/>
+<pattern id="tile10" patternUnits="userSpaceOnUse"
+	x="0" y="0" width="67" height="67">
+<g stroke-width="7.5" stroke="#000000" fill="none">
+<path d="M -1,30 H 68 M 30,-1 V 68"/>
+</g>
+</pattern>
+</defs>
+<use xlink:href="#p10" fill="#ffffff"/>
+<use xlink:href="#p10" fill="url(#tile10)"/>
+<!-- Line -->
+<defs>
+<rect x="2400" y="0" width="600" height="600" id="p11"/>
+<pattern id="tile11" patternUnits="userSpaceOnUse"
+	x="0" y="0" width="402" height="402">
+<g stroke-width="7.5" stroke="#000000" fill="none">
+<path d="M-1,30 H403 M-1,164 H403 M-1,298 H403 M238,30 l-67,134 M372,164 l-67,134 M104,298 l-60,120 M37,30 l20,-40"/>
+</g>
+</pattern>
+</defs>
+<use xlink:href="#p11" fill="#ffffff"/>
+<use xlink:href="#p11" fill="url(#tile11)"/>
+<!-- Line -->
+<defs>
+<rect x="3000" y="0" width="600" height="600" id="p12"/>
+<pattern id="tile12" patternUnits="userSpaceOnUse"
+	x="0" y="0" width="402" height="402">
+<g stroke-width="7.5" stroke="#000000" fill="none">
+<path d="M-1,30 H403 M-1,164 H403 M-1,298 H403 M164,30 l67,134 M30,164 l67,134 M298,298 l60,120 M365,30 l-20,-40"/>
+</g>
+</pattern>
+</defs>
+<use xlink:href="#p12" fill="#ffffff"/>
+<use xlink:href="#p12" fill="url(#tile12)"/>
+<!-- Line -->
+<defs>
+<rect x="3600" y="0" width="600" height="600" id="p13"/>
+<pattern id="tile13" patternUnits="userSpaceOnUse"
+	x="0" y="0" width="402" height="402">
+<g stroke-width="7.5" stroke="#000000" fill="none">
+<path d="M30,-1 V403 M164,-1 V403 M298,-1 V403 M30,164 l134,67 M164,30 l134,67 M298,298 l120,60 M30,365 l-40,-20"/>
+</g>
+</pattern>
+</defs>
+<use xlink:href="#p13" fill="#ffffff"/>
+<use xlink:href="#p13" fill="url(#tile13)"/>
+<!-- Line -->
+<defs>
+<rect x="0" y="600" width="600" height="600" id="p14"/>
+<pattern id="tile14" patternUnits="userSpaceOnUse"
+	x="0" y="0" width="402" height="402">
+<g stroke-width="7.5" stroke="#000000" fill="none">
+<path d="M30,-1 V403 M164,-1 V403 M298,-1 V403 M30,238 l134,-67 M164,372 l134,-67 M298,104 l120,-60 M30,37 l-40,20"/>
+</g>
+</pattern>
+</defs>
+<use xlink:href="#p14" fill="#ffffff"/>
+<use xlink:href="#p14" fill="url(#tile14)"/>
+<!-- Line -->
+<defs>
+<rect x="600" y="600" width="600" height="600" id="p15"/>
+<pattern id="tile15" patternUnits="userSpaceOnUse"
+	x="0" y="0" width="268" height="140">
+<g stroke-width="7.5" stroke="#000000" fill="none">
+<path d="M-104,-30 a167.5,167.5 0 0,0 268,0 a167.5,167.5 0 0,0 134,67 m0,3 a167.5,167.5 0 0,1 -268,0 a167.5,167.5 0 0,1 -134,67 m134,70 a167.5,167.5 0 0,0 134,-67 a167.5,167.5 0 0,0 134,67"/>
+</g>
+</pattern>
+</defs>
+<use xlink:href="#p15" fill="#ffffff"/>
+<use xlink:href="#p15" fill="url(#tile15)"/>
+<!-- Line -->
+<defs>
+<rect x="1200" y="600" width="600" height="600" id="p16"/>
+<pattern id="tile16" patternUnits="userSpaceOnUse"
+	x="0" y="0" width="134" height="134">
+<g stroke-width="7.5" stroke="#000000" fill="none">
+<path d="M164,-30 a67,67 0 0,1 -134,0 a67,67 0 0,1 -67,67 a67,67 0 0,0 134,0 a67,67 0 0,0 67,67 a67,67 0 0,1 -134,0 a67,67 0 0,1 -67,67"/>
+</g>
+</pattern>
+</defs>
+<use xlink:href="#p16" fill="#ffffff"/>
+<use xlink:href="#p16" fill="url(#tile16)"/>
+<!-- Line -->
+<defs>
+<rect x="1800" y="600" width="600" height="600" id="p17"/>
+<pattern id="tile17" patternUnits="userSpaceOnUse"
+	x="0" y="0" width="268" height="268">
+<g stroke-width="7.5" stroke="#000000" fill="none">
+<path d="M0,134 a134,134 0 0,0 134,-134 a134,134 0 0,0 134,134 a134,134 0 0,0 -134,134 a134,134 0 0,0 -134,-134"/>
+</g>
+</pattern>
+</defs>
+<use xlink:href="#p17" fill="#ffffff"/>
+<use xlink:href="#p17" fill="url(#tile17)"/>
+<!-- Line -->
+<defs>
+<rect x="2400" y="600" width="600" height="600" id="p18"/>
+<pattern id="tile18" patternUnits="userSpaceOnUse"
+	x="0" y="0" width="402" height="232">
+<g stroke-width="7.5" stroke="#000000" fill="none">
+<path d="m97,-86 -67,116 67,116 -67,116 M231,-86 l67,116 l-67,116 l67,116 M-1,30 h31 m268,0 h105 M97,146 h134"/>
+</g>
+</pattern>
+</defs>
+<use xlink:href="#p18" fill="#ffffff"/>
+<use xlink:href="#p18" fill="url(#tile18)"/>
+<!-- Line -->
+<defs>
+<rect x="3000" y="600" width="600" height="600" id="p19"/>
+<pattern id="tile19" patternUnits="userSpaceOnUse"
+	x="0" y="0" width="280" height="280">
+<g stroke-width="7.5" stroke="#000000" fill="none">
+<path d="m-1,140 59,0 82,-82 82,82 -82,82 -82,-82 m82,82 v59 m0,-282 v59 m82,82 h59"/>
+</g>
+</pattern>
+</defs>
+<use xlink:href="#p19" fill="#ffffff"/>
+<use xlink:href="#p19" fill="url(#tile19)"/>
+<!-- Line -->
+<defs>
+<rect x="3600" y="600" width="600" height="600" id="p20"/>
+<pattern id="tile20" patternUnits="userSpaceOnUse"
+	x="0" y="0" width="134" height="134">
+<g stroke-width="7.5" stroke="#000000" fill="none">
+<path d="m-4,63 67,67 67,-67 20,20"/>
+</g>
+</pattern>
+</defs>
+<use xlink:href="#p20" fill="#ffffff"/>
+<use xlink:href="#p20" fill="url(#tile20)"/>
+<!-- Line -->
+<defs>
+<rect x="4200" y="0" width="300" height="600" id="p21"/>
+<pattern id="tile21" patternUnits="userSpaceOnUse"
+	x="0" y="0" width="134" height="134">
+<g stroke-width="7.5" stroke="#000000" fill="none">
+<path d="m63,-4 67,67 -67,67 20,20"/>
+</g>
+</pattern>
+</defs>
+<use xlink:href="#p21" fill="#ffffff"/>
+<use xlink:href="#p21" fill="url(#tile21)"/>
+</g>
+</svg>

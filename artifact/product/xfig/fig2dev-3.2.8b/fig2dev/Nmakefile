@@ -1,0 +1,120 @@
+# Fig2dev: Translate Fig code to various Devices
+# Copyright (c) 1991 by Micah Beck
+# Parts Copyright (c) 1985-1988 by Supoj Sutanthavibul
+# Parts Copyright (c) 1989-2015 by Brian V. Smith
+# Parts Copyright (c) 2015-2020 by Thomas Loimer
+#
+# Any party obtaining a copy of these files is granted, free of charge, a
+# full and unrestricted irrevocable, world-wide, paid up, royalty-free,
+# nonexclusive right and license to deal in this software and documentation
+# files (the "Software"), including without limitation the rights to use,
+# copy, modify, merge, publish, distribute, sublicense and/or sell copies
+# of the Software, and to permit persons who receive copies from any such
+# party to do so, with the only requirement being that the above copyright
+# and this permission notice remain intact.
+
+# fig2dev/Nmakefile
+# Author: Thomas Loimer, 2018-2020.
+
+#############################################################
+#
+#  Makefile for building fig2dev.exe with MS Visual Studio
+#  Usage: nmake /f Nmakefile
+#	other targets: nmake /f Nmakefile clean
+#
+#############################################################
+
+PROGRAM_NAME = fig2dev.exe
+
+#
+# INSTALLATION LOCATIONS.
+#
+# Backslashes must be properly quoted.
+# "fig2dev" really should be "PACKAGE", #defined in config.h or config.vc,
+# but I was tired of the additional expansion level.
+I18N_DATADIR = $(PROGRAMFILES:\=\\)\\fig2dev\\i18n
+
+# this is not used - but should it?
+#!IFNDEF MACHINE
+#MACHINE  = X86
+#!ENDIF
+
+########################################################
+## Nothing more to do below this line!
+
+## Release
+# Compile and link in one step:
+# cl.exe /O2 /GL /Fefig2dev.exe <source files ...> /link /subsystem:console
+CCR   = cl.exe /O2 /GL /Fefig2dev.exe
+LINKFLAGS = /link /subsystem:console
+# /GL ... whole program optimization
+# /Fe ... name of the output file; no effect with /c (only compile) option
+# /MP ... parallel build
+# Warnings: /W0 (no warnings) ... /W4, even more: /Wall
+# /WX ... treat all warnings as error
+# /link <linkopts> ... pass <linkopts> to linker
+# Compiler options listed by category:
+# https://msdn.microsoft.com/en-us/library/19z1t1wy.aspx
+#LINKR = link.exe /incremental:no /libpath:"../lib"
+# TODO: this registers the fig2dev.exe in the registry(?),
+# 	at least it gives the information on the program
+#	see curl../src/curl.rc
+#RCR   = rc.exe /dDEBUGBUILD=0
+
+## Debug
+CCD   = cl.exe $(RTLIBD) /Gm /ZI /Od /D_DEBUG /RTC1
+# /Gm ... enables minimal rebuild
+# /Od ... disables optimization
+# /ZI ... includes debug information
+# /Fc ... displays the full path of source code files in diagnostic text
+#LINKD = link.exe /incremental:yes /debug /libpath:"../lib"
+#RCD   = rc.exe /dDEBUGBUILD=1
+
+CFLAGS = /I. /Idev /nologo /W1 /DWIN32 /D_BIND_TO_CURRENT_VCLIBS_VERSION=1 \
+	/DHAVE_CONFIG_H=1 /DI18N_DATADIR="\"$(I18N_DATADIR)\""
+# /EHsc ... enable C++ exception handling (?)
+# /nologo ... suppress startup banner
+# /FD ... IDE minimal rebuild(?)
+# LFLAGS = /nologo /out:$(PROGRAM_NAME) /subsystem:console /machine:$(MACHINE)
+# WINLIBS = ws2_32.lib	# ?
+# RESFLAGS = /i../include
+
+REPL_LIBS = lib/getopt.c lib/getline.c
+
+FIG2DEV_SRCS = bound.c colors.c creationdate.c fig2dev.c free.c \
+	iso2tex.c localmath.c messages.c read.c read1_3.c trans_spline.c \
+	dev/encode.c dev/genbitmaps.c dev/genbox.c dev/gencgm.c dev/gendxf.c \
+	dev/genemf.c dev/genepic.c dev/gengbx.c dev/genge.c dev/genibmgl.c \
+	dev/genlatex.c dev/genmap.c dev/genmf.c dev/genmp.c dev/genpdf.c \
+	dev/genpic.c dev/genpict2e.c dev/genpictex.c dev/genps.c dev/psfonts.c \
+	dev/genpstex.c dev/genpstricks.c dev/genptk.c dev/genshape.c \
+	dev/gensvg.c dev/gentextyl.c dev/gentikz.c dev/gentk.c dev/gentpic.c \
+	dev/psencode.c dev/readeps.c dev/readgif.c dev/readjpg.c dev/readpcx.c \
+	dev/readpics.c dev/readppm.c dev/readtif.c dev/readxbm.c \
+	dev/setfigfont.c dev/texfonts.c dev/tkpattern.c dev/xtmpfile.c
+
+FIG2DEV_HEADERS = alloc.h bool.h bound.h colors.h creationdate.h drivers.h \
+	fig2dev.h free.h localmath.h messages.h object.h pi.h read.h \
+	trans_spline.h dev/encode.h dev/genemf.h dev/genlatex.h dev/genps.h \
+	dev/gentikz.h dev/picfonts.h dev/picpsfonts.h dev/psfonts.h \
+	dev/psprolog.h dev/setfigfont.h dev/texfonts.h dev/tkpattern.h \
+	dev/xtmpfile.h lib/getline.h
+
+all : release
+
+# $(UniversalCRT_IncludePath)
+release: config.h $(FIG2DEV_SRCS) $(FIG2DEV_HEADERS)
+	$(CCR) $(CFLAGS) $(FIG2DEV_SRCS) $(REPL_LIBS) $(LINKFLAGS)
+
+config.h: config.vc
+	copy config.vc config.h
+
+## Release
+
+clean:
+	@-erase $(PROGRAM_NAME) 2> NUL
+	@-erase *.obj 2> NUL
+#	@-erase *.idb 2> NUL
+#	@-erase *.pdb 2> NUL
+#	@-erase *.pch 2> NUL
+#	@-erase *.ilk 2> NUL

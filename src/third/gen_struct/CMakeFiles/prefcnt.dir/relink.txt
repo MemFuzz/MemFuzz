@@ -1,0 +1,1 @@
+/usr/bin/cc   -DCOMPAT_NEED_REALLOCARRAY -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -Wall -Werror -ggdb -O0   CMakeFiles/prefcnt.dir/prefcnt.c.o  -o CMakeFiles/CMakeRelink.dir/prefcnt -rdynamic libdwarves.so.1.0.0 -ldw -lelf -lz 

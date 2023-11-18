@@ -1,0 +1,266 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.1
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2014 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Fri Nov 10 16:29:06 2023
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# default
+.SHELLFLAGS := -c
+# environment
+VSCODE_AGENT_FOLDER = /home/liu2598/.vscode-server
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# automatic
+@F = $(notdir $@)
+# default
+MAKE_VERSION := 4.1
+# makefile
+CURDIR := /home/liu2598/MemFuzz/src/src
+# makefile
+SHELL = /bin/sh
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en","osLocale":"en","availableLanguages":{}}
+# environment
+_ = /home/liu2598/.vscode-server/bin/d037ac076cee195194f93ce6fe2bdfe2969cc82d/node
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST :=  Makefile
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+XDG_DATA_DIRS = /usr/local/share:/usr/share:/var/lib/snapd/desktop
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1012/bus
+# environment
+LESSOPEN = | /usr/bin/lesspipe %s
+# environment
+VSCODE_CWD = /home/liu2598
+# environment
+SSH_CONNECTION = 128.10.12.218 56596 128.10.130.185 22
+# environment
+PATH = /home/liu2598/.vscode-server/bin/d037ac076cee195194f93ce6fe2bdfe2969cc82d/bin/remote-cli:/home/liu2598/.local/bin:/home/liu2598/bin:/home/liu2598/anaconda3/condabin:/home/liu2598/.local/bin:/home/liu2598/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+# environment
+XDG_RUNTIME_DIR = /run/user/1012
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
+# environment
+LS_COLORS = 
+# automatic
+%F = $(notdir $%)
+# environment
+CONDA_EXE = /home/liu2598/anaconda3/bin/conda
+# environment
+PWD = /home/liu2598/MemFuzz/src/src
+# environment
+VSCODE_IPC_HOOK_CLI = /run/user/1012/vscode-ipc-d3b53501-efbc-407e-adda-9c7bee60e13f.sock
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /home/liu2598
+# environment
+LESSCLOSE = /usr/bin/lesspipe %s %s
+# environment
+LOGNAME = liu2598
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# automatic
++F = $(notdir $+)
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+SHLVL = 3
+# environment
+XDG_SESSION_ID = 1059
+# environment
+USER = liu2598
+# makefile
+.DEFAULT_GOAL := all
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+CONDA_SHLVL = 0
+# default
+MAKE_COMMAND := make
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# makefile
+MAKEFLAGS = pqrR
+# environment
+MFLAGS = -pqrR
+# environment
+SSH_CLIENT = 128.10.12.218 56596 22
+# environment
+MAIL = /var/mail/liu2598
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+BROWSER = /home/liu2598/.vscode-server/bin/d037ac076cee195194f93ce6fe2bdfe2969cc82d/bin/helpers/browser.sh
+# environment
+VSCODE_HANDLES_SIGPIPE = true
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# environment
+LC_ALL = C
+# environment
+CONDA_PYTHON_EXE = /home/liu2598/anaconda3/bin/python
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# environment
+_CE_M = 
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# default
+.RECIPEPREFIX := 
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# environment
+LANG = C
+# environment
+_CE_CONDA = 
+# variable set hash-table stats:
+# Load=68/1024=7%, Rehash=0, Collisions=8/96=8%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 64768, inode 87429255): 25 files, no impossibilities.
+
+# 25 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+all:
+#  Command line target.
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := all
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := 
+# automatic
+# | := 
+# automatic
+# < := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/11=9%
+#  recipe to execute (from 'Makefile', line 2):
+	make static
+	gcc -g -c a.c `pkg-config --cflags --libs glib-2.0`
+	gcc -g -o a a.o libmemfuzz.a `pkg-config --cflags --libs glib-2.0`
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2023-11-10 16:11:33.588358264
+#  File has been updated.
+#  Successfully updated.
+
+static:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 7):
+	gcc -c -g memfuzz_util.c	
+	gcc -c -g memfuzz_mutate.c
+	gcc -c -g memfuzz_hook.c `pkg-config --cflags --libs glib-2.0` -Wno-deprecated-declarations
+	ar rcs libmemfuzz.a memfuzz_util.o memfuzz_mutate.o memfuzz_hook.o
+	#gcc -c -g alloc_hook.c `pkg-config --cflags --libs glib-2.0` -Wno-deprecated-declarations
+	#ar rcs liballochook.a alloc_hook.o
+
+shared:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 15):
+	gcc -g -fPIC -c memfuzz_util.c
+	gcc -g -fPIC -c memfuzz_mutate.c
+	gcc -g -fPIC -c memfuzz_hook.c `pkg-config --cflags --libs glib-2.0` -Wno-deprecated-declarations
+	gcc -g -shared -fPIC -o libmemfuzz.so memfuzz_util.o memfuzz_mutate.o memfuzz_hook.o
+	#gcc -g -shared -fPIC -o libhook.so alloc_hook.c `pkg-config --cflags --libs glib-2.0` -Wno-deprecated-declarations
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+clean:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 22):
+	rm -rf *.o
+	rm -rf *.so
+	rm -rf a
+	rm -rf *.a
+
+# files hash-table stats:
+# Load=7/1024=1%, Rehash=0, Collisions=0/19=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 33 / storage = 367 B / avg = 11 B
+# current buf: size = 8162 B / used = 367 B / count = 33 / avg = 11 B
+
+# strcache performance: lookups = 43 / hit rate = 23%
+# hash-table stats:
+# Load=33/8192=0%, Rehash=0, Collisions=1/43=2%
+# Finished Make data base on Fri Nov 10 16:29:06 2023
+
+ 

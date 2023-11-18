@@ -1,0 +1,38 @@
+----------------
+Artwork credits:
+----------------
+
+This section gives credit to those people who have contributed to the
+Libraries/Examples directory.
+Any figures not listed here were probably done by Brian Smith.
+
+Fig file	Description			Artist
+--------	-----------			------
+antennas.fig	various ultra-wideband antennas	(can't remember who submitted this)
+
+sowpig.fig	RAAF F-111C fighter		Carlo Kopp (he has an "Unofficial F-111"
+		w/2xAGM-142 Have Nap SOWs
+rfxc.fig	RFX Strike/Recon Fighter
+greenpig.fig	F/RF-111C/G Tactical Fighter
+lidar.fig	Sidelooking battlefield surveillance LIDAR
+
+illusion.fig	"impossible" 3-D object		Vivek Khera (khera@cs.duke.edu)
+recycle.fig	recycling logo
+
+flowchart.fig	flowchart building blocks	Tim P. Starrin (noid@cyborg.larc.nasa.gov)
+
+transit.fig	transit map of Saint John,	Robert Ford (rford@mailserv.mta.ca)
+		New Brunswick (Canada)
+		** Don't use it for locating transit routes. It is only good
+		through July 1996 and only shows non-rush-hour routes **
+aircraft.fig	light aircraft			Peter Hiscocks (phiscock@ee.ryerson.ca)
+ps-foil.fig	power supply circuit board foil layout
+ps-schematic.fig  power supply circuit board schematic
+
+Deleted after xfig 3.2.2:
+-------------------------
+linuxlogo.fig	This was an entry in the Linux	Philipp Reisner
+		2.0 Logo contest
+
+logo.fig	first fig file using imported	Bryan Boyter (original author of
+		eps				eps import code for xfig)

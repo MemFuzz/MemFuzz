@@ -1,0 +1,100 @@
+AT_COPYRIGHT([FIG : Facility for Interactive Generation of figures
+Copyright (c) 1985-1988 by Supoj Sutanthavibul
+Parts Copyright (c) 1989-2015 by Brian V. Smith
+Parts Copyright (c) 1991 by Paul King
+Parts Copyright (c) 2016-2020 by Thomas Loimer
+
+Any party obtaining a copy of these files is granted, free of charge, a
+full and unrestricted irrevocable, world-wide, paid up, royalty-free,
+nonexclusive right and license to deal in this software and documentation
+files (the "Software"), including without limitation the rights to use,
+copy, modify, merge, publish, distribute, sublicense and/or sell copies
+of the Software, and to permit persons who receive copies from any such
+party to do so, with the only requirement being that the above copyright
+and this permission notice remain intact.
+])
+
+# testsuite.at
+# Author: Thomas Loimer, 2016
+
+AT_INIT
+AT_COLOR_TESTS
+AT_TESTED(xfig)
+
+AT_BANNER([Rudimentary tests])
+
+AT_SETUP([Report version])
+AT_KEYWORDS(version)
+# Use atlocal to get variables from ./configure
+# Use _UNQUOTED, to use variables in [stdout], [stderr]
+AT_CHECK_UNQUOTED([xfig -v],0,[],
+	[Xfig $PACKAGE_VERSION
+])
+AT_CLEANUP
+
+AT_SETUP([Validate desktop file])
+AT_KEYWORDS(xfig.desktop)
+AT_SKIP_IF([! desktop-file-validate --help])
+AT_CHECK([desktop-file-validate $top_srcdir/xfig.desktop],0,[],[])
+AT_CLEANUP
+
+# Unit tests run executables that are not installed. However, the
+# autotest testing framework is aimed at running shell scripts on the
+# final, installable or installed executables. The PATH to those
+# executables is set accordingly by prepending "AUTOTEST_PATH" to $PATH.
+# The make installcheck target runs the testsuite with
+# "AUTOTEST_PATH=$bindir", while make check leaves AUTOTEST_PATH at its
+# default given in AC_CONFIG_TESTDIR.
+# The unit test executables below are not found at these locations.
+# There are several options to run the unit tests: (i) define new
+# targets, e.g., make test, (ii) modify AUTOTEST_PATH in the check-local
+# and installcheck-local targets, or (iii) use absolute paths to the
+# test executables. Here, absolute paths are used, and the unit tests
+# are run for "make check" and "make installcheck".
+
+AT_BANNER([Integration tests])
+
+AT_SETUP([ignore too many comment lines, ticket #47])
+AT_KEYWORDS([f_read.c])
+AT_SKIP_IF([test x"$DISPLAY" = x])
+AT_DATA(comments.fig, [#FIG 3.2
+Landscape
+Center
+Inches
+Letter
+100.
+Single
+-2
+m4_for([i], [1], [102], [], [#
+])dnl
+1200 2
+2 1 0 1 -1 -1 50 -1 -1 0.0 0 0 -1 0 0 2
+        0 0 100 100
+])
+AT_CHECK([xfig -update comments.fig],0,ignore,ignore)
+AT_CAPTURE_FILE([comments.fig])
+AT_CAPTURE_FILE([comments.fig.bak])
+AT_CLEANUP
+
+AT_BANNER([Unit tests])
+
+# Skip these tests, if the linker does not understand the
+# --allow-multiple-definition flag, hence the test programs are not built.
+
+AT_SETUP([Allow coordinates equal to INT_MIN])
+AT_KEYWORDS(u_bound.c)
+AT_SKIP_IF([test ! -x "$abs_builddir/test1"])
+AT_CHECK("$abs_builddir"/test1, 0)
+AT_CLEANUP
+
+AT_SETUP([Test round_coords()])
+AT_KEYWORDS(w_canvas.c)
+AT_SKIP_IF([test ! -x "$abs_builddir/test2"])
+AT_CHECK("$abs_builddir"/test2, 0)
+AT_CLEANUP
+
+AT_SETUP([Get the /MediaBox of pdf files])
+AT_KEYWORDS([u_ghostscript.c])
+AT_SKIP_IF([test ! -x "$abs_builddir/test3"])
+AT_CHECK("$abs_builddir/test3" "$srcdir/data/cross.pdf", 0)
+AT_CLEANUP

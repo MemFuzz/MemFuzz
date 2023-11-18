@@ -1,0 +1,1 @@
+gcc -g -o generator ./build/*.o ./convert.c ../common/opj_getopt.c generator.c  /home/liu2598/MemFuzz/generator/jp2/src/bin/libopenjp2.a ../common/color.c -I../common/ -I../../lib/openjp2/ -I./build  -lm -pthread -llcms2 `pkg-config --cflags --libs glib-2.0` -Wno-deprecated-declarations

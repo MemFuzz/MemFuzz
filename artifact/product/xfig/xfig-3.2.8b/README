@@ -1,0 +1,98 @@
+===============================================================
+XFIG - Facility for Interactive Generation of figures under X11
+===============================================================
+
+Xfig is a menu-driven tool that allows the user to draw and manipulate objects
+interactively in an X window.  The resulting pictures can be saved, printed
+on postscript printers or converted to a variety of other formats (e.g. to
+allow inclusion in LaTeX documents).
+
+This file contains some notes about installing xfig.  The directory
+'Libraries/Examples' contains some example figures and the 'doc' directory
+contains documentation including the manual in troff-man format and html.
+
+You also need to get the fig2dev package which contains fig2dev, the
+postprocessor that converts Fig files to various output formats such as
+PostScript (and EPS), PNG, GIF, LaTeX, etc.
+
+Xfig and the fig2dev package are available from:
+	https://sourceforge.net/projects/mcj
+
+Xfig expects fig2dev to be in the command search path. Otherwise, you
+may set the FIG2DEV_DIR environment variable if you want to force
+it to look elsewhere.
+
+The xfig distribution includes a library of Fig objects, which are available
+via the library object drawing mode.
+Included are libraries such as electrical parts, logic symbols, music symbols,
+computer clip art, flow charting symbols, network symbols, and some buildings.
+It is hoped that users will contribute to and enhance these libraries for the
+benefit of the xfig user community.
+
+Send bug reports to thomas.loimer@tuwien.ac.at.
+
+
+NOTE: For exporting Fig files to any of the bitmap formats (e.g. PNG, JPEG)
+	you will need to get a version of ghostscript that has jpeg, pcx256,
+	pbmraw, ppmraw and tiff24nc drivers.
+	If your ghostscript is not called "gs" then change the X resource
+	"Fig.ghostscript" in Fig.ad to the correct name before installing xfig.
+
+	fig2dev uses ghostscript for exporting and xfig uses it for importing
+	PS and EPS files.
+
+
+The sources of xfig are released in a tarball. Alternatively, the development
+version can be downloaded from sourceforge. To compile from the sources released
+in a tarball, unpack the file, change into the top directory, and issue the
+commands
+
+	./configure --with-appdefaultdir=/usr/share/X11/app-defaults
+	make
+	make install
+
+The option "--with-appdefaultdir" sets the path where the app-defaults file for
+X11 will be installed. The exact location depends on your distribution. It is
+the X-server which needs to find this file in its search path. The X-server sets
+the resources given in the app-defaults file, and passes the values of these
+resources to xfig. Other options set the directories where the icon for xfig or
+the xfig.desktop file should be installed to. See also the file "INSTALL".
+In the development sources, first call
+
+	autoreconf -i
+
+then continue with the three commands above.
+
+
+From Brian V. Smith:
+There are two app-defaults files for colors: one I call the "classic"
+color scheme (blues for the buttons and primary colors for OK/CANCEL
+buttons) and a new one provided by Joel D. Young (jdyoung@afit.af.mil)
+which looks more like tcl, and I think is a little nicer.  It looks
+best when used with Xaw3d.1.0, which can show 3d relief for labels,
+not just buttons.  This new color set is the default.
+If you want the "classic" colors, copy Fig-color.classic.ad to your
+app-defaults directory as "Fig-color".
+
+If you can't install xfig in your system directories you may put it
+anywhere in your search path.  The app-defaults files (Fig.ad and
+Fig-color.ad) may be put into any directory as Fig and Fig-color
+respectively, and pointed to by setting the shell environment
+variable XAPPLRESDIR.  You may also put the CompKeyDB file in that
+directory and compile xfig with --with-compkeydbdir=<path> pointing
+there.
+
+
+--------------
+General NOTES:
+--------------
+
+The pattern shading (e.g. bricks, shingles, etc.) only work for PostScript, PDF,
+tikz, tk (of the tcl/tk fame), and the bitmap output formats (e.g. PNG, GIF,
+JPEG, etc.).
+
+Unless you have an image (picture object) in your figure, you may not gain
+very much by exporting in JPEG over PNG because of the nature of compression
+used in both methods.  PNG is usually better for line drawings or drawings
+with large blocks of continuous color (e.g. filled polygons).  JPEG is usually
+better for compressing (photograpic) images.

@@ -1,0 +1,11 @@
+Pahole version 1.21
+Both gen_struct and pahole directory are the modified version of pahole-1.21
+
+1. gen_struct generates memfuzz_enum.h, memfuzz_enum1.h. We also use it to generate /tmp/class.h, which includes all struct definitions
+2. pahole is the modified code that print only class name, class member name and its type information. It prints the information to stdout but we redirect it to class_info.
+3. original is the src of pahole 1.21
+
+We first use pahole to generate class_info, and use python codes to parse the information and copy the corresponding structs generated from gen_struct to make new file header.
+
+Valgrind version 3.21.0
+1. valgrind-3.21.0 is the modified valgrind code. We use it to dump call sequence. The call sequence is then processed by analyze.py

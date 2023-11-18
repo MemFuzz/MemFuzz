@@ -1,0 +1,1 @@
+/usr/bin/cc  -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -Wall -Werror -ggdb -O0 -rdynamic CMakeFiles/scncopy.dir/scncopy.c.o CMakeFiles/scncopy.dir/elfcreator.c.o -o scncopy  -Wl,-rpath,/home/liu2598/MemFuzz/src/third/gen_struct: libdwarves.so.1.0.0 -lelf -ldw -lelf -lz 

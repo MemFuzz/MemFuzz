@@ -1,0 +1,18 @@
+(NOTE: 2010/10/27 converted xfig_splash_logo.xpm to ...png because exporting produced a blank image)
+
+1. Edit spl_bckgnd.fig as necessary
+2. Export to XPM from xfig
+3. Export to XBM from xfig
+4. Use xv to reduce the colors if necessary (xv -ncols 60 is good)
+   May have to save reduced colors as GIF then load that and save as XPM.
+   4a. If the lines are too long, run it through "xpmtoppm spl_bckgnd.xpm | ppmtoxpm > spl.xpm"
+5. Import spl_bckgnd.xpm into w_icons.c (look for spl_bckgnd) in
+   between #ifdef USE_XPM and rename;
+	static char *noname[] = {
+	to
+	char *spl_bckgnd_xpm[] = {
+
+	(remove "static" and change noname to spl_bckgnd_xpm)
+6. Import spl_bckgnd.xbm in w_icons.c just after the XPM version,
+   renaming noname to spl_bckgnd_xbm
+6. Import letters.xbm in w_icons.c, renaming noname_ to letters_

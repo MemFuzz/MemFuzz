@@ -1,0 +1,431 @@
+make  all-recursive
+make[1]: Entering directory '/home/liu2598/MemFuzz/generator/fig/src/xfig-3.2.8b'
+Making all in src
+make[2]: Entering directory '/home/liu2598/MemFuzz/generator/fig/src/xfig-3.2.8b/src'
+depbase=`echo d_arcbox.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I..  -DXAW_INTERNATIONALIZATION -DNDEBUG -DXFIGLIBDIR="\"/usr/local/share/xfig\"" -DOBJLIBDIR="\"/usr/local/share/xfig/Libraries\"" -DXFIGDOCDIR="\"/usr/local/share/doc/xfig\""   -g -O2 -MT d_arcbox.o -MD -MP -MF $depbase.Tpo -c -o d_arcbox.o d_arcbox.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo d_arc.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I..  -DXAW_INTERNATIONALIZATION -DNDEBUG -DXFIGLIBDIR="\"/usr/local/share/xfig\"" -DOBJLIBDIR="\"/usr/local/share/xfig/Libraries\"" -DXFIGDOCDIR="\"/usr/local/share/doc/xfig\""   -g -O2 -MT d_arc.o -MD -MP -MF $depbase.Tpo -c -o d_arc.o d_arc.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo d_box.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I..  -DXAW_INTERNATIONALIZATION -DNDEBUG -DXFIGLIBDIR="\"/usr/local/share/xfig\"" -DOBJLIBDIR="\"/usr/local/share/xfig/Libraries\"" -DXFIGDOCDIR="\"/usr/local/share/doc/xfig\""   -g -O2 -MT d_box.o -MD -MP -MF $depbase.Tpo -c -o d_box.o d_box.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo d_ellipse.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I..  -DXAW_INTERNATIONALIZATION -DNDEBUG -DXFIGLIBDIR="\"/usr/local/share/xfig\"" -DOBJLIBDIR="\"/usr/local/share/xfig/Libraries\"" -DXFIGDOCDIR="\"/usr/local/share/doc/xfig\""   -g -O2 -MT d_ellipse.o -MD -MP -MF $depbase.Tpo -c -o d_ellipse.o d_ellipse.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo d_line.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I..  -DXAW_INTERNATIONALIZATION -DNDEBUG -DXFIGLIBDIR="\"/usr/local/share/xfig\"" -DOBJLIBDIR="\"/usr/local/share/xfig/Libraries\"" -DXFIGDOCDIR="\"/usr/local/share/doc/xfig\""   -g -O2 -MT d_line.o -MD -MP -MF $depbase.Tpo -c -o d_line.o d_line.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo d_picobj.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I..  -DXAW_INTERNATIONALIZATION -DNDEBUG -DXFIGLIBDIR="\"/usr/local/share/xfig\"" -DOBJLIBDIR="\"/usr/local/share/xfig/Libraries\"" -DXFIGDOCDIR="\"/usr/local/share/doc/xfig\""   -g -O2 -MT d_picobj.o -MD -MP -MF $depbase.Tpo -c -o d_picobj.o d_picobj.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo d_regpoly.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I..  -DXAW_INTERNATIONALIZATION -DNDEBUG -DXFIGLIBDIR="\"/usr/local/share/xfig\"" -DOBJLIBDIR="\"/usr/local/share/xfig/Libraries\"" -DXFIGDOCDIR="\"/usr/local/share/doc/xfig\""   -g -O2 -MT d_regpoly.o -MD -MP -MF $depbase.Tpo -c -o d_regpoly.o d_regpoly.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo d_spline.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I..  -DXAW_INTERNATIONALIZATION -DNDEBUG -DXFIGLIBDIR="\"/usr/local/share/xfig\"" -DOBJLIBDIR="\"/usr/local/share/xfig/Libraries\"" -DXFIGDOCDIR="\"/usr/local/share/doc/xfig\""   -g -O2 -MT d_spline.o -MD -MP -MF $depbase.Tpo -c -o d_spline.o d_spline.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo d_subspline.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I..  -DXAW_INTERNATIONALIZATION -DNDEBUG -DXFIGLIBDIR="\"/usr/local/share/xfig\"" -DOBJLIBDIR="\"/usr/local/share/xfig/Libraries\"" -DXFIGDOCDIR="\"/usr/local/share/doc/xfig\""   -g -O2 -MT d_subspline.o -MD -MP -MF $depbase.Tpo -c -o d_subspline.o d_subspline.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo d_text.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I..  -DXAW_INTERNATIONALIZATION -DNDEBUG -DXFIGLIBDIR="\"/usr/local/share/xfig\"" -DOBJLIBDIR="\"/usr/local/share/xfig/Libraries\"" -DXFIGDOCDIR="\"/usr/local/share/doc/xfig\""   -g -O2 -MT d_text.o -MD -MP -MF $depbase.Tpo -c -o d_text.o d_text.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo e_addpt.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I..  -DXAW_INTERNATIONALIZATION -DNDEBUG -DXFIGLIBDIR="\"/usr/local/share/xfig\"" -DOBJLIBDIR="\"/usr/local/share/xfig/Libraries\"" -DXFIGDOCDIR="\"/usr/local/share/doc/xfig\""   -g -O2 -MT e_addpt.o -MD -MP -MF $depbase.Tpo -c -o e_addpt.o e_addpt.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo e_align.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I..  -DXAW_INTERNATIONALIZATION -DNDEBUG -DXFIGLIBDIR="\"/usr/local/share/xfig\"" -DOBJLIBDIR="\"/usr/local/share/xfig/Libraries\"" -DXFIGDOCDIR="\"/usr/local/share/doc/xfig\""   -g -O2 -MT e_align.o -MD -MP -MF $depbase.Tpo -c -o e_align.o e_align.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo e_arrow.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I..  -DXAW_INTERNATIONALIZATION -DNDEBUG -DXFIGLIBDIR="\"/usr/local/share/xfig\"" -DOBJLIBDIR="\"/usr/local/share/xfig/Libraries\"" -DXFIGDOCDIR="\"/usr/local/share/doc/xfig\""   -g -O2 -MT e_arrow.o -MD -MP -MF $depbase.Tpo -c -o e_arrow.o e_arrow.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo e_break.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I..  -DXAW_INTERNATIONALIZATION -DNDEBUG -DXFIGLIBDIR="\"/usr/local/share/xfig\"" -DOBJLIBDIR="\"/usr/local/share/xfig/Libraries\"" -DXFIGDOCDIR="\"/usr/local/share/doc/xfig\""   -g -O2 -MT e_break.o -MD -MP -MF $depbase.Tpo -c -o e_break.o e_break.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo e_chop.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I..  -DXAW_INTERNATIONALIZATION -DNDEBUG -DXFIGLIBDIR="\"/usr/local/share/xfig\"" -DOBJLIBDIR="\"/usr/local/share/xfig/Libraries\"" -DXFIGDOCDIR="\"/usr/local/share/doc/xfig\""   -g -O2 -MT e_chop.o -MD -MP -MF $depbase.Tpo -c -o e_chop.o e_chop.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo e_compound.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I..  -DXAW_INTERNATIONALIZATION -DNDEBUG -DXFIGLIBDIR="\"/usr/local/share/xfig\"" -DOBJLIBDIR="\"/usr/local/share/xfig/Libraries\"" -DXFIGDOCDIR="\"/usr/local/share/doc/xfig\""   -g -O2 -MT e_compound.o -MD -MP -MF $depbase.Tpo -c -o e_compound.o e_compound.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo e_convert.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I..  -DXAW_INTERNATIONALIZATION -DNDEBUG -DXFIGLIBDIR="\"/usr/local/share/xfig\"" -DOBJLIBDIR="\"/usr/local/share/xfig/Libraries\"" -DXFIGDOCDIR="\"/usr/local/share/doc/xfig\""   -g -O2 -MT e_convert.o -MD -MP -MF $depbase.Tpo -c -o e_convert.o e_convert.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo e_copy.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I..  -DXAW_INTERNATIONALIZATION -DNDEBUG -DXFIGLIBDIR="\"/usr/local/share/xfig\"" -DOBJLIBDIR="\"/usr/local/share/xfig/Libraries\"" -DXFIGDOCDIR="\"/usr/local/share/doc/xfig\""   -g -O2 -MT e_copy.o -MD -MP -MF $depbase.Tpo -c -o e_copy.o e_copy.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo e_delete.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I..  -DXAW_INTERNATIONALIZATION -DNDEBUG -DXFIGLIBDIR="\"/usr/local/share/xfig\"" -DOBJLIBDIR="\"/usr/local/share/xfig/Libraries\"" -DXFIGDOCDIR="\"/usr/local/share/doc/xfig\""   -g -O2 -MT e_delete.o -MD -MP -MF $depbase.Tpo -c -o e_delete.o e_delete.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo e_deletept.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I..  -DXAW_INTERNATIONALIZATION -DNDEBUG -DXFIGLIBDIR="\"/usr/local/share/xfig\"" -DOBJLIBDIR="\"/usr/local/share/xfig/Libraries\"" -DXFIGDOCDIR="\"/usr/local/share/doc/xfig\""   -g -O2 -MT e_deletept.o -MD -MP -MF $depbase.Tpo -c -o e_deletept.o e_deletept.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo e_edit.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I..  -DXAW_INTERNATIONALIZATION -DNDEBUG -DXFIGLIBDIR="\"/usr/local/share/xfig\"" -DOBJLIBDIR="\"/usr/local/share/xfig/Libraries\"" -DXFIGDOCDIR="\"/usr/local/share/doc/xfig\""   -g -O2 -MT e_edit.o -MD -MP -MF $depbase.Tpo -c -o e_edit.o e_edit.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo e_flip.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I..  -DXAW_INTERNATIONALIZATION -DNDEBUG -DXFIGLIBDIR="\"/usr/local/share/xfig\"" -DOBJLIBDIR="\"/usr/local/share/xfig/Libraries\"" -DXFIGDOCDIR="\"/usr/local/share/doc/xfig\""   -g -O2 -MT e_flip.o -MD -MP -MF $depbase.Tpo -c -o e_flip.o e_flip.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo e_glue.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I..  -DXAW_INTERNATIONALIZATION -DNDEBUG -DXFIGLIBDIR="\"/usr/local/share/xfig\"" -DOBJLIBDIR="\"/usr/local/share/xfig/Libraries\"" -DXFIGDOCDIR="\"/usr/local/share/doc/xfig\""   -g -O2 -MT e_glue.o -MD -MP -MF $depbase.Tpo -c -o e_glue.o e_glue.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo e_joinsplit.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I..  -DXAW_INTERNATIONALIZATION -DNDEBUG -DXFIGLIBDIR="\"/usr/local/share/xfig\"" -DOBJLIBDIR="\"/usr/local/share/xfig/Libraries\"" -DXFIGDOCDIR="\"/usr/local/share/doc/xfig\""   -g -O2 -MT e_joinsplit.o -MD -MP -MF $depbase.Tpo -c -o e_joinsplit.o e_joinsplit.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo e_measure.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I..  -DXAW_INTERNATIONALIZATION -DNDEBUG -DXFIGLIBDIR="\"/usr/local/share/xfig\"" -DOBJLIBDIR="\"/usr/local/share/xfig/Libraries\"" -DXFIGDOCDIR="\"/usr/local/share/doc/xfig\""   -g -O2 -MT e_measure.o -MD -MP -MF $depbase.Tpo -c -o e_measure.o e_measure.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo e_move.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I..  -DXAW_INTERNATIONALIZATION -DNDEBUG -DXFIGLIBDIR="\"/usr/local/share/xfig\"" -DOBJLIBDIR="\"/usr/local/share/xfig/Libraries\"" -DXFIGDOCDIR="\"/usr/local/share/doc/xfig\""   -g -O2 -MT e_move.o -MD -MP -MF $depbase.Tpo -c -o e_move.o e_move.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo e_movept.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I..  -DXAW_INTERNATIONALIZATION -DNDEBUG -DXFIGLIBDIR="\"/usr/local/share/xfig\"" -DOBJLIBDIR="\"/usr/local/share/xfig/Libraries\"" -DXFIGDOCDIR="\"/usr/local/share/doc/xfig\""   -g -O2 -MT e_movept.o -MD -MP -MF $depbase.Tpo -c -o e_movept.o e_movept.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo e_placelib.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I..  -DXAW_INTERNATIONALIZATION -DNDEBUG -DXFIGLIBDIR="\"/usr/local/share/xfig\"" -DOBJLIBDIR="\"/usr/local/share/xfig/Libraries\"" -DXFIGDOCDIR="\"/usr/local/share/doc/xfig\""   -g -O2 -MT e_placelib.o -MD -MP -MF $depbase.Tpo -c -o e_placelib.o e_placelib.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo e_rotate.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I..  -DXAW_INTERNATIONALIZATION -DNDEBUG -DXFIGLIBDIR="\"/usr/local/share/xfig\"" -DOBJLIBDIR="\"/usr/local/share/xfig/Libraries\"" -DXFIGDOCDIR="\"/usr/local/share/doc/xfig\""   -g -O2 -MT e_rotate.o -MD -MP -MF $depbase.Tpo -c -o e_rotate.o e_rotate.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo e_scale.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I..  -DXAW_INTERNATIONALIZATION -DNDEBUG -DXFIGLIBDIR="\"/usr/local/share/xfig\"" -DOBJLIBDIR="\"/usr/local/share/xfig/Libraries\"" -DXFIGDOCDIR="\"/usr/local/share/doc/xfig\""   -g -O2 -MT e_scale.o -MD -MP -MF $depbase.Tpo -c -o e_scale.o e_scale.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo e_tangent.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I..  -DXAW_INTERNATIONALIZATION -DNDEBUG -DXFIGLIBDIR="\"/usr/local/share/xfig\"" -DOBJLIBDIR="\"/usr/local/share/xfig/Libraries\"" -DXFIGDOCDIR="\"/usr/local/share/doc/xfig\""   -g -O2 -MT e_tangent.o -MD -MP -MF $depbase.Tpo -c -o e_tangent.o e_tangent.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo e_update.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I..  -DXAW_INTERNATIONALIZATION -DNDEBUG -DXFIGLIBDIR="\"/usr/local/share/xfig\"" -DOBJLIBDIR="\"/usr/local/share/xfig/Libraries\"" -DXFIGDOCDIR="\"/usr/local/share/doc/xfig\""   -g -O2 -MT e_update.o -MD -MP -MF $depbase.Tpo -c -o e_update.o e_update.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo f_load.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I..  -DXAW_INTERNATIONALIZATION -DNDEBUG -DXFIGLIBDIR="\"/usr/local/share/xfig\"" -DOBJLIBDIR="\"/usr/local/share/xfig/Libraries\"" -DXFIGDOCDIR="\"/usr/local/share/doc/xfig\""   -g -O2 -MT f_load.o -MD -MP -MF $depbase.Tpo -c -o f_load.o f_load.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo f_neuclrtab.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I..  -DXAW_INTERNATIONALIZATION -DNDEBUG -DXFIGLIBDIR="\"/usr/local/share/xfig\"" -DOBJLIBDIR="\"/usr/local/share/xfig/Libraries\"" -DXFIGDOCDIR="\"/usr/local/share/doc/xfig\""   -g -O2 -MT f_neuclrtab.o -MD -MP -MF $depbase.Tpo -c -o f_neuclrtab.o f_neuclrtab.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo f_picobj.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I..  -DXAW_INTERNATIONALIZATION -DNDEBUG -DXFIGLIBDIR="\"/usr/local/share/xfig\"" -DOBJLIBDIR="\"/usr/local/share/xfig/Libraries\"" -DXFIGDOCDIR="\"/usr/local/share/doc/xfig\""   -g -O2 -MT f_picobj.o -MD -MP -MF $depbase.Tpo -c -o f_picobj.o f_picobj.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo f_read.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I..  -DXAW_INTERNATIONALIZATION -DNDEBUG -DXFIGLIBDIR="\"/usr/local/share/xfig\"" -DOBJLIBDIR="\"/usr/local/share/xfig/Libraries\"" -DXFIGDOCDIR="\"/usr/local/share/doc/xfig\""   -g -O2 -MT f_read.o -MD -MP -MF $depbase.Tpo -c -o f_read.o f_read.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo f_readeps.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I..  -DXAW_INTERNATIONALIZATION -DNDEBUG -DXFIGLIBDIR="\"/usr/local/share/xfig\"" -DOBJLIBDIR="\"/usr/local/share/xfig/Libraries\"" -DXFIGDOCDIR="\"/usr/local/share/doc/xfig\""   -g -O2 -MT f_readeps.o -MD -MP -MF $depbase.Tpo -c -o f_readeps.o f_readeps.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo f_readgif.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I..  -DXAW_INTERNATIONALIZATION -DNDEBUG -DXFIGLIBDIR="\"/usr/local/share/xfig\"" -DOBJLIBDIR="\"/usr/local/share/xfig/Libraries\"" -DXFIGDOCDIR="\"/usr/local/share/doc/xfig\""   -g -O2 -MT f_readgif.o -MD -MP -MF $depbase.Tpo -c -o f_readgif.o f_readgif.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo f_readold.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I..  -DXAW_INTERNATIONALIZATION -DNDEBUG -DXFIGLIBDIR="\"/usr/local/share/xfig\"" -DOBJLIBDIR="\"/usr/local/share/xfig/Libraries\"" -DXFIGDOCDIR="\"/usr/local/share/doc/xfig\""   -g -O2 -MT f_readold.o -MD -MP -MF $depbase.Tpo -c -o f_readold.o f_readold.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo f_readpcx.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I..  -DXAW_INTERNATIONALIZATION -DNDEBUG -DXFIGLIBDIR="\"/usr/local/share/xfig\"" -DOBJLIBDIR="\"/usr/local/share/xfig/Libraries\"" -DXFIGDOCDIR="\"/usr/local/share/doc/xfig\""   -g -O2 -MT f_readpcx.o -MD -MP -MF $depbase.Tpo -c -o f_readpcx.o f_readpcx.c &&\
+mv -f $depbase.Tpo $depbase.Po
+f_readpcx.c: In function ‘_read_pcx’:
+f_readpcx.c:125:2: warning: ignoring return value of ‘fread’, declared with attribute warn_unused_result [-Wunused-result]
+  fread(&header,1,sizeof(struct pcxhed),pcxfile);
+  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+depbase=`echo f_readppm.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I..  -DXAW_INTERNATIONALIZATION -DNDEBUG -DXFIGLIBDIR="\"/usr/local/share/xfig\"" -DOBJLIBDIR="\"/usr/local/share/xfig/Libraries\"" -DXFIGDOCDIR="\"/usr/local/share/doc/xfig\""   -g -O2 -MT f_readppm.o -MD -MP -MF $depbase.Tpo -c -o f_readppm.o f_readppm.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo f_readxbm.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I..  -DXAW_INTERNATIONALIZATION -DNDEBUG -DXFIGLIBDIR="\"/usr/local/share/xfig\"" -DOBJLIBDIR="\"/usr/local/share/xfig/Libraries\"" -DXFIGDOCDIR="\"/usr/local/share/doc/xfig\""   -g -O2 -MT f_readxbm.o -MD -MP -MF $depbase.Tpo -c -o f_readxbm.o f_readxbm.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo f_save.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I..  -DXAW_INTERNATIONALIZATION -DNDEBUG -DXFIGLIBDIR="\"/usr/local/share/xfig\"" -DOBJLIBDIR="\"/usr/local/share/xfig/Libraries\"" -DXFIGDOCDIR="\"/usr/local/share/doc/xfig\""   -g -O2 -MT f_save.o -MD -MP -MF $depbase.Tpo -c -o f_save.o f_save.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo f_util.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I..  -DXAW_INTERNATIONALIZATION -DNDEBUG -DXFIGLIBDIR="\"/usr/local/share/xfig\"" -DOBJLIBDIR="\"/usr/local/share/xfig/Libraries\"" -DXFIGDOCDIR="\"/usr/local/share/doc/xfig\""   -g -O2 -MT f_util.o -MD -MP -MF $depbase.Tpo -c -o f_util.o f_util.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo f_wrpcx.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I..  -DXAW_INTERNATIONALIZATION -DNDEBUG -DXFIGLIBDIR="\"/usr/local/share/xfig\"" -DOBJLIBDIR="\"/usr/local/share/xfig/Libraries\"" -DXFIGDOCDIR="\"/usr/local/share/doc/xfig\""   -g -O2 -MT f_wrpcx.o -MD -MP -MF $depbase.Tpo -c -o f_wrpcx.o f_wrpcx.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo main.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I..  -DXAW_INTERNATIONALIZATION -DNDEBUG -DXFIGLIBDIR="\"/usr/local/share/xfig\"" -DOBJLIBDIR="\"/usr/local/share/xfig/Libraries\"" -DXFIGDOCDIR="\"/usr/local/share/doc/xfig\""   -g -O2 -MT main.o -MD -MP -MF $depbase.Tpo -c -o main.o main.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo mode.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I..  -DXAW_INTERNATIONALIZATION -DNDEBUG -DXFIGLIBDIR="\"/usr/local/share/xfig\"" -DOBJLIBDIR="\"/usr/local/share/xfig/Libraries\"" -DXFIGDOCDIR="\"/usr/local/share/doc/xfig\""   -g -O2 -MT mode.o -MD -MP -MF $depbase.Tpo -c -o mode.o mode.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo object.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I..  -DXAW_INTERNATIONALIZATION -DNDEBUG -DXFIGLIBDIR="\"/usr/local/share/xfig\"" -DOBJLIBDIR="\"/usr/local/share/xfig/Libraries\"" -DXFIGDOCDIR="\"/usr/local/share/doc/xfig\""   -g -O2 -MT object.o -MD -MP -MF $depbase.Tpo -c -o object.o object.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo resources.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I..  -DXAW_INTERNATIONALIZATION -DNDEBUG -DXFIGLIBDIR="\"/usr/local/share/xfig\"" -DOBJLIBDIR="\"/usr/local/share/xfig/Libraries\"" -DXFIGDOCDIR="\"/usr/local/share/doc/xfig\""   -g -O2 -MT resources.o -MD -MP -MF $depbase.Tpo -c -o resources.o resources.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo u_bound.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I..  -DXAW_INTERNATIONALIZATION -DNDEBUG -DXFIGLIBDIR="\"/usr/local/share/xfig\"" -DOBJLIBDIR="\"/usr/local/share/xfig/Libraries\"" -DXFIGDOCDIR="\"/usr/local/share/doc/xfig\""   -g -O2 -MT u_bound.o -MD -MP -MF $depbase.Tpo -c -o u_bound.o u_bound.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo u_create.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I..  -DXAW_INTERNATIONALIZATION -DNDEBUG -DXFIGLIBDIR="\"/usr/local/share/xfig\"" -DOBJLIBDIR="\"/usr/local/share/xfig/Libraries\"" -DXFIGDOCDIR="\"/usr/local/share/doc/xfig\""   -g -O2 -MT u_create.o -MD -MP -MF $depbase.Tpo -c -o u_create.o u_create.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo u_drag.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I..  -DXAW_INTERNATIONALIZATION -DNDEBUG -DXFIGLIBDIR="\"/usr/local/share/xfig\"" -DOBJLIBDIR="\"/usr/local/share/xfig/Libraries\"" -DXFIGDOCDIR="\"/usr/local/share/doc/xfig\""   -g -O2 -MT u_drag.o -MD -MP -MF $depbase.Tpo -c -o u_drag.o u_drag.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo u_draw.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I..  -DXAW_INTERNATIONALIZATION -DNDEBUG -DXFIGLIBDIR="\"/usr/local/share/xfig\"" -DOBJLIBDIR="\"/usr/local/share/xfig/Libraries\"" -DXFIGDOCDIR="\"/usr/local/share/doc/xfig\""   -g -O2 -MT u_draw.o -MD -MP -MF $depbase.Tpo -c -o u_draw.o u_draw.c &&\
+mv -f $depbase.Tpo $depbase.Po
+u_draw.c: In function ‘draw_arcbox’:
+u_draw.c:772:22: warning: ‘__builtin___sprintf_chk’ may write a terminating nul past the end of the destination [-Wformat-overflow=]
+      sprintf(bufx,"%d",i++);
+                      ^
+In file included from /usr/include/stdio.h:862:0,
+                 from u_draw.c:23:
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:33:10: note: ‘__builtin___sprintf_chk’ output between 2 and 11 bytes into a destination of size 10
+   return __builtin___sprintf_chk (__s, __USE_FORTIFY_LEVEL - 1,
+          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+       __bos (__s), __fmt, __va_arg_pack ());
+       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+u_draw.c: In function ‘draw_line’:
+u_draw.c:717:19: warning: ‘__builtin___sprintf_chk’ may write a terminating nul past the end of the destination [-Wformat-overflow=]
+   sprintf(bufx,"%d",i++);
+                   ^
+In file included from /usr/include/stdio.h:862:0,
+                 from u_draw.c:23:
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:33:10: note: ‘__builtin___sprintf_chk’ output between 2 and 11 bytes into a destination of size 10
+   return __builtin___sprintf_chk (__s, __USE_FORTIFY_LEVEL - 1,
+          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+       __bos (__s), __fmt, __va_arg_pack ());
+       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+u_draw.c: In function ‘draw_spline’:
+u_draw.c:2104:22: warning: ‘__builtin___sprintf_chk’ may write a terminating nul past the end of the destination [-Wformat-overflow=]
+      sprintf(bufx,"%d",i++);
+                      ^
+In file included from /usr/include/stdio.h:862:0,
+                 from u_draw.c:23:
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:33:10: note: ‘__builtin___sprintf_chk’ output between 2 and 11 bytes into a destination of size 10
+   return __builtin___sprintf_chk (__s, __USE_FORTIFY_LEVEL - 1,
+          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+       __bos (__s), __fmt, __va_arg_pack ());
+       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+depbase=`echo u_elastic.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I..  -DXAW_INTERNATIONALIZATION -DNDEBUG -DXFIGLIBDIR="\"/usr/local/share/xfig\"" -DOBJLIBDIR="\"/usr/local/share/xfig/Libraries\"" -DXFIGDOCDIR="\"/usr/local/share/doc/xfig\""   -g -O2 -MT u_elastic.o -MD -MP -MF $depbase.Tpo -c -o u_elastic.o u_elastic.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo u_error.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I..  -DXAW_INTERNATIONALIZATION -DNDEBUG -DXFIGLIBDIR="\"/usr/local/share/xfig\"" -DOBJLIBDIR="\"/usr/local/share/xfig/Libraries\"" -DXFIGDOCDIR="\"/usr/local/share/doc/xfig\""   -g -O2 -MT u_error.o -MD -MP -MF $depbase.Tpo -c -o u_error.o u_error.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo u_fonts.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I..  -DXAW_INTERNATIONALIZATION -DNDEBUG -DXFIGLIBDIR="\"/usr/local/share/xfig\"" -DOBJLIBDIR="\"/usr/local/share/xfig/Libraries\"" -DXFIGDOCDIR="\"/usr/local/share/doc/xfig\""   -g -O2 -MT u_fonts.o -MD -MP -MF $depbase.Tpo -c -o u_fonts.o u_fonts.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo u_free.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I..  -DXAW_INTERNATIONALIZATION -DNDEBUG -DXFIGLIBDIR="\"/usr/local/share/xfig\"" -DOBJLIBDIR="\"/usr/local/share/xfig/Libraries\"" -DXFIGDOCDIR="\"/usr/local/share/doc/xfig\""   -g -O2 -MT u_free.o -MD -MP -MF $depbase.Tpo -c -o u_free.o u_free.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo u_geom.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I..  -DXAW_INTERNATIONALIZATION -DNDEBUG -DXFIGLIBDIR="\"/usr/local/share/xfig\"" -DOBJLIBDIR="\"/usr/local/share/xfig/Libraries\"" -DXFIGDOCDIR="\"/usr/local/share/doc/xfig\""   -g -O2 -MT u_geom.o -MD -MP -MF $depbase.Tpo -c -o u_geom.o u_geom.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo u_ghostscript.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I..  -DXAW_INTERNATIONALIZATION -DNDEBUG -DXFIGLIBDIR="\"/usr/local/share/xfig\"" -DOBJLIBDIR="\"/usr/local/share/xfig/Libraries\"" -DXFIGDOCDIR="\"/usr/local/share/doc/xfig\""   -g -O2 -MT u_ghostscript.o -MD -MP -MF $depbase.Tpo -c -o u_ghostscript.o u_ghostscript.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo u_list.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I..  -DXAW_INTERNATIONALIZATION -DNDEBUG -DXFIGLIBDIR="\"/usr/local/share/xfig\"" -DOBJLIBDIR="\"/usr/local/share/xfig/Libraries\"" -DXFIGDOCDIR="\"/usr/local/share/doc/xfig\""   -g -O2 -MT u_list.o -MD -MP -MF $depbase.Tpo -c -o u_list.o u_list.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo u_markers.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I..  -DXAW_INTERNATIONALIZATION -DNDEBUG -DXFIGLIBDIR="\"/usr/local/share/xfig\"" -DOBJLIBDIR="\"/usr/local/share/xfig/Libraries\"" -DXFIGDOCDIR="\"/usr/local/share/doc/xfig\""   -g -O2 -MT u_markers.o -MD -MP -MF $depbase.Tpo -c -o u_markers.o u_markers.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo u_pan.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I..  -DXAW_INTERNATIONALIZATION -DNDEBUG -DXFIGLIBDIR="\"/usr/local/share/xfig\"" -DOBJLIBDIR="\"/usr/local/share/xfig/Libraries\"" -DXFIGDOCDIR="\"/usr/local/share/doc/xfig\""   -g -O2 -MT u_pan.o -MD -MP -MF $depbase.Tpo -c -o u_pan.o u_pan.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo u_print.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I..  -DXAW_INTERNATIONALIZATION -DNDEBUG -DXFIGLIBDIR="\"/usr/local/share/xfig\"" -DOBJLIBDIR="\"/usr/local/share/xfig/Libraries\"" -DXFIGDOCDIR="\"/usr/local/share/doc/xfig\""   -g -O2 -MT u_print.o -MD -MP -MF $depbase.Tpo -c -o u_print.o u_print.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo u_quartic.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I..  -DXAW_INTERNATIONALIZATION -DNDEBUG -DXFIGLIBDIR="\"/usr/local/share/xfig\"" -DOBJLIBDIR="\"/usr/local/share/xfig/Libraries\"" -DXFIGDOCDIR="\"/usr/local/share/doc/xfig\""   -g -O2 -MT u_quartic.o -MD -MP -MF $depbase.Tpo -c -o u_quartic.o u_quartic.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo u_redraw.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I..  -DXAW_INTERNATIONALIZATION -DNDEBUG -DXFIGLIBDIR="\"/usr/local/share/xfig\"" -DOBJLIBDIR="\"/usr/local/share/xfig/Libraries\"" -DXFIGDOCDIR="\"/usr/local/share/doc/xfig\""   -g -O2 -MT u_redraw.o -MD -MP -MF $depbase.Tpo -c -o u_redraw.o u_redraw.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo u_scale.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I..  -DXAW_INTERNATIONALIZATION -DNDEBUG -DXFIGLIBDIR="\"/usr/local/share/xfig\"" -DOBJLIBDIR="\"/usr/local/share/xfig/Libraries\"" -DXFIGDOCDIR="\"/usr/local/share/doc/xfig\""   -g -O2 -MT u_scale.o -MD -MP -MF $depbase.Tpo -c -o u_scale.o u_scale.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo u_search.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I..  -DXAW_INTERNATIONALIZATION -DNDEBUG -DXFIGLIBDIR="\"/usr/local/share/xfig\"" -DOBJLIBDIR="\"/usr/local/share/xfig/Libraries\"" -DXFIGDOCDIR="\"/usr/local/share/doc/xfig\""   -g -O2 -MT u_search.o -MD -MP -MF $depbase.Tpo -c -o u_search.o u_search.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo u_smartsearch.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I..  -DXAW_INTERNATIONALIZATION -DNDEBUG -DXFIGLIBDIR="\"/usr/local/share/xfig\"" -DOBJLIBDIR="\"/usr/local/share/xfig/Libraries\"" -DXFIGDOCDIR="\"/usr/local/share/doc/xfig\""   -g -O2 -MT u_smartsearch.o -MD -MP -MF $depbase.Tpo -c -o u_smartsearch.o u_smartsearch.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo u_translate.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I..  -DXAW_INTERNATIONALIZATION -DNDEBUG -DXFIGLIBDIR="\"/usr/local/share/xfig\"" -DOBJLIBDIR="\"/usr/local/share/xfig/Libraries\"" -DXFIGDOCDIR="\"/usr/local/share/doc/xfig\""   -g -O2 -MT u_translate.o -MD -MP -MF $depbase.Tpo -c -o u_translate.o u_translate.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo u_undo.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I..  -DXAW_INTERNATIONALIZATION -DNDEBUG -DXFIGLIBDIR="\"/usr/local/share/xfig\"" -DOBJLIBDIR="\"/usr/local/share/xfig/Libraries\"" -DXFIGDOCDIR="\"/usr/local/share/doc/xfig\""   -g -O2 -MT u_undo.o -MD -MP -MF $depbase.Tpo -c -o u_undo.o u_undo.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo w_browse.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I..  -DXAW_INTERNATIONALIZATION -DNDEBUG -DXFIGLIBDIR="\"/usr/local/share/xfig\"" -DOBJLIBDIR="\"/usr/local/share/xfig/Libraries\"" -DXFIGDOCDIR="\"/usr/local/share/doc/xfig\""   -g -O2 -MT w_browse.o -MD -MP -MF $depbase.Tpo -c -o w_browse.o w_browse.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo w_canvas.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I..  -DXAW_INTERNATIONALIZATION -DNDEBUG -DXFIGLIBDIR="\"/usr/local/share/xfig\"" -DOBJLIBDIR="\"/usr/local/share/xfig/Libraries\"" -DXFIGDOCDIR="\"/usr/local/share/doc/xfig\""   -g -O2 -MT w_canvas.o -MD -MP -MF $depbase.Tpo -c -o w_canvas.o w_canvas.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo w_capture.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I..  -DXAW_INTERNATIONALIZATION -DNDEBUG -DXFIGLIBDIR="\"/usr/local/share/xfig\"" -DOBJLIBDIR="\"/usr/local/share/xfig/Libraries\"" -DXFIGDOCDIR="\"/usr/local/share/doc/xfig\""   -g -O2 -MT w_capture.o -MD -MP -MF $depbase.Tpo -c -o w_capture.o w_capture.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo w_cmdpanel.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I..  -DXAW_INTERNATIONALIZATION -DNDEBUG -DXFIGLIBDIR="\"/usr/local/share/xfig\"" -DOBJLIBDIR="\"/usr/local/share/xfig/Libraries\"" -DXFIGDOCDIR="\"/usr/local/share/doc/xfig\""   -g -O2 -MT w_cmdpanel.o -MD -MP -MF $depbase.Tpo -c -o w_cmdpanel.o w_cmdpanel.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo w_color.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I..  -DXAW_INTERNATIONALIZATION -DNDEBUG -DXFIGLIBDIR="\"/usr/local/share/xfig\"" -DOBJLIBDIR="\"/usr/local/share/xfig/Libraries\"" -DXFIGDOCDIR="\"/usr/local/share/doc/xfig\""   -g -O2 -MT w_color.o -MD -MP -MF $depbase.Tpo -c -o w_color.o w_color.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo w_cursor.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I..  -DXAW_INTERNATIONALIZATION -DNDEBUG -DXFIGLIBDIR="\"/usr/local/share/xfig\"" -DOBJLIBDIR="\"/usr/local/share/xfig/Libraries\"" -DXFIGDOCDIR="\"/usr/local/share/doc/xfig\""   -g -O2 -MT w_cursor.o -MD -MP -MF $depbase.Tpo -c -o w_cursor.o w_cursor.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo w_digitize.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I..  -DXAW_INTERNATIONALIZATION -DNDEBUG -DXFIGLIBDIR="\"/usr/local/share/xfig\"" -DOBJLIBDIR="\"/usr/local/share/xfig/Libraries\"" -DXFIGDOCDIR="\"/usr/local/share/doc/xfig\""   -g -O2 -MT w_digitize.o -MD -MP -MF $depbase.Tpo -c -o w_digitize.o w_digitize.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo w_dir.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I..  -DXAW_INTERNATIONALIZATION -DNDEBUG -DXFIGLIBDIR="\"/usr/local/share/xfig\"" -DOBJLIBDIR="\"/usr/local/share/xfig/Libraries\"" -DXFIGDOCDIR="\"/usr/local/share/doc/xfig\""   -g -O2 -MT w_dir.o -MD -MP -MF $depbase.Tpo -c -o w_dir.o w_dir.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo w_drawprim.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I..  -DXAW_INTERNATIONALIZATION -DNDEBUG -DXFIGLIBDIR="\"/usr/local/share/xfig\"" -DOBJLIBDIR="\"/usr/local/share/xfig/Libraries\"" -DXFIGDOCDIR="\"/usr/local/share/doc/xfig\""   -g -O2 -MT w_drawprim.o -MD -MP -MF $depbase.Tpo -c -o w_drawprim.o w_drawprim.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo w_export.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I..  -DXAW_INTERNATIONALIZATION -DNDEBUG -DXFIGLIBDIR="\"/usr/local/share/xfig\"" -DOBJLIBDIR="\"/usr/local/share/xfig/Libraries\"" -DXFIGDOCDIR="\"/usr/local/share/doc/xfig\""   -g -O2 -MT w_export.o -MD -MP -MF $depbase.Tpo -c -o w_export.o w_export.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo w_file.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I..  -DXAW_INTERNATIONALIZATION -DNDEBUG -DXFIGLIBDIR="\"/usr/local/share/xfig\"" -DOBJLIBDIR="\"/usr/local/share/xfig/Libraries\"" -DXFIGDOCDIR="\"/usr/local/share/doc/xfig\""   -g -O2 -MT w_file.o -MD -MP -MF $depbase.Tpo -c -o w_file.o w_file.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo w_fontbits.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I..  -DXAW_INTERNATIONALIZATION -DNDEBUG -DXFIGLIBDIR="\"/usr/local/share/xfig\"" -DOBJLIBDIR="\"/usr/local/share/xfig/Libraries\"" -DXFIGDOCDIR="\"/usr/local/share/doc/xfig\""   -g -O2 -MT w_fontbits.o -MD -MP -MF $depbase.Tpo -c -o w_fontbits.o w_fontbits.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo w_fontpanel.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I..  -DXAW_INTERNATIONALIZATION -DNDEBUG -DXFIGLIBDIR="\"/usr/local/share/xfig\"" -DOBJLIBDIR="\"/usr/local/share/xfig/Libraries\"" -DXFIGDOCDIR="\"/usr/local/share/doc/xfig\""   -g -O2 -MT w_fontpanel.o -MD -MP -MF $depbase.Tpo -c -o w_fontpanel.o w_fontpanel.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo w_grid.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I..  -DXAW_INTERNATIONALIZATION -DNDEBUG -DXFIGLIBDIR="\"/usr/local/share/xfig\"" -DOBJLIBDIR="\"/usr/local/share/xfig/Libraries\"" -DXFIGDOCDIR="\"/usr/local/share/doc/xfig\""   -g -O2 -MT w_grid.o -MD -MP -MF $depbase.Tpo -c -o w_grid.o w_grid.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo w_help.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I..  -DXAW_INTERNATIONALIZATION -DNDEBUG -DXFIGLIBDIR="\"/usr/local/share/xfig\"" -DOBJLIBDIR="\"/usr/local/share/xfig/Libraries\"" -DXFIGDOCDIR="\"/usr/local/share/doc/xfig\""   -g -O2 -MT w_help.o -MD -MP -MF $depbase.Tpo -c -o w_help.o w_help.c &&\
+mv -f $depbase.Tpo $depbase.Po
+w_help.c: In function ‘launch_viewer’:
+w_help.c:110:2: warning: ignoring return value of ‘system’, declared with attribute warn_unused_result [-Wunused-result]
+  system(browsecommand);
+  ^~~~~~~~~~~~~~~~~~~~~
+depbase=`echo w_icons.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I..  -DXAW_INTERNATIONALIZATION -DNDEBUG -DXFIGLIBDIR="\"/usr/local/share/xfig\"" -DOBJLIBDIR="\"/usr/local/share/xfig/Libraries\"" -DXFIGDOCDIR="\"/usr/local/share/doc/xfig\""   -g -O2 -MT w_icons.o -MD -MP -MF $depbase.Tpo -c -o w_icons.o w_icons.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo w_indpanel.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I..  -DXAW_INTERNATIONALIZATION -DNDEBUG -DXFIGLIBDIR="\"/usr/local/share/xfig\"" -DOBJLIBDIR="\"/usr/local/share/xfig/Libraries\"" -DXFIGDOCDIR="\"/usr/local/share/doc/xfig\""   -g -O2 -MT w_indpanel.o -MD -MP -MF $depbase.Tpo -c -o w_indpanel.o w_indpanel.c &&\
+mv -f $depbase.Tpo $depbase.Po
+w_indpanel.c: In function ‘popup_choice_panel’:
+w_indpanel.c:1706:27: warning: ‘%s’ directive writing up to 7 bytes into a region of size between 6 and 43 [-Wformat-overflow=]
+     sprintf(buf,"Xfig: %s %s Panel",isw->line1,isw->line2);
+                           ^~
+In file included from /usr/include/stdio.h:862:0,
+                 from fig.h:43,
+                 from w_indpanel.c:19:
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:33:10: note: ‘__builtin___sprintf_chk’ output between 14 and 58 bytes into a destination of size 50
+   return __builtin___sprintf_chk (__s, __USE_FORTIFY_LEVEL - 1,
+          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+       __bos (__s), __fmt, __va_arg_pack ());
+       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+w_indpanel.c: In function ‘popup_nval_panel’:
+w_indpanel.c:2202:27: warning: ‘%s’ directive writing up to 7 bytes into a region of size between 6 and 43 [-Wformat-overflow=]
+     sprintf(buf,"Xfig: %s %s Panel",isw->line1,isw->line2);
+                           ^~
+In file included from /usr/include/stdio.h:862:0,
+                 from fig.h:43,
+                 from w_indpanel.c:19:
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:33:10: note: ‘__builtin___sprintf_chk’ output between 14 and 58 bytes into a destination of size 50
+   return __builtin___sprintf_chk (__s, __USE_FORTIFY_LEVEL - 1,
+          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+       __bos (__s), __fmt, __va_arg_pack ());
+       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+depbase=`echo w_intersect.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I..  -DXAW_INTERNATIONALIZATION -DNDEBUG -DXFIGLIBDIR="\"/usr/local/share/xfig\"" -DOBJLIBDIR="\"/usr/local/share/xfig/Libraries\"" -DXFIGDOCDIR="\"/usr/local/share/doc/xfig\""   -g -O2 -MT w_intersect.o -MD -MP -MF $depbase.Tpo -c -o w_intersect.o w_intersect.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo w_keyboard.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I..  -DXAW_INTERNATIONALIZATION -DNDEBUG -DXFIGLIBDIR="\"/usr/local/share/xfig\"" -DOBJLIBDIR="\"/usr/local/share/xfig/Libraries\"" -DXFIGDOCDIR="\"/usr/local/share/doc/xfig\""   -g -O2 -MT w_keyboard.o -MD -MP -MF $depbase.Tpo -c -o w_keyboard.o w_keyboard.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo w_layers.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I..  -DXAW_INTERNATIONALIZATION -DNDEBUG -DXFIGLIBDIR="\"/usr/local/share/xfig\"" -DOBJLIBDIR="\"/usr/local/share/xfig/Libraries\"" -DXFIGDOCDIR="\"/usr/local/share/doc/xfig\""   -g -O2 -MT w_layers.o -MD -MP -MF $depbase.Tpo -c -o w_layers.o w_layers.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo w_library.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I..  -DXAW_INTERNATIONALIZATION -DNDEBUG -DXFIGLIBDIR="\"/usr/local/share/xfig\"" -DOBJLIBDIR="\"/usr/local/share/xfig/Libraries\"" -DXFIGDOCDIR="\"/usr/local/share/doc/xfig\""   -g -O2 -MT w_library.o -MD -MP -MF $depbase.Tpo -c -o w_library.o w_library.c &&\
+mv -f $depbase.Tpo $depbase.Po
+w_library.c: In function ‘ScanLibraryDirectory.constprop’:
+w_library.c:1301:25: warning: ‘%s’ directive writing up to 255 bytes into a region of size 78 [-Wformat-overflow=]
+    sprintf(lname, "%s / %s",longname, dp->d_name);
+                         ^~
+In file included from /usr/include/stdio.h:862:0,
+                 from fig.h:43,
+                 from w_library.c:19:
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:33:10: note: ‘__builtin___sprintf_chk’ output 4 or more bytes (assuming 259) into a destination of size 81
+   return __builtin___sprintf_chk (__s, __USE_FORTIFY_LEVEL - 1,
+          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+       __bos (__s), __fmt, __va_arg_pack ());
+       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+depbase=`echo w_listwidget.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I..  -DXAW_INTERNATIONALIZATION -DNDEBUG -DXFIGLIBDIR="\"/usr/local/share/xfig\"" -DOBJLIBDIR="\"/usr/local/share/xfig/Libraries\"" -DXFIGDOCDIR="\"/usr/local/share/doc/xfig\""   -g -O2 -MT w_listwidget.o -MD -MP -MF $depbase.Tpo -c -o w_listwidget.o w_listwidget.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo w_modepanel.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I..  -DXAW_INTERNATIONALIZATION -DNDEBUG -DXFIGLIBDIR="\"/usr/local/share/xfig\"" -DOBJLIBDIR="\"/usr/local/share/xfig/Libraries\"" -DXFIGDOCDIR="\"/usr/local/share/doc/xfig\""   -g -O2 -MT w_modepanel.o -MD -MP -MF $depbase.Tpo -c -o w_modepanel.o w_modepanel.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo w_mousefun.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I..  -DXAW_INTERNATIONALIZATION -DNDEBUG -DXFIGLIBDIR="\"/usr/local/share/xfig\"" -DOBJLIBDIR="\"/usr/local/share/xfig/Libraries\"" -DXFIGDOCDIR="\"/usr/local/share/doc/xfig\""   -g -O2 -MT w_mousefun.o -MD -MP -MF $depbase.Tpo -c -o w_mousefun.o w_mousefun.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo w_msgpanel.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I..  -DXAW_INTERNATIONALIZATION -DNDEBUG -DXFIGLIBDIR="\"/usr/local/share/xfig\"" -DOBJLIBDIR="\"/usr/local/share/xfig/Libraries\"" -DXFIGDOCDIR="\"/usr/local/share/doc/xfig\""   -g -O2 -MT w_msgpanel.o -MD -MP -MF $depbase.Tpo -c -o w_msgpanel.o w_msgpanel.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo w_print.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I..  -DXAW_INTERNATIONALIZATION -DNDEBUG -DXFIGLIBDIR="\"/usr/local/share/xfig\"" -DOBJLIBDIR="\"/usr/local/share/xfig/Libraries\"" -DXFIGDOCDIR="\"/usr/local/share/doc/xfig\""   -g -O2 -MT w_print.o -MD -MP -MF $depbase.Tpo -c -o w_print.o w_print.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo w_rottext.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I..  -DXAW_INTERNATIONALIZATION -DNDEBUG -DXFIGLIBDIR="\"/usr/local/share/xfig\"" -DOBJLIBDIR="\"/usr/local/share/xfig/Libraries\"" -DXFIGDOCDIR="\"/usr/local/share/doc/xfig\""   -g -O2 -MT w_rottext.o -MD -MP -MF $depbase.Tpo -c -o w_rottext.o w_rottext.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo w_rulers.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I..  -DXAW_INTERNATIONALIZATION -DNDEBUG -DXFIGLIBDIR="\"/usr/local/share/xfig\"" -DOBJLIBDIR="\"/usr/local/share/xfig/Libraries\"" -DXFIGDOCDIR="\"/usr/local/share/doc/xfig\""   -g -O2 -MT w_rulers.o -MD -MP -MF $depbase.Tpo -c -o w_rulers.o w_rulers.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo w_setup.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I..  -DXAW_INTERNATIONALIZATION -DNDEBUG -DXFIGLIBDIR="\"/usr/local/share/xfig\"" -DOBJLIBDIR="\"/usr/local/share/xfig/Libraries\"" -DXFIGDOCDIR="\"/usr/local/share/doc/xfig\""   -g -O2 -MT w_setup.o -MD -MP -MF $depbase.Tpo -c -o w_setup.o w_setup.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo w_snap.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I..  -DXAW_INTERNATIONALIZATION -DNDEBUG -DXFIGLIBDIR="\"/usr/local/share/xfig\"" -DOBJLIBDIR="\"/usr/local/share/xfig/Libraries\"" -DXFIGDOCDIR="\"/usr/local/share/doc/xfig\""   -g -O2 -MT w_snap.o -MD -MP -MF $depbase.Tpo -c -o w_snap.o w_snap.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo w_srchrepl.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I..  -DXAW_INTERNATIONALIZATION -DNDEBUG -DXFIGLIBDIR="\"/usr/local/share/xfig\"" -DOBJLIBDIR="\"/usr/local/share/xfig/Libraries\"" -DXFIGDOCDIR="\"/usr/local/share/doc/xfig\""   -g -O2 -MT w_srchrepl.o -MD -MP -MF $depbase.Tpo -c -o w_srchrepl.o w_srchrepl.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo w_style.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I..  -DXAW_INTERNATIONALIZATION -DNDEBUG -DXFIGLIBDIR="\"/usr/local/share/xfig\"" -DOBJLIBDIR="\"/usr/local/share/xfig/Libraries\"" -DXFIGDOCDIR="\"/usr/local/share/doc/xfig\""   -g -O2 -MT w_style.o -MD -MP -MF $depbase.Tpo -c -o w_style.o w_style.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo w_util.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I..  -DXAW_INTERNATIONALIZATION -DNDEBUG -DXFIGLIBDIR="\"/usr/local/share/xfig\"" -DOBJLIBDIR="\"/usr/local/share/xfig/Libraries\"" -DXFIGDOCDIR="\"/usr/local/share/doc/xfig\""   -g -O2 -MT w_util.o -MD -MP -MF $depbase.Tpo -c -o w_util.o w_util.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo w_zoom.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I..  -DXAW_INTERNATIONALIZATION -DNDEBUG -DXFIGLIBDIR="\"/usr/local/share/xfig\"" -DOBJLIBDIR="\"/usr/local/share/xfig/Libraries\"" -DXFIGDOCDIR="\"/usr/local/share/doc/xfig\""   -g -O2 -MT w_zoom.o -MD -MP -MF $depbase.Tpo -c -o w_zoom.o w_zoom.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo f_readjpg.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I..  -DXAW_INTERNATIONALIZATION -DNDEBUG -DXFIGLIBDIR="\"/usr/local/share/xfig\"" -DOBJLIBDIR="\"/usr/local/share/xfig/Libraries\"" -DXFIGDOCDIR="\"/usr/local/share/doc/xfig\""   -g -O2 -MT f_readjpg.o -MD -MP -MF $depbase.Tpo -c -o f_readjpg.o f_readjpg.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo f_readpng.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I..  -DXAW_INTERNATIONALIZATION -DNDEBUG -DXFIGLIBDIR="\"/usr/local/share/xfig\"" -DOBJLIBDIR="\"/usr/local/share/xfig/Libraries\"" -DXFIGDOCDIR="\"/usr/local/share/doc/xfig\""   -g -O2 -MT f_readpng.o -MD -MP -MF $depbase.Tpo -c -o f_readpng.o f_readpng.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo f_wrpng.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I..  -DXAW_INTERNATIONALIZATION -DNDEBUG -DXFIGLIBDIR="\"/usr/local/share/xfig\"" -DOBJLIBDIR="\"/usr/local/share/xfig/Libraries\"" -DXFIGDOCDIR="\"/usr/local/share/doc/xfig\""   -g -O2 -MT f_wrpng.o -MD -MP -MF $depbase.Tpo -c -o f_wrpng.o f_wrpng.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo f_readtif.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I..  -DXAW_INTERNATIONALIZATION -DNDEBUG -DXFIGLIBDIR="\"/usr/local/share/xfig\"" -DOBJLIBDIR="\"/usr/local/share/xfig/Libraries\"" -DXFIGDOCDIR="\"/usr/local/share/doc/xfig\""   -g -O2 -MT f_readtif.o -MD -MP -MF $depbase.Tpo -c -o f_readtif.o f_readtif.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo f_readxpm.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I..  -DXAW_INTERNATIONALIZATION -DNDEBUG -DXFIGLIBDIR="\"/usr/local/share/xfig\"" -DOBJLIBDIR="\"/usr/local/share/xfig/Libraries\"" -DXFIGDOCDIR="\"/usr/local/share/doc/xfig\""   -g -O2 -MT f_readxpm.o -MD -MP -MF $depbase.Tpo -c -o f_readxpm.o f_readxpm.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo w_i18n.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I..  -DXAW_INTERNATIONALIZATION -DNDEBUG -DXFIGLIBDIR="\"/usr/local/share/xfig\"" -DOBJLIBDIR="\"/usr/local/share/xfig/Libraries\"" -DXFIGDOCDIR="\"/usr/local/share/doc/xfig\""   -g -O2 -MT w_i18n.o -MD -MP -MF $depbase.Tpo -c -o w_i18n.o w_i18n.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o xfig d_arcbox.o d_arc.o d_box.o d_ellipse.o d_line.o d_picobj.o d_regpoly.o d_spline.o d_subspline.o d_text.o e_addpt.o e_align.o e_arrow.o e_break.o e_chop.o e_compound.o e_convert.o e_copy.o e_delete.o e_deletept.o e_edit.o e_flip.o e_glue.o e_joinsplit.o e_measure.o e_move.o e_movept.o e_placelib.o e_rotate.o e_scale.o e_tangent.o e_update.o f_load.o f_neuclrtab.o f_picobj.o f_read.o f_readeps.o f_readgif.o f_readold.o f_readpcx.o f_readppm.o f_readxbm.o f_save.o f_util.o f_wrpcx.o main.o mode.o object.o resources.o u_bound.o u_create.o u_drag.o u_draw.o u_elastic.o u_error.o u_fonts.o u_free.o u_geom.o u_ghostscript.o u_list.o u_markers.o u_pan.o u_print.o u_quartic.o u_redraw.o u_scale.o u_search.o u_smartsearch.o u_translate.o u_undo.o w_browse.o w_canvas.o w_capture.o w_cmdpanel.o w_color.o w_cursor.o w_digitize.o w_dir.o w_drawprim.o w_export.o w_file.o w_fontbits.o w_fontpanel.o w_grid.o w_help.o w_icons.o w_indpanel.o w_intersect.o w_keyboard.o w_layers.o w_library.o w_listwidget.o w_modepanel.o w_mousefun.o w_msgpanel.o w_print.o w_rottext.o w_rulers.o w_setup.o w_snap.o w_srchrepl.o w_style.o w_util.o w_zoom.o f_readjpg.o f_readpng.o f_wrpng.o f_readtif.o f_readxpm.o  w_i18n.o   -lXaw3d -lXt -lX11 -lXpm -ltiff -lpng -ljpeg -lm 
+make[2]: Leaving directory '/home/liu2598/MemFuzz/generator/fig/src/xfig-3.2.8b/src'
+Making all in doc
+make[2]: Entering directory '/home/liu2598/MemFuzz/generator/fig/src/xfig-3.2.8b/doc'
+test -r html/images/xfig-title.fig ||                           \
+                make -C .. doc/html/images/xfig-title.fig
+make[3]: Entering directory '/home/liu2598/MemFuzz/generator/fig/src/xfig-3.2.8b'
+cd . && /bin/bash ./config.status doc/html/images/xfig-title.fig
+config.status: creating doc/html/images/xfig-title.fig
+make[3]: Leaving directory '/home/liu2598/MemFuzz/generator/fig/src/xfig-3.2.8b'
+fig2dev -L png -S4 html/images/xfig-title.fig "html/images/xfig-title.png"
+/bin/bash: fig2dev: command not found
+Makefile:617: recipe for target 'html/images/xfig-title.png' failed
+make[2]: *** [html/images/xfig-title.png] Error 127
+make[2]: Leaving directory '/home/liu2598/MemFuzz/generator/fig/src/xfig-3.2.8b/doc'
+Makefile:537: recipe for target 'all-recursive' failed
+make[1]: *** [all-recursive] Error 1
+make[1]: Leaving directory '/home/liu2598/MemFuzz/generator/fig/src/xfig-3.2.8b'
+Makefile:388: recipe for target 'all' failed
+make: *** [all] Error 2

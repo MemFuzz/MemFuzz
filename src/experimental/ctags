@@ -1,0 +1,3 @@
+ctags -x --c++-kinds=pfscuetgmnvx --language-force=c++ @@
+ctags -x --c-kinds=fp @@
+ctags -x --c++-kinds=pf --language-force=c++ @@

@@ -1,0 +1,4 @@
+The valid call sequence for each program.
+
+The trace can be acuqired by run a modified callgrind:
+./vg-in-place --tool=callgrind ${cmd} > ${filename} 2>&1

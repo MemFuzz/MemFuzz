@@ -1,0 +1,3597 @@
+ToUnicode
+iscntrl
+destroy<char>
+empty
+GetDensity
+__niter_base<PoDoFo::TFontCacheElement *, std::vector<PoDoFo::TFontCacheElement, std::allocator<PoDoFo::TFontCacheElement> > >
+_Iter_comp_val
+memset
+SetCurrentContentsStream
+__miter_base<PoDoFo::PdfReference *>
+copy<std::pair<std::__cxx11::basic_string<char>, PoDoFo::EPdfTokenType> **, std::pair<std::__cxx11::basic_string<char>, PoDoFo::EPdfTokenType> **>
+SetOpen
+__equal_range<__gnu_cxx::__normal_iterator<PoDoFo::PdfEncodingDifference::TDifference *, std::vector<PoDoFo::PdfEncodingDifference::TDifference, std::allocator<PoDoFo::PdfEncodingDifference::TDifference> > >, PoDoFo::PdfEncodingDifference::TDifference, __gnu_cxx::__ops::_Iter_comp_val<PoDoFo::PdfEncodingDifference::DifferenceComparatorPredicate>, __gnu_cxx::__ops::_Val_comp_iter<PoDoFo::PdfEncodingDifference::DifferenceComparatorPredicate> >
+operator()<PoDoFo::PdfXRef::TXRefItem, __gnu_cxx::__normal_iterator<PoDoFo::PdfXRef::TXRefItem *, std::vector<PoDoFo::PdfXRef::TXRefItem, std::allocator<PoDoFo::PdfXRef::TXRefItem> > > >
+TTrueTypeTable
+__uninitialized_move_if_noexcept_a<PoDoFo::PdfFontTTFSubset::TTrueTypeTable *, PoDoFo::PdfFontTTFSubset::TTrueTypeTable *, std::allocator<PoDoFo::PdfFontTTFSubset::TTrueTypeTable> >
+PdfMemoryInputStream
+~PdfEncoding
+_Destroy<PoDoFo::PdfReference *>
+fread
+__copy_move_a<true, PoDoFo::PdfVecObjects::Observer **, PoDoFo::PdfVecObjects::Observer **>
+GetMaxLen
+pair<unsigned int &&, 0>
+forward<const std::__cxx11::basic_string<char> &>
+WriteXRefEntry
+__advance<__gnu_cxx::__normal_iterator<PoDoFo::PdfObject **, std::vector<PoDoFo::PdfObject *, std::allocator<PoDoFo::PdfObject *> > >, long>
+_M_realloc_insert<const unsigned char &>
+GetCurrentGraphicsState
+end
+operator>
+_M_create_node<const std::piecewise_construct_t &, std::tuple<const PoDoFo::PdfName &>, std::tuple<> >
+~PdfDataType
+podofo_calloc
+destroy<std::pair<const PoDoFo::PdfName, PoDoFo::PdfObject *> >
+tgammal
+_M_insert_aux<PoDoFo::PdfReference>
+get<0, PoDoFo::PdfOutputStream *, std::default_delete<PoDoFo::PdfOutputStream> >
+__val_comp_iter<PoDoFo::NamedColorComparatorPredicate>
+ParseFileComplete
+__niter_base<PoDoFo::PdfObject **>
+__uninitialized_move_if_noexcept_a<double *, double *, std::allocator<double> >
+_M_check_len
+PdfDocEncoding
+fwrite
+swap<PoDoFo::PdfObject *>
+classic
+wcsftime
+construct<PoDoFo::TFontCacheElement, PoDoFo::TFontCacheElement>
+~PdfDictionary
+forward<std::_Rb_tree_iterator<unsigned short> &>
+pair<std::_Deque_iterator<PoDoFo::PdfReference, PoDoFo::PdfReference &, PoDoFo::PdfReference *> &, std::_Deque_iterator<PoDoFo::PdfReference, PoDoFo::PdfReference &, PoDoFo::PdfReference *> &, true>
+~PdfPage
+GetPageNumber
+__iter_comp_val<PoDoFo::ObjectComparatorPredicate>
+AutoDelete
+operator==<PoDoFo::PdfParser::TXRefEntry *>
+__iterator_category<std::_Deque_iterator<PoDoFo::PdfErrorInfo, const PoDoFo::PdfErrorInfo &, const PoDoFo::PdfErrorInfo *> >
+_M_push_front_aux<PoDoFo::PdfReference>
+QuequeToken
+emplace_back<PoDoFo::PdfObject *>
+destroy<std::pair<const PoDoFo::PdfReference, PoDoFo::PdfAnnotation *> >
+__destroy<__gnu_cxx::__normal_iterator<PoDoFo::PdfReference *, std::vector<PoDoFo::PdfReference, std::allocator<PoDoFo::PdfReference> > > >
+PdfContentsTokenizer
+get_deleter
+__copy_move_b<PoDoFo::PdfPage **>
+__make_move_if_noexcept_iterator<PoDoFo::PdfPage *, std::move_iterator<PoDoFo::PdfPage **> >
+emplace_back<std::pair<std::__cxx11::basic_string<char>, PoDoFo::EPdfTokenType> >
+EmbedSubsetFonts
+move_backward<PoDoFo::PdfObject *, PoDoFo::PdfObject *>
+__copy_move_a2<false, __gnu_cxx::__normal_iterator<const unsigned char *, std::vector<unsigned char, std::allocator<unsigned char> > >, __gnu_cxx::__normal_iterator<unsigned char *, std::vector<unsigned char, std::allocator<unsigned char> > > >
+__destroy<PoDoFo::PdfXRef::TXRefItem *>
+_M_realloc_insert<PoDoFo::PdfVariant>
+__copy_move_a<true, unsigned int *, unsigned int *>
+~PdfFontCID
+wctomb
+~PdfColorCMYK
+strtol
+construct<PoDoFo::PdfObject, const PoDoFo::PdfObject &>
+_M_set_size
+Append
+IsLoaded
+destroy<std::pair<const unsigned short, int> >
+uninitialized_copy<std::move_iterator<unsigned int *>, unsigned int *>
+GetArray
+SetTrailer
+~PdfParser
+_M_realloc_insert<const long &>
+advance<__gnu_cxx::__normal_iterator<PoDoFo::PdfXRef::TXRefItem *, std::vector<PoDoFo::PdfXRef::TXRefItem, std::allocator<PoDoFo::PdfXRef::TXRefItem> > >, unsigned long>
+SetRect
+make_pair<const PoDoFo::PdfName &, PoDoFo::PdfObject *&>
+SetReadOnly
+__uninitialized_move_if_noexcept_a<PoDoFo::PdfExtension *, PoDoFo::PdfExtension *, std::allocator<PoDoFo::PdfExtension> >
+PdfColorSeparationAll
+__uninitialized_copy_a<__gnu_cxx::__normal_iterator<const PoDoFo::PdfReference *, std::vector<PoDoFo::PdfReference, std::allocator<PoDoFo::PdfReference> > >, PoDoFo::PdfReference *, PoDoFo::PdfReference>
+count
+__uninitialized_copy_a<std::move_iterator<PoDoFo::PdfPage **>, PoDoFo::PdfPage **, PoDoFo::PdfPage *>
+GetInternalBuffer
+GarbageCollection
+TGraphicsStackElement
+InsertReferencesIntoVector
+operator!=<PoDoFo::PdfEncodingDifference::TDifference *, std::vector<PoDoFo::PdfEncodingDifference::TDifference, std::allocator<PoDoFo::PdfEncodingDifference::TDifference> > >
+SetRolloverCaption
+GetURI
+PdfType1EncryptEexec
+SetBorderStyle
+_M_const_cast
+pair<std::_Rb_tree_node<long> *&, std::_Rb_tree_node_base *&, true>
+__miter_base<PoDoFo::TFontCacheElement *>
+genSubsetBasename
+__uninitialized_move_if_noexcept_a<PoDoFo::PdfObject *, PoDoFo::PdfObject *, std::allocator<PoDoFo::PdfObject> >
+~PdfTextField
+__copy_m<std::pair<std::__cxx11::basic_string<char>, PoDoFo::EPdfTokenType> *>
+AddKey
+_Construct<PoDoFo::PdfErrorInfo, PoDoFo::PdfErrorInfo>
+PdfPage
+FreeGlobalEncodingInstances
+pair<__gnu_cxx::__normal_iterator<PoDoFo::PdfEncodingDifference::TDifference *, std::vector<PoDoFo::PdfEncodingDifference::TDifference, std::allocator<PoDoFo::PdfEncodingDifference::TDifference> > > &, __gnu_cxx::__normal_iterator<PoDoFo::PdfEncodingDifference::TDifference *, std::vector<PoDoFo::PdfEncodingDifference::TDifference, std::allocator<PoDoFo::PdfEncodingDifference::TDifference> > > &, true>
+nearbyint
+_M_drop_node
+operator-<const PoDoFo::TFontCacheElement *, std::vector<PoDoFo::TFontCacheElement, std::allocator<PoDoFo::TFontCacheElement> > >
+forward<std::tuple<unsigned short &&> >
+__make_move_if_noexcept_iterator<PoDoFo::PdfFontTTFSubset::CMapv4Range, std::move_iterator<PoDoFo::PdfFontTTFSubset::CMapv4Range *> >
+SetCatalog
+__unguarded_insertion_sort<__gnu_cxx::__normal_iterator<PoDoFo::PdfXRef::PdfXRefBlock *, std::vector<PoDoFo::PdfXRef::PdfXRefBlock, std::allocator<PoDoFo::PdfXRef::PdfXRefBlock> > >, __gnu_cxx::__ops::_Iter_less_iter>
+__uninit_copy<__gnu_cxx::__normal_iterator<const double *, std::vector<double, std::allocator<double> > >, double *>
+__uninitialized_copy_a<__gnu_cxx::__normal_iterator<PoDoFo::PdfReference *, std::vector<PoDoFo::PdfReference, std::allocator<PoDoFo::PdfReference> > >, PoDoFo::PdfReference *, PoDoFo::PdfReference>
+_Destroy<unsigned char *, unsigned char>
+cend
+AddToDictionary
+PdfRC4Stream
+GetMaxObjectCount
+strcmp
+_Temporary_value<PoDoFo::PdfObject *const &>
+signaling_NaN
+EndXObject
+EndAppendImpl
+__copy_move_a2<false, std::pair<std::__cxx11::basic_string<char>, PoDoFo::EPdfTokenType> **, std::pair<std::__cxx11::basic_string<char>, PoDoFo::EPdfTokenType> **>
+_S_maximum
+__uninit_copy<std::move_iterator<PoDoFo::PdfObject **>, PoDoFo::PdfObject **>
+fill<std::_Deque_iterator<PoDoFo::PdfPage *, PoDoFo::PdfPage *&, PoDoFo::PdfPage **>, PoDoFo::PdfPage *>
+PdfSymbolEncoding
+GetNumberOfTables
+__normal_iterator<unsigned short *>
+iswpunct
+__destroy<PoDoFo::PdfObject **>
+Parse
+destroy<double>
+_M_insert_lower_node
+forward<std::_Rb_tree_node<unsigned short> *&>
+__copy_m<PoDoFo::PdfEncodingDifference::TDifference *, PoDoFo::PdfEncodingDifference::TDifference *>
+operator==<PoDoFo::TFontCacheElement *, const PoDoFo::TFontCacheElement *, std::vector<PoDoFo::TFontCacheElement, std::allocator<PoDoFo::TFontCacheElement> > >
+_Tuple_impl<unsigned short>
+GetBlue
+IsUnicode
+IsChecked
+__copy_move_a2<true, PoDoFo::PdfPage **, PoDoFo::PdfPage **>
+Close
+GetWordSpace
+PDF_MAX<double>
+_M_realloc_insert<const PoDoFo::PdfFontTTFSubset::CMapv4Range &>
+PdfFontType1Base14
+First
+ComputeOwnerKey
+fill_input_buffer
+tan
+_Destroy<std::__cxx11::list<PoDoFo::PdfReference *, std::allocator<PoDoFo::PdfReference *> > *, std::__cxx11::list<PoDoFo::PdfReference *, std::allocator<PoDoFo::PdfReference *> > >
+__copy_move_a<true, char *, char *>
+__uninitialized_move_if_noexcept_a<PoDoFo::PdfVariant *, PoDoFo::PdfVariant *, std::allocator<PoDoFo::PdfVariant> >
+_Val_less_iter
+GetWidth
+__get_helper<0, const unsigned short &>
+operator!=<const PoDoFo::EPdfFilter *, std::vector<PoDoFo::EPdfFilter, std::allocator<PoDoFo::EPdfFilter> > >
+SetURI
+pair<std::_Rb_tree_node<std::__cxx11::basic_string<char> > *&, std::_Rb_tree_node_base *&, true>
+__fill_a<std::_Deque_iterator<PoDoFo::PdfPage *, PoDoFo::PdfPage *&, PoDoFo::PdfPage **>, PoDoFo::PdfPage *>
+puts
+operator!=<const PoDoFo::PdfFontTTFSubset::CMapv4Range *, PoDoFo::PdfFontTTFSubset::CMapv4Range *, std::vector<PoDoFo::PdfFontTTFSubset::CMapv4Range, std::allocator<PoDoFo::PdfFontTTFSubset::CMapv4Range> > >
+fwide
+GetStringIndex
+_Destroy<__gnu_cxx::__normal_iterator<PoDoFo::PdfReference *, std::vector<PoDoFo::PdfReference, std::allocator<PoDoFo::PdfReference> > > >
+pair<std::_Rb_tree_iterator<std::pair<const PoDoFo::PdfReference, PoDoFo::PdfAnnotation *> >, std::_Rb_tree_iterator<std::pair<const PoDoFo::PdfReference, PoDoFo::PdfAnnotation *> >, true>
+SetDestination
+__uninitialized_copy_a<std::move_iterator<unsigned char *>, unsigned char *, unsigned char>
+GetPdfVersionString
+InitUtf8
+swap<PoDoFo::PdfReference>
+GenerationNumber
+~stack
+__uninitialized_move_if_noexcept_a<PoDoFo::TBFRange *, PoDoFo::TBFRange *, std::allocator<PoDoFo::TBFRange> >
+__destroy<PoDoFo::PdfParser::TXRefEntry *>
+move<std::__cxx11::_List_base<PoDoFo::PdfReference *, std::allocator<PoDoFo::PdfReference *> > &>
+GetInformationW
+forward<const int &>
+__copy_move_a2<true, long *, long *>
+copy<PoDoFo::PdfErrorInfo *, PoDoFo::PdfErrorInfo *>
+InitEncodingTable
+__copy_move_a<true, PoDoFo::PdfObject **, PoDoFo::PdfObject **>
+move_backward<PoDoFo::PdfObject **, PoDoFo::PdfObject **>
+operator==<PoDoFo::PdfExtension *>
+__advance<__gnu_cxx::__normal_iterator<PoDoFo::PdfObject *const *, std::vector<PoDoFo::PdfObject *, std::allocator<PoDoFo::PdfObject *> > >, long>
+operator<<PoDoFo::PdfReference *, std::vector<PoDoFo::PdfReference, std::allocator<PoDoFo::PdfReference> > >
+IsTypePage
+move<char *&>
+ilogb
+uninitialized_copy<__gnu_cxx::__normal_iterator<const double *, std::vector<double, std::allocator<double> > >, double *>
+vwscanf
+__uninitialized_default_n<char *, unsigned long>
+SetFieldFlag
+~PdfFileOutputStream
+BaseDecrypt
+operator()<__gnu_cxx::__normal_iterator<PoDoFo::PdfXRef::TXRefItem *, std::vector<PoDoFo::PdfXRef::TXRefItem, std::allocator<PoDoFo::PdfXRef::TXRefItem> > >, __gnu_cxx::__normal_iterator<PoDoFo::PdfXRef::TXRefItem *, std::vector<PoDoFo::PdfXRef::TXRefItem, std::allocator<PoDoFo::PdfXRef::TXRefItem> > > >
+TDifference
+__uninitialized_move_if_noexcept_a<PoDoFo::PdfXRef::PdfXRefBlock *, PoDoFo::PdfXRef::PdfXRefBlock *, std::allocator<PoDoFo::PdfXRef::PdfXRefBlock> >
+__insertion_sort<__gnu_cxx::__normal_iterator<PoDoFo::PdfReference *, std::vector<PoDoFo::PdfReference, std::allocator<PoDoFo::PdfReference> > >, __gnu_cxx::__ops::_Iter_less_iter>
+operator++
+~PdfMemDocument
+_S_initialize_once
+pair<std::__cxx11::basic_string<char>, PoDoFo::EPdfTokenType &, true>
+strcoll
+GetGrayScale
+distance<__gnu_cxx::__normal_iterator<PoDoFo::PdfXRef::TXRefItem *, std::vector<PoDoFo::PdfXRef::TXRefItem, std::allocator<PoDoFo::PdfXRef::TXRefItem> > > >
+insert<__gnu_cxx::__normal_iterator<PoDoFo::PdfReference *, std::vector<PoDoFo::PdfReference, std::allocator<PoDoFo::PdfReference> > >, void>
+get<1, char *, void (*)(void *)>
+__push_heap<__gnu_cxx::__normal_iterator<PoDoFo::PdfObject **, std::vector<PoDoFo::PdfObject *, std::allocator<PoDoFo::PdfObject *> > >, long, PoDoFo::PdfObject *, __gnu_cxx::__ops::_Iter_comp_val<bool (*)(const PoDoFo::PdfObject *, const PoDoFo::PdfObject *)> >
+~PdfStandardEncoding
+__miter_base<PoDoFo::PdfObject **>
+__niter_base<PoDoFo::PdfEncodingDifference::TDifference *>
+PdfFontMetricsFreetype
+remainderf
+DelayedLoadImpl
+SetExport
+vsnprintf
+_M_construct_node<const std::piecewise_construct_t &, std::tuple<long &&>, std::tuple<> >
+CreateStream
+top
+__copy_move_b<std::pair<std::__cxx11::basic_string<char>, PoDoFo::EPdfTokenType> *>
+SetObjectCount
+PDF_MIN<unsigned long>
+atof
+GetParentDocument
+IsPrintAllowed
+_Destroy<std::__cxx11::list<PoDoFo::PdfReference *, std::allocator<PoDoFo::PdfReference *> > *>
+GlobalStandardEncodingInstance
+tuple<PoDoFo::PdfOutputStream *, std::default_delete<PoDoFo::PdfOutputStream>, true>
+SetAppearanceChecked
+operator==<std::__cxx11::list<PoDoFo::PdfReference *, std::allocator<PoDoFo::PdfReference *> > *>
+__pop_heap<__gnu_cxx::__normal_iterator<PoDoFo::PdfReference *, std::vector<PoDoFo::PdfReference, std::allocator<PoDoFo::PdfReference> > >, __gnu_cxx::__ops::_Iter_less_iter>
+GetItalicAngle
+__uninit_copy<std::move_iterator<PoDoFo::PdfReference *>, PoDoFo::PdfReference *>
+SetTrimBox
+__uninit_copy<std::move_iterator<PoDoFo::PdfXRef::TXRefItem *>, PoDoFo::PdfXRef::TXRefItem *>
+__uninit_default_n<std::__cxx11::list<PoDoFo::PdfReference *, std::allocator<PoDoFo::PdfReference *> > *, unsigned long>
+addressof<PoDoFo::PdfObject>
+operator!=<PoDoFo::PdfVecObjects::Observer **, std::vector<PoDoFo::PdfVecObjects::Observer *, std::allocator<PoDoFo::PdfVecObjects::Observer *> > >
+move<unsigned char &>
+_M_id
+addressof<PoDoFo::PdfReference>
+~PdfMacRomanEncoding
+GetFontCharSpace
+SetNext
+DebugEnabled
+~TGraphicsStackElement
+_M_destroy_data
+_S_distance
+move<bool (*&)(const PoDoFo::PdfObject *, const PoDoFo::PdfObject *)>
+__lower_bound<std::_Deque_iterator<PoDoFo::PdfReference, PoDoFo::PdfReference &, PoDoFo::PdfReference *>, PoDoFo::PdfReference, __gnu_cxx::__ops::_Iter_less_val>
+GetFontConfigFontPath
+operator-<PoDoFo::PdfXRef::TXRefItem *, std::vector<PoDoFo::PdfXRef::TXRefItem, std::allocator<PoDoFo::PdfXRef::TXRefItem> > >
+_Destroy<PoDoFo::PdfLZWFilter::TLzwItem>
+forward<std::_Rb_tree_node<std::pair<const unsigned int, unsigned long> > *&>
+__lower_bound<__gnu_cxx::__normal_iterator<PoDoFo::PdfObject **, std::vector<PoDoFo::PdfObject *, std::allocator<PoDoFo::PdfObject *> > >, PoDoFo::PdfObject *, __gnu_cxx::__ops::_Iter_comp_val<bool (*)(const PoDoFo::PdfObject *, const PoDoFo::PdfObject *)> >
+__iter_equals_val<PoDoFo::PdfObject *const>
+__copy_move_a2<true, PoDoFo::PdfReference *, PoDoFo::PdfReference *>
+forward<char>
+vfwscanf
+DerefBuffer
+GetReal
+__insertion_sort<__gnu_cxx::__normal_iterator<PoDoFo::TFontCacheElement *, std::vector<PoDoFo::TFontCacheElement, std::allocator<PoDoFo::TFontCacheElement> > >, __gnu_cxx::__ops::_Iter_less_iter>
+operator-<PoDoFo::PdfObject *, std::vector<PoDoFo::PdfObject, std::allocator<PoDoFo::PdfObject> > >
+~PdfColorSeparationAll
+__make_move_if_noexcept_iterator<PoDoFo::EPdfFilter, std::move_iterator<PoDoFo::EPdfFilter *> >
+copy_backward<std::pair<std::__cxx11::basic_string<char>, PoDoFo::EPdfTokenType> **, std::pair<std::__cxx11::basic_string<char>, PoDoFo::EPdfTokenType> **>
+__introsort_loop<__gnu_cxx::__normal_iterator<PoDoFo::PdfObject **, std::vector<PoDoFo::PdfObject *, std::allocator<PoDoFo::PdfObject *> > >, long, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(const PoDoFo::PdfObject *, const PoDoFo::PdfObject *)> >
+~PdfOutputDevice
+copy<std::move_iterator<unsigned char *>, unsigned char *>
+PDF_MIN<double>
+FindToken2
+_M_realloc_insert<const PoDoFo::PdfFontTTFSubset::TTrueTypeTable &>
+~PdfDeviceInputStream
+PdfRC4InputStream
+PdfColorRGB
+SetNonStrokingColorRGB
+_Vector_base
+forward<std::_Rb_tree_node_base *&>
+move_backward<PoDoFo::PdfReference *, PoDoFo::PdfReference *>
+operator()<__gnu_cxx::__normal_iterator<PoDoFo::PdfXRef::TXRefItem *, std::vector<PoDoFo::PdfXRef::TXRefItem, std::allocator<PoDoFo::PdfXRef::TXRefItem> > >, PoDoFo::PdfXRef::TXRefItem>
+__uninitialized_move_if_noexcept_a<unsigned int *, unsigned int *, std::allocator<unsigned int> >
+Tell
+_M_create_node<std::pair<PoDoFo::PdfName, PoDoFo::PdfObject *> >
+StringWidth
+operator-<const PoDoFo::PdfXRef::PdfXRefBlock *, PoDoFo::PdfXRef::PdfXRefBlock *, std::vector<PoDoFo::PdfXRef::PdfXRefBlock, std::allocator<PoDoFo::PdfXRef::PdfXRefBlock> > >
+pair<std::_Rb_tree_node<std::pair<PoDoFo::PdfObject *const, PoDoFo::PdfAnnotation *> > *&, std::_Rb_tree_node_base *&, true>
+putc
+__copy_move_backward_a2<true, PoDoFo::PdfReference *, PoDoFo::PdfReference *>
+InsertChild
+__niter_base<std::pair<std::__cxx11::basic_string<char>, PoDoFo::EPdfTokenType> **>
+IsBold
+operator!=<const unsigned int *, std::vector<unsigned int, std::allocator<unsigned int> > >
+_M_realloc_insert<long>
+DelayedStreamLoad
+__make_heap<__gnu_cxx::__normal_iterator<PoDoFo::PdfObject **, std::vector<PoDoFo::PdfObject *, std::allocator<PoDoFo::PdfObject *> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(const PoDoFo::PdfObject *, const PoDoFo::PdfObject *)> >
+PdfOutputStream
+GetFontDataLen
+HasPdfExtension
+_M_head
+get<1, std::vector<char, std::allocator<char> > *, std::default_delete<std::vector<char, std::allocator<char> > > >
+BuildFont
+move<PoDoFo::PdfXRef::PdfXRefBlock &>
+ReadXRefStreamContents
+uninitialized_copy<__gnu_cxx::__normal_iterator<const unsigned char *, std::vector<unsigned char, std::allocator<unsigned char> > >, unsigned char *>
+__miter_base<__gnu_cxx::__normal_iterator<const double *, std::vector<double, std::allocator<double> > > >
+SetPageInvisibleAction
+ReadHexString
+SetLanguage
+GetFontMetrics2
+FillXObjectFromExistingPage
+CreateChild
+get<1, PoDoFo::PdfOutputStream *, std::default_delete<PoDoFo::PdfOutputStream> >
+wcscpy
+GetNumAnnots
+FlateCompress
+operator()
+__copy_move_a2<true, PoDoFo::PdfErrorInfo *, PoDoFo::PdfErrorInfo *>
+__normal_iterator<PoDoFo::PdfVecObjects::Observer **>
+SetCenterWindow
+move<long &>
+_M_create_node<const std::piecewise_construct_t &, std::tuple<unsigned short &&>, std::tuple<> >
+move<PoDoFo::PdfErrorInfo *, PoDoFo::PdfErrorInfo *>
+_M_realloc_insert<const PoDoFo::PdfXRef::PdfXRefBlock &>
+SetInfo
+__unguarded_insertion_sort<__gnu_cxx::__normal_iterator<PoDoFo::PdfXRef::TXRefItem *, std::vector<PoDoFo::PdfXRef::TXRefItem, std::allocator<PoDoFo::PdfXRef::TXRefItem> > >, __gnu_cxx::__ops::_Iter_less_iter>
+perror
+max
+_M_initialize_map
+__final_insertion_sort<__gnu_cxx::__normal_iterator<PoDoFo::TFontCacheElement *, std::vector<PoDoFo::TFontCacheElement, std::allocator<PoDoFo::TFontCacheElement> > >, __gnu_cxx::__ops::_Iter_less_iter>
+_Construct<PoDoFo::PdfFontTTFSubset::CMapv4Range, PoDoFo::PdfFontTTFSubset::CMapv4Range>
+__cxx_global_var_init.9
+CreateEncoding
+~PdfAnnotation
+allocator<std::__cxx11::basic_string<char> >
+_M_realloc_insert<const PoDoFo::PdfReference &>
+getNamespace
+FixObjectReferences
+strcasecmp
+SetEditable
+__uninitialized_copy_a<std::move_iterator<PoDoFo::PdfFontTTFSubset::CMapv4Range *>, PoDoFo::PdfFontTTFSubset::CMapv4Range *, PoDoFo::PdfFontTTFSubset::CMapv4Range>
+forward<bool>
+_Destroy<PoDoFo::PdfXRef::TXRefItem *>
+abs
+MergeTrailer
+__make_move_if_noexcept_iterator<PoDoFo::TBFRange, std::move_iterator<PoDoFo::TBFRange *> >
+pair<unsigned int &&>
+_Temporary_value<const PoDoFo::PdfEncodingDifference::TDifference &>
+~__allocated_ptr
+_Destroy<PoDoFo::PdfEncodingDifference::TDifference *>
+__niter_base<const unsigned char *, std::vector<unsigned char, std::allocator<unsigned char> > >
+forward<std::tuple<long &&> >
+~_List_impl
+quiet_NaN
+operator()<std::__cxx11::basic_string<char> >
+construct<PoDoFo::PdfXRef::PdfXRefBlock, PoDoFo::PdfXRef::PdfXRefBlock>
+move<std::__cxx11::list<PoDoFo::PdfReference *, std::allocator<PoDoFo::PdfReference *> > &>
+__uninitialized_copy_a<std::move_iterator<unsigned int *>, unsigned int *, unsigned int>
+CreateObjKey
+IsRichText
+EndAppendStream
+podofo_realloc
+~CMap
+_S_normalize_category
+ReadObjectsFromStream
+unique_ptr
+CalculateStreamLength
+__get_helper<1, std::default_delete<std::vector<char, std::allocator<char> > >>
+to_int_type
+__unguarded_partition<__gnu_cxx::__normal_iterator<PoDoFo::TFontCacheElement *, std::vector<PoDoFo::TFontCacheElement, std::allocator<PoDoFo::TFontCacheElement> > >, __gnu_cxx::__ops::_Iter_less_iter>
+__get_helper<1, void (*)(void *)>
+GetStrokingColor
+__copy_move_a<false, GraphicsStack::TGraphicsStackElement **, GraphicsStack::TGraphicsStackElement **>
+pair<const long &, 0>
+move<PoDoFo::PdfReference *&>
+GetNumberOfGlyphs
+allocator<GraphicsStack::TGraphicsStackElement>
+nanl
+SetHideWindowUI
+PdfInputStream
+__copy_move_b<PoDoFo::TFontCacheElement *, PoDoFo::TFontCacheElement *>
+Create
+__upper_bound<std::_Deque_iterator<PoDoFo::PdfReference, PoDoFo::PdfReference &, PoDoFo::PdfReference *>, PoDoFo::PdfReference, __gnu_cxx::__ops::_Val_comp_iter<PoDoFo::ReferenceComparatorPredicate> >
+~PdfFontMetrics
+memchr
+__copy_m<PoDoFo::PdfErrorInfo *, PoDoFo::PdfErrorInfo *>
+__cxx_global_var_init
+IsNull
+_M_realloc_insert<const PoDoFo::TFontCacheElement &>
+_M_emplace_hint_unique<const std::piecewise_construct_t &, std::tuple<unsigned int &&>, std::tuple<> >
+strcat
+operator-<std::pair<std::__cxx11::basic_string<char>, PoDoFo::EPdfTokenType>, std::pair<std::__cxx11::basic_string<char>, PoDoFo::EPdfTokenType> &, std::pair<std::__cxx11::basic_string<char>, PoDoFo::EPdfTokenType> *>
+GetStrikeOutPosition
+operator==<const PoDoFo::PdfXRef::TXRefItem *, PoDoFo::PdfXRef::TXRefItem *, std::vector<PoDoFo::PdfXRef::TXRefItem, std::allocator<PoDoFo::PdfXRef::TXRefItem> > >
+emplace_back<double>
+insert<__gnu_cxx::__normal_iterator<PoDoFo::PdfObject *, std::vector<PoDoFo::PdfObject, std::allocator<PoDoFo::PdfObject> > > >
+FindKeyParent
+SetBold
+_M_emplace_hint_unique<const std::piecewise_construct_t &, std::tuple<const unsigned short &>, std::tuple<> >
+_Construct<PoDoFo::PdfObject, const PoDoFo::PdfObject &>
+forward<double>
+GetAcroForm
+stack
+GetMappingName
+lroundf
+SetScript
+_Construct<std::__cxx11::list<PoDoFo::PdfReference *, std::allocator<PoDoFo::PdfReference *> >, std::__cxx11::list<PoDoFo::PdfReference *, std::allocator<PoDoFo::PdfReference *> > >
+putchar
+ProcessColor
+skip_input_data
+__distance<__gnu_cxx::__normal_iterator<PoDoFo::PdfXRef::TXRefItem *, std::vector<PoDoFo::PdfXRef::TXRefItem, std::allocator<PoDoFo::PdfXRef::TXRefItem> > > >
+_Destroy<PoDoFo::PdfFontTTFSubset::TTrueTypeTable *, PoDoFo::PdfFontTTFSubset::TTrueTypeTable>
+__partial_sort<__gnu_cxx::__normal_iterator<PoDoFo::TFontCacheElement *, std::vector<PoDoFo::TFontCacheElement, std::allocator<PoDoFo::TFontCacheElement> > >, __gnu_cxx::__ops::_Iter_less_iter>
+Attach
+localtime
+_M_allocate_node
+pair<__gnu_cxx::__normal_iterator<PoDoFo::TFontCacheElement *, std::vector<PoDoFo::TFontCacheElement, std::allocator<PoDoFo::TFontCacheElement> > > &, __gnu_cxx::__normal_iterator<PoDoFo::TFontCacheElement *, std::vector<PoDoFo::TFontCacheElement, std::allocator<PoDoFo::TFontCacheElement> > > &, true>
+pair<const unsigned long &, 0>
+_Destroy<PoDoFo::PdfPage **>
+_Destroy<PoDoFo::PdfFontTTFSubset::CMapv4Range *>
+DeletePageFromNode
+IsArray
+InsertChildInternal
+__copy_m<PoDoFo::PdfObject *, PoDoFo::PdfObject *>
+operator!=<const PoDoFo::PdfReference *, std::vector<PoDoFo::PdfReference, std::allocator<PoDoFo::PdfReference> > >
+IsRawData
+allocator<PoDoFo::PdfReference>
+lower_bound<__gnu_cxx::__normal_iterator<PoDoFo::PdfObject *const *, std::vector<PoDoFo::PdfObject *, std::allocator<PoDoFo::PdfObject *> > >, PoDoFo::PdfObject *, PoDoFo::ObjectComparatorPredicate>
+scalblnl
+construct<std::pair<const unsigned short, PoDoFo::PdfFontTTFSubset::TGlyphData>, const std::piecewise_construct_t &, std::tuple<const unsigned short &>, std::tuple<> >
+wcsxfrm
+__copy_m<unsigned char>
+uninitialized_copy<std::move_iterator<PoDoFo::PdfFontTTFSubset::CMapv4Range *>, PoDoFo::PdfFontTTFSubset::CMapv4Range *>
+_M_insert_aux<PoDoFo::TFontCacheElement>
+__copy_move_backward_a2<true, PoDoFo::PdfXRef::TXRefItem *, PoDoFo::PdfXRef::TXRefItem *>
+uninitialized_copy<std::move_iterator<PoDoFo::EPdfFilter *>, PoDoFo::EPdfFilter *>
+__uninitialized_move_if_noexcept_a<PoDoFo::EPdfFilter *, PoDoFo::EPdfFilter *, std::allocator<PoDoFo::EPdfFilter> >
+SetGenerationNumber
+PdfMacExpertEncoding
+__uninit_copy<std::move_iterator<PoDoFo::PdfParser::TXRefEntry *>, PoDoFo::PdfParser::TXRefEntry *>
+pair<long &&>
+swap<std::vector<char, std::allocator<char> > *>
+InsertExistingPageAt
+_M_reserve_elements_at_back
+copy_backward<PoDoFo::PdfPage ***, PoDoFo::PdfPage ***>
+expm1f
+~PdfDifferenceEncoding
+__uninitialized_copy_a<const PoDoFo::PdfXRef::PdfXRefBlock *, PoDoFo::PdfXRef::PdfXRefBlock *, PoDoFo::PdfXRef::PdfXRefBlock>
+fgetws
+destroy<PoDoFo::PdfVecObjects::Observer *>
+allocator_arg_t
+get<1, PoDoFo::PdfFilter *, std::default_delete<PoDoFo::PdfFilter> >
+pair<std::_Rb_tree_node_base *&, true>
+_Temporary_value<const PoDoFo::PdfObject &>
+operator()<__gnu_cxx::__normal_iterator<PoDoFo::PdfReference *, std::vector<PoDoFo::PdfReference, std::allocator<PoDoFo::PdfReference> > >, PoDoFo::PdfReference>
+~PdfColorRGB
+~_Vector_impl
+operator-<PoDoFo::PdfVecObjects::Observer *const *, std::vector<PoDoFo::PdfVecObjects::Observer *, std::allocator<PoDoFo::PdfVecObjects::Observer *> > >
+BaseEncrypt
+_Rb_tree_iterator
+IsExport
+operator()<__gnu_cxx::__normal_iterator<PoDoFo::PdfObject *const *, std::vector<PoDoFo::PdfObject *, std::allocator<PoDoFo::PdfObject *> > >, PoDoFo::PdfObject *const>
+IsStrictParsing
+__miter_base<PoDoFo::PdfXRef::TXRefItem *>
+InitNewPage
+~PdfIso88592Encoding
+PdfRC4OutputStream
+SetMouseDownAction
+PdfIso88592Encoding
+GetDestination
+fpos
+snprintf
+__copy_move_a<false, const double *, double *>
+Write
+AddPageObject
+operator==<std::_Deque_iterator<PoDoFo::PdfObject *, PoDoFo::PdfObject *const &, PoDoFo::PdfObject *const *> >
+SetLoadOnDemand
+__copy_move_a2<false, __gnu_cxx::__normal_iterator<PoDoFo::PdfVecObjects::Observer *const *, std::vector<PoDoFo::PdfVecObjects::Observer *, std::allocator<PoDoFo::PdfVecObjects::Observer *> > >, PoDoFo::PdfVecObjects::Observer **>
+construct<PoDoFo::PdfErrorInfo, PoDoFo::PdfErrorInfo>
+PdfXObject
+~PdfMutexWrapper
+~PdfBufferOutputStream
+sscanf
+equal_range<__gnu_cxx::__normal_iterator<PoDoFo::PdfObject **, std::vector<PoDoFo::PdfObject *, std::allocator<PoDoFo::PdfObject *> > >, const PoDoFo::PdfObject *, PoDoFo::ObjectComparatorPredicate>
+IConverter
+StartXObject
+compare
+isalpha
+MustGetIndirectKey
+GlobalSymbolEncodingInstance
+SetPasswordField
+_M_emplace_unique<std::pair<PoDoFo::PdfName, PoDoFo::PdfObject *> >
+GetTotalNumberOfPages
+__addressof<std::_List_node<unsigned long> >
+distance<std::_Deque_iterator<PoDoFo::PdfErrorInfo, const PoDoFo::PdfErrorInfo &, const PoDoFo::PdfErrorInfo *> >
+HasURI
+__copy_move_a2<true, __gnu_cxx::__normal_iterator<PoDoFo::PdfObject **, std::vector<PoDoFo::PdfObject *, std::allocator<PoDoFo::PdfObject *> > >, __gnu_cxx::__normal_iterator<PoDoFo::PdfObject **, std::vector<PoDoFo::PdfObject *, std::allocator<PoDoFo::PdfObject *> > > >
+ColorChanger
+forward<PoDoFo::PdfName>
+GetFontScale
+destroy<PoDoFo::PdfFontTTFSubset::TTrueTypeTable>
+fill<__gnu_cxx::__normal_iterator<unsigned char *, std::vector<unsigned char, std::allocator<unsigned char> > >, unsigned char>
+BeginDecode
+copy_backward<GraphicsStack::TGraphicsStackElement **, GraphicsStack::TGraphicsStackElement **>
+__uninitialized_copy_a<PoDoFo::PdfReference *, PoDoFo::PdfReference *, PoDoFo::PdfReference>
+__uninitialized_copy_a<__gnu_cxx::__normal_iterator<const PoDoFo::PdfEncodingDifference::TDifference *, std::vector<PoDoFo::PdfEncodingDifference::TDifference, std::allocator<PoDoFo::PdfEncodingDifference::TDifference> > >, PoDoFo::PdfEncodingDifference::TDifference *, PoDoFo::PdfEncodingDifference::TDifference>
+eq
+forward<const PoDoFo::PdfXRef::PdfXRefBlock &>
+GlobalWin1250EncodingInstance
+PdfRect
+_Construct<PoDoFo::PdfEncodingDifference::TDifference, PoDoFo::PdfEncodingDifference::TDifference &>
+__addressof<std::allocator<std::_List_node<PoDoFo::PdfReference *> > >
+operator-<const PoDoFo::PdfEncodingDifference::TDifference *, std::vector<PoDoFo::PdfEncodingDifference::TDifference, std::allocator<PoDoFo::PdfEncodingDifference::TDifference> > >
+_M_insert_unique<std::__cxx11::basic_string<char> >
+__uninitialized_copy_a<PoDoFo::PdfXRef::TXRefItem *, PoDoFo::PdfXRef::TXRefItem *, PoDoFo::PdfXRef::TXRefItem>
+operator!=<char, std::char_traits<char>, std::allocator<char> >
+pair<unsigned short &&, 0>
+~PdfContentsTokenizer
+operator-<PoDoFo::PdfFontTTFSubset::TTrueTypeTable *, std::vector<PoDoFo::PdfFontTTFSubset::TTrueTypeTable, std::allocator<PoDoFo::PdfFontTTFSubset::TTrueTypeTable> > >
+GetFontname
+_Temporary_value<const PoDoFo::PdfReference &>
+~PdfNamedColor
+__cxx_global_var_init.3
+__iter_comp_val<bool (*)(const PoDoFo::PdfObject *, const PoDoFo::PdfObject *)>
+SetCustomKey
+__copy_m<PoDoFo::PdfXRef::PdfXRefBlock *, PoDoFo::PdfXRef::PdfXRefBlock *>
+isxdigit
+__normal_iterator<PoDoFo::PdfVariant *>
+GetEncrypt
+pair<std::_Rb_tree_node<std::pair<const unsigned short, PoDoFo::PdfFontTTFSubset::TGlyphData> > *&, std::_Rb_tree_node_base *&, true>
+isspace
+move<PoDoFo::PdfErrorInfo>
+__uninit_copy<const PoDoFo::TFontCacheElement *, PoDoFo::TFontCacheElement *>
+~PdfZapfDingbatsEncoding
+get<0, const long &>
+__make_move_if_noexcept_iterator<PoDoFo::PdfXRef::TXRefItem, const PoDoFo::PdfXRef::TXRefItem *>
+__destroy<long *>
+PdfTextField
+GetEncryptionKey
+pair<std::_Rb_tree_iterator<std::__cxx11::basic_string<char> > &, bool &, true>
+__copy_move_a<false, PoDoFo::PdfPage ***, PoDoFo::PdfPage ***>
+ColorSpace
+ReadXRefTable
+_M_move_assign2
+copy<std::move_iterator<unsigned short *>, unsigned short *>
+FreeBuffer
+__copy_move_backward_a2<true, PoDoFo::PdfObject **, PoDoFo::PdfObject **>
+WriteGlyphTable
+__addressof<PoDoFo::PdfFontTTFSubset::TTrueTypeTable>
+DelayedStreamLoadImpl
+strlen
+erfc
+atoi
+forward<unsigned int &&>
+SeeIfLongLocaOrNot
+GlyphContext
+IsStrikeOut
+__unguarded_partition_pivot<__gnu_cxx::__normal_iterator<PoDoFo::PdfReference *, std::vector<PoDoFo::PdfReference, std::allocator<PoDoFo::PdfReference> > >, __gnu_cxx::__ops::_Iter_less_iter>
+__miter_base<__gnu_cxx::__normal_iterator<const unsigned char *, std::vector<unsigned char, std::allocator<unsigned char> > > >
+_Construct<PoDoFo::PdfXRef::TXRefItem, PoDoFo::PdfXRef::TXRefItem &>
+GetOValue
+operator!=<__gnu_cxx::__normal_iterator<const PoDoFo::EPdfFilter *, std::vector<PoDoFo::EPdfFilter, std::allocator<PoDoFo::EPdfFilter> > > >
+get<0, PoDoFo::PdfFilter *, std::default_delete<PoDoFo::PdfFilter> >
+splice
+list
+GetCapHeight
+GetIdentifier
+forward<std::__cxx11::basic_string<char> >
+GetUnderlineThickness
+PdfCanvas
+__copy_move_backward_a2<false, GraphicsStack::TGraphicsStackElement **, GraphicsStack::TGraphicsStackElement **>
+forward<const PoDoFo::PdfNamedColor *&>
+IsCheckBox
+move<std::allocator<unsigned int> &>
+emitSameWidth
+copysignl
+operator-<PoDoFo::PdfReference, PoDoFo::PdfReference &, PoDoFo::PdfReference *>
+rand
+_Destroy<std::pair<std::__cxx11::basic_string<char>, PoDoFo::EPdfTokenType> *>
+move<PoDoFo::PdfObject *&>
+PdfEncryptAESV3
+eq_int_type
+operator!=<std::_Deque_iterator<PoDoFo::PdfErrorInfo, PoDoFo::PdfErrorInfo &, PoDoFo::PdfErrorInfo *> >
+__adjust_heap<__gnu_cxx::__normal_iterator<PoDoFo::PdfObject **, std::vector<PoDoFo::PdfObject *, std::allocator<PoDoFo::PdfObject *> > >, long, PoDoFo::PdfObject *, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(const PoDoFo::PdfObject *, const PoDoFo::PdfObject *)> >
+BeginDecodeImpl
+GetAuthor
+__get_helper<0, const long &>
+construct<std::pair<const long, double>, const std::piecewise_construct_t &, std::tuple<const long &>, std::tuple<> >
+IsCopyAllowed
+operator-<PoDoFo::PdfReference *, std::vector<PoDoFo::PdfReference, std::allocator<PoDoFo::PdfReference> > >
+__lg
+SetBottom
+PdfSimpleEncoding
+iswlower
+_Rb_tree
+insert_sorted
+pair<std::_Rb_tree_iterator<int>, bool, true>
+GetPdfDescent
+forward<std::tuple<const PoDoFo::PdfReference &> >
+_Destroy<PoDoFo::PdfXRef::TXRefItem *, PoDoFo::PdfXRef::TXRefItem>
+copy<__gnu_cxx::__normal_iterator<const unsigned int *, std::vector<unsigned int, std::allocator<unsigned int> > >, unsigned int *>
+_M_emplace_hint_unique<const std::piecewise_construct_t &, std::tuple<const unsigned long &>, std::tuple<> >
+fflush
+_Head_base<unsigned int>
+~PdfFontMetricsObject
+__copy_move_backward_a2<false, PoDoFo::PdfPage ***, PoDoFo::PdfPage ***>
+fmin
+~new_allocator
+PdfVecObjects
+__uninitialized_copy_a<__gnu_cxx::__normal_iterator<const double *, std::vector<double, std::allocator<double> > >, double *, double>
+PdfRefCountedBuffer
+addressof<PoDoFo::TFontCacheElement>
+operator==<PoDoFo::PdfObject *const *, std::vector<PoDoFo::PdfObject *, std::allocator<PoDoFo::PdfObject *> > >
+operator==<char, std::char_traits<char>, std::allocator<char> >
+~PdfFilter
+_M_get_insert_equal_pos
+move_backward<__gnu_cxx::__normal_iterator<PoDoFo::PdfReference *, std::vector<PoDoFo::PdfReference, std::allocator<PoDoFo::PdfReference> > >, __gnu_cxx::__normal_iterator<PoDoFo::PdfReference *, std::vector<PoDoFo::PdfReference, std::allocator<PoDoFo::PdfReference> > > >
+SetIgnoreBrokenObjects
+copy<PoDoFo::PdfErrorInfo>
+destroy<std::pair<const unsigned short, unsigned short> >
+construct<PoDoFo::PdfExtension, PoDoFo::PdfExtension>
+HasPrevious
+GetTime
+__copy_move_a<false, const PoDoFo::PdfEncodingDifference::TDifference *, PoDoFo::PdfEncodingDifference::TDifference *>
+GetContents
+_M_create_node<const std::piecewise_construct_t &, std::tuple<const unsigned long &>, std::tuple<> >
+SetKeywords
+__unguarded_partition<__gnu_cxx::__normal_iterator<PoDoFo::PdfXRef::TXRefItem *, std::vector<PoDoFo::PdfXRef::TXRefItem, std::allocator<PoDoFo::PdfXRef::TXRefItem> > >, __gnu_cxx::__ops::_Iter_less_iter>
+__uninitialized_move_a<PoDoFo::PdfReference *, PoDoFo::PdfReference *, std::allocator<PoDoFo::PdfReference> >
+forward<std::_Deque_iterator<PoDoFo::PdfReference, PoDoFo::PdfReference &, PoDoFo::PdfReference *> &>
+forward<unsigned int &>
+~GrayscaleConverter
+GlobalMacExpertEncodingInstance
+wcstok
+_Destroy<PoDoFo::TFontCacheElement *, PoDoFo::TFontCacheElement>
+_M_insert_<const long &, std::_Rb_tree<long, long, std::_Identity<long>, std::less<long>, std::allocator<long> >::_Alloc_node>
+addressof<PoDoFo::PdfEncodingDifference::TDifference>
+_Destroy<PoDoFo::PdfXRef::PdfXRefBlock *>
+emplace_back<long>
+operator!=<const PoDoFo::TBFRange *, PoDoFo::TBFRange *, std::vector<PoDoFo::TBFRange, std::allocator<PoDoFo::TBFRange> > >
+setvbuf
+CreateAnnotation
+CreateContents
+operator==<char>
+advance<std::_Deque_iterator<PoDoFo::PdfErrorInfo, const PoDoFo::PdfErrorInfo &, const PoDoFo::PdfErrorInfo *>, long>
+__copy_move_a2<false, PoDoFo::PdfObject *, PoDoFo::PdfObject *>
+SetMaxObjectCount
+__copy_move_a<false, const unsigned int *, unsigned int *>
+operator==<GraphicsStack::TGraphicsStackElement, GraphicsStack::TGraphicsStackElement &, GraphicsStack::TGraphicsStackElement *>
+__copy_move_a<false, PoDoFo::PdfErrorInfo *, PoDoFo::PdfErrorInfo *>
+~PdfXRef
+get_allocator
+_M_copy
+__lower_bound<std::_Deque_iterator<PoDoFo::PdfReference, PoDoFo::PdfReference &, PoDoFo::PdfReference *>, PoDoFo::PdfReference, __gnu_cxx::__ops::_Iter_comp_val<PoDoFo::ReferenceComparatorPredicate> >
+copy<PoDoFo::PdfErrorInfo **, PoDoFo::PdfErrorInfo **>
+CreateFontObject
+GetUnderlinePositionMM
+asin
+wcsncmp
+move_backward<PoDoFo::PdfEncodingDifference::TDifference *, PoDoFo::PdfEncodingDifference::TDifference *>
+pair<PoDoFo::PdfName, PoDoFo::PdfObject *, true>
+~PdfMacExpertEncoding
+pair<const PoDoFo::PdfName &, 0>
+move<std::allocator<std::_List_node<PoDoFo::PdfReference *> > &>
+PdfAction
+PdfColorSeparationNone
+__destroy<PoDoFo::PdfLZWFilter::TLzwItem *>
+~PdfField
+__upper_bound<const PoDoFo::PdfNamedColor *, PoDoFo::PdfNamedColor, __gnu_cxx::__ops::_Val_comp_iter<PoDoFo::NamedColorComparatorPredicate> >
+operator!=<PoDoFo::PdfObject *, std::vector<PoDoFo::PdfObject, std::allocator<PoDoFo::PdfObject> > >
+forward<std::__cxx11::list<PoDoFo::PdfReference *, std::allocator<PoDoFo::PdfReference *> > >
+asinh
+__copy_move_a2<false, GraphicsStack::TGraphicsStackElement **, GraphicsStack::TGraphicsStackElement **>
+__cxx_global_var_init.4
+copy<std::__cxx11::basic_string<char> **, std::__cxx11::basic_string<char> **>
+__equal_range<__gnu_cxx::__normal_iterator<PoDoFo::PdfObject **, std::vector<PoDoFo::PdfObject *, std::allocator<PoDoFo::PdfObject *> > >, const PoDoFo::PdfObject *, __gnu_cxx::__ops::_Iter_comp_val<PoDoFo::ObjectComparatorPredicate>, __gnu_cxx::__ops::_Val_comp_iter<PoDoFo::ObjectComparatorPredicate> >
+fmaxl
+truncf
+GlobalIso88592EncodingInstance
+equal_range<std::_Deque_iterator<PoDoFo::PdfReference, PoDoFo::PdfReference &, PoDoFo::PdfReference *>, PoDoFo::PdfReference>
+_M_construct_node<const std::piecewise_construct_t &, std::tuple<PoDoFo::PdfObject *const &>, std::tuple<> >
+forward<const PoDoFo::TFontCacheElement &>
+CreateFontForType
+PdfXRef
+__pair_base
+strtof
+atoll
+destroy<unsigned int>
+operator()<const PoDoFo::PdfObject *const, __gnu_cxx::__normal_iterator<PoDoFo::PdfObject **, std::vector<PoDoFo::PdfObject *, std::allocator<PoDoFo::PdfObject *> > > >
+__destroy<PoDoFo::PdfPage **>
+IsRegular
+GetKeys
+__copy_move_a<true, long *, long *>
+__miter_base<__gnu_cxx::__normal_iterator<PoDoFo::PdfVecObjects::Observer *const *, std::vector<PoDoFo::PdfVecObjects::Observer *, std::allocator<PoDoFo::PdfVecObjects::Observer *> > > >
+GetPValue
+logb
+FromArray
+vswprintf
+move_backward<PoDoFo::PdfErrorInfo *, PoDoFo::PdfErrorInfo *>
+__copy_m<const PoDoFo::PdfEncodingDifference::TDifference *, PoDoFo::PdfEncodingDifference::TDifference *>
+__niter_base<PoDoFo::PdfXRef::TXRefItem *>
+ilogbl
+_Destroy<PoDoFo::PdfVariant *>
+PdfTokenizer
+move<double &>
+operator==<PoDoFo::PdfObject *>
+~PdfFontSimple
+_Alloc_node
+PdfFontType3
+_M_construct_node<const long &>
+move<void (*&)(void *)>
+_Iter_comp_iter
+GetRed
+GetTextColorBlue
+SetBindingDirection
+SetSeekable
+PdfFileSpec
+fprintf
+GetIgnoreBrokenObjects
+GetKeyAsBool
+operator-<PoDoFo::PdfPage *, PoDoFo::PdfPage *const &, PoDoFo::PdfPage *const *>
+vsprintf
+__copy_move_a<false, PoDoFo::PdfVecObjects::Observer *const *, PoDoFo::PdfVecObjects::Observer **>
+lrint
+_M_emplace_unique<std::pair<unsigned int, unsigned long> >
+~PdfColorCieLab
+_Rb_tree_key_compare
+CreateEncryptionDictionary
+fmaf
+operator()<__gnu_cxx::__normal_iterator<PoDoFo::PdfEncodingDifference::TDifference *, std::vector<PoDoFo::PdfEncodingDifference::TDifference, std::allocator<PoDoFo::PdfEncodingDifference::TDifference> > >, const PoDoFo::PdfEncodingDifference::TDifference>
+__niter_base<const PoDoFo::PdfEncodingDifference::TDifference *, std::vector<PoDoFo::PdfEncodingDifference::TDifference, std::allocator<PoDoFo::PdfEncodingDifference::TDifference> > >
+SetCaption
+~Scoped_FT_Face
+construct<PoDoFo::PdfFontTTFSubset::TTrueTypeTable, const PoDoFo::PdfFontTTFSubset::TTrueTypeTable &>
+GetLeft
+lgamma
+SetImmutable
+IsHighPrintAllowed
+max<unsigned long>
+log2
+__val_less_iter
+__uninitialized_default_n<unsigned char *, unsigned long>
+DecodeBlock
+_Destroy<__gnu_cxx::__normal_iterator<PoDoFo::PdfObject *, std::vector<PoDoFo::PdfObject, std::allocator<PoDoFo::PdfObject> > >, PoDoFo::PdfObject>
+rend
+SetRawData
+GetCmapTableSize
+__uninitialized_default_n<std::__cxx11::list<PoDoFo::PdfReference *, std::allocator<PoDoFo::PdfReference *> > *, unsigned long>
+forward<std::pair<std::__cxx11::basic_string<char>, PoDoFo::EPdfTokenType> >
+equal_range<__gnu_cxx::__normal_iterator<PoDoFo::TFontCacheElement *, std::vector<PoDoFo::TFontCacheElement, std::allocator<PoDoFo::TFontCacheElement> > >, PoDoFo::TFontCacheElement>
+PdfCCITTFilter
+ilogbf
+PdfDeviceOutputStream
+_Construct<PoDoFo::TFontCacheElement, const PoDoFo::TFontCacheElement &>
+__niter_base<PoDoFo::PdfObject ***>
+NameToUnicodeID
+operator!=<PoDoFo::PdfErrorInfo, PoDoFo::PdfErrorInfo &, PoDoFo::PdfErrorInfo *>
+_M_swap
+SetTakePossesion
+IsMultiLine
+EndDecodeImpl
+operator--
+__copy_move_b<PoDoFo::PdfXRef::PdfXRefBlock *, PoDoFo::PdfXRef::PdfXRefBlock *>
+equal_range<__gnu_cxx::__normal_iterator<PoDoFo::PdfEncodingDifference::TDifference *, std::vector<PoDoFo::PdfEncodingDifference::TDifference, std::allocator<PoDoFo::PdfEncodingDifference::TDifference> > >, PoDoFo::PdfEncodingDifference::TDifference, PoDoFo::PdfEncodingDifference::DifferenceComparatorPredicate>
+_Destroy<PoDoFo::TBFRange>
+_Destroy<std::__cxx11::basic_string<char> >
+GetGlyphWidth
+__uninitialized_copy_a<PoDoFo::PdfEncodingDifference::TDifference *, PoDoFo::PdfEncodingDifference::TDifference *, PoDoFo::PdfEncodingDifference::TDifference>
+_M_deallocate
+PdfParser
+allocator<PoDoFo::PdfPage *>
+SetBorderColor
+__copy_move_a<true, double *, double *>
+__copy_move_a2<false, __gnu_cxx::__normal_iterator<const unsigned int *, std::vector<unsigned int, std::allocator<unsigned int> > >, unsigned int *>
+__copy_move_backward_a<false, PoDoFo::PdfReference **, PoDoFo::PdfReference **>
+_M_range_insert_aux<std::_Deque_iterator<PoDoFo::PdfErrorInfo, const PoDoFo::PdfErrorInfo &, const PoDoFo::PdfErrorInfo *> >
+__uninitialized_copy_a<const PoDoFo::PdfObject *, PoDoFo::PdfObject *, PoDoFo::PdfObject>
+__uninit_copy<std::_Deque_iterator<PoDoFo::PdfErrorInfo, const PoDoFo::PdfErrorInfo &, const PoDoFo::PdfErrorInfo *>, std::_Deque_iterator<PoDoFo::PdfErrorInfo, PoDoFo::PdfErrorInfo &, PoDoFo::PdfErrorInfo *> >
+assign
+expm1
+GetStructTreeRoot
+swap<unsigned int *>
+BeginAppend
+PdfAscii85Filter
+_M_allocate_and_copy<__gnu_cxx::__normal_iterator<const unsigned char *, std::vector<unsigned char, std::allocator<unsigned char> > > >
+__niter_base<const double *, std::vector<double, std::allocator<double> > >
+destroy<PoDoFo::PdfExtension>
+at
+_Destroy<unsigned char *>
+__niter_base<PoDoFo::PdfEncodingDifference::TDifference *, std::vector<PoDoFo::PdfEncodingDifference::TDifference, std::allocator<PoDoFo::PdfEncodingDifference::TDifference> > >
+_M_insert_<unsigned short, std::_Rb_tree<unsigned short, unsigned short, std::_Identity<unsigned short>, std::less<unsigned short>, std::allocator<unsigned short> >::_Alloc_node>
+iswblank
+__uninitialized_copy_a<std::move_iterator<std::__cxx11::list<PoDoFo::PdfReference *, std::allocator<PoDoFo::PdfReference *> > *>, std::__cxx11::list<PoDoFo::PdfReference *, std::allocator<PoDoFo::PdfReference *> > *, std::__cxx11::list<PoDoFo::PdfReference *, std::allocator<PoDoFo::PdfReference *> > >
+iter_swap<__gnu_cxx::__normal_iterator<PoDoFo::TFontCacheElement *, std::vector<PoDoFo::TFontCacheElement, std::allocator<PoDoFo::TFontCacheElement> > >, __gnu_cxx::__normal_iterator<PoDoFo::TFontCacheElement *, std::vector<PoDoFo::TFontCacheElement, std::allocator<PoDoFo::TFontCacheElement> > > >
+_Destroy<PoDoFo::PdfVecObjects::Observer **>
+operator()<__gnu_cxx::__normal_iterator<PoDoFo::TFontCacheElement *, std::vector<PoDoFo::TFontCacheElement, std::allocator<PoDoFo::TFontCacheElement> > >, __gnu_cxx::__normal_iterator<PoDoFo::TFontCacheElement *, std::vector<PoDoFo::TFontCacheElement, std::allocator<PoDoFo::TFontCacheElement> > > >
+__fill_a<char>
+islower
+ReadXRefSubsection
+wcstof
+__pop_heap<__gnu_cxx::__normal_iterator<PoDoFo::PdfXRef::TXRefItem *, std::vector<PoDoFo::PdfXRef::TXRefItem, std::allocator<PoDoFo::PdfXRef::TXRefItem> > >, __gnu_cxx::__ops::_Iter_less_iter>
+logbl
+GetIndirectKeyAsBool
+GetBleedBox
+IsRadioButton
+__uninitialized_move_if_noexcept_a<PoDoFo::PdfObject **, PoDoFo::PdfObject **, std::allocator<PoDoFo::PdfObject *> >
+atan
+UnLock
+SetStrictParsing
+_M_construct_node<const int &>
+getchar
+_Temporary_value<const PoDoFo::PdfXRef::TXRefItem &>
+LogMessageInternal
+SetPassword
+forward<PoDoFo::TBFRange>
+ChangePagesCount
+__make_move_if_noexcept_iterator<PoDoFo::PdfParser::TXRefEntry, std::move_iterator<PoDoFo::PdfParser::TXRefEntry *> >
+_M_emplace_hint_unique<const std::piecewise_construct_t &, std::tuple<unsigned short &&>, std::tuple<> >
+_M_realloc_insert<unsigned int>
+__copy_m<PoDoFo::PdfXRef::TXRefItem *, PoDoFo::PdfXRef::TXRefItem *>
+Init
+unique_ptr<std::default_delete<std::vector<char, std::allocator<char> > >, void>
+PODOFO_Base14FontDef_FindBuiltinData
+SetInformation
+GetCreator
+~PdfColorSeparation
+GetIndex
+TBFRange
+GetDictionary
+__cxx_global_var_init.15
+CreateEncodeStream
+__upper_bound<std::_Deque_iterator<PoDoFo::PdfReference, PoDoFo::PdfReference &, PoDoFo::PdfReference *>, PoDoFo::PdfReference, __gnu_cxx::__ops::_Val_less_iter>
+__introsort_loop<__gnu_cxx::__normal_iterator<PoDoFo::PdfXRef::PdfXRefBlock *, std::vector<PoDoFo::PdfXRef::PdfXRefBlock, std::allocator<PoDoFo::PdfXRef::PdfXRefBlock> > >, long, __gnu_cxx::__ops::_Iter_less_iter>
+~GraphicsStack
+mbstowcs
+__copy_move_a2<false, __gnu_cxx::__normal_iterator<const PoDoFo::PdfObject *, std::vector<PoDoFo::PdfObject, std::allocator<PoDoFo::PdfObject> > >, __gnu_cxx::__normal_iterator<PoDoFo::PdfObject *, std::vector<PoDoFo::PdfObject, std::allocator<PoDoFo::PdfObject> > > >
+forward<PoDoFo::PdfErrorInfo>
+CheckLimits
+__upper_bound<__gnu_cxx::__normal_iterator<PoDoFo::PdfObject **, std::vector<PoDoFo::PdfObject *, std::allocator<PoDoFo::PdfObject *> > >, PoDoFo::PdfObject *, __gnu_cxx::__ops::_Val_comp_iter<PoDoFo::ObjectComparatorPredicate> >
+GetFontSize
+__iterator_category<std::_Deque_iterator<PoDoFo::PdfReference, PoDoFo::PdfReference &, PoDoFo::PdfReference *> >
+SetICCProfile
+~AESCryptoEngine
+move<std::vector<char, std::allocator<char> > *&>
+__iterator_category<std::_Deque_iterator<PoDoFo::PdfObject *, PoDoFo::PdfObject *&, PoDoFo::PdfObject **> >
+get<0, long &&>
+__uninit_copy<std::move_iterator<unsigned short *>, unsigned short *>
+IsDocAssemblyAllowed
+_Construct<PoDoFo::PdfLZWFilter::TLzwItem, PoDoFo::PdfLZWFilter::TLzwItem>
+const_iterator
+__addressof<std::__cxx11::basic_string<char> >
+operator!=<PoDoFo::PdfErrorInfo, const PoDoFo::PdfErrorInfo &, const PoDoFo::PdfErrorInfo *>
+__move_median_to_first<__gnu_cxx::__normal_iterator<PoDoFo::PdfObject **, std::vector<PoDoFo::PdfObject *, std::allocator<PoDoFo::PdfObject *> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(const PoDoFo::PdfObject *, const PoDoFo::PdfObject *)> >
+remove
+PdfAESInputStream
+pair<std::_Rb_tree_node_base *&, std::_Rb_tree_node_base *&, true>
+SetEnabledEncryptionAlgorithms
+__copy_move_backward_a<false, PoDoFo::PdfErrorInfo **, PoDoFo::PdfErrorInfo **>
+_M_range_insert<__gnu_cxx::__normal_iterator<PoDoFo::PdfReference *, std::vector<PoDoFo::PdfReference, std::allocator<PoDoFo::PdfReference> > > >
+operator!=<const PoDoFo::PdfFontTTFSubset::TTrueTypeTable *, PoDoFo::PdfFontTTFSubset::TTrueTypeTable *, std::vector<PoDoFo::PdfFontTTFSubset::TTrueTypeTable, std::allocator<PoDoFo::PdfFontTTFSubset::TTrueTypeTable> > >
+SetPageCloseAction
+operator()<const int &>
+forward<std::_Rb_tree_node<std::pair<const unsigned long, unsigned short> > *&>
+GetHmtxTableSize
+_Construct<PoDoFo::PdfVariant, const PoDoFo::PdfVariant &>
+IsGrayScale
+FromEscaped
+EmbedSubsetFont
+logbf
+_M_push_back_aux<PoDoFo::PdfObject *const &>
+__uninit_default_n<unsigned char *, unsigned long>
+__uninitialized_copy_a<std::move_iterator<unsigned short *>, unsigned short *, unsigned short>
+GetKey
+copy<__gnu_cxx::__normal_iterator<PoDoFo::PdfVecObjects::Observer *const *, std::vector<PoDoFo::PdfVecObjects::Observer *, std::allocator<PoDoFo::PdfVecObjects::Observer *> > >, PoDoFo::PdfVecObjects::Observer **>
+fgets
+__copy_move_a2<false, __gnu_cxx::__normal_iterator<const PoDoFo::PdfEncodingDifference::TDifference *, std::vector<PoDoFo::PdfEncodingDifference::TDifference, std::allocator<PoDoFo::PdfEncodingDifference::TDifference> > >, __gnu_cxx::__normal_iterator<PoDoFo::PdfEncodingDifference::TDifference *, std::vector<PoDoFo::PdfEncodingDifference::TDifference, std::allocator<PoDoFo::PdfEncodingDifference::TDifference> > > >
+vsscanf
+PdfColorCMYK
+__copy_move_a2<true, __gnu_cxx::__normal_iterator<PoDoFo::PdfVecObjects::Observer **, std::vector<PoDoFo::PdfVecObjects::Observer *, std::allocator<PoDoFo::PdfVecObjects::Observer *> > >, __gnu_cxx::__normal_iterator<PoDoFo::PdfVecObjects::Observer **, std::vector<PoDoFo::PdfVecObjects::Observer *, std::allocator<PoDoFo::PdfVecObjects::Observer *> > > >
+PreprocessPassword
+ReadObjectFromStream
+__partial_sort<__gnu_cxx::__normal_iterator<PoDoFo::PdfReference *, std::vector<PoDoFo::PdfReference, std::allocator<PoDoFo::PdfReference> > >, __gnu_cxx::__ops::_Iter_less_iter>
+__miter_base<GraphicsStack::TGraphicsStackElement **>
+operator-<const PoDoFo::PdfEncodingDifference::TDifference *, PoDoFo::PdfEncodingDifference::TDifference *, std::vector<PoDoFo::PdfEncodingDifference::TDifference, std::allocator<PoDoFo::PdfEncodingDifference::TDifference> > >
+__copy_m<PoDoFo::PdfPage *>
+AddToCallstack
+wprintf
+__make_move_if_noexcept_iterator<PoDoFo::PdfLZWFilter::TLzwItem, std::move_iterator<PoDoFo::PdfLZWFilter::TLzwItem *> >
+lower_bound
+__miter_base<unsigned char *>
+__uninitialized_move_if_noexcept_a<char *, char *, std::allocator<char> >
+PdfEncrypt
+CreatePdfEncrypt
+remquol
+__iter_comp_val<PoDoFo::PdfEncodingDifference::DifferenceComparatorPredicate>
+free
+operator()<const PoDoFo::PdfNamedColor *, const PoDoFo::PdfNamedColor>
+uninitialized_copy<std::_Deque_iterator<PoDoFo::PdfErrorInfo, const PoDoFo::PdfErrorInfo &, const PoDoFo::PdfErrorInfo *>, std::_Deque_iterator<PoDoFo::PdfErrorInfo, PoDoFo::PdfErrorInfo &, PoDoFo::PdfErrorInfo *> >
+xln2
+rintf
+wmemset
+GetObjectCount
+__copy_move_a<true, unsigned char *, unsigned char *>
+GetKeyAsLong
+EncodeBlockInternal
+insert<__gnu_cxx::__normal_iterator<PoDoFo::PdfXRef::TXRefItem *, std::vector<PoDoFo::PdfXRef::TXRefItem, std::allocator<PoDoFo::PdfXRef::TXRefItem> > >, void>
+__find_if<__gnu_cxx::__normal_iterator<const long *, std::vector<long, std::allocator<long> > >, __gnu_cxx::__ops::_Iter_equals_val<const long> >
+operator!=<PoDoFo::PdfEncodingDifference::TDifference *, const PoDoFo::PdfEncodingDifference::TDifference *, std::vector<PoDoFo::PdfEncodingDifference::TDifference, std::allocator<PoDoFo::PdfEncodingDifference::TDifference> > >
+move<__gnu_cxx::__normal_iterator<PoDoFo::PdfObject *, std::vector<PoDoFo::PdfObject, std::allocator<PoDoFo::PdfObject> > >, __gnu_cxx::__normal_iterator<PoDoFo::PdfObject *, std::vector<PoDoFo::PdfObject, std::allocator<PoDoFo::PdfObject> > > >
+IsReference
+__move_median_to_first<__gnu_cxx::__normal_iterator<PoDoFo::TFontCacheElement *, std::vector<PoDoFo::TFontCacheElement, std::allocator<PoDoFo::TFontCacheElement> > >, __gnu_cxx::__ops::_Iter_less_iter>
+feof
+PdfFontType1
+operator()<__gnu_cxx::__normal_iterator<PoDoFo::PdfXRef::PdfXRefBlock *, std::vector<PoDoFo::PdfXRef::PdfXRefBlock, std::allocator<PoDoFo::PdfXRef::PdfXRefBlock> > >, __gnu_cxx::__normal_iterator<PoDoFo::PdfXRef::PdfXRefBlock *, std::vector<PoDoFo::PdfXRef::PdfXRefBlock, std::allocator<PoDoFo::PdfXRef::PdfXRefBlock> > > >
+GetUnderlineThicknessMM
+CMap
+PoDoFoClientAttached
+atan2
+operator==<PoDoFo::PdfObject *, PoDoFo::PdfObject *&, PoDoFo::PdfObject **>
+InitTable
+GetItemCount
+GetValue
+__unguarded_partition<__gnu_cxx::__normal_iterator<PoDoFo::PdfXRef::PdfXRefBlock *, std::vector<PoDoFo::PdfXRef::PdfXRefBlock, std::allocator<PoDoFo::PdfXRef::PdfXRefBlock> > >, __gnu_cxx::__ops::_Iter_less_iter>
+GetObjectReference
+SetSubject
+__normal_iterator<PoDoFo::PdfXRef::PdfXRefBlock *>
+equal_range<__gnu_cxx::__normal_iterator<PoDoFo::PdfObject **, std::vector<PoDoFo::PdfObject *, std::allocator<PoDoFo::PdfObject *> > >, PoDoFo::PdfObject *, PoDoFo::ObjectComparatorPredicate>
+Read
+construct<std::pair<const PoDoFo::PdfReference, PoDoFo::PdfAnnotation *>, const std::piecewise_construct_t &, std::tuple<const PoDoFo::PdfReference &>, std::tuple<> >
+_M_realloc_insert<const char &>
+__deque_buf_size
+__adjust_heap<__gnu_cxx::__normal_iterator<PoDoFo::TFontCacheElement *, std::vector<PoDoFo::TFontCacheElement, std::allocator<PoDoFo::TFontCacheElement> > >, long, PoDoFo::TFontCacheElement, __gnu_cxx::__ops::_Iter_less_iter>
+_M_realloc_insert<const unsigned short &>
+allocator<PoDoFo::PdfObject *>
+GetFilteredCopy
+GetCIDValue
+_M_destroy_nodes
+__uninit_copy<__gnu_cxx::__normal_iterator<PoDoFo::PdfPage *const *, std::vector<PoDoFo::PdfPage *, std::allocator<PoDoFo::PdfPage *> > >, PoDoFo::PdfPage **>
+forward<__gnu_cxx::__normal_iterator<PoDoFo::PdfEncodingDifference::TDifference *, std::vector<PoDoFo::PdfEncodingDifference::TDifference, std::allocator<PoDoFo::PdfEncodingDifference::TDifference> > > &>
+GetIndirectKeyAsReal
+__uninitialized_copy_a<std::move_iterator<PoDoFo::PdfFontTTFSubset::TTrueTypeTable *>, PoDoFo::PdfFontTTFSubset::TTrueTypeTable *, PoDoFo::PdfFontTTFSubset::TTrueTypeTable>
+IsSeekable
+__uninitialized_copy_a<const PoDoFo::PdfVariant *, PoDoFo::PdfVariant *, PoDoFo::PdfVariant>
+PdfMemStream
+__addressof<std::allocator<std::_List_node<PoDoFo::PdfObject *> > >
+~PdfColorSeparationNone
+_M_construct_node<const std::piecewise_construct_t &, std::tuple<unsigned short &&>, std::tuple<> >
+SetMouseUpAction
+GetDescent
+~PdfFontMetricsFreetype
+PdfListField
+construct<unsigned short, const unsigned short &>
+GetCharCode
+operator+<char, std::char_traits<char>, std::allocator<char> >
+__niter_base<PoDoFo::PdfVecObjects::Observer **>
+_M_pop_back_aux
+Next
+_Construct<PoDoFo::PdfFontTTFSubset::TTrueTypeTable, PoDoFo::PdfFontTTFSubset::TTrueTypeTable>
+FilterNameToType
+__advance<__gnu_cxx::__normal_iterator<PoDoFo::PdfEncodingDifference::TDifference *, std::vector<PoDoFo::PdfEncodingDifference::TDifference, std::allocator<PoDoFo::PdfEncodingDifference::TDifference> > >, long>
+make_move_iterator<PoDoFo::PdfReference *>
+destroy<unsigned short>
+iter_swap<__gnu_cxx::__normal_iterator<PoDoFo::PdfObject **, std::vector<PoDoFo::PdfObject *, std::allocator<PoDoFo::PdfObject *> > >, __gnu_cxx::__normal_iterator<PoDoFo::PdfObject **, std::vector<PoDoFo::PdfObject *, std::allocator<PoDoFo::PdfObject *> > > >
+GetTableOffset
+__equal_range<std::_Deque_iterator<PoDoFo::PdfReference, PoDoFo::PdfReference &, PoDoFo::PdfReference *>, PoDoFo::PdfReference, __gnu_cxx::__ops::_Iter_comp_val<PoDoFo::ReferenceComparatorPredicate>, __gnu_cxx::__ops::_Val_comp_iter<PoDoFo::ReferenceComparatorPredicate> >
+_S_buffer_size
+~_Temporary_value
+operator-<PoDoFo::PdfLZWFilter::TLzwItem *, std::vector<PoDoFo::PdfLZWFilter::TLzwItem, std::allocator<PoDoFo::PdfLZWFilter::TLzwItem> > >
+move_backward<__gnu_cxx::__normal_iterator<PoDoFo::PdfXRef::PdfXRefBlock *, std::vector<PoDoFo::PdfXRef::PdfXRefBlock, std::allocator<PoDoFo::PdfXRef::PdfXRefBlock> > >, __gnu_cxx::__normal_iterator<PoDoFo::PdfXRef::PdfXRefBlock *, std::vector<PoDoFo::PdfXRef::PdfXRefBlock, std::allocator<PoDoFo::PdfXRef::PdfXRefBlock> > > >
+__copy_move_backward_a<true, PoDoFo::PdfObject **, PoDoFo::PdfObject **>
+SetRichText
+operator==<const PoDoFo::PdfXRef::PdfXRefBlock *, PoDoFo::PdfXRef::PdfXRefBlock *, std::vector<PoDoFo::PdfXRef::PdfXRefBlock, std::allocator<PoDoFo::PdfXRef::PdfXRefBlock> > >
+operator-=
+_Destroy<long *>
+quick_exit
+__uninit_copy<PoDoFo::PdfObject *, PoDoFo::PdfObject *>
+uninitialized_copy<__gnu_cxx::__normal_iterator<const PoDoFo::PdfXRef::TXRefItem *, std::vector<PoDoFo::PdfXRef::TXRefItem, std::allocator<PoDoFo::PdfXRef::TXRefItem> > >, PoDoFo::PdfXRef::TXRefItem *>
+DeletePage
+~PdfDCTFilter
+equal<__gnu_cxx::__normal_iterator<const PoDoFo::PdfObject *, std::vector<PoDoFo::PdfObject, std::allocator<PoDoFo::PdfObject> > >, __gnu_cxx::__normal_iterator<const PoDoFo::PdfObject *, std::vector<PoDoFo::PdfObject, std::allocator<PoDoFo::PdfObject> > > >
+__sort<__gnu_cxx::__normal_iterator<PoDoFo::PdfReference *, std::vector<PoDoFo::PdfReference, std::allocator<PoDoFo::PdfReference> > >, __gnu_cxx::__ops::_Iter_less_iter>
+GetGlyphIdUnicode
+__lower_bound<__gnu_cxx::__normal_iterator<PoDoFo::TFontCacheElement *, std::vector<PoDoFo::TFontCacheElement, std::allocator<PoDoFo::TFontCacheElement> > >, PoDoFo::TFontCacheElement, __gnu_cxx::__ops::_Iter_less_val>
+GetRotation
+operator()<PoDoFo::PdfObject *const, __gnu_cxx::__normal_iterator<PoDoFo::PdfObject *const *, std::vector<PoDoFo::PdfObject *, std::allocator<PoDoFo::PdfObject *> > > >
+__iter_less_iter
+SetAppearanceStreamForObject
+__copy_m<std::__cxx11::basic_string<char> *>
+_Destroy<unsigned short *, unsigned short>
+_M_coalesce
+forward<std::pair<PoDoFo::PdfName, PoDoFo::PdfObject *> >
+__make_move_if_noexcept_iterator<PoDoFo::PdfReference, const PoDoFo::PdfReference *>
+__niter_base<PoDoFo::PdfPage *const *, std::vector<PoDoFo::PdfPage *, std::allocator<PoDoFo::PdfPage *> > >
+__copy_move_a2<false, __gnu_cxx::__normal_iterator<PoDoFo::PdfXRef::TXRefItem *, std::vector<PoDoFo::PdfXRef::TXRefItem, std::allocator<PoDoFo::PdfXRef::TXRefItem> > >, __gnu_cxx::__normal_iterator<PoDoFo::PdfXRef::TXRefItem *, std::vector<PoDoFo::PdfXRef::TXRefItem, std::allocator<PoDoFo::PdfXRef::TXRefItem> > > >
+fputws
+uninitialized_copy<__gnu_cxx::__normal_iterator<const PoDoFo::PdfObject *, std::vector<PoDoFo::PdfObject, std::allocator<PoDoFo::PdfObject> > >, PoDoFo::PdfObject *>
+emplace<PoDoFo::PdfPage *>
+tuple<void, true>
+__niter_base<PoDoFo::TFontCacheElement *>
+iswdigit
+__copy_move_a<true, PoDoFo::PdfErrorInfo *, PoDoFo::PdfErrorInfo *>
+__uninit_default<std::_Deque_iterator<PoDoFo::PdfPage *, PoDoFo::PdfPage *&, PoDoFo::PdfPage **> >
+__uninitialized_copy_a<std::move_iterator<PoDoFo::PdfReference *>, PoDoFo::PdfReference *, PoDoFo::PdfReference>
+~PdfAction
+__niter_base<char *>
+wcstod
+__val_comp_iter<PoDoFo::ObjectComparatorPredicate>
+GetPdfExtensions
+GetMD5Binary
+IsPdfFile
+GetUnicode
+operator-<PoDoFo::PdfFontTTFSubset::CMapv4Range *, std::vector<PoDoFo::PdfFontTTFSubset::CMapv4Range, std::allocator<PoDoFo::PdfFontTTFSubset::CMapv4Range> > >
+allocator<std::pair<std::__cxx11::basic_string<char>, PoDoFo::EPdfTokenType> >
+emplace_back<unsigned char>
+BeginWrite
+WidthExporter
+__get_helper<0, PoDoFo::PdfObject *const &>
+capacity
+advance<const PoDoFo::PdfNamedColor *, long>
+PdfDictionary
+__iter_less_val
+__allocated_ptr
+SetBool
+pair<long &&, 0>
+FontTypeFromFilename
+GetColorSpaceForArray
+GlobalPdfDocEncodingInstance
+__get_helper<0, PoDoFo::PdfFilter *, std::default_delete<PoDoFo::PdfFilter> >
+fclose
+TTFWriteUInt32
+__heap_select<__gnu_cxx::__normal_iterator<PoDoFo::PdfXRef::PdfXRefBlock *, std::vector<PoDoFo::PdfXRef::PdfXRefBlock, std::allocator<PoDoFo::PdfXRef::PdfXRefBlock> > >, __gnu_cxx::__ops::_Iter_less_iter>
+rename
+_Destroy<PoDoFo::PdfObject *, PoDoFo::PdfObject>
+copy<unsigned char *, unsigned char *>
+DummyConverter
+move<PoDoFo::ObjectComparatorPredicate &>
+PdfParserObject
+__uninitialized_move_if_noexcept_a<PoDoFo::PdfReference *, PoDoFo::PdfReference *, std::allocator<PoDoFo::PdfReference> >
+_Destroy<std::__cxx11::basic_string<char> *, std::__cxx11::basic_string<char> >
+~TFontCacheElement
+operator-<PoDoFo::PdfObject *, PoDoFo::PdfObject *&, PoDoFo::PdfObject **>
+__copy_move_a<false, std::pair<std::__cxx11::basic_string<char>, PoDoFo::EPdfTokenType> **, std::pair<std::__cxx11::basic_string<char>, PoDoFo::EPdfTokenType> **>
+EmbeddFile
+PdfMemDocument
+_M_allocate_map
+ldiv
+forward<std::_Rb_tree_node<std::pair<const PoDoFo::PdfName, PoDoFo::PdfObject *> > *&>
+operator()<const PoDoFo::PdfEncodingDifference::TDifference, __gnu_cxx::__normal_iterator<PoDoFo::PdfEncodingDifference::TDifference *, std::vector<PoDoFo::PdfEncodingDifference::TDifference, std::allocator<PoDoFo::PdfEncodingDifference::TDifference> > > >
+__copy_move_a2<true, PoDoFo::PdfObject **, PoDoFo::PdfObject **>
+hexchr<__gnu_cxx::__normal_iterator<char *, std::__cxx11::basic_string<char> > >
+GetDocumentId
+RemoveItem
+operator!=<const PoDoFo::PdfEncodingDifference::TDifference *, std::vector<PoDoFo::PdfEncodingDifference::TDifference, std::allocator<PoDoFo::PdfEncodingDifference::TDifference> > >
+_M_create_node<const std::piecewise_construct_t &, std::tuple<unsigned int &&>, std::tuple<> >
+GetStrikeoutThickness
+operator<<PoDoFo::PdfObject **, std::vector<PoDoFo::PdfObject *, std::allocator<PoDoFo::PdfObject *> > >
+_Construct<PoDoFo::PdfReference, const PoDoFo::PdfReference &>
+__unguarded_linear_insert<__gnu_cxx::__normal_iterator<PoDoFo::PdfReference *, std::vector<PoDoFo::PdfReference, std::allocator<PoDoFo::PdfReference> > >, __gnu_cxx::__ops::_Val_less_iter>
+~PdfFontType1Base14
+HasStream
+copy<PoDoFo::PdfEncodingDifference::TDifference *, PoDoFo::PdfEncodingDifference::TDifference *>
+__copy_move_b<PoDoFo::PdfReference *, PoDoFo::PdfReference *>
+exp2f
+__distance<std::_Deque_iterator<PoDoFo::PdfReference, PoDoFo::PdfReference &, PoDoFo::PdfReference *> >
+CreateStringRepresentation
+~PdfEncryptMD5Base
+name
+CalculateSubsetSize
+destroy<std::__cxx11::basic_string<char> >
+__uninit_copy<std::move_iterator<PoDoFo::PdfLZWFilter::TLzwItem *>, PoDoFo::PdfLZWFilter::TLzwItem *>
+__destroy<unsigned short *>
+_M_construct_node<std::pair<PoDoFo::PdfName, PoDoFo::PdfObject *> >
+setFromWchar_t
+~PdfCanvas
+GetTextColorGreen
+pair<std::_Rb_tree_node<std::pair<const PoDoFo::PdfReference, PoDoFo::PdfAnnotation *> > *&, std::_Rb_tree_node_base *&, true>
+SetTextFormat
+SetPrevious
+__addressof<PoDoFo::PdfObject>
+__destroy<char *>
+GetIndirectKeyAsLong
+forward<__gnu_cxx::__normal_iterator<PoDoFo::PdfObject **, std::vector<PoDoFo::PdfObject *, std::allocator<PoDoFo::PdfObject *> > > &>
+~PdfEncryptSHABase
+_M_fill_assign
+construct<PoDoFo::PdfLZWFilter::TLzwItem, const PoDoFo::PdfLZWFilter::TLzwItem &>
+_M_emplace_hint_unique<const std::piecewise_construct_t &, std::tuple<const PoDoFo::PdfName &>, std::tuple<> >
+CheckDoubleRange
+operator()<PoDoFo::PdfObject *, __gnu_cxx::__normal_iterator<PoDoFo::PdfObject **, std::vector<PoDoFo::PdfObject *, std::allocator<PoDoFo::PdfObject *> > > >
+IsScrollBarsEnabled
+exp2l
+remquof
+sinh
+scanf
+FlateCompressStream
+operator()<__gnu_cxx::__normal_iterator<PoDoFo::PdfObject **, std::vector<PoDoFo::PdfObject *, std::allocator<PoDoFo::PdfObject *> > >, const PoDoFo::PdfObject *const>
+__uninitialized_default_n_a<unsigned char *, unsigned long, unsigned char>
+abort
+podofo_free
+__niter_base<const PoDoFo::PdfXRef::TXRefItem *, std::vector<PoDoFo::PdfXRef::TXRefItem, std::allocator<PoDoFo::PdfXRef::TXRefItem> > >
+podofo_malloc
+_M_create_node<PoDoFo::PdfObject *const &>
+PdfColorSeparation
+forward_as_tuple<unsigned short>
+__addressof<PoDoFo::PdfEncodingDifference::TDifference>
+_M_create_node<const int &>
+EncodeBlock
+iswalnum
+emplace_back<PoDoFo::PdfReference>
+GetOwnAnnotationsArray
+~PdfError
+pair<std::_Rb_tree_node<std::pair<const unsigned long, unsigned short> > *&, std::_Rb_tree_node_base *&, true>
+forward<char *&>
+_M_realloc_insert<double>
+InsertPages
+GetFontConfigMutex
+PdfPagesTreeCache
+fill_n<char *, unsigned long, char>
+__copy_move_a<false, const PoDoFo::PdfReference *, PoDoFo::PdfReference *>
+GenerateEncryptionKey
+log1p
+__cxx_global_var_init.2
+SetPageVisibleAction
+~PdfFileStream
+__uninitialized_move_if_noexcept_a<PoDoFo::PdfParser::TXRefEntry *, PoDoFo::PdfParser::TXRefEntry *, std::allocator<PoDoFo::PdfParser::TXRefEntry> >
+construct<PoDoFo::PdfObject *, PoDoFo::PdfObject *const &>
+~PdfIdentityEncoding
+~PdfMutexImpl
+IsAutoDelete
+ConvertToGrayScale
+GetTextFormat
+~PdfOutputStream
+PdfInputDevice
+WriteLocaTable
+forward<PoDoFo::PdfExtension>
+__copy_move_a2<false, __gnu_cxx::__normal_iterator<const PoDoFo::PdfReference *, std::vector<PoDoFo::PdfReference, std::allocator<PoDoFo::PdfReference> > >, __gnu_cxx::__normal_iterator<PoDoFo::PdfReference *, std::vector<PoDoFo::PdfReference, std::allocator<PoDoFo::PdfReference> > > >
+operator==<__gnu_cxx::__normal_iterator<const PoDoFo::EPdfFilter *, std::vector<PoDoFo::EPdfFilter, std::allocator<PoDoFo::EPdfFilter> > > >
+PdfStandardEncoding
+FindSeac
+operator()<__gnu_cxx::__normal_iterator<PoDoFo::PdfReference *, std::vector<PoDoFo::PdfReference, std::allocator<PoDoFo::PdfReference> > >, __gnu_cxx::__normal_iterator<PoDoFo::PdfReference *, std::vector<PoDoFo::PdfReference, std::allocator<PoDoFo::PdfReference> > > >
+GetPage
+getLevel
+forward<std::_Rb_tree_iterator<std::pair<const PoDoFo::PdfReference, PoDoFo::PdfAnnotation *> > >
+SetFitWindow
+__uninitialized_copy_a<const PoDoFo::PdfXRef::TXRefItem *, PoDoFo::PdfXRef::TXRefItem *, PoDoFo::PdfXRef::TXRefItem>
+move
+__addressof<std::pair<std::__cxx11::basic_string<char>, PoDoFo::EPdfTokenType> >
+uninitialized_copy<const PoDoFo::PdfObject *, PoDoFo::PdfObject *>
+GetIndirectKeyAsName
+PdfFontMetrics
+IsPrintable
+ToDictionary
+~_Rb_tree
+~PdfRC4Stream
+__copy_move_a2<true, __gnu_cxx::__normal_iterator<PoDoFo::PdfXRef::PdfXRefBlock *, std::vector<PoDoFo::PdfXRef::PdfXRefBlock, std::allocator<PoDoFo::PdfXRef::PdfXRefBlock> > >, __gnu_cxx::__normal_iterator<PoDoFo::PdfXRef::PdfXRefBlock *, std::vector<PoDoFo::PdfXRef::PdfXRefBlock, std::allocator<PoDoFo::PdfXRef::PdfXRefBlock> > > >
+InitFromBuffer
+__fill_n_a<unsigned long, unsigned char>
+GetObjectLength
+__copy_m<PoDoFo::PdfReference *, PoDoFo::PdfReference *>
+copy<std::move_iterator<char *>, char *>
+PdfXRefStreamParserObject
+_Rb_tree_const_iterator
+InitVars
+__uninitialized_copy_a<std::move_iterator<PoDoFo::EPdfFilter *>, PoDoFo::EPdfFilter *, PoDoFo::EPdfFilter>
+_Head_base<long>
+TakePossesion
+__copy_move_b<PoDoFo::PdfErrorInfo *, PoDoFo::PdfErrorInfo *>
+SetCanReuseObjectNumbers
+SetNeedAppearances
+SetRotation
+_Tuple_impl<void (*)(void *)>
+SetDisplayDocTitle
+crbegin
+deallocate
+operator-<PoDoFo::EPdfFilter *, std::vector<PoDoFo::EPdfFilter, std::allocator<PoDoFo::EPdfFilter> > >
+TLzwItem
+SetFileField
+forward<std::_Rb_tree_iterator<long> >
+IsCMYK
+destroy<PoDoFo::PdfEncodingDifference::TDifference>
+fputs
+PdfLZWFilter
+PdfReference
+HasDestination
+setw
+_M_move_nodes
+getEngine
+__copy_m<char>
+qsort
+__get_helper<0, char *, void (*)(void *)>
+GetStringUtf8
+GetNonConstObject
+construct<std::__cxx11::basic_string<char>, std::__cxx11::basic_string<char> >
+__adjust_heap<__gnu_cxx::__normal_iterator<PoDoFo::PdfReference *, std::vector<PoDoFo::PdfReference, std::allocator<PoDoFo::PdfReference> > >, long, PoDoFo::PdfReference, __gnu_cxx::__ops::_Iter_less_iter>
+__miter_base<__gnu_cxx::__normal_iterator<const PoDoFo::PdfObject *, std::vector<PoDoFo::PdfObject, std::allocator<PoDoFo::PdfObject> > > >
+operator()<__gnu_cxx::__normal_iterator<PoDoFo::PdfObject **, std::vector<PoDoFo::PdfObject *, std::allocator<PoDoFo::PdfObject *> > >, PoDoFo::PdfObject *const>
+__copy_move_backward_a2<true, __gnu_cxx::__normal_iterator<PoDoFo::PdfObject **, std::vector<PoDoFo::PdfObject *, std::allocator<PoDoFo::PdfObject *> > >, __gnu_cxx::__normal_iterator<PoDoFo::PdfObject **, std::vector<PoDoFo::PdfObject *, std::allocator<PoDoFo::PdfObject *> > > >
+operator()<__gnu_cxx::__normal_iterator<PoDoFo::PdfXRef::PdfXRefBlock *, std::vector<PoDoFo::PdfXRef::PdfXRefBlock, std::allocator<PoDoFo::PdfXRef::PdfXRefBlock> > >, PoDoFo::PdfXRef::PdfXRefBlock>
+~PdfWin1250Encoding
+denorm_min
+GetUnderlinePosition
+__destroy<PoDoFo::PdfVariant *>
+CreateFilterList
+Decode
+__iterator_category<__gnu_cxx::__normal_iterator<PoDoFo::PdfObject **, std::vector<PoDoFo::PdfObject *, std::allocator<PoDoFo::PdfObject *> > > >
+_M_clear
+~PdfSymbolEncoding
+wctob
+operator!=<std::_Deque_iterator<PoDoFo::PdfObject *, PoDoFo::PdfObject *const &, PoDoFo::PdfObject *const *> >
+__uninitialized_copy_a<std::move_iterator<PoDoFo::PdfObject **>, PoDoFo::PdfObject **, PoDoFo::PdfObject *>
+wcsspn
+GetID
+__niter_base<PoDoFo::PdfObject *, std::vector<PoDoFo::PdfObject, std::allocator<PoDoFo::PdfObject> > >
+mbrtowc
+__fill_a<PoDoFo::PdfObject *, PoDoFo::PdfObject>
+_S_nothrow_move
+copy_backward<PoDoFo::PdfErrorInfo **, PoDoFo::PdfErrorInfo **>
+GetCatalog
+_Destroy<PoDoFo::PdfExtension>
+GlobalWinAnsiEncodingInstance
+emitArrayWidths
+__copy_m<PoDoFo::PdfErrorInfo *>
+_M_construct_node<unsigned short>
+_M_dec_size
+GetCreationDate
+__uninitialized_copy_a<std::move_iterator<std::_Deque_iterator<PoDoFo::PdfErrorInfo, PoDoFo::PdfErrorInfo &, PoDoFo::PdfErrorInfo *> >, std::_Deque_iterator<PoDoFo::PdfErrorInfo, PoDoFo::PdfErrorInfo &, PoDoFo::PdfErrorInfo *>, PoDoFo::PdfErrorInfo>
+__make_move_if_noexcept_iterator<PoDoFo::PdfEncodingDifference::TDifference, const PoDoFo::PdfEncodingDifference::TDifference *>
+operator==<const PoDoFo::EPdfFilter *, std::vector<PoDoFo::EPdfFilter, std::allocator<PoDoFo::EPdfFilter> > >
+move<PoDoFo::ReferenceComparatorPredicate &>
+construct<GraphicsStack::TGraphicsStackElement, const GraphicsStack::TGraphicsStackElement &>
+__uninitialized_copy_a<std::move_iterator<char *>, char *, char>
+GetModDate
+fdiml
+__copy_move_b<PoDoFo::PdfErrorInfo *>
+IsCombs
+__upper_bound<__gnu_cxx::__normal_iterator<PoDoFo::TFontCacheElement *, std::vector<PoDoFo::TFontCacheElement, std::allocator<PoDoFo::TFontCacheElement> > >, PoDoFo::TFontCacheElement, __gnu_cxx::__ops::_Val_less_iter>
+PdfFontConfigWrapper
+IsEditable
+_Destroy<PoDoFo::PdfVecObjects::Observer **, PoDoFo::PdfVecObjects::Observer *>
+move<unsigned char *&>
+get<0, PoDoFo::PdfObject *const &>
+make_move_iterator<std::_Deque_iterator<PoDoFo::PdfErrorInfo, PoDoFo::PdfErrorInfo &, PoDoFo::PdfErrorInfo *> >
+_M_allocate_and_copy<std::move_iterator<PoDoFo::PdfLZWFilter::TLzwItem *> >
+__copy_move_backward_a2<true, PoDoFo::PdfXRef::PdfXRefBlock *, PoDoFo::PdfXRef::PdfXRefBlock *>
+pair<__gnu_cxx::__normal_iterator<PoDoFo::PdfEncodingDifference::TDifference *, std::vector<PoDoFo::PdfEncodingDifference::TDifference, std::allocator<PoDoFo::PdfEncodingDifference::TDifference> > >, __gnu_cxx::__normal_iterator<PoDoFo::PdfEncodingDifference::TDifference *, std::vector<PoDoFo::PdfEncodingDifference::TDifference, std::allocator<PoDoFo::PdfEncodingDifference::TDifference> > >, true>
+__uninitialized_move_if_noexcept_a<PoDoFo::PdfEncodingDifference::TDifference *, PoDoFo::PdfEncodingDifference::TDifference *, std::allocator<PoDoFo::PdfEncodingDifference::TDifference> >
+__normal_iterator<PoDoFo::PdfObject *>
+wmemcmp
+GetFlags
+atanh
+GetNextSubsetPrefix
+CreateBase14Font
+copy<__gnu_cxx::__normal_iterator<const unsigned char *, std::vector<unsigned char, std::allocator<unsigned char> > >, unsigned char *>
+GetArray_NoDL
+ReadDataType
+_S_propagate_on_copy_assign
+PdfEncodingFactory
+__miter_base<std::__cxx11::basic_string<char> **>
+emplace_back<PoDoFo::PdfPage *>
+construct<std::pair<const unsigned int, unsigned long>, std::pair<unsigned int, unsigned long> >
+uninitialized_copy<std::move_iterator<PoDoFo::PdfObject *>, PoDoFo::PdfObject *>
+__move_median_to_first<__gnu_cxx::__normal_iterator<PoDoFo::PdfReference *, std::vector<PoDoFo::PdfReference, std::allocator<PoDoFo::PdfReference> > >, __gnu_cxx::__ops::_Iter_less_iter>
+operator-<unsigned int *, std::vector<unsigned int, std::allocator<unsigned int> > >
+__destroy<PoDoFo::PdfEncodingDifference::TDifference *>
+MaybeUpdateBaseFontKey
+AfterDelayedLoad
+operator|=
+__copy_move_backward_a<false, std::pair<std::__cxx11::basic_string<char>, PoDoFo::EPdfTokenType> **, std::pair<std::__cxx11::basic_string<char>, PoDoFo::EPdfTokenType> **>
+~PdfXObject
+__unguarded_linear_insert<__gnu_cxx::__normal_iterator<PoDoFo::PdfObject **, std::vector<PoDoFo::PdfObject *, std::allocator<PoDoFo::PdfObject *> > >, __gnu_cxx::__ops::_Val_comp_iter<bool (*)(const PoDoFo::PdfObject *, const PoDoFo::PdfObject *)> >
+Last
+destroy<unsigned char>
+not_eof
+~PdfPredictorDecoder
+operator==<PoDoFo::PdfObject *const *, PoDoFo::PdfObject **, std::vector<PoDoFo::PdfObject *, std::allocator<PoDoFo::PdfObject *> > >
+cbegin
+__niter_base<PoDoFo::PdfVecObjects::Observer *const *, std::vector<PoDoFo::PdfVecObjects::Observer *, std::allocator<PoDoFo::PdfVecObjects::Observer *> > >
+SetWidth
+uninitialized_copy<PoDoFo::PdfXRef::TXRefItem *, PoDoFo::PdfXRef::TXRefItem *>
+calloc
+lldiv
+__copy_move_backward_a2<false, PoDoFo::PdfErrorInfo **, PoDoFo::PdfErrorInfo **>
+forward<const PoDoFo::PdfEncodingDifference::TDifference &>
+wcsstr
+operator!=<PoDoFo::PdfFontTTFSubset::CMapv4Range *>
+log2l
+back
+destroy<PoDoFo::TFontCacheElement>
+__uniq_ptr_impl<void (*)(void *)>
+iswspace
+__iterator_category<const PoDoFo::PdfNamedColor *>
+_M_push_back_aux<std::pair<std::__cxx11::basic_string<char>, PoDoFo::EPdfTokenType> >
+copy<__gnu_cxx::__normal_iterator<const PoDoFo::PdfXRef::TXRefItem *, std::vector<PoDoFo::PdfXRef::TXRefItem, std::allocator<PoDoFo::PdfXRef::TXRefItem> > >, __gnu_cxx::__normal_iterator<PoDoFo::PdfXRef::TXRefItem *, std::vector<PoDoFo::PdfXRef::TXRefItem, std::allocator<PoDoFo::PdfXRef::TXRefItem> > > >
+_S_always_equal
+forward<std::_Rb_tree_node<int> *&>
+lrintl
+EscapeName<__gnu_cxx::__normal_iterator<const char *, std::__cxx11::basic_string<char> > >
+IsLinearized
+__copy_move_a2<false, __gnu_cxx::__normal_iterator<PoDoFo::PdfPage *const *, std::vector<PoDoFo::PdfPage *, std::allocator<PoDoFo::PdfPage *> > >, PoDoFo::PdfPage **>
+ParseStream
+SetFileAttachement
+isgraph
+Contains
+strtoull
+QuickEncryptedCheck
+pair<std::_Rb_tree_iterator<std::pair<const unsigned int, unsigned long> >, bool, true>
+~pair
+wcslen
+DelayedLoadDone
+GlobalZapfDingbatsEncodingInstance
+PdfDifferenceEncoding
+GetScript
+strpbrk
+ReallyResize
+forward<std::_Rb_tree_node<std::pair<const unsigned short, unsigned short> > *&>
+_M_allocate_and_copy<std::move_iterator<double *> >
+GetIncrementalUpdate
+forward<PoDoFo::EPdfFilter>
+__unguarded_insertion_sort<__gnu_cxx::__normal_iterator<PoDoFo::TFontCacheElement *, std::vector<PoDoFo::TFontCacheElement, std::allocator<PoDoFo::TFontCacheElement> > >, __gnu_cxx::__ops::_Iter_less_iter>
+erfcf
+move_backward<PoDoFo::PdfReference>
+__copy_move_a<false, unsigned char *, unsigned char *>
+__copy_move_a<true, PoDoFo::PdfPage **, PoDoFo::PdfPage **>
+construct<PoDoFo::PdfXRef::TXRefItem, PoDoFo::PdfXRef::TXRefItem>
+__uninitialized_default_n_a<std::__cxx11::list<PoDoFo::PdfReference *, std::allocator<PoDoFo::PdfReference *> > *, unsigned long, std::__cxx11::list<PoDoFo::PdfReference *, std::allocator<PoDoFo::PdfReference *> > >
+TableCheksum
+pair<const PoDoFo::PdfReference &, 0>
+erff
+GetFace
+AddValue
+GetBool
+__uninitialized_move_copy<std::_Deque_iterator<PoDoFo::PdfErrorInfo, PoDoFo::PdfErrorInfo &, PoDoFo::PdfErrorInfo *>, std::_Deque_iterator<PoDoFo::PdfErrorInfo, const PoDoFo::PdfErrorInfo &, const PoDoFo::PdfErrorInfo *>, std::_Deque_iterator<PoDoFo::PdfErrorInfo, PoDoFo::PdfErrorInfo &, PoDoFo::PdfErrorInfo *>, std::allocator<PoDoFo::PdfErrorInfo> >
+_Destroy<PoDoFo::PdfLZWFilter::TLzwItem *, PoDoFo::PdfLZWFilter::TLzwItem>
+PdfError
+_Destroy<__gnu_cxx::__normal_iterator<PoDoFo::PdfEncodingDifference::TDifference *, std::vector<PoDoFo::PdfEncodingDifference::TDifference, std::allocator<PoDoFo::PdfEncodingDifference::TDifference> > > >
+Scoped_FT_Face
+nexttowardl
+PdfEncryptMD5Base
+Enter
+GetOutlines
+__destroy<unsigned int *>
+_M_valptr
+__copy_move_a<true, PoDoFo::EPdfFilter *, PoDoFo::EPdfFilter *>
+__find_if<std::_Deque_iterator<PoDoFo::PdfObject *, PoDoFo::PdfObject *&, PoDoFo::PdfObject **>, __gnu_cxx::__ops::_Iter_equals_val<PoDoFo::PdfObject *const> >
+copy_backward<std::__cxx11::basic_string<char> **, std::__cxx11::basic_string<char> **>
+_Rb_tree_header
+_Rb_tree_impl
+forward<long &&>
+updateSBE
+_M_set_node
+__unguarded_insertion_sort<__gnu_cxx::__normal_iterator<PoDoFo::PdfObject **, std::vector<PoDoFo::PdfObject *, std::allocator<PoDoFo::PdfObject *> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(const PoDoFo::PdfObject *, const PoDoFo::PdfObject *)> >
+construct<PoDoFo::EPdfFilter, PoDoFo::EPdfFilter>
+forward<std::_Rb_tree_iterator<std::pair<const unsigned int, unsigned long> > >
+TakeBuffer
+__miter_base<PoDoFo::PdfErrorInfo **>
+__make_move_if_noexcept_iterator<PoDoFo::PdfObject *, std::move_iterator<PoDoFo::PdfObject **> >
+operator==<PoDoFo::PdfXRef::PdfXRefBlock *, std::vector<PoDoFo::PdfXRef::PdfXRefBlock, std::allocator<PoDoFo::PdfXRef::PdfXRefBlock> > >
+pair<unsigned int, unsigned long, true>
+forward<const PoDoFo::PdfErrorInfo &>
+putwchar
+_M_check_same_name
+PdfFont
+tuple<unsigned int, true>
+FillTrailerObject
+uninitialized_copy<__gnu_cxx::__normal_iterator<const PoDoFo::PdfEncodingDifference::TDifference *, std::vector<PoDoFo::PdfEncodingDifference::TDifference, std::allocator<PoDoFo::PdfEncodingDifference::TDifference> > >, PoDoFo::PdfEncodingDifference::TDifference *>
+__partial_sort<__gnu_cxx::__normal_iterator<PoDoFo::PdfXRef::TXRefItem *, std::vector<PoDoFo::PdfXRef::TXRefItem, std::allocator<PoDoFo::PdfXRef::TXRefItem> > >, __gnu_cxx::__ops::_Iter_less_iter>
+__copy_move_a<false, PoDoFo::PdfPage *const *, PoDoFo::PdfPage **>
+GetFreeObjects
+~ColorSpace
+clearerr
+__uninit_copy<std::move_iterator<PoDoFo::PdfObject *>, PoDoFo::PdfObject *>
+__addressof<PoDoFo::PdfExtension>
+__copy_move_backward_a2<false, PoDoFo::PdfObject ***, PoDoFo::PdfObject ***>
+move<PoDoFo::PdfVariant &>
+uninitialized_copy<const PoDoFo::PdfEncodingDifference::TDifference *, PoDoFo::PdfEncodingDifference::TDifference *>
+__upper_bound<__gnu_cxx::__normal_iterator<PoDoFo::PdfObject **, std::vector<PoDoFo::PdfObject *, std::allocator<PoDoFo::PdfObject *> > >, const PoDoFo::PdfObject *, __gnu_cxx::__ops::_Val_comp_iter<PoDoFo::ObjectComparatorPredicate> >
+SetAutoDelete
+_M_get_insert_hint_unique_pos
+reserve
+__unguarded_partition_pivot<__gnu_cxx::__normal_iterator<PoDoFo::TFontCacheElement *, std::vector<PoDoFo::TFontCacheElement, std::allocator<PoDoFo::TFontCacheElement> > >, __gnu_cxx::__ops::_Iter_less_iter>
+_S_propagate_on_move_assign
+PdfAcroForm
+JPegErrorOutput
+__copy_move_a2<false, __gnu_cxx::__normal_iterator<PoDoFo::PdfReference *, std::vector<PoDoFo::PdfReference, std::allocator<PoDoFo::PdfReference> > >, __gnu_cxx::__normal_iterator<PoDoFo::PdfReference *, std::vector<PoDoFo::PdfReference, std::allocator<PoDoFo::PdfReference> > > >
+uninitialized_copy<const PoDoFo::PdfVariant *, PoDoFo::PdfVariant *>
+SetWriteMode
+_Destroy<unsigned short *>
+SetAppearanceUnchecked
+GetToUnicodeTable
+Encrypt
+_M_insert_node
+operator!=<PoDoFo::PdfReference *, std::vector<PoDoFo::PdfReference, std::allocator<PoDoFo::PdfReference> > >
+GetInformation
+fmod
+operator!=<const PoDoFo::PdfObject *, std::vector<PoDoFo::PdfObject, std::allocator<PoDoFo::PdfObject> > >
+__fill_a<unsigned char>
+_Destroy<GraphicsStack::TGraphicsStackElement *>
+__uninitialized_copy_a<__gnu_cxx::__normal_iterator<const PoDoFo::PdfXRef::TXRefItem *, std::vector<PoDoFo::PdfXRef::TXRefItem, std::allocator<PoDoFo::PdfXRef::TXRefItem> > >, PoDoFo::PdfXRef::TXRefItem *, PoDoFo::PdfXRef::TXRefItem>
+TryLock
+operator==<PoDoFo::PdfObject **, std::vector<PoDoFo::PdfObject *, std::allocator<PoDoFo::PdfObject *> > >
+_M_insert<PoDoFo::PdfObject *>
+__miter_base<unsigned int *>
+move<PoDoFo::PdfPage **, PoDoFo::PdfPage **>
+__uninit_copy<__gnu_cxx::__normal_iterator<const PoDoFo::PdfObject *, std::vector<PoDoFo::PdfObject, std::allocator<PoDoFo::PdfObject> > >, PoDoFo::PdfObject *>
+wcstoul
+operator-<PoDoFo::PdfPage **, std::vector<PoDoFo::PdfPage *, std::allocator<PoDoFo::PdfPage *> > >
+move<__gnu_cxx::__normal_iterator<PoDoFo::PdfVecObjects::Observer **, std::vector<PoDoFo::PdfVecObjects::Observer *, std::allocator<PoDoFo::PdfVecObjects::Observer *> > >, __gnu_cxx::__normal_iterator<PoDoFo::PdfVecObjects::Observer **, std::vector<PoDoFo::PdfVecObjects::Observer *, std::allocator<PoDoFo::PdfVecObjects::Observer *> > > >
+_M_val
+_M_init_extra
+GetRect
+ReadObjectsInternal
+_M_get_node
+at_quick_exit
+forward<__gnu_cxx::__normal_iterator<PoDoFo::TFontCacheElement *, std::vector<PoDoFo::TFontCacheElement, std::allocator<PoDoFo::TFontCacheElement> > > &>
+forward<std::tuple<PoDoFo::PdfObject *const &> >
+ConvertUTF8toUTF16
+__get_helper<0, long &&>
+_Impl
+SetNonStrokingColorSpace
+FailEncodeDecode
+operator==<PoDoFo::PdfObject *, PoDoFo::PdfObject *const &, PoDoFo::PdfObject *const *>
+distance<__gnu_cxx::__normal_iterator<PoDoFo::TFontCacheElement *, std::vector<PoDoFo::TFontCacheElement, std::allocator<PoDoFo::TFontCacheElement> > > >
+CheckEOFMarker
+__miter_base<PoDoFo::PdfErrorInfo *>
+forward<unsigned long>
+__uninit_fill_n<PoDoFo::PdfObject *, unsigned long, PoDoFo::PdfObject>
+IsSorted
+__advance<__gnu_cxx::__normal_iterator<PoDoFo::TFontCacheElement *, std::vector<PoDoFo::TFontCacheElement, std::allocator<PoDoFo::TFontCacheElement> > >, long>
+_M_reserve_map_at_back
+AddObject
+__get_helper<1, std::default_delete<PoDoFo::PdfFilter>>
+__copy_move_a<false, const PoDoFo::PdfXRef::TXRefItem *, PoDoFo::PdfXRef::TXRefItem *>
+~vector
+_M_insert_<const int &, std::_Rb_tree<int, int, std::_Identity<int>, std::less<int>, std::allocator<int> >::_Alloc_node>
+GetNextFreeObject
+_M_push_back_aux<std::__cxx11::basic_string<char> >
+_M_new_elements_at_back
+_Destroy<char *>
+forward<const PoDoFo::PdfVariant &>
+genEscMap
+GetTrimBox
+forward<unsigned long &>
+SetStrokingColorGray
+tuple<std::vector<char, std::allocator<char> > *, std::default_delete<std::vector<char, std::allocator<char> > >, true>
+SetFlags
+exit
+_M_allocate_and_copy<__gnu_cxx::__normal_iterator<const PoDoFo::PdfReference *, std::vector<PoDoFo::PdfReference, std::allocator<PoDoFo::PdfReference> > > >
+BuildUsedCodes
+~DummyConverter
+IsComboBox
+main
+_M_pop_front_aux
+InsertPage
+GetContentsForAppending
+hypotf
+SetLast
+operator!=<const PoDoFo::PdfXRef::PdfXRefBlock *, std::vector<PoDoFo::PdfXRef::PdfXRefBlock, std::allocator<PoDoFo::PdfXRef::PdfXRefBlock> > >
+WriteArgumentsAndKeyword
+operator<<PoDoFo::PdfXRef::TXRefItem *, std::vector<PoDoFo::PdfXRef::TXRefItem, std::allocator<PoDoFo::PdfXRef::TXRefItem> > >
+WriteObject
+move_backward<__gnu_cxx::__normal_iterator<PoDoFo::PdfXRef::TXRefItem *, std::vector<PoDoFo::PdfXRef::TXRefItem, std::allocator<PoDoFo::PdfXRef::TXRefItem> > >, __gnu_cxx::__normal_iterator<PoDoFo::PdfXRef::TXRefItem *, std::vector<PoDoFo::PdfXRef::TXRefItem, std::allocator<PoDoFo::PdfXRef::TXRefItem> > > >
+WriteCmapTable
+EnableDebug
+atanhf
+resize
+__distance<__gnu_cxx::__normal_iterator<PoDoFo::PdfReference *, std::vector<PoDoFo::PdfReference, std::allocator<PoDoFo::PdfReference> > > >
+__make_move_if_noexcept_iterator<double, std::move_iterator<double *> >
+__normal_iterator
+_Destroy<unsigned int *>
+vscanf
+_Construct<PoDoFo::PdfXRef::TXRefItem, PoDoFo::PdfXRef::TXRefItem>
+CheckKey
+destroy<PoDoFo::PdfObject *>
+GetProcSet
+construct<PoDoFo::PdfPage *, PoDoFo::PdfPage *const &>
+SetColor
+insert
+_M_emplace_aux
+PdfEncryptRC4Base
+Reserve
+__destroy<__gnu_cxx::__normal_iterator<PoDoFo::PdfEncodingDifference::TDifference *, std::vector<PoDoFo::PdfEncodingDifference::TDifference, std::allocator<PoDoFo::PdfEncodingDifference::TDifference> > > >
+operator==<const unsigned char *, std::vector<unsigned char, std::allocator<unsigned char> > >
+operator-<char *, std::vector<char, std::allocator<char> > >
+__make_move_if_noexcept_iterator<PoDoFo::TFontCacheElement, const PoDoFo::TFontCacheElement *>
+pair<const unsigned short &>
+uninitialized_copy<PoDoFo::PdfReference *, PoDoFo::PdfReference *>
+bsearch
+~__pair_base
+_Destroy<__gnu_cxx::__normal_iterator<PoDoFo::PdfEncodingDifference::TDifference *, std::vector<PoDoFo::PdfEncodingDifference::TDifference, std::allocator<PoDoFo::PdfEncodingDifference::TDifference> > >, PoDoFo::PdfEncodingDifference::TDifference>
+DebugMessage
+__make_move_if_noexcept_iterator<std::__cxx11::list<PoDoFo::PdfReference *, std::allocator<PoDoFo::PdfReference *> >, std::move_iterator<std::__cxx11::list<PoDoFo::PdfReference *, std::allocator<PoDoFo::PdfReference *> > *> >
+__uninitialized_move_a<PoDoFo::PdfObject *, PoDoFo::PdfObject *, std::allocator<PoDoFo::PdfObject> >
+forward<long>
+exp
+__uniq_ptr_impl
+_M_insert_aux<const PoDoFo::PdfReference &>
+__iterator_category<__gnu_cxx::__normal_iterator<PoDoFo::TFontCacheElement *, std::vector<PoDoFo::TFontCacheElement, std::allocator<PoDoFo::TFontCacheElement> > > >
+__copy_move_backward_a<false, PoDoFo::PdfPage ***, PoDoFo::PdfPage ***>
+CharWidth
+GetPreviousOffset
+TGlyphData
+getenv
+swscanf
+setbuf
+construct<PoDoFo::PdfObject *, PoDoFo::PdfObject *>
+GetFontConfig
+FindKeyWordByName
+_Construct<PoDoFo::PdfReference, PoDoFo::PdfReference>
+__iter_comp_val<PoDoFo::NamedColorComparatorPredicate>
+getc
+pair
+__uninitialized_copy_a<std::move_iterator<PoDoFo::PdfLZWFilter::TLzwItem *>, PoDoFo::PdfLZWFilter::TLzwItem *, PoDoFo::PdfLZWFilter::TLzwItem>
+copy<PoDoFo::PdfReference *, PoDoFo::PdfReference *>
+__heap_select<__gnu_cxx::__normal_iterator<PoDoFo::TFontCacheElement *, std::vector<PoDoFo::TFontCacheElement, std::allocator<PoDoFo::TFontCacheElement> > >, __gnu_cxx::__ops::_Iter_less_iter>
+ConvertToEncoding
+MustGetKey
+_Destroy<__gnu_cxx::__normal_iterator<PoDoFo::PdfObject *, std::vector<PoDoFo::PdfObject, std::allocator<PoDoFo::PdfObject> > > >
+findKeyParent
+__uninit_copy<std::move_iterator<unsigned int *>, unsigned int *>
+construct<PoDoFo::TBFRange, const PoDoFo::TBFRange &>
+__copy_move_backward_a<true, PoDoFo::TFontCacheElement *, PoDoFo::TFontCacheElement *>
+__final_insertion_sort<__gnu_cxx::__normal_iterator<PoDoFo::PdfXRef::PdfXRefBlock *, std::vector<PoDoFo::PdfXRef::PdfXRefBlock, std::allocator<PoDoFo::PdfXRef::PdfXRefBlock> > >, __gnu_cxx::__ops::_Iter_less_iter>
+isdigit
+rbegin
+fill_n<unsigned char *, unsigned long, unsigned char>
+_Destroy<PoDoFo::PdfReference>
+operator[]
+SetPageMode
+__uninitialized_copy_a<const PoDoFo::TFontCacheElement *, PoDoFo::TFontCacheElement *, PoDoFo::TFontCacheElement>
+copy<PoDoFo::PdfXRef::TXRefItem *, PoDoFo::PdfXRef::TXRefItem *>
+_M_data_ptr<char>
+_M_create_node<const std::piecewise_construct_t &, std::tuple<long &&>, std::tuple<> >
+_List_impl
+__copy_move_a<false, PoDoFo::PdfObject *, PoDoFo::PdfObject *>
+__destroy<PoDoFo::TFontCacheElement *>
+construct<long, const long &>
+__insertion_sort<__gnu_cxx::__normal_iterator<PoDoFo::PdfXRef::TXRefItem *, std::vector<PoDoFo::PdfXRef::TXRefItem, std::allocator<PoDoFo::PdfXRef::TXRefItem> > >, __gnu_cxx::__ops::_Iter_less_iter>
+GetEscapedName
+PdfEncryptSHABase
+_M_realloc_insert<unsigned char>
+~PdfExtension
+_Destroy<PoDoFo::PdfEncodingDifference::TDifference>
+~WidthExporter
+~PdfErrorInfo
+fseek
+__uninit_default_n<char *, unsigned long>
+GetObjectOwner
+operator!=<const PoDoFo::TFontCacheElement *, PoDoFo::TFontCacheElement *, std::vector<PoDoFo::TFontCacheElement, std::allocator<PoDoFo::TFontCacheElement> > >
+fputwc
+GetPageSize
+GetReference
+__uninitialized_move_if_noexcept_a<PoDoFo::PdfPage **, PoDoFo::PdfPage **, std::allocator<PoDoFo::PdfPage *> >
+fillGidToCodePoint
+__copy_m<double>
+GetLoadOnDemand
+operator!=<const long *, std::vector<long, std::allocator<long> > >
+_M_insert_aux<PoDoFo::PdfEncodingDifference::TDifference>
+__copy_move_b<GraphicsStack::TGraphicsStackElement *>
+GetMagenta
+__heap_select<__gnu_cxx::__normal_iterator<PoDoFo::PdfObject **, std::vector<PoDoFo::PdfObject *, std::allocator<PoDoFo::PdfObject *> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(const PoDoFo::PdfObject *, const PoDoFo::PdfObject *)> >
+operator()<const PoDoFo::TFontCacheElement, __gnu_cxx::__normal_iterator<PoDoFo::TFontCacheElement *, std::vector<PoDoFo::TFontCacheElement, std::allocator<PoDoFo::TFontCacheElement> > > >
+copy<PoDoFo::PdfObject ***, PoDoFo::PdfObject ***>
+SetFontConfigWrapper
+get
+__equal_range<__gnu_cxx::__normal_iterator<PoDoFo::PdfObject *const *, std::vector<PoDoFo::PdfObject *, std::allocator<PoDoFo::PdfObject *> > >, PoDoFo::PdfObject *, __gnu_cxx::__ops::_Iter_comp_val<PoDoFo::ObjectComparatorPredicate>, __gnu_cxx::__ops::_Val_comp_iter<PoDoFo::ObjectComparatorPredicate> >
+IsMetadataEncrypted
+pair<const unsigned long &>
+SetPageWidth
+GetRevision
+SetSorted
+ParseFixLenNumber
+~PdfArray
+AddAlternativeAction
+GetLastChar
+operator()<PoDoFo::PdfObject *const, __gnu_cxx::__normal_iterator<PoDoFo::PdfObject **, std::vector<PoDoFo::PdfObject *, std::allocator<PoDoFo::PdfObject *> > > >
+SetBackgroundColorTransparent
+clear
+GetKeyValue
+SetString
+GetHighlightingMode
+~PdfOwnedDataType
+__val_comp_iter<bool (*)(const PoDoFo::PdfObject *, const PoDoFo::PdfObject *)>
+forward<PoDoFo::PdfEncodingDifference::TDifference>
+HasStreamToParse
+__unguarded_partition_pivot<__gnu_cxx::__normal_iterator<PoDoFo::PdfObject **, std::vector<PoDoFo::PdfObject *, std::allocator<PoDoFo::PdfObject *> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(const PoDoFo::PdfObject *, const PoDoFo::PdfObject *)> >
+GetDocument
+SetText
+push_back
+_Exit
+TXRefItem
+srand
+GetGlyphId
+move<std::allocator<unsigned char> &>
+__uninitialized_copy_a<std::move_iterator<PoDoFo::PdfXRef::TXRefItem *>, PoDoFo::PdfXRef::TXRefItem *, PoDoFo::PdfXRef::TXRefItem>
+iter_swap<__gnu_cxx::__normal_iterator<PoDoFo::PdfXRef::PdfXRefBlock *, std::vector<PoDoFo::PdfXRef::PdfXRefBlock, std::allocator<PoDoFo::PdfXRef::PdfXRefBlock> > >, __gnu_cxx::__normal_iterator<PoDoFo::PdfXRef::PdfXRefBlock *, std::vector<PoDoFo::PdfXRef::PdfXRefBlock, std::allocator<PoDoFo::PdfXRef::PdfXRefBlock> > > >
+~PdfLZWFilter
+PdfWinAnsiEncoding
+_M_release
+LoggingEnabled
+~PdfRLEFilter
+EndWrite
+Resize
+SetVariantOwner
+cosh
+NamedColorComparatorPredicate
+operator-<PoDoFo::PdfErrorInfo, const PoDoFo::PdfErrorInfo &, const PoDoFo::PdfErrorInfo *>
+_M_deleter
+operator()<const std::__cxx11::basic_string<char> &>
+GetFileAttachement
+_M_realloc_insert<const PoDoFo::EPdfFilter &>
+GetBoundingBox
+WriteTables
+__miter_base<double *>
+_M_insert_dispatch<__gnu_cxx::__normal_iterator<PoDoFo::PdfXRef::TXRefItem *, std::vector<PoDoFo::PdfXRef::TXRefItem, std::allocator<PoDoFo::PdfXRef::TXRefItem> > > >
+GetNonStrokingColor
+genDelMap
+move<unsigned int &>
+__copy_move_b<PoDoFo::PdfObject *>
+wcsrchr
+PdfOutlineItem
+CreateObject
+swap
+FreeObjectMemory
+towupper
+__copy_move_backward_a2<true, PoDoFo::PdfErrorInfo *, PoDoFo::PdfErrorInfo *>
+__make_heap<__gnu_cxx::__normal_iterator<PoDoFo::PdfXRef::PdfXRefBlock *, std::vector<PoDoFo::PdfXRef::PdfXRefBlock, std::allocator<PoDoFo::PdfXRef::PdfXRefBlock> > >, __gnu_cxx::__ops::_Iter_less_iter>
+SetBorderColorTransparent
+GetParentOutline
+uninitialized_copy<std::move_iterator<double *>, double *>
+PdfAnnotation
+__copy_move_a<false, PoDoFo::PdfXRef::TXRefItem *, PoDoFo::PdfXRef::TXRefItem *>
+forward<PoDoFo::PdfObject *>
+forward<unsigned char>
+operator()<std::_Deque_iterator<PoDoFo::PdfReference, PoDoFo::PdfReference &, PoDoFo::PdfReference *>, const PoDoFo::PdfReference>
+getKey
+SetNonStrokingColorCMYK
+destroy<PoDoFo::PdfVariant>
+fmax
+DeleteAnnotation
+__destroy<PoDoFo::PdfFontTTFSubset::TTrueTypeTable *>
+operator!=<PoDoFo::PdfFontTTFSubset::TTrueTypeTable *>
+forward<std::_Rb_tree_iterator<int> >
+pair<std::_Rb_tree_node<std::pair<const unsigned short, int> > *&, std::_Rb_tree_node_base *&, true>
+__niter_base<PoDoFo::PdfVecObjects::Observer **, std::vector<PoDoFo::PdfVecObjects::Observer *, std::allocator<PoDoFo::PdfVecObjects::Observer *> > >
+~_List_base
+_M_get_size
+__miter_base<PoDoFo::PdfObject *>
+EncodeTuple
+~map
+CreateID
+CreatePage
+copy<std::move_iterator<PoDoFo::PdfPage **>, PoDoFo::PdfPage **>
+ReadXRef
+_Head_base<char *&>
+HasLinearizationDict
+mbrlen
+ispunct
+AddUsedSubsettingGlyphs
+forward<std::_Rb_tree_iterator<std::__cxx11::basic_string<char> > &>
+__introsort_loop<__gnu_cxx::__normal_iterator<PoDoFo::PdfReference *, std::vector<PoDoFo::PdfReference, std::allocator<PoDoFo::PdfReference> > >, long, __gnu_cxx::__ops::_Iter_less_iter>
+__make_move_if_noexcept_iterator<PoDoFo::PdfXRef::PdfXRefBlock, const PoDoFo::PdfXRef::PdfXRefBlock *>
+operator==<PoDoFo::PdfReference *>
+towctrans
+_Construct<PoDoFo::PdfXRef::PdfXRefBlock, const PoDoFo::PdfXRef::PdfXRefBlock &>
+_Destroy<PoDoFo::PdfEncodingDifference::TDifference *, PoDoFo::PdfEncodingDifference::TDifference>
+advance<__gnu_cxx::__normal_iterator<PoDoFo::TFontCacheElement *, std::vector<PoDoFo::TFontCacheElement, std::allocator<PoDoFo::TFontCacheElement> > >, long>
+strrchr
+_Iter_equals_val
+__miter_base<long *>
+get<0, const PoDoFo::PdfName &>
+AddPdfExtension
+GetLinearized
+_Tuple_impl<char *&, void (*)(void *), void>
+_M_data_ptr<unsigned char>
+uninitialized_copy<std::move_iterator<PoDoFo::PdfObject **>, PoDoFo::PdfObject **>
+SetContents
+_M_reserve_elements_at_front
+GetObjects
+StringWidthMM
+PdfFileStream
+~ColorChanger
+__destroy<std::__cxx11::basic_string<char> *>
+__heap_select<__gnu_cxx::__normal_iterator<PoDoFo::PdfXRef::TXRefItem *, std::vector<PoDoFo::PdfXRef::TXRefItem, std::allocator<PoDoFo::PdfXRef::TXRefItem> > >, __gnu_cxx::__ops::_Iter_less_iter>
+_M_construct_node<std::pair<unsigned int, unsigned long> >
+GetMarkInfo
+move<unsigned int *&>
+copy<std::move_iterator<double *>, double *>
+fputc
+PdfStream
+SetAlternateName
+GetFirstChar
+PdfExtension
+SetHideToolbar
+__copy_move_backward_a<true, PoDoFo::PdfReference *, PoDoFo::PdfReference *>
+difftime
+pair<const PoDoFo::PdfNamedColor *&, const PoDoFo::PdfNamedColor *&, true>
+construct<double, double>
+~TDifference
+__uninit_copy<__gnu_cxx::__normal_iterator<const PoDoFo::PdfReference *, std::vector<PoDoFo::PdfReference, std::allocator<PoDoFo::PdfReference> > >, PoDoFo::PdfReference *>
+forward<PoDoFo::PdfObject &>
+__uninit_copy<__gnu_cxx::__normal_iterator<PoDoFo::PdfReference *, std::vector<PoDoFo::PdfReference, std::allocator<PoDoFo::PdfReference> > >, PoDoFo::PdfReference *>
+forward<__gnu_cxx::__normal_iterator<PoDoFo::PdfObject *const *, std::vector<PoDoFo::PdfObject *, std::allocator<PoDoFo::PdfObject *> > > &>
+AddAppearanceStream
+__copy_move_a2<true, char *, char *>
+GetFontData
+forward<bool &>
+CreateCmapTable
+SetAction
+GetFileSize
+DeletePageNode
+operator!=<PoDoFo::TFontCacheElement *, std::vector<PoDoFo::TFontCacheElement, std::allocator<PoDoFo::TFontCacheElement> > >
+pair<std::_Rb_tree_node<int> *&, std::_Rb_tree_node_base *&, true>
+PdfPushButton
+insert<std::pair<PoDoFo::PdfName, PoDoFo::PdfObject *> >
+move<PoDoFo::PdfEncodingDifference::DifferenceComparatorPredicate &>
+GetNumberOfIncrementalUpdates
+ConvertUTF16toUTF8
+__get_helper<0, std::vector<char, std::allocator<char> > *, std::default_delete<std::vector<char, std::allocator<char> > > >
+operator-<PoDoFo::PdfExtension *, std::vector<PoDoFo::PdfExtension, std::allocator<PoDoFo::PdfExtension> > >
+pair<PoDoFo::PdfObject *const &>
+tuple<char *&, void (*)(void *), true>
+Big2Little
+operator==<PoDoFo::PdfReference *, std::vector<PoDoFo::PdfReference, std::allocator<PoDoFo::PdfReference> > >
+forward<const PoDoFo::EPdfFilter &>
+GetPageNode
+GetCanReuseObjectNumbers
+GetColorSpaceForName
+~PdfInputDevice
+setf
+__copy_move_a<false, PoDoFo::PdfReference **, PoDoFo::PdfReference **>
+GetAnnotationsArray
+data
+__copy_move_a2<false, unsigned char *, unsigned char *>
+IsSymbol
+pair<PoDoFo::PdfObject *&, true>
+__uninit_copy<__gnu_cxx::__normal_iterator<const PoDoFo::PdfXRef::TXRefItem *, std::vector<PoDoFo::PdfXRef::TXRefItem, std::allocator<PoDoFo::PdfXRef::TXRefItem> > >, PoDoFo::PdfXRef::TXRefItem *>
+operator==<const PoDoFo::TFontCacheElement *, PoDoFo::TFontCacheElement *, std::vector<PoDoFo::TFontCacheElement, std::allocator<PoDoFo::TFontCacheElement> > >
+GetFontPath
+forward<std::_Rb_tree_iterator<long> &>
+RC4CryptoEngine
+__miter_base<PoDoFo::PdfPage ***>
+__uninit_copy<__gnu_cxx::__normal_iterator<PoDoFo::PdfXRef::TXRefItem *, std::vector<PoDoFo::PdfXRef::TXRefItem, std::allocator<PoDoFo::PdfXRef::TXRefItem> > >, PoDoFo::PdfXRef::TXRefItem *>
+operator-<PoDoFo::PdfVariant *, std::vector<PoDoFo::PdfVariant, std::allocator<PoDoFo::PdfVariant> > >
+_M_upper_bound
+__uninitialized_copy_a<__gnu_cxx::__normal_iterator<const unsigned int *, std::vector<unsigned int, std::allocator<unsigned int> > >, unsigned int *, unsigned int>
+destroy<PoDoFo::TBFRange>
+__sort<__gnu_cxx::__normal_iterator<PoDoFo::PdfXRef::PdfXRefBlock *, std::vector<PoDoFo::PdfXRef::PdfXRefBlock, std::allocator<PoDoFo::PdfXRef::PdfXRefBlock> > >, __gnu_cxx::__ops::_Iter_less_iter>
+_M_resize_pos
+GetImmutable
+__equal_range<__gnu_cxx::__normal_iterator<PoDoFo::PdfObject **, std::vector<PoDoFo::PdfObject *, std::allocator<PoDoFo::PdfObject *> > >, PoDoFo::PdfObject *, __gnu_cxx::__ops::_Iter_comp_val<PoDoFo::ObjectComparatorPredicate>, __gnu_cxx::__ops::_Val_comp_iter<PoDoFo::ObjectComparatorPredicate> >
+btowc
+GetEncrypted
+move_backward<PoDoFo::PdfPage *>
+forward<unsigned short &&>
+operator-<PoDoFo::TBFRange *, std::vector<PoDoFo::TBFRange, std::allocator<PoDoFo::TBFRange> > >
+PdfFontMetricsBase14
+__destroy<__gnu_cxx::__normal_iterator<unsigned char *, std::vector<unsigned char, std::allocator<unsigned char> > > >
+advance<__gnu_cxx::__normal_iterator<PoDoFo::PdfEncodingDifference::TDifference *, std::vector<PoDoFo::PdfEncodingDifference::TDifference, std::allocator<PoDoFo::PdfEncodingDifference::TDifference> > >, long>
+__uninit_copy<const PoDoFo::PdfObject *, PoDoFo::PdfObject *>
+unique
+locale
+SetMaxRecursionDepth
+__iter_comp_iter<bool (*)(const PoDoFo::PdfObject *, const PoDoFo::PdfObject *)>
+SetMaxLen
+tuple<long, true>
+construct<PoDoFo::PdfFontTTFSubset::CMapv4Range, const PoDoFo::PdfFontTTFSubset::CMapv4Range &>
+begin
+wcstold
+operator<
+operator-<const PoDoFo::PdfReference *, std::vector<PoDoFo::PdfReference, std::allocator<PoDoFo::PdfReference> > >
+map
+EmbeddFileFromMem
+iswalpha
+operator!=<PoDoFo::PdfObject *, PoDoFo::PdfObject *&, PoDoFo::PdfObject **>
+iter_swap<__gnu_cxx::__normal_iterator<PoDoFo::PdfXRef::TXRefItem *, std::vector<PoDoFo::PdfXRef::TXRefItem, std::allocator<PoDoFo::PdfXRef::TXRefItem> > >, __gnu_cxx::__normal_iterator<PoDoFo::PdfXRef::TXRefItem *, std::vector<PoDoFo::PdfXRef::TXRefItem, std::allocator<PoDoFo::PdfXRef::TXRefItem> > > >
+__destroy<PoDoFo::PdfVecObjects::Observer **>
+construct<std::pair<PoDoFo::PdfObject *const, PoDoFo::PdfAnnotation *>, const std::piecewise_construct_t &, std::tuple<PoDoFo::PdfObject *const &>, std::tuple<> >
+~PdfEncrypt
+PdfName
+CheckEOL
+_Destroy<PoDoFo::PdfXRef::PdfXRefBlock>
+_M_construct_node<const std::__cxx11::basic_string<char> &>
+ConvertToPdfColorSpace
+__heap_select<__gnu_cxx::__normal_iterator<PoDoFo::PdfReference *, std::vector<PoDoFo::PdfReference, std::allocator<PoDoFo::PdfReference> > >, __gnu_cxx::__ops::_Iter_less_iter>
+__copy_move_a<true, unsigned short *, unsigned short *>
+operator!=<PoDoFo::PdfFontTTFSubset::CMapv4Range *, std::vector<PoDoFo::PdfFontTTFSubset::CMapv4Range, std::allocator<PoDoFo::PdfFontTTFSubset::CMapv4Range> > >
+ungetc
+_M_insert_dispatch<__gnu_cxx::__normal_iterator<PoDoFo::PdfReference *, std::vector<PoDoFo::PdfReference, std::allocator<PoDoFo::PdfReference> > > >
+IsSingleByteEncoding
+uninitialized_copy<const PoDoFo::PdfXRef::TXRefItem *, PoDoFo::PdfXRef::TXRefItem *>
+llroundf
+towlower
+copysign
+GetEncryptAlgorithm
+ComputeUserKey
+__niter_base<PoDoFo::PdfObject **, std::vector<PoDoFo::PdfObject *, std::allocator<PoDoFo::PdfObject *> > >
+__push_heap<__gnu_cxx::__normal_iterator<PoDoFo::PdfXRef::TXRefItem *, std::vector<PoDoFo::PdfXRef::TXRefItem, std::allocator<PoDoFo::PdfXRef::TXRefItem> > >, long, PoDoFo::PdfXRef::TXRefItem, __gnu_cxx::__ops::_Iter_less_val>
+GetCieA
+hypot
+IsError
+GetSubsetFontnamePrefix
+__normal_iterator<PoDoFo::PdfEncodingDifference::TDifference *>
+_M_inc_size
+PdfFontTrueType
+get<0, char *, void (*)(void *)>
+__copy_m<GraphicsStack::TGraphicsStackElement *>
+GetFileLength
+getUnicodeToIndexTable
+fmal
+operator-<const PoDoFo::PdfReference *, PoDoFo::PdfReference *, std::vector<PoDoFo::PdfReference, std::allocator<PoDoFo::PdfReference> > >
+operator~
+__copy_move_a<false, std::__cxx11::basic_string<char> **, std::__cxx11::basic_string<char> **>
+erase
+InitPagesTree
+fill<PoDoFo::PdfObject *, PoDoFo::PdfObject>
+SetFontCharSpace
+__miter_base<PoDoFo::PdfObject ***>
+operator*
+sin
+forward<const PoDoFo::PdfFontTTFSubset::TTrueTypeTable &>
+HasKey
+move<std::vector<unsigned int, std::allocator<unsigned int> > &>
+~PdfRefCountedBuffer
+ClearCache
+__cxa_exception_type
+sort<__gnu_cxx::__normal_iterator<PoDoFo::PdfObject **, std::vector<PoDoFo::PdfObject *, std::allocator<PoDoFo::PdfObject *> > >, bool (*)(const PoDoFo::PdfObject *, const PoDoFo::PdfObject *)>
+uninitialized_copy<std::move_iterator<std::__cxx11::list<PoDoFo::PdfReference *, std::allocator<PoDoFo::PdfReference *> > *>, std::__cxx11::list<PoDoFo::PdfReference *, std::allocator<PoDoFo::PdfReference *> > *>
+__lower_bound<__gnu_cxx::__normal_iterator<PoDoFo::PdfObject **, std::vector<PoDoFo::PdfObject *, std::allocator<PoDoFo::PdfObject *> > >, const PoDoFo::PdfObject *, __gnu_cxx::__ops::_Iter_comp_val<PoDoFo::ObjectComparatorPredicate> >
+~PdfRefCountedInputDevice
+rint
+BuildReferenceCountVector
+GetNameForColorSpace
+_Destroy<PoDoFo::TBFRange *, PoDoFo::TBFRange>
+__uninitialized_default_a<std::_Deque_iterator<PoDoFo::PdfPage *, PoDoFo::PdfPage *&, PoDoFo::PdfPage **>, PoDoFo::PdfPage *>
+PdfWin1250Encoding
+InitPdfParserObject
+__lower_bound<__gnu_cxx::__normal_iterator<PoDoFo::PdfEncodingDifference::TDifference *, std::vector<PoDoFo::PdfEncodingDifference::TDifference, std::allocator<PoDoFo::PdfEncodingDifference::TDifference> > >, PoDoFo::PdfEncodingDifference::TDifference, __gnu_cxx::__ops::_Iter_comp_val<PoDoFo::PdfEncodingDifference::DifferenceComparatorPredicate> >
+_M_reverse
+_Destroy<PoDoFo::PdfXRef::TXRefItem>
+~PdfCMapEncoding
+__copy_move_backward_a2<true, PoDoFo::PdfEncodingDifference::TDifference *, PoDoFo::PdfEncodingDifference::TDifference *>
+findKey
+get<0, const unsigned long &>
+SetCreator
+SetItalic
+operator-<PoDoFo::PdfXRef::PdfXRefBlock *, std::vector<PoDoFo::PdfXRef::PdfXRefBlock, std::allocator<PoDoFo::PdfXRef::PdfXRefBlock> > >
+PdfXRefBlock
+GetRoot
+reset
+__adjust_heap<__gnu_cxx::__normal_iterator<PoDoFo::PdfXRef::PdfXRefBlock *, std::vector<PoDoFo::PdfXRef::PdfXRefBlock, std::allocator<PoDoFo::PdfXRef::PdfXRefBlock> > >, long, PoDoFo::PdfXRef::PdfXRefBlock, __gnu_cxx::__ops::_Iter_less_iter>
+FillXObjectFromPage
+SetStreamFactory
+forward<std::tuple<const unsigned long &> >
+__copy_move_backward_a2<true, PoDoFo::PdfPage **, PoDoFo::PdfPage **>
+GetTrailer
+__normal_iterator<PoDoFo::TFontCacheElement *>
+_M_hook
+__get_helper<0, const unsigned long &>
+operator()<PoDoFo::TFontCacheElement, __gnu_cxx::__normal_iterator<PoDoFo::TFontCacheElement *, std::vector<PoDoFo::TFontCacheElement, std::allocator<PoDoFo::TFontCacheElement> > > >
+__make_move_if_noexcept_iterator<PoDoFo::PdfVariant, const PoDoFo::PdfVariant *>
+GetHeight
+time
+InitTables
+__uninitialized_copy_a<__gnu_cxx::__normal_iterator<PoDoFo::PdfVecObjects::Observer *const *, std::vector<PoDoFo::PdfVecObjects::Observer *, std::allocator<PoDoFo::PdfVecObjects::Observer *> > >, PoDoFo::PdfVecObjects::Observer **, PoDoFo::PdfVecObjects::Observer *>
+ConvertToCMYK
+find
+GetAscent
+InsertItem
+_S_value
+__addressof<GraphicsStack::TGraphicsStackElement>
+__sort_heap<__gnu_cxx::__normal_iterator<PoDoFo::PdfReference *, std::vector<PoDoFo::PdfReference, std::allocator<PoDoFo::PdfReference> > >, __gnu_cxx::__ops::_Iter_less_iter>
+~PdfVecObjects
+move<PoDoFo::PdfPage *>
+__uninitialized_default_n<PoDoFo::PdfParser::TXRefEntry *, unsigned long>
+_M_construct_node<const std::piecewise_construct_t &, std::tuple<const long &>, std::tuple<> >
+pair<PoDoFo::PdfObject *const &, 0>
+EnableDelayedStreamLoading
+~_Deque_impl
+getGidToCodePoint
+_Destroy<PoDoFo::PdfExtension *, PoDoFo::PdfExtension>
+_M_deallocate_map
+PdfOutputDevice
+~PdfPushButton
+_M_move_assign1
+operator+=
+~_Deque_base
+_Destroy<PoDoFo::TFontCacheElement>
+fopen
+uninitialized_copy<__gnu_cxx::__normal_iterator<PoDoFo::PdfPage *const *, std::vector<PoDoFo::PdfPage *, std::allocator<PoDoFo::PdfPage *> > >, PoDoFo::PdfPage **>
+GetObjectDependencies
+__copy_m<long>
+__miter_base<PoDoFo::PdfEncodingDifference::TDifference *>
+__distance<std::_Deque_iterator<PoDoFo::PdfErrorInfo, const PoDoFo::PdfErrorInfo &, const PoDoFo::PdfErrorInfo *> >
+GetProducer
+mbsrtowcs
+_M_insert_aux<PoDoFo::PdfObject *>
+_M_fill_initialize
+PdfDeviceInputStream
+wcsrtombs
+~PdfFontTrueType
+cos
+__copy_move_b<PoDoFo::PdfEncodingDifference::TDifference *, PoDoFo::PdfEncodingDifference::TDifference *>
+_S_propagate_on_swap
+_M_swap_data
+copy<__gnu_cxx::__normal_iterator<const PoDoFo::PdfReference *, std::vector<PoDoFo::PdfReference, std::allocator<PoDoFo::PdfReference> > >, __gnu_cxx::__normal_iterator<PoDoFo::PdfReference *, std::vector<PoDoFo::PdfReference, std::allocator<PoDoFo::PdfReference> > > >
+uninitialized_copy<std::move_iterator<PoDoFo::PdfFontTTFSubset::TTrueTypeTable *>, PoDoFo::PdfFontTTFSubset::TTrueTypeTable *>
+__copy_m<const PoDoFo::PdfXRef::TXRefItem *, PoDoFo::PdfXRef::TXRefItem *>
+__niter_base<PoDoFo::EPdfFilter *>
+EndAppend
+PdfEncryptRC4
+SetAlternateCaption
+_Val_comp_iter
+GetStrokingColorSpace
+GetDestsNode
+PdfFileOutputStream
+DelayedLoad
+CanEncode
+_M_end
+__uninit_copy<__gnu_cxx::__normal_iterator<PoDoFo::PdfVecObjects::Observer *const *, std::vector<PoDoFo::PdfVecObjects::Observer *, std::allocator<PoDoFo::PdfVecObjects::Observer *> > >, PoDoFo::PdfVecObjects::Observer **>
+GetPageCount
+fdimf
+GetEnabledEncryptionAlgorithms
+~RC4CryptoEngine
+_M_reserve_map_at_front
+ReadObjects
+ReadArray
+__copy_move_backward_a<true, PoDoFo::PdfXRef::TXRefItem *, PoDoFo::PdfXRef::TXRefItem *>
+_M_create_node<std::__cxx11::basic_string<char> >
+__addressof<PoDoFo::TBFRange>
+GetQuadPoints
+destroy<PoDoFo::PdfXRef::PdfXRefBlock>
+__niter_base<PoDoFo::PdfPage **>
+_M_insert_aux<PoDoFo::PdfXRef::TXRefItem>
+_Destroy<GraphicsStack::TGraphicsStackElement *, GraphicsStack::TGraphicsStackElement>
+__copy_move_backward_a<false, PoDoFo::PdfObject ***, PoDoFo::PdfObject ***>
+GetEncoding
+GetMediaBox
+__make_move_if_noexcept_iterator<unsigned int, std::move_iterator<unsigned int *> >
+GetAlternateColorSpace
+PdfRefCountedInputDevice
+PdfFilterFactory
+strerror
+CanDecode
+__copy_move_a2<false, PoDoFo::PdfXRef::TXRefItem *, PoDoFo::PdfXRef::TXRefItem *>
+destroy<PoDoFo::PdfXRef::TXRefItem>
+get<0, unsigned int &&>
+term_source
+__destroy<PoDoFo::PdfXRef::PdfXRefBlock *>
+~locale
+__copy_move_a<true, PoDoFo::PdfReference *, PoDoFo::PdfReference *>
+move<unsigned short &>
+operator-
+wcsncat
+forward_as_tuple<long>
+~PdfInfo
+PdfColorGray
+_M_allocate_and_copy<__gnu_cxx::__normal_iterator<const PoDoFo::PdfXRef::TXRefItem *, std::vector<PoDoFo::PdfXRef::TXRefItem, std::allocator<PoDoFo::PdfXRef::TXRefItem> > > >
+__advance<__gnu_cxx::__normal_iterator<PoDoFo::PdfXRef::TXRefItem *, std::vector<PoDoFo::PdfXRef::TXRefItem, std::allocator<PoDoFo::PdfXRef::TXRefItem> > >, long>
+AddFreeObject
+__cxx_global_var_init.1
+GetNameFromInfoDict
+__copy_m<unsigned short>
+SetCommitOnSelectionChange
+fgetwc
+construct<unsigned char, const unsigned char &>
+Authenticate
+~PdfFlateFilter
+CreateEncryptionInputStream
+expm1l
+__unguarded_partition_pivot<__gnu_cxx::__normal_iterator<PoDoFo::PdfXRef::TXRefItem *, std::vector<PoDoFo::PdfXRef::TXRefItem, std::allocator<PoDoFo::PdfXRef::TXRefItem> > >, __gnu_cxx::__ops::_Iter_less_iter>
+construct<PoDoFo::PdfEncodingDifference::TDifference, PoDoFo::PdfEncodingDifference::TDifference>
+strncpy
+ToVariant
+advance<__gnu_cxx::__normal_iterator<PoDoFo::PdfObject *const *, std::vector<PoDoFo::PdfObject *, std::allocator<PoDoFo::PdfObject *> > >, long>
+destroy<int>
+__cxx_global_array_dtor
+_Destroy<PoDoFo::PdfErrorInfo *, PoDoFo::PdfErrorInfo>
+__uninit_copy<std::move_iterator<long *>, long *>
+__miter_base<PoDoFo::PdfPage **>
+_Head_base<void (*)(void *)>
+get<0, unsigned short &&>
+forward<PoDoFo::PdfParser::TXRefEntry>
+operator==<PoDoFo::TBFRange *>
+SetPrintScaling
+__copy_m<const PoDoFo::PdfReference *, PoDoFo::PdfReference *>
+_M_construct_node<const std::piecewise_construct_t &, std::tuple<const PoDoFo::PdfName &>, std::tuple<> >
+PdfFlateFilter
+_Construct<PoDoFo::PdfXRef::TXRefItem, const PoDoFo::PdfXRef::TXRefItem &>
+reverse_iterator
+__copy_move_b<PoDoFo::PdfPage *>
+CreateRoot
+InsertPagesIntoNode
+ReallyDetach
+SetLeft
+WritePdfObjects
+lgammal
+__uninitialized_copy_a<std::move_iterator<double *>, double *, double>
+move<PoDoFo::EPdfFilter &>
+GetNamesTree
+LoadGlyphs
+wmemchr
+_M_emplace_hint_unique<const std::piecewise_construct_t &, std::tuple<long &&>, std::tuple<> >
+~PdfMemoryInputStream
+construct<int, const int &>
+frexp
+rethrow_exception
+GetMD5String
+SetFocusLeaveAction
+mbtowc
+~RecursionGuard
+_M_put_node
+SetKeystrokeAction
+~PdfPagesTree
+__destroy<std::__cxx11::list<PoDoFo::PdfReference *, std::allocator<PoDoFo::PdfReference *> > *>
+__make_heap<__gnu_cxx::__normal_iterator<PoDoFo::PdfXRef::TXRefItem *, std::vector<PoDoFo::PdfXRef::TXRefItem, std::allocator<PoDoFo::PdfXRef::TXRefItem> > >, __gnu_cxx::__ops::_Iter_less_iter>
+__distance<const PoDoFo::PdfNamedColor *>
+GetRawData
+__uninitialized_default_n_a<char *, unsigned long, char>
+copy_backward<PoDoFo::PdfObject ***, PoDoFo::PdfObject ***>
+insert<std::pair<unsigned int, unsigned long> >
+wcspbrk
+LoadGID
+__make_heap<__gnu_cxx::__normal_iterator<PoDoFo::TFontCacheElement *, std::vector<PoDoFo::TFontCacheElement, std::allocator<PoDoFo::TFontCacheElement> > >, __gnu_cxx::__ops::_Iter_less_iter>
+PdfFontCache
+uninitialized_copy<__gnu_cxx::__normal_iterator<PoDoFo::PdfXRef::TXRefItem *, std::vector<PoDoFo::PdfXRef::TXRefItem, std::allocator<PoDoFo::PdfXRef::TXRefItem> > >, PoDoFo::PdfXRef::TXRefItem *>
+~PdfEncodingDifference
+GetFilename
+addressof<PoDoFo::PdfXRef::TXRefItem>
+construct<PoDoFo::PdfEncodingDifference::TDifference, const PoDoFo::PdfEncodingDifference::TDifference &>
+SetFieldName
+PdfOutlines
+ctime
+UnicodeIDToName
+__addressof<PoDoFo::PdfParser::TXRefEntry>
+PdfEncodingDifference
+operator|
+roundl
+operator==<PoDoFo::PdfErrorInfo, PoDoFo::PdfErrorInfo &, PoDoFo::PdfErrorInfo *>
+InitFromFace
+__copy_move_backward_a<true, PoDoFo::PdfPage **, PoDoFo::PdfPage **>
+construct<PoDoFo::PdfVariant, PoDoFo::PdfVariant>
+move_backward<PoDoFo::PdfPage **, PoDoFo::PdfPage **>
+floor
+~PdfXRefStreamParserObject
+__uninitialized_copy_a<const PoDoFo::PdfEncodingDifference::TDifference *, PoDoFo::PdfEncodingDifference::TDifference *, PoDoFo::PdfEncodingDifference::TDifference>
+Pop
+finishSBE
+__destroy<std::pair<std::__cxx11::basic_string<char>, PoDoFo::EPdfTokenType> *>
+__uninitialized_copy_a<std::move_iterator<long *>, long *, long>
+__uninit_copy<PoDoFo::PdfReference *, PoDoFo::PdfReference *>
+PdfMutexWrapper
+WriteHmtxTable
+Flush
+construct<char, const char &>
+~PdfFileInputStream
+__copy_move_backward_a<true, PoDoFo::PdfObject *, PoDoFo::PdfObject *>
+GetBaseFont
+pair<unsigned int &, unsigned long &, true>
+construct<std::pair<const unsigned short, unsigned short>, const std::piecewise_construct_t &, std::tuple<const unsigned short &>, std::tuple<> >
+GetInternalBufferSize
+_M_install_cache
+__copy_move_a2<false, PoDoFo::PdfPage ***, PoDoFo::PdfPage ***>
+operator()<__gnu_cxx::__normal_iterator<PoDoFo::PdfObject **, std::vector<PoDoFo::PdfObject *, std::allocator<PoDoFo::PdfObject *> > >, __gnu_cxx::__normal_iterator<PoDoFo::PdfObject **, std::vector<PoDoFo::PdfObject *, std::allocator<PoDoFo::PdfObject *> > > >
+distance<__gnu_cxx::__normal_iterator<PoDoFo::PdfObject **, std::vector<PoDoFo::PdfObject *, std::allocator<PoDoFo::PdfObject *> > > >
+rewind
+_M_get_Tp_allocator
+equal<const PoDoFo::PdfObject *, const PoDoFo::PdfObject *>
+stack<std::deque<GraphicsStack::TGraphicsStackElement, std::allocator<GraphicsStack::TGraphicsStackElement> >, void>
+_M_create_node<PoDoFo::PdfObject *>
+forward<void (*)(void *)>
+forward<unsigned short>
+__uninit_copy<std::move_iterator<PoDoFo::TBFRange *>, PoDoFo::TBFRange *>
+__uninitialized_copy_a<const PoDoFo::PdfReference *, PoDoFo::PdfReference *, PoDoFo::PdfReference>
+GetRolloverCaption
+__get_helper<0, const PoDoFo::PdfName &>
+GetInheritedKey
+forward<const PoDoFo::PdfName &>
+~PdfMemoryOutputStream
+GetText
+nanf
+__uninitialized_move_a<std::_Deque_iterator<PoDoFo::PdfErrorInfo, PoDoFo::PdfErrorInfo &, PoDoFo::PdfErrorInfo *>, std::_Deque_iterator<PoDoFo::PdfErrorInfo, PoDoFo::PdfErrorInfo &, PoDoFo::PdfErrorInfo *>, std::allocator<PoDoFo::PdfErrorInfo> >
+_S_raw_ptr
+lrintf
+_M_create_node<const std::piecewise_construct_t &, std::tuple<const unsigned short &>, std::tuple<> >
+__copy_move_a2<false, __gnu_cxx::__normal_iterator<const double *, std::vector<double, std::allocator<double> > >, double *>
+__niter_base<unsigned char *, std::vector<unsigned char, std::allocator<unsigned char> > >
+GetGreen
+tanh
+~PdfEncryptAESV3
+_Destroy<PoDoFo::PdfParser::TXRefEntry *, PoDoFo::PdfParser::TXRefEntry>
+construct<std::pair<const unsigned int, unsigned long>, const std::piecewise_construct_t &, std::tuple<unsigned int &&>, std::tuple<> >
+_Destroy<std::_Deque_iterator<PoDoFo::PdfErrorInfo, PoDoFo::PdfErrorInfo &, PoDoFo::PdfErrorInfo *> >
+SetTextColor
+__niter_base<const PoDoFo::PdfObject *, std::vector<PoDoFo::PdfObject, std::allocator<PoDoFo::PdfObject> > >
+GetAction
+__uninit_copy<std::move_iterator<PoDoFo::PdfFontTTFSubset::CMapv4Range *>, PoDoFo::PdfFontTTFSubset::CMapv4Range *>
+~PdfTokenizer
+IsMultiSelect
+__cxx_global_var_init.7
+nexttoward
+nexttowardf
+PdfMacRomanEncoding
+GetUnicodeLength
+_M_allocate_and_copy<std::move_iterator<unsigned short *> >
+operator!=<PoDoFo::PdfObject **, std::vector<PoDoFo::PdfObject *, std::allocator<PoDoFo::PdfObject *> > >
+GetFont
+CollectGarbage
+_Destroy<PoDoFo::PdfErrorInfo>
+move<__gnu_cxx::__ops::_Iter_less_iter &>
+__partial_sort<__gnu_cxx::__normal_iterator<PoDoFo::PdfXRef::PdfXRefBlock *, std::vector<PoDoFo::PdfXRef::PdfXRefBlock, std::allocator<PoDoFo::PdfXRef::PdfXRefBlock> > >, __gnu_cxx::__ops::_Iter_less_iter>
+IsFillAndSignAllowed
+GetStream_NoDL
+GetColorFromStack
+ParseFile
+IsHex
+__copy_move_backward_a<true, PoDoFo::PdfErrorInfo *, PoDoFo::PdfErrorInfo *>
+operator!=<PoDoFo::PdfObject *>
+hypotl
+operator-<PoDoFo::PdfReference, const PoDoFo::PdfReference &, const PoDoFo::PdfReference *>
+~PdfEncryptRC4
+mktime
+forward<PoDoFo::PdfPage *>
+uninitialized_copy<__gnu_cxx::__normal_iterator<PoDoFo::PdfReference *, std::vector<PoDoFo::PdfReference, std::allocator<PoDoFo::PdfReference> > >, PoDoFo::PdfReference *>
+__addressof<PoDoFo::PdfErrorInfo>
+destroy<PoDoFo::EPdfFilter>
+wcstombs
+~_Impl
+GetCaption
+GetBottom
+operator()<__gnu_cxx::__normal_iterator<PoDoFo::PdfObject **, std::vector<PoDoFo::PdfObject *, std::allocator<PoDoFo::PdfObject *> > >, PoDoFo::PdfObject *>
+__uninitialized_copy_a<PoDoFo::PdfObject *, PoDoFo::PdfObject *, PoDoFo::PdfObject>
+~PdfContents
+__val_comp_iter<PoDoFo::ReferenceComparatorPredicate>
+distance<std::_Deque_iterator<PoDoFo::PdfReference, PoDoFo::PdfReference &, PoDoFo::PdfReference *> >
+operator!=<const PoDoFo::PdfXRef::TXRefItem *, std::vector<PoDoFo::PdfXRef::TXRefItem, std::allocator<PoDoFo::PdfXRef::TXRefItem> > >
+CalculateStreamOffset
+_M_allocate_and_copy<std::move_iterator<PoDoFo::PdfObject **> >
+ReadNext
+IsTypePages
+__uninit_copy<PoDoFo::PdfEncodingDifference::TDifference *, PoDoFo::PdfEncodingDifference::TDifference *>
+__copy_move_backward_a<false, std::__cxx11::basic_string<char> **, std::__cxx11::basic_string<char> **>
+EncodeBlockImpl
+PdfCMapEncoding
+clock
+_Head_base
+FindAt
+SetStrokingColorRGB
+isblank
+__upper_bound<__gnu_cxx::__normal_iterator<PoDoFo::PdfObject *const *, std::vector<PoDoFo::PdfObject *, std::allocator<PoDoFo::PdfObject *> > >, PoDoFo::PdfObject *, __gnu_cxx::__ops::_Val_comp_iter<PoDoFo::ObjectComparatorPredicate> >
+__upper_bound<__gnu_cxx::__normal_iterator<PoDoFo::PdfEncodingDifference::TDifference *, std::vector<PoDoFo::PdfEncodingDifference::TDifference, std::allocator<PoDoFo::PdfEncodingDifference::TDifference> > >, PoDoFo::PdfEncodingDifference::TDifference, __gnu_cxx::__ops::_Val_comp_iter<PoDoFo::PdfEncodingDifference::DifferenceComparatorPredicate> >
+__val_comp_iter
+GetWidthArray
+release
+operator-<double *, std::vector<double, std::allocator<double> > >
+GetUseXRefStream
+__copy_move_backward_a2<false, PoDoFo::PdfReference **, PoDoFo::PdfReference **>
+Prev
+scalbnl
+PadPassword
+construct<std::pair<const PoDoFo::PdfName, PoDoFo::PdfObject *>, std::pair<PoDoFo::PdfName, PoDoFo::PdfObject *> >
+construct<char, char>
+__aligned_membuf
+GraphicsStack
+pair<std::_Rb_tree_iterator<unsigned short>, bool, true>
+__niter_base<PoDoFo::PdfXRef::TXRefItem *, std::vector<PoDoFo::PdfXRef::TXRefItem, std::allocator<PoDoFo::PdfXRef::TXRefItem> > >
+move_backward<PoDoFo::PdfXRef::TXRefItem *, PoDoFo::PdfXRef::TXRefItem *>
+~PdfButton
+ContainsString
+__cxx_global_var_init.13
+pair<const PoDoFo::PdfName &>
+__rb_verify
+GetZoom
+operator-<long *, std::vector<long, std::allocator<long> > >
+localeconv
+isalnum
+PdfFilteredEncodeStream
+distance<__gnu_cxx::__normal_iterator<PoDoFo::PdfEncodingDifference::TDifference *, std::vector<PoDoFo::PdfEncodingDifference::TDifference, std::allocator<PoDoFo::PdfEncodingDifference::TDifference> > > >
+operator-<const PoDoFo::PdfXRef::TXRefItem *, PoDoFo::PdfXRef::TXRefItem *, std::vector<PoDoFo::PdfXRef::TXRefItem, std::allocator<PoDoFo::PdfXRef::TXRefItem> > >
+SetMouseEnterAction
+~PdfFontCache
+CreateForSubsetting
+__normal_iterator<PoDoFo::PdfFontTTFSubset::CMapv4Range *>
+forward<std::_Rb_tree_iterator<std::pair<const PoDoFo::PdfName, PoDoFo::PdfObject *> > >
+operator!=<PoDoFo::PdfExtension *>
+key_comp
+SetHighlightingMode
+base
+_M_move_data
+__copy_move_a2<false, PoDoFo::PdfErrorInfo **, PoDoFo::PdfErrorInfo **>
+fabs
+__uninit_copy<std::move_iterator<PoDoFo::PdfExtension *>, PoDoFo::PdfExtension *>
+__addressof<PoDoFo::TFontCacheElement>
+shrink_to_fit
+_M_get_map_allocator
+log
+forward<PoDoFo::PdfObject *&>
+init_source
+__uninitialized_move_if_noexcept_a<PoDoFo::PdfFontTTFSubset::CMapv4Range *, PoDoFo::PdfFontTTFSubset::CMapv4Range *, std::allocator<PoDoFo::PdfFontTTFSubset::CMapv4Range> >
+Intersect
+allocator
+__copy_move_backward_a2<true, __gnu_cxx::__normal_iterator<PoDoFo::PdfXRef::TXRefItem *, std::vector<PoDoFo::PdfXRef::TXRefItem, std::allocator<PoDoFo::PdfXRef::TXRefItem> > >, __gnu_cxx::__normal_iterator<PoDoFo::PdfXRef::TXRefItem *, std::vector<PoDoFo::PdfXRef::TXRefItem, std::allocator<PoDoFo::PdfXRef::TXRefItem> > > >
+__uninit_copy<std::move_iterator<double *>, double *>
+SetMultiLine
+exception_ptr
+_Destroy<__gnu_cxx::__normal_iterator<unsigned char *, std::vector<unsigned char, std::allocator<unsigned char> > > >
+ReadObjectNumber
+forward<PoDoFo::PdfXRef::PdfXRefBlock>
+uninitialized_copy<PoDoFo::PdfEncodingDifference::TDifference *, PoDoFo::PdfEncodingDifference::TDifference *>
+SetBackgroundColor
+DecodeBlockImpl
+GetStream
+ReadName
+SetHeight
+front
+Finish
+__iterator_category<__gnu_cxx::__normal_iterator<const long *, std::vector<long, std::allocator<long> > > >
+_M_create_node<const std::__cxx11::basic_string<char> &>
+GetStringFromInfoDict
+__niter_base<PoDoFo::PdfErrorInfo *>
+asctime
+~TLzwItem
+_Construct<PoDoFo::PdfErrorInfo, const PoDoFo::PdfErrorInfo &>
+length
+IsSeparation
+~PdfFilteredEncodeStream
+forward<std::default_delete<std::vector<char, std::allocator<char> > > >
+_Construct<PoDoFo::PdfExtension, PoDoFo::PdfExtension>
+move<__gnu_cxx::__normal_iterator<PoDoFo::PdfXRef::PdfXRefBlock *, std::vector<PoDoFo::PdfXRef::PdfXRefBlock, std::allocator<PoDoFo::PdfXRef::PdfXRefBlock> > >, __gnu_cxx::__normal_iterator<PoDoFo::PdfXRef::PdfXRefBlock *, std::vector<PoDoFo::PdfXRef::PdfXRefBlock, std::allocator<PoDoFo::PdfXRef::PdfXRefBlock> > > >
+IsSubsetting
+operator==<PoDoFo::PdfReference, PoDoFo::PdfReference &, PoDoFo::PdfReference *>
+strtod
+__normal_iterator<PoDoFo::PdfObject **>
+EnableDelayedLoading
+pair<std::_Rb_tree_node<std::pair<const long, double> > *&, std::_Rb_tree_node_base *&, true>
+PdfMutexImpl
+destroy<std::pair<std::__cxx11::basic_string<char>, PoDoFo::EPdfTokenType> >
+__advance<std::_Deque_iterator<PoDoFo::PdfErrorInfo, const PoDoFo::PdfErrorInfo &, const PoDoFo::PdfErrorInfo *>, long>
+__copy_move_a2<true, unsigned short *, unsigned short *>
+_M_insert_aux<std::_Deque_iterator<PoDoFo::PdfErrorInfo, const PoDoFo::PdfErrorInfo &, const PoDoFo::PdfErrorInfo *> >
+FindKey
+_M_realloc_insert<const PoDoFo::PdfLZWFilter::TLzwItem &>
+AddDifference
+operator long
+_M_create_node<const std::piecewise_construct_t &, std::tuple<const long &>, std::tuple<> >
+RemoveObject
+_M_get_insert_hint_equal_pos
+uninitialized_copy<std::move_iterator<PoDoFo::PdfPage **>, PoDoFo::PdfPage **>
+ConvertToUnicode
+log1pl
+__sort<__gnu_cxx::__normal_iterator<PoDoFo::TFontCacheElement *, std::vector<PoDoFo::TFontCacheElement, std::allocator<PoDoFo::TFontCacheElement> > >, __gnu_cxx::__ops::_Iter_less_iter>
+__uninitialized_move_if_noexcept_a<PoDoFo::TFontCacheElement *, PoDoFo::TFontCacheElement *, std::allocator<PoDoFo::TFontCacheElement> >
+wcscspn
+construct<PoDoFo::PdfXRef::TXRefItem, const PoDoFo::PdfXRef::TXRefItem &>
+IsLoadOnDemand
+BeginEncode
+_M_create_node<const std::piecewise_construct_t &, std::tuple<PoDoFo::PdfObject *const &>, std::tuple<> >
+operator!=<PoDoFo::PdfReference, const PoDoFo::PdfReference &, const PoDoFo::PdfReference *>
+PdfString
+Eof
+operator-<const PoDoFo::PdfXRef::TXRefItem *, std::vector<PoDoFo::PdfXRef::TXRefItem, std::allocator<PoDoFo::PdfXRef::TXRefItem> > >
+_Destroy<PoDoFo::TBFRange *>
+__push_heap<__gnu_cxx::__normal_iterator<PoDoFo::PdfXRef::PdfXRefBlock *, std::vector<PoDoFo::PdfXRef::PdfXRefBlock, std::allocator<PoDoFo::PdfXRef::PdfXRefBlock> > >, long, PoDoFo::PdfXRef::PdfXRefBlock, __gnu_cxx::__ops::_Iter_less_val>
+__make_move_if_noexcept_iterator<PoDoFo::PdfFontTTFSubset::TTrueTypeTable, std::move_iterator<PoDoFo::PdfFontTTFSubset::TTrueTypeTable *> >
+__uninitialized_fill_n_a<PoDoFo::PdfObject *, unsigned long, PoDoFo::PdfObject, PoDoFo::PdfObject>
+uninitialized_copy<const PoDoFo::PdfReference *, PoDoFo::PdfReference *>
+SetStrokingColorSpace
+__sort_heap<__gnu_cxx::__normal_iterator<PoDoFo::PdfObject **, std::vector<PoDoFo::PdfObject *, std::allocator<PoDoFo::PdfObject *> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(const PoDoFo::PdfObject *, const PoDoFo::PdfObject *)> >
+~IConverter
+tuple<unsigned short, true>
+_Deque_iterator
+_Destroy<double *, double>
+sort<__gnu_cxx::__normal_iterator<PoDoFo::PdfReference *, std::vector<PoDoFo::PdfReference, std::allocator<PoDoFo::PdfReference> > > >
+SetReal
+strtoll
+_M_create_node<PoDoFo::PdfReference *>
+operator bool
+__niter_base<unsigned char *>
+~deque
+ContainsUnicodeValue
+PDF_MAX<unsigned int>
+SetStrokingColor
+__niter_base<const unsigned int *, std::vector<unsigned int, std::allocator<unsigned int> > >
+WriteSubSection
+GetString
+acosh
+_Destroy<PoDoFo::PdfObject **, PoDoFo::PdfObject *>
+_M_ptr
+SetQuadPoints
+GetTextColorRed
+uninitialized_copy<__gnu_cxx::__normal_iterator<const unsigned int *, std::vector<unsigned int, std::allocator<unsigned int> > >, unsigned int *>
+destroy<std::pair<const unsigned long, unsigned short> >
+PdfDCTFilter
+ferror
+round
+SetHideMenubar
+__lower_bound<__gnu_cxx::__normal_iterator<PoDoFo::PdfObject **, std::vector<PoDoFo::PdfObject *, std::allocator<PoDoFo::PdfObject *> > >, PoDoFo::PdfObject *, __gnu_cxx::__ops::_Iter_comp_val<PoDoFo::ObjectComparatorPredicate> >
+ConverterForName
+ErrorMessage
+__fill_n_a<unsigned long, char>
+uninitialized_copy<unsigned char *, unsigned char *>
+_Deque_impl
+sprintf
+_M_range_check
+__copy_m<const PoDoFo::PdfObject *, PoDoFo::PdfObject *>
+_M_check_equal_allocators
+IsAppending
+__advance<const PoDoFo::PdfNamedColor *, long>
+RenumberObjects
+NormalizeCoordinates
+SetFontScale
+operator!=<PoDoFo::PdfObject *const *, std::vector<PoDoFo::PdfObject *, std::allocator<PoDoFo::PdfObject *> > >
+GetUnicodeCharCode
+__uninitialized_copy_a<__gnu_cxx::__normal_iterator<const PoDoFo::PdfObject *, std::vector<PoDoFo::PdfObject, std::allocator<PoDoFo::PdfObject> > >, PoDoFo::PdfObject *, PoDoFo::PdfObject>
+default_delete
+__unguarded_linear_insert<__gnu_cxx::__normal_iterator<PoDoFo::PdfXRef::PdfXRefBlock *, std::vector<PoDoFo::PdfXRef::PdfXRefBlock, std::allocator<PoDoFo::PdfXRef::PdfXRefBlock> > >, __gnu_cxx::__ops::_Val_less_iter>
+Load
+equal_range<__gnu_cxx::__normal_iterator<PoDoFo::PdfObject *const *, std::vector<PoDoFo::PdfObject *, std::allocator<PoDoFo::PdfObject *> > >, PoDoFo::PdfObject *, PoDoFo::ObjectComparatorPredicate>
+IsLoadedForUpdate
+operator!=<const unsigned short *, unsigned short *, std::vector<unsigned short, std::allocator<unsigned short> > >
+operator-<PoDoFo::TFontCacheElement *, std::vector<PoDoFo::TFontCacheElement, std::allocator<PoDoFo::TFontCacheElement> > >
+strxfrm
+__push_heap<__gnu_cxx::__normal_iterator<PoDoFo::PdfReference *, std::vector<PoDoFo::PdfReference, std::allocator<PoDoFo::PdfReference> > >, long, PoDoFo::PdfReference, __gnu_cxx::__ops::_Iter_less_val>
+_Construct<PoDoFo::PdfReference, PoDoFo::PdfReference &>
+__uninitialized_move_a<PoDoFo::PdfXRef::TXRefItem *, PoDoFo::PdfXRef::TXRefItem *, std::allocator<PoDoFo::PdfXRef::TXRefItem> >
+GetInfo
+GetTop
+SetCurrentReference
+~list
+IsDirty
+sort<__gnu_cxx::__normal_iterator<PoDoFo::TFontCacheElement *, std::vector<PoDoFo::TFontCacheElement, std::allocator<PoDoFo::TFontCacheElement> > > >
+Push
+GetLine
+tuple<PoDoFo::PdfFilter *, std::default_delete<PoDoFo::PdfFilter>, true>
+getwc
+destroy<long>
+__copy_move_a<false, PoDoFo::PdfEncodingDifference::TDifference *, PoDoFo::PdfEncodingDifference::TDifference *>
+operator==
+PdfFontFactory
+destroy<PoDoFo::PdfReference *>
+GetCieB
+~PdfPagesTreeCache
+_List_iterator
+select_on_container_copy_construction
+__uninit_copy<unsigned char *, unsigned char *>
+iswcntrl
+SetPdfVersion
+llrint
+llrintf
+forward<PoDoFo::PdfReference *>
+GetIndirectObject
+move<PoDoFo::PdfObject &>
+move<__gnu_cxx::__ops::_Iter_comp_iter<bool (*)(const PoDoFo::PdfObject *, const PoDoFo::PdfObject *)> &>
+ReadXRefStreamEntry
+allocator<PoDoFo::PdfErrorInfo>
+freopen
+construct<PoDoFo::PdfObject, PoDoFo::PdfObject>
+__sort<__gnu_cxx::__normal_iterator<PoDoFo::PdfXRef::TXRefItem *, std::vector<PoDoFo::PdfXRef::TXRefItem, std::allocator<PoDoFo::PdfXRef::TXRefItem> > >, __gnu_cxx::__ops::_Iter_less_iter>
+SetAppearanceStream
+strspn
+ReplaceColorsInPage
+_M_add_reference
+_M_fill_insert
+wctrans
+TypeNameForIndex
+__val_comp_iter<PoDoFo::PdfEncodingDifference::DifferenceComparatorPredicate>
+_List_base
+pair<std::_Rb_tree_iterator<std::pair<const PoDoFo::PdfName, PoDoFo::PdfObject *> >, bool, true>
+malloc
+_M_realloc_insert<PoDoFo::PdfObject *const &>
+operator==<std::_Rb_tree_iterator<std::pair<const unsigned short, PoDoFo::PdfFontTTFSubset::TGlyphData> > >
+IsBool
+GetJavaScriptNode
+SetUseFullScreen
+GetDictionary_NoDL
+SwapBytes
+_M_insert_unique<const std::__cxx11::basic_string<char> &>
+__copy_move_b<PoDoFo::PdfXRef::TXRefItem *, PoDoFo::PdfXRef::TXRefItem *>
+vfscanf
+lroundl
+PdfXRefStream
+_Destroy<__gnu_cxx::__normal_iterator<PoDoFo::PdfXRef::TXRefItem *, std::vector<PoDoFo::PdfXRef::TXRefItem, std::allocator<PoDoFo::PdfXRef::TXRefItem> > > >
+_M_realloc_insert<PoDoFo::PdfExtension>
+forward<const char &>
+EmptyCache
+__miter_base<__gnu_cxx::__normal_iterator<PoDoFo::TFontCacheElement *, std::vector<PoDoFo::TFontCacheElement, std::allocator<PoDoFo::TFontCacheElement> > > >
+__uninitialized_copy_a<std::move_iterator<PoDoFo::PdfExtension *>, PoDoFo::PdfExtension *, PoDoFo::PdfExtension>
+PdfAESStream
+CreatePages
+lround
+PdfEncodingObjectFactory
+~PdfAscii85Filter
+RC4
+__copy_move_a2<true, __gnu_cxx::__normal_iterator<PoDoFo::PdfObject *, std::vector<PoDoFo::PdfObject, std::allocator<PoDoFo::PdfObject> > >, __gnu_cxx::__normal_iterator<PoDoFo::PdfObject *, std::vector<PoDoFo::PdfObject, std::allocator<PoDoFo::PdfObject> > > >
+IsIndirect
+fminl
+strncat
+PdfMutex
+HasScript
+PdfButton
+GetWidgetAnnotation
+__copy_move_a2<true, unsigned char *, unsigned char *>
+GetDifferences
+forward<std::_Rb_tree_node<std::pair<const unsigned short, PoDoFo::PdfFontTTFSubset::TGlyphData> > *&>
+system
+operator==<const PoDoFo::PdfObject *, std::vector<PoDoFo::PdfObject, std::allocator<PoDoFo::PdfObject> > >
+forward<const long &>
+_M_deallocate_node
+min<long>
+ParseOptionalFields
+_M_shrink_to_fit
+Look
+_M_construct_node<const std::piecewise_construct_t &, std::tuple<const PoDoFo::PdfReference &>, std::tuple<> >
+tmpfile
+__insertion_sort<__gnu_cxx::__normal_iterator<PoDoFo::PdfObject **, std::vector<PoDoFo::PdfObject *, std::allocator<PoDoFo::PdfObject *> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(const PoDoFo::PdfObject *, const PoDoFo::PdfObject *)> >
+__iterator_category<__gnu_cxx::__normal_iterator<PoDoFo::PdfObject *const *, std::vector<PoDoFo::PdfObject *, std::allocator<PoDoFo::PdfObject *> > > >
+GetOEValue
+DelayedStreamLoadDone
+~exception_ptr
+__copy_move_backward_a2<true, __gnu_cxx::__normal_iterator<PoDoFo::TFontCacheElement *, std::vector<PoDoFo::TFontCacheElement, std::allocator<PoDoFo::TFontCacheElement> > >, __gnu_cxx::__normal_iterator<PoDoFo::TFontCacheElement *, std::vector<PoDoFo::TFontCacheElement, std::allocator<PoDoFo::TFontCacheElement> > > >
+__copy_move_a<false, const unsigned char *, unsigned char *>
+forward<std::_Rb_tree_node<std::pair<const unsigned short, int> > *&>
+CreateEncryptionOutputStream
+PdfDocument
+operator!=<const PoDoFo::PdfXRef::PdfXRefBlock *, PoDoFo::PdfXRef::PdfXRefBlock *, std::vector<PoDoFo::PdfXRef::PdfXRefBlock, std::allocator<PoDoFo::PdfXRef::PdfXRefBlock> > >
+~PdfData
+Erase
+memcpy
+addressof<PoDoFo::PdfObject *>
+_M_distance
+PDF_MAX<long>
+PdfColor
+_M_allocate
+copy<__gnu_cxx::__normal_iterator<PoDoFo::PdfXRef::TXRefItem *, std::vector<PoDoFo::PdfXRef::TXRefItem, std::allocator<PoDoFo::PdfXRef::TXRefItem> > >, __gnu_cxx::__normal_iterator<PoDoFo::PdfXRef::TXRefItem *, std::vector<PoDoFo::PdfXRef::TXRefItem, std::allocator<PoDoFo::PdfXRef::TXRefItem> > > >
+__unguarded_insertion_sort<__gnu_cxx::__normal_iterator<PoDoFo::PdfReference *, std::vector<PoDoFo::PdfReference, std::allocator<PoDoFo::PdfReference> > >, __gnu_cxx::__ops::_Iter_less_iter>
+GetOpen
+cbrt
+_Temporary_value<const PoDoFo::TFontCacheElement &>
+__copy_move_a2<false, PoDoFo::PdfErrorInfo *, PoDoFo::PdfErrorInfo *>
+~PdfOutlines
+ParseZoneShift
+ComputeEncryptionKey
+ftell
+construct<std::__cxx11::basic_string<char>, const std::__cxx11::basic_string<char> &>
+SetUseXRefStream
+pop_back
+forward<std::_Rb_tree_node<std::__cxx11::basic_string<char> > *&>
+operator&=
+PdfNamedColor
+operator<<PoDoFo::TFontCacheElement *, std::vector<PoDoFo::TFontCacheElement, std::allocator<PoDoFo::TFontCacheElement> > >
+InitFromParser
+LoadCompound
+__sort<__gnu_cxx::__normal_iterator<PoDoFo::PdfObject **, std::vector<PoDoFo::PdfObject *, std::allocator<PoDoFo::PdfObject *> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(const PoDoFo::PdfObject *, const PoDoFo::PdfObject *)> >
+_M_insert_aux<PoDoFo::PdfObject>
+llrintl
+PdfColorCieLab
+copy<std::move_iterator<PoDoFo::EPdfFilter *>, PoDoFo::EPdfFilter *>
+__addressof<PoDoFo::PdfLZWFilter::TLzwItem>
+forward<std::tuple<unsigned int &&> >
+CreateFont
+GetLength
+createWidths
+log10
+_M_reset
+sqrt
+operator==<PoDoFo::PdfReference, const PoDoFo::PdfReference &, const PoDoFo::PdfReference *>
+Decrypt
+__niter_base<PoDoFo::PdfErrorInfo **>
+emplace_back<PoDoFo::PdfExtension>
+start
+_Destroy<PoDoFo::PdfObject **>
+InitializeFontConfig
+~PdfDate
+forward<const PoDoFo::PdfXRef::TXRefItem &>
+__copy_move_a2<false, PoDoFo::PdfReference **, PoDoFo::PdfReference **>
+vector
+EndDecode
+__uninit_copy<std::move_iterator<std::__cxx11::list<PoDoFo::PdfReference *, std::allocator<PoDoFo::PdfReference *> > *>, std::__cxx11::list<PoDoFo::PdfReference *, std::allocator<PoDoFo::PdfReference *> > *>
+GetFieldFlag
+_M_move_assign
+PdfBufferOutputStream
+CreateFileSpecification
+SetLogMessageCallback
+forward<std::_Rb_tree_iterator<std::pair<PoDoFo::PdfObject *const, PoDoFo::PdfAnnotation *> > >
+__adjust_heap<__gnu_cxx::__normal_iterator<PoDoFo::PdfXRef::TXRefItem *, std::vector<PoDoFo::PdfXRef::TXRefItem, std::allocator<PoDoFo::PdfXRef::TXRefItem> > >, long, PoDoFo::PdfXRef::TXRefItem, __gnu_cxx::__ops::_Iter_less_iter>
+emplace_back<PoDoFo::EPdfFilter>
+construct<PoDoFo::PdfVariant, const PoDoFo::PdfVariant &>
+__iter_equals_val<const long>
+ComputeHash
+GlobalIdentityEncodingInstance
+CreateCMap
+distance<__gnu_cxx::__normal_iterator<PoDoFo::PdfObject *const *, std::vector<PoDoFo::PdfObject *, std::allocator<PoDoFo::PdfObject *> > > >
+TTFWriteUInt16
+construct<PoDoFo::PdfReference, PoDoFo::PdfReference>
+GetPosInKids
+_M_realloc_insert<const PoDoFo::PdfXRef::TXRefItem &>
+AddPageObjects
+wcstoull
+operator-<unsigned char *, std::vector<unsigned char, std::allocator<unsigned char> > >
+_M_construct_node<const std::piecewise_construct_t &, std::tuple<unsigned int &&>, std::tuple<> >
+~unique_ptr
+__destroy<PoDoFo::PdfObject *>
+SetStrikeOut
+tgammaf
+_Construct<PoDoFo::PdfObject, PoDoFo::PdfObject &>
+print_help
+__addressof<PoDoFo::PdfFontTTFSubset::CMapv4Range>
+__niter_base<PoDoFo::PdfPage ***>
+__unguarded_linear_insert<__gnu_cxx::__normal_iterator<PoDoFo::PdfXRef::TXRefItem *, std::vector<PoDoFo::PdfXRef::TXRefItem, std::allocator<PoDoFo::PdfXRef::TXRefItem> > >, __gnu_cxx::__ops::_Val_less_iter>
+_Destroy<unsigned int *, unsigned int>
+~_Vector_base
+SetHexData
+findAt
+forward<std::_Rb_tree_node<std::pair<const long, double> > *&>
+__uninit_copy<std::move_iterator<unsigned char *>, unsigned char *>
+copy<__gnu_cxx::__normal_iterator<const PoDoFo::PdfObject *, std::vector<PoDoFo::PdfObject, std::allocator<PoDoFo::PdfObject> > >, __gnu_cxx::__normal_iterator<PoDoFo::PdfObject *, std::vector<PoDoFo::PdfObject, std::allocator<PoDoFo::PdfObject> > > >
+nan
+GetTitle
+uninitialized_copy<__gnu_cxx::__normal_iterator<const PoDoFo::PdfReference *, std::vector<PoDoFo::PdfReference, std::allocator<PoDoFo::PdfReference> > >, PoDoFo::PdfReference *>
+operator==<const PoDoFo::PdfObject *, PoDoFo::PdfObject *, std::vector<PoDoFo::PdfObject, std::allocator<PoDoFo::PdfObject> > >
+IsString
+move<PoDoFo::PdfEncodingDifference::TDifference &>
+get<0, const PoDoFo::PdfReference &>
+__addressof<std::__cxx11::list<PoDoFo::PdfReference *, std::allocator<PoDoFo::PdfReference *> > >
+GetPageMode
+size
+__destroy<double *>
+Exit
+tgamma
+SetSpellcheckingEnabled
+construct<unsigned short, unsigned short>
+fsetpos
+GetKeywordForColor
+copy<std::move_iterator<PoDoFo::PdfObject **>, PoDoFo::PdfObject **>
+GetDuplicateFontType1
+__niter_base<unsigned short *>
+GetCropBox
+__destroy<unsigned char *>
+SetMouseLeaveAction
+wcstol
+TXRefEntry
+piecewise_construct_t
+__sort_heap<__gnu_cxx::__normal_iterator<PoDoFo::PdfXRef::TXRefItem *, std::vector<PoDoFo::PdfXRef::TXRefItem, std::allocator<PoDoFo::PdfXRef::TXRefItem> > >, __gnu_cxx::__ops::_Iter_less_iter>
+__miter_base<__gnu_cxx::__normal_iterator<const PoDoFo::PdfXRef::TXRefItem *, std::vector<PoDoFo::PdfXRef::TXRefItem, std::allocator<PoDoFo::PdfXRef::TXRefItem> > > >
+construct<long, long>
+GetNamedObjectFromCatalog
+fgetc
+__destroy<PoDoFo::PdfErrorInfo *>
+strtold
+RecursionGuard
+EmbedFontFile
+CreateWidth
+GetAnnotation
+PdfType1EncryptCharstring
+~PdfCCITTFilter
+wcschr
+PdfPagesTree
+ResizeOffsets
+__miter_base<char *>
+GetType
+memmove
+__make_move_if_noexcept_iterator<unsigned short, std::move_iterator<unsigned short *> >
+round_error
+podofo_htonl
+move<char &>
+move_backward<PoDoFo::TFontCacheElement *, PoDoFo::TFontCacheElement *>
+genWsMap
+copy<std::move_iterator<unsigned int *>, unsigned int *>
+~PdfFontMetricsBase14
+GetField
+AddNamedDestination
+mbsinit
+operator!=<PoDoFo::PdfFontTTFSubset::TTrueTypeTable *, std::vector<PoDoFo::PdfFontTTFSubset::TTrueTypeTable, std::allocator<PoDoFo::PdfFontTTFSubset::TTrueTypeTable> > >
+operator-<const PoDoFo::PdfObject *, PoDoFo::PdfObject *, std::vector<PoDoFo::PdfObject, std::allocator<PoDoFo::PdfObject> > >
+~PdfColor
+rintl
+__lower_bound<__gnu_cxx::__normal_iterator<PoDoFo::PdfObject *const *, std::vector<PoDoFo::PdfObject *, std::allocator<PoDoFo::PdfObject *> > >, PoDoFo::PdfObject *, __gnu_cxx::__ops::_Iter_comp_val<PoDoFo::ObjectComparatorPredicate> >
+_M_emplace_hint_unique<const std::piecewise_construct_t &, std::tuple<const long &>, std::tuple<> >
+wscanf
+ParseToUnicode
+SetUnderlined
+remquo
+PdfListBox
+forward<PoDoFo::PdfObject>
+__miter_base<__gnu_cxx::__normal_iterator<PoDoFo::PdfVecObjects::Observer **, std::vector<PoDoFo::PdfVecObjects::Observer *, std::allocator<PoDoFo::PdfVecObjects::Observer *> > > >
+forward<const GraphicsStack::TGraphicsStackElement &>
+ReadInlineImgData
+SetNumber
+iter_swap<__gnu_cxx::__normal_iterator<PoDoFo::PdfReference *, std::vector<PoDoFo::PdfReference, std::allocator<PoDoFo::PdfReference> > >, __gnu_cxx::__normal_iterator<PoDoFo::PdfReference *, std::vector<PoDoFo::PdfReference, std::allocator<PoDoFo::PdfReference> > > >
+createUnicodeRanges
+__uninitialized_move_if_noexcept_a<PoDoFo::PdfXRef::TXRefItem *, PoDoFo::PdfXRef::TXRefItem *, std::allocator<PoDoFo::PdfXRef::TXRefItem> >
+SetAuthor
+atexit
+GetAttachment
+pair<std::_Rb_tree_iterator<long> &, bool &, true>
+InsertPageIntoNode
+IsHexString
+_M_allocate_and_copy<const PoDoFo::PdfXRef::TXRefItem *>
+GetUnicodeValue
+EndPage
+_Destroy<PoDoFo::PdfPage **, PoDoFo::PdfPage *>
+pair<const PoDoFo::PdfReference &>
+wcrtomb
+__uninit_copy<const PoDoFo::PdfVariant *, PoDoFo::PdfVariant *>
+GetFontLibrary
+~PdfParserObject
+__uninit_copy<PoDoFo::PdfXRef::TXRefItem *, PoDoFo::PdfXRef::TXRefItem *>
+_S_select_on_copy
+__copy_move_backward_a2<false, std::pair<std::__cxx11::basic_string<char>, PoDoFo::EPdfTokenType> **, std::pair<std::__cxx11::basic_string<char>, PoDoFo::EPdfTokenType> **>
+GlobalMacRomanEncodingInstance
+GetSubject
+WidePut
+BeginAppendImpl
+copy<__gnu_cxx::__normal_iterator<PoDoFo::PdfReference *, std::vector<PoDoFo::PdfReference, std::allocator<PoDoFo::PdfReference> > >, __gnu_cxx::__normal_iterator<PoDoFo::PdfReference *, std::vector<PoDoFo::PdfReference, std::allocator<PoDoFo::PdfReference> > > >
+WriteStringToStream
+llabs
+forward<const PoDoFo::PdfObject &>
+__uninitialized_copy_a<std::move_iterator<PoDoFo::PdfObject *>, PoDoFo::PdfObject *, PoDoFo::PdfObject>
+ldexp
+new_allocator
+~PdfEncryptAESBase
+pair<__gnu_cxx::__normal_iterator<PoDoFo::PdfObject **, std::vector<PoDoFo::PdfObject *, std::allocator<PoDoFo::PdfObject *> > > &, __gnu_cxx::__normal_iterator<PoDoFo::PdfObject **, std::vector<PoDoFo::PdfObject *, std::allocator<PoDoFo::PdfObject *> > > &, true>
+GetItem
+destroy<std::pair<const unsigned short, PoDoFo::PdfFontTTFSubset::TGlyphData> >
+operator!=<PoDoFo::PdfParser::TXRefEntry *>
+fmaxf
+__make_move_if_noexcept_iterator<char, std::move_iterator<char *> >
+emplace_front<PoDoFo::PdfPage *>
+PdfFontMetricsObject
+SetFocusEnterAction
+Bad
+remainderl
+GetOwner
+GetFieldObject
+__copy_move_a<false, const PoDoFo::PdfObject *, PoDoFo::PdfObject *>
+_M_push_back_aux<PoDoFo::PdfReference>
+~PdfFontType1
+swap<PoDoFo::TFontCacheElement>
+forward<PoDoFo::PdfXRef::TXRefItem>
+scalbn
+lgammaf
+_M_addr
+operator()<__gnu_cxx::__normal_iterator<const long *, std::vector<long, std::allocator<long> > > >
+GetCallstack
+push_front
+~PdfCheckBox
+~PdfDocEncoding
+atol
+_M_erase_at_end
+IsAccessibilityAllowed
+construct<PoDoFo::TFontCacheElement, const PoDoFo::TFontCacheElement &>
+move_backward<PoDoFo::PdfErrorInfo>
+_M_realloc_insert<PoDoFo::PdfPage *const &>
+ReadString
+acos
+operator+
+_M_allocate_and_copy<__gnu_cxx::__normal_iterator<const PoDoFo::PdfEncodingDifference::TDifference *, std::vector<PoDoFo::PdfEncodingDifference::TDifference, std::allocator<PoDoFo::PdfEncodingDifference::TDifference> > > >
+GrayscaleConverter
+acoshf
+_M_remove_reference
+advance<__gnu_cxx::__normal_iterator<PoDoFo::PdfReference *, std::vector<PoDoFo::PdfReference, std::allocator<PoDoFo::PdfReference> > >, unsigned long>
+operator-<const PoDoFo::PdfXRef::PdfXRefBlock *, std::vector<PoDoFo::PdfXRef::PdfXRefBlock, std::allocator<PoDoFo::PdfXRef::PdfXRefBlock> > >
+~PdfDeviceOutputStream
+__make_move_if_noexcept_iterator<PoDoFo::PdfObject, const PoDoFo::PdfObject *>
+_M_allocate_and_copy<const PoDoFo::PdfObject *>
+_S_right
+forward<const unsigned long &>
+pair<std::_Rb_tree_iterator<long>, bool, true>
+~PdfOutlineItem
+destroy<PoDoFo::PdfReference>
+__addressof<PoDoFo::PdfVariant>
+BeginEncodeImpl
+_M_push_back_aux<const PoDoFo::PdfReference &>
+copy<__gnu_cxx::__normal_iterator<const unsigned char *, std::vector<unsigned char, std::allocator<unsigned char> > >, __gnu_cxx::__normal_iterator<unsigned char *, std::vector<unsigned char, std::allocator<unsigned char> > > >
+PdfZapfDingbatsEncoding
+__niter_base<long *>
+operator!=
+operator-<PoDoFo::PdfErrorInfo, PoDoFo::PdfErrorInfo &, PoDoFo::PdfErrorInfo *>
+GetNextToken
+_S_minimum
+GetArtBox
+__uninitialized_copy_a<std::move_iterator<PoDoFo::PdfParser::TXRefEntry *>, PoDoFo::PdfParser::TXRefEntry *, PoDoFo::PdfParser::TXRefEntry>
+operator-<std::__cxx11::basic_string<char>, std::__cxx11::basic_string<char> &, std::__cxx11::basic_string<char> *>
+operator<<char, std::char_traits<char>, std::allocator<char> >
+_Destroy<__gnu_cxx::__normal_iterator<PoDoFo::PdfXRef::TXRefItem *, std::vector<PoDoFo::PdfXRef::TXRefItem, std::allocator<PoDoFo::PdfXRef::TXRefItem> > >, PoDoFo::PdfXRef::TXRefItem>
+IsOwnerPasswordSet
+IsReal
+GetFirstFreeObject
+SetErrorInformation
+~PdfColorGray
+operator()<PoDoFo::PdfReference, __gnu_cxx::__normal_iterator<PoDoFo::PdfReference *, std::vector<PoDoFo::PdfReference, std::allocator<PoDoFo::PdfReference> > > >
+GetNextNumber
+IsEncryptionEnabled
+__uninit_copy<const PoDoFo::PdfEncodingDifference::TDifference *, PoDoFo::PdfEncodingDifference::TDifference *>
+destroy<GraphicsStack::TGraphicsStackElement>
+construct<PoDoFo::PdfReference, const PoDoFo::PdfReference &>
+emplace_front<PoDoFo::PdfReference>
+operator()<__gnu_cxx::__normal_iterator<PoDoFo::TFontCacheElement *, std::vector<PoDoFo::TFontCacheElement, std::allocator<PoDoFo::TFontCacheElement> > >, PoDoFo::TFontCacheElement>
+_M_leftmost
+LogErrorMessage
+EndEncodeImpl
+_M_realloc_insert<const PoDoFo::TBFRange &>
+__uninitialized_fill_n_a<unsigned char *, unsigned long, unsigned char, unsigned char>
+operator-<PoDoFo::PdfEncodingDifference::TDifference *, std::vector<PoDoFo::PdfEncodingDifference::TDifference, std::allocator<PoDoFo::PdfEncodingDifference::TDifference> > >
+__uninitialized_copy_a<std::_Deque_iterator<PoDoFo::PdfErrorInfo, const PoDoFo::PdfErrorInfo &, const PoDoFo::PdfErrorInfo *>, std::_Deque_iterator<PoDoFo::PdfErrorInfo, PoDoFo::PdfErrorInfo &, PoDoFo::PdfErrorInfo *>, PoDoFo::PdfErrorInfo>
+wctype
+log2f
+memcmp
+_Destroy<std::pair<std::__cxx11::basic_string<char>, PoDoFo::EPdfTokenType> *, std::pair<std::__cxx11::basic_string<char>, PoDoFo::EPdfTokenType> >
+__uninit_copy<__gnu_cxx::__normal_iterator<const PoDoFo::PdfEncodingDifference::TDifference *, std::vector<PoDoFo::PdfEncodingDifference::TDifference, std::allocator<PoDoFo::PdfEncodingDifference::TDifference> > >, PoDoFo::PdfEncodingDifference::TDifference *>
+acoshl
+_Destroy<__gnu_cxx::__normal_iterator<unsigned char *, std::vector<unsigned char, std::allocator<unsigned char> > >, unsigned char>
+__copy_move_backward_a2<true, __gnu_cxx::__normal_iterator<PoDoFo::PdfXRef::PdfXRefBlock *, std::vector<PoDoFo::PdfXRef::PdfXRefBlock, std::allocator<PoDoFo::PdfXRef::PdfXRefBlock> > >, __gnu_cxx::__normal_iterator<PoDoFo::PdfXRef::PdfXRefBlock *, std::vector<PoDoFo::PdfXRef::PdfXRefBlock, std::allocator<PoDoFo::PdfXRef::PdfXRefBlock> > > >
+mblen
+GetPrevXRefOffset
+div
+__copy_m<PoDoFo::PdfObject **>
+SetPageLayout
+SetPageHeight
+__addressof<std::pair<const unsigned short, PoDoFo::PdfFontTTFSubset::TGlyphData> >
+fgetpos
+iswxdigit
+operator=<__gnu_cxx::__normal_iterator<PoDoFo::TFontCacheElement *, std::vector<PoDoFo::TFontCacheElement, std::allocator<PoDoFo::TFontCacheElement> > >, __gnu_cxx::__normal_iterator<PoDoFo::TFontCacheElement *, std::vector<PoDoFo::TFontCacheElement, std::allocator<PoDoFo::TFontCacheElement> > > >
+AESCryptoEngine
+PdfFontTTFSubset
+__normal_iterator<PoDoFo::TBFRange *>
+GetKeyAsReal
+__copy_move_a<false, PoDoFo::PdfReference *, PoDoFo::PdfReference *>
+forward<std::tuple<const long &> >
+JPegErrorExit
+IsDelimiter
+PDF_MIN<long>
+_M_tail
+__uninit_copy<__gnu_cxx::__normal_iterator<const unsigned int *, std::vector<unsigned int, std::allocator<unsigned int> > >, unsigned int *>
+emplace_back<PoDoFo::PdfVariant>
+__miter_base<std::pair<std::__cxx11::basic_string<char>, PoDoFo::EPdfTokenType> **>
+getwchar
+__uninitialized_move_if_noexcept_a<PoDoFo::PdfLZWFilter::TLzwItem *, PoDoFo::PdfLZWFilter::TLzwItem *, std::allocator<PoDoFo::PdfLZWFilter::TLzwItem> >
+move<std::pair<std::__cxx11::basic_string<char>, PoDoFo::EPdfTokenType> &>
+forward<__gnu_cxx::__normal_iterator<PoDoFo::PdfObject **, std::vector<PoDoFo::PdfObject *, std::allocator<PoDoFo::PdfObject *> > > >
+GetRootNode
+operator==<std::_Deque_iterator<PoDoFo::PdfErrorInfo, PoDoFo::PdfErrorInfo &, PoDoFo::PdfErrorInfo *> >
+__copy_m<PoDoFo::PdfVecObjects::Observer *>
+CreateStandardPageSize
+RemoveKey
+SetRequired
+isupper
+PdfRLEFilter
+SetOwner
+construct<std::pair<const unsigned short, int>, const std::piecewise_construct_t &, std::tuple<unsigned short &&>, std::tuple<> >
+UnicodeCharWidth
+operator&
+InitXObject
+~PdfRC4OutputStream
+AttachFile
+sort<__gnu_cxx::__normal_iterator<PoDoFo::PdfXRef::TXRefItem *, std::vector<PoDoFo::PdfXRef::TXRefItem, std::allocator<PoDoFo::PdfXRef::TXRefItem> > > >
+_M_insert<PoDoFo::PdfReference *>
+GetLanguage
+IsReadOnly
+__miter_base<__gnu_cxx::__normal_iterator<PoDoFo::PdfXRef::TXRefItem *, std::vector<PoDoFo::PdfXRef::TXRefItem, std::allocator<PoDoFo::PdfXRef::TXRefItem> > > >
+GetCharacterLength
+InitFromUtf8
+GetMetadata
+__miter_base<__gnu_cxx::__normal_iterator<const unsigned int *, std::vector<unsigned int, std::allocator<unsigned int> > > >
+GetUValue
+pair<std::_Rb_tree_iterator<int> &, bool &, true>
+CreateDuplicateFontType1
+SetViewerPreference
+pair<const long &>
+~PdfFontTTFSubset
+SetDirty
+FromString
+__copy_move_a2<false, PoDoFo::PdfObject ***, PoDoFo::PdfObject ***>
+__destroy<PoDoFo::TBFRange *>
+vfprintf
+operator()<const long &>
+IsValid
+construct<std::pair<const unsigned short, unsigned short>, const std::piecewise_construct_t &, std::tuple<unsigned short &&>, std::tuple<> >
+~PdfObject
+__distance<__gnu_cxx::__normal_iterator<PoDoFo::TFontCacheElement *, std::vector<PoDoFo::TFontCacheElement, std::allocator<PoDoFo::TFontCacheElement> > > >
+__normal_iterator<PoDoFo::PdfReference *>
+PdfData
+GetHandle
+operator==<PoDoFo::PdfXRef::TXRefItem *>
+SetStrokingColorCMYK
+IsEditNotesAllowed
+__copy_move_backward_a<true, PoDoFo::PdfEncodingDifference::TDifference *, PoDoFo::PdfEncodingDifference::TDifference *>
+CreateDecodeStream
+_M_create_node<std::pair<unsigned int, unsigned long> >
+__miter_base<unsigned short *>
+genStrEscMap
+_M_install_facet
+__iterator_category<__gnu_cxx::__normal_iterator<PoDoFo::PdfXRef::TXRefItem *, std::vector<PoDoFo::PdfXRef::TXRefItem, std::allocator<PoDoFo::PdfXRef::TXRefItem> > > >
+copy<__gnu_cxx::__normal_iterator<const PoDoFo::PdfEncodingDifference::TDifference *, std::vector<PoDoFo::PdfEncodingDifference::TDifference, std::allocator<PoDoFo::PdfEncodingDifference::TDifference> > >, __gnu_cxx::__normal_iterator<PoDoFo::PdfEncodingDifference::TDifference *, std::vector<PoDoFo::PdfEncodingDifference::TDifference, std::allocator<PoDoFo::PdfEncodingDifference::TDifference> > > >
+GetBuffer
+_Destroy<PoDoFo::PdfReference *, PoDoFo::PdfReference>
+_M_default_initialize
+IsName
+IsSimpleColorSpace
+address
+forward<std::tuple<const PoDoFo::PdfName &> >
+~PdfInputStream
+_Tuple_impl<long>
+_M_realloc_insert<PoDoFo::PdfObject *>
+crend
+strstr
+__miter_base<__gnu_cxx::__normal_iterator<PoDoFo::PdfXRef::PdfXRefBlock *, std::vector<PoDoFo::PdfXRef::PdfXRefBlock, std::allocator<PoDoFo::PdfXRef::PdfXRefBlock> > > >
+infinity
+pop_front
+PrintV
+_M_construct_node<const std::piecewise_construct_t &, std::tuple<const unsigned short &>, std::tuple<> >
+WriteLinearized
+pair<unsigned short &&>
+PdfEncryptAESBase
+MaybeStripPath
+FlateCompressStreamData
+_M_insert_<const std::__cxx11::basic_string<char> &, std::_Rb_tree<std::__cxx11::basic_string<char>, std::__cxx11::basic_string<char>, std::_Identity<std::__cxx11::basic_string<char> >, std::less<std::__cxx11::basic_string<char> >, std::allocator<std::__cxx11::basic_string<char> > >::_Alloc_node>
+_Destroy<PoDoFo::PdfExtension *>
+GetFontType
+FromRGBString
+uninitialized_copy<std::move_iterator<PoDoFo::PdfXRef::TXRefItem *>, PoDoFo::PdfXRef::TXRefItem *>
+__miter_base<PoDoFo::PdfXRef::PdfXRefBlock *>
+_M_insert<PoDoFo::PdfObject *const &>
+_M_create_storage
+__niter_base<PoDoFo::PdfXRef::PdfXRefBlock *, std::vector<PoDoFo::PdfXRef::PdfXRefBlock, std::allocator<PoDoFo::PdfXRef::PdfXRefBlock> > >
+AppendImpl
+IsNumber
+_M_allocate_and_copy<__gnu_cxx::__normal_iterator<const PoDoFo::PdfObject *, std::vector<PoDoFo::PdfObject, std::allocator<PoDoFo::PdfObject> > > >
+_M_rightmost
+swap<unsigned char *>
+strncmp
+forward<PoDoFo::PdfReference &>
+ToArray
+__niter_base<PoDoFo::PdfReference *>
+__copy_move_a2<false, PoDoFo::PdfEncodingDifference::TDifference *, PoDoFo::PdfEncodingDifference::TDifference *>
+__cxx_global_var_init.6
+__pop_heap<__gnu_cxx::__normal_iterator<PoDoFo::PdfXRef::PdfXRefBlock *, std::vector<PoDoFo::PdfXRef::PdfXRefBlock, std::allocator<PoDoFo::PdfXRef::PdfXRefBlock> > >, __gnu_cxx::__ops::_Iter_less_iter>
+GetKeywords
+GetCount
+operator()<const PoDoFo::PdfReference, std::_Deque_iterator<PoDoFo::PdfReference, PoDoFo::PdfReference &, PoDoFo::PdfReference *> >
+PdfLocaleImbue
+PdfVariant
+scalblnf
+pair<std::_Rb_tree_iterator<std::__cxx11::basic_string<char> >, bool, true>
+_M_insert_unique<unsigned short>
+isLegalUTF8Sequence
+_Destroy<PoDoFo::TFontCacheElement *>
+CreateFileIdentifier
+PdfFilteredDecodeStream
+operator!=<std::__cxx11::list<PoDoFo::PdfReference *, std::allocator<PoDoFo::PdfReference *> > *, std::vector<std::__cxx11::list<PoDoFo::PdfReference *, std::allocator<PoDoFo::PdfReference *> >, std::allocator<std::__cxx11::list<PoDoFo::PdfReference *, std::allocator<PoDoFo::PdfReference *> > > > >
+GetNumber
+SetParentDocument
+ObjectLittle
+__uninitialized_copy_a<__gnu_cxx::__normal_iterator<PoDoFo::PdfXRef::TXRefItem *, std::vector<PoDoFo::PdfXRef::TXRefItem, std::allocator<PoDoFo::PdfXRef::TXRefItem> > >, PoDoFo::PdfXRef::TXRefItem *, PoDoFo::PdfXRef::TXRefItem>
+operator==<PoDoFo::PdfPage *, PoDoFo::PdfPage *&, PoDoFo::PdfPage **>
+GetColorSpace
+state
+__copy_move_a<false, PoDoFo::PdfObject ***, PoDoFo::PdfObject ***>
+operator==<PoDoFo::PdfXRef::TXRefItem *, std::vector<PoDoFo::PdfXRef::TXRefItem, std::allocator<PoDoFo::PdfXRef::TXRefItem> > >
+operator!=<const PoDoFo::PdfObject *, PoDoFo::PdfObject *, std::vector<PoDoFo::PdfObject, std::allocator<PoDoFo::PdfObject> > >
+wcsncpy
+__miter_base<__gnu_cxx::__normal_iterator<const PoDoFo::PdfReference *, std::vector<PoDoFo::PdfReference, std::allocator<PoDoFo::PdfReference> > > >
+wcstoll
+forward<const PoDoFo::PdfLZWFilter::TLzwItem &>
+IsSpellcheckingEnabled
+operator<<PoDoFo::PdfXRef::PdfXRefBlock *, std::vector<PoDoFo::PdfXRef::PdfXRefBlock, std::allocator<PoDoFo::PdfXRef::PdfXRefBlock> > >
+operator==<PoDoFo::TFontCacheElement *, std::vector<PoDoFo::TFontCacheElement, std::allocator<PoDoFo::TFontCacheElement> > >
+FillXObjectFromDocumentPage
+GetDValue
+GetIndirectKey
+forward<PoDoFo::PdfPage *const &>
+Uncompress
+_S_left
+iswctype
+operator!=<const PoDoFo::PdfRect *, std::vector<PoDoFo::PdfRect, std::allocator<PoDoFo::PdfRect> > >
+GetBlack
+_M_new_elements_at_front
+PdfNamesTree
+EndEncode
+GetCyan
+Sort
+GetYellow
+isLegalUTF8
+__destroy<GraphicsStack::TGraphicsStackElement *>
+__addressof<std::pair<const long, double> >
+uninitialized_copy<std::move_iterator<PoDoFo::PdfLZWFilter::TLzwItem *>, PoDoFo::PdfLZWFilter::TLzwItem *>
+pair<const unsigned short &, 0>
+WriteToBuffer
+SetMappingName
+__niter_base<std::__cxx11::basic_string<char> **>
+strcspn
+Clear
+GetPermsValue
+distance<__gnu_cxx::__normal_iterator<PoDoFo::PdfReference *, std::vector<PoDoFo::PdfReference, std::allocator<PoDoFo::PdfReference> > > >
+__advance<std::_Deque_iterator<PoDoFo::PdfReference, PoDoFo::PdfReference &, PoDoFo::PdfReference *>, long>
+llround
+tuple
+__normal_iterator<PoDoFo::PdfFontTTFSubset::TTrueTypeTable *>
+__make_move_if_noexcept_iterator<long, std::move_iterator<long *> >
+operator!=<PoDoFo::PdfReference, PoDoFo::PdfReference &, PoDoFo::PdfReference *>
+construct<PoDoFo::PdfPage *, PoDoFo::PdfPage *>
+swap<PoDoFo::PdfXRef::TXRefItem>
+__copy_move_backward_a2<true, __gnu_cxx::__normal_iterator<PoDoFo::PdfReference *, std::vector<PoDoFo::PdfReference, std::allocator<PoDoFo::PdfReference> > >, __gnu_cxx::__normal_iterator<PoDoFo::PdfReference *, std::vector<PoDoFo::PdfReference, std::allocator<PoDoFo::PdfReference> > > >
+_Head_base<unsigned short>
+~PdfName
+__normal_iterator<PoDoFo::PdfXRef::TXRefItem *>
+PdfField
+__addressof<PoDoFo::PdfObject *>
+__addressof<PoDoFo::PdfXRef::TXRefItem>
+IsDictionary
+_M_replace_categories
+forward<const unsigned char &>
+push
+ObjectNumber
+_M_allocate_and_copy<const PoDoFo::PdfReference *>
+copy<PoDoFo::PdfObject *, PoDoFo::PdfObject *>
+__introsort_loop<__gnu_cxx::__normal_iterator<PoDoFo::PdfXRef::TXRefItem *, std::vector<PoDoFo::PdfXRef::TXRefItem, std::allocator<PoDoFo::PdfXRef::TXRefItem> > >, long, __gnu_cxx::__ops::_Iter_less_iter>
+copy<PoDoFo::PdfReference **, PoDoFo::PdfReference **>
+_Construct<PoDoFo::PdfParser::TXRefEntry, PoDoFo::PdfParser::TXRefEntry>
+min
+getGlyphWidths
+SetCombs
+__equal_range<const PoDoFo::PdfNamedColor *, PoDoFo::PdfNamedColor, __gnu_cxx::__ops::_Iter_comp_val<PoDoFo::NamedColorComparatorPredicate>, __gnu_cxx::__ops::_Val_comp_iter<PoDoFo::NamedColorComparatorPredicate> >
+_M_construct_node<std::__cxx11::basic_string<char> >
+__cxx_global_var_init.11
+_Construct<PoDoFo::PdfEncodingDifference::TDifference, const PoDoFo::PdfEncodingDifference::TDifference &>
+_M_emplace_hint_unique<const std::piecewise_construct_t &, std::tuple<PoDoFo::PdfObject *const &>, std::tuple<> >
+operator-<PoDoFo::PdfPage *, PoDoFo::PdfPage *&, PoDoFo::PdfPage **>
+_M_get
+LoadFromDevice
+operator==<PoDoFo::PdfFontTTFSubset::CMapv4Range *>
+forward<const PoDoFo::PdfReference &>
+__miter_base<__gnu_cxx::__normal_iterator<PoDoFo::PdfPage *const *, std::vector<PoDoFo::PdfPage *, std::allocator<PoDoFo::PdfPage *> > > >
+__addressof<PoDoFo::PdfXRef::PdfXRefBlock>
+~PdfVariant
+GetResources
+operator!=<PoDoFo::PdfLZWFilter::TLzwItem *>
+wcscoll
+__niter_base<PoDoFo::PdfObject *>
+~PdfHexFilter
+operator()<PoDoFo::PdfXRef::PdfXRefBlock, __gnu_cxx::__normal_iterator<PoDoFo::PdfXRef::PdfXRefBlock *, std::vector<PoDoFo::PdfXRef::PdfXRefBlock, std::allocator<PoDoFo::PdfXRef::PdfXRefBlock> > > >
+SetEncrypted
+__uninitialized_copy_a<__gnu_cxx::__normal_iterator<const unsigned char *, std::vector<unsigned char, std::allocator<unsigned char> > >, unsigned char *, unsigned char>
+_M_realloc_insert<PoDoFo::EPdfFilter>
+strchr
+PdfFilter
+fwscanf
+__copy_move_a2<false, std::__cxx11::basic_string<char> **, std::__cxx11::basic_string<char> **>
+uninitialized_copy<const PoDoFo::TFontCacheElement *, PoDoFo::TFontCacheElement *>
+_M_construct_node<const std::piecewise_construct_t &, std::tuple<const unsigned long &>, std::tuple<> >
+__copy_move_a2<true, unsigned int *, unsigned int *>
+_M_destroy_node
+forward<PoDoFo::PdfReference>
+PdfWriter
+pointer_to
+operator-<PoDoFo::PdfObject **, std::vector<PoDoFo::PdfObject *, std::allocator<PoDoFo::PdfObject *> > >
+~PdfAESStream
+__uninit_copy<const PoDoFo::PdfXRef::TXRefItem *, PoDoFo::PdfXRef::TXRefItem *>
+HasAppearanceStream
+asinhl
+_M_insert_aux<PoDoFo::PdfPage *>
+uninitialized_copy<std::move_iterator<std::_Deque_iterator<PoDoFo::PdfErrorInfo, PoDoFo::PdfErrorInfo &, PoDoFo::PdfErrorInfo *> >, std::_Deque_iterator<PoDoFo::PdfErrorInfo, PoDoFo::PdfErrorInfo &, PoDoFo::PdfErrorInfo *> >
+GetGlyphTableSize
+GetByteOffset
+unique_ptr<std::default_delete<PoDoFo::PdfFilter>, void>
+fscanf
+~PdfMutex
+lt
+_M_replace_category
+GetSelectedItem
+AddUsedGlyphname
+move<PoDoFo::PdfReference *, PoDoFo::PdfReference *>
+GetFieldName
+copy<__gnu_cxx::__normal_iterator<const double *, std::vector<double, std::allocator<double> > >, double *>
+__destroy<PoDoFo::PdfReference *>
+fma
+operator!=<const PoDoFo::PdfVariant *, PoDoFo::PdfVariant *, std::vector<PoDoFo::PdfVariant, std::allocator<PoDoFo::PdfVariant> > >
+_M_lower_bound
+_Tuple_impl
+GetWeight
+RemovePdfExtension
+_Construct<std::__cxx11::list<PoDoFo::PdfReference *, std::allocator<PoDoFo::PdfReference *> >>
+update
+~Init
+__get_helper<1, std::default_delete<PoDoFo::PdfOutputStream>>
+MergeBlocks
+__unguarded_partition_pivot<__gnu_cxx::__normal_iterator<PoDoFo::PdfXRef::PdfXRefBlock *, std::vector<PoDoFo::PdfXRef::PdfXRefBlock, std::allocator<PoDoFo::PdfXRef::PdfXRefBlock> > >, __gnu_cxx::__ops::_Iter_less_iter>
+__copy_move_backward_a2<true, PoDoFo::PdfObject *, PoDoFo::PdfObject *>
+operator==<PoDoFo::PdfObject *, std::vector<PoDoFo::PdfObject, std::allocator<PoDoFo::PdfObject> > >
+forward<PoDoFo::PdfEncodingDifference::TDifference &>
+operator==<PoDoFo::PdfErrorInfo, const PoDoFo::PdfErrorInfo &, const PoDoFo::PdfErrorInfo *>
+DetermineDataType
+_Destroy<PoDoFo::PdfFontTTFSubset::CMapv4Range *, PoDoFo::PdfFontTTFSubset::CMapv4Range>
+jpeg_memory_src
+destroy<std::pair<const unsigned int, unsigned long> >
+pair<__gnu_cxx::__normal_iterator<PoDoFo::PdfObject *const *, std::vector<PoDoFo::PdfObject *, std::allocator<PoDoFo::PdfObject *> > > &, __gnu_cxx::__normal_iterator<PoDoFo::PdfObject *const *, std::vector<PoDoFo::PdfObject *, std::allocator<PoDoFo::PdfObject *> > > &, true>
+_M_push_front_aux<PoDoFo::PdfPage *>
+max_size
+_Tuple_impl<unsigned int>
+~PdfXRefStream
+equal_range
+~PdfRC4InputStream
+PdfNameTreeNode
+forward<std::pair<unsigned int, unsigned long> >
+operator()<const PoDoFo::PdfNamedColor, const PoDoFo::PdfNamedColor *>
+copy
+__uninit_copy<std::move_iterator<char *>, char *>
+~PdfAESInputStream
+copy<PoDoFo::PdfPage ***, PoDoFo::PdfPage ***>
+GetAlternateName
+_M_create_node<unsigned short>
+truncl
+unique_ptr<std::default_delete<PoDoFo::PdfOutputStream>, void>
+vfwprintf
+SetFirst
+_M_create_nodes
+GetLineSpacing
+GetCieL
+move<std::vector<unsigned char, std::allocator<unsigned char> > &>
+GetXRefOffset
+PdfHexFilter
+~PdfSimpleEncoding
+__move_median_to_first<__gnu_cxx::__normal_iterator<PoDoFo::PdfXRef::TXRefItem *, std::vector<PoDoFo::PdfXRef::TXRefItem, std::allocator<PoDoFo::PdfXRef::TXRefItem> > >, __gnu_cxx::__ops::_Iter_less_iter>
+PrintVLen
+__pop_heap<__gnu_cxx::__normal_iterator<PoDoFo::TFontCacheElement *, std::vector<PoDoFo::TFontCacheElement, std::allocator<PoDoFo::TFontCacheElement> > >, __gnu_cxx::__ops::_Iter_less_iter>
+ReadNextTrailer
+__destroy<__gnu_cxx::__normal_iterator<PoDoFo::PdfXRef::TXRefItem *, std::vector<PoDoFo::PdfXRef::TXRefItem, std::allocator<PoDoFo::PdfXRef::TXRefItem> > > >
+vswscanf
+WriteUpdate
+destroy<PoDoFo::PdfLZWFilter::TLzwItem>
+LoadFromBuffer
+addressof<PoDoFo::PdfXRef::PdfXRefBlock>
+construct<PoDoFo::PdfXRef::PdfXRefBlock, const PoDoFo::PdfXRef::PdfXRefBlock &>
+AddColorResource
+fwprintf
+forward<PoDoFo::PdfObject *const &>
+_Destroy<std::pair<std::__cxx11::basic_string<char>, PoDoFo::EPdfTokenType> >
+_Destroy<PoDoFo::EPdfFilter *, PoDoFo::EPdfFilter>
+__copy_move_a<true, PoDoFo::PdfXRef::PdfXRefBlock *, PoDoFo::PdfXRef::PdfXRefBlock *>
+__push_heap<__gnu_cxx::__normal_iterator<PoDoFo::TFontCacheElement *, std::vector<PoDoFo::TFontCacheElement, std::allocator<PoDoFo::TFontCacheElement> > >, long, PoDoFo::TFontCacheElement, __gnu_cxx::__ops::_Iter_less_val>
+_Construct<PoDoFo::PdfObject, PoDoFo::PdfObject>
+operator()<std::_Deque_iterator<PoDoFo::PdfObject *, PoDoFo::PdfObject *&, PoDoFo::PdfObject **> >
+uninitialized_copy<std::move_iterator<unsigned char *>, unsigned char *>
+PdfEncoding
+_M_begin
+GetPagesTree
+operator==<PoDoFo::PdfFontTTFSubset::TTrueTypeTable *>
+operator=
+_M_insert_equal_lower_node
+BeginAppendStream
+_M_root
+getBaseVersion
+emplace_back<std::__cxx11::basic_string<char> >
+iswprint
+SetBaseURI
+ReadXRefContents
+construct<std::pair<std::__cxx11::basic_string<char>, PoDoFo::EPdfTokenType>, std::pair<std::__cxx11::basic_string<char>, PoDoFo::EPdfTokenType> >
+uninitialized_copy<std::move_iterator<unsigned short *>, unsigned short *>
+EmbedFont
+forward<std::_Rb_tree_node<std::pair<const PoDoFo::PdfReference, PoDoFo::PdfAnnotation *> > *&>
+construct<PoDoFo::PdfReference *, PoDoFo::PdfReference *>
+move_backward<__gnu_cxx::__normal_iterator<PoDoFo::PdfObject **, std::vector<PoDoFo::PdfObject *, std::allocator<PoDoFo::PdfObject *> > >, __gnu_cxx::__normal_iterator<PoDoFo::PdfObject **, std::vector<PoDoFo::PdfObject *, std::allocator<PoDoFo::PdfObject *> > > >
+forward<PoDoFo::PdfXRef::TXRefItem &>
+~PdfWriter
+_Construct<PoDoFo::TBFRange, PoDoFo::TBFRange>
+pair<__gnu_cxx::__normal_iterator<PoDoFo::TFontCacheElement *, std::vector<PoDoFo::TFontCacheElement, std::allocator<PoDoFo::TFontCacheElement> > >, __gnu_cxx::__normal_iterator<const PoDoFo::TFontCacheElement *, std::vector<PoDoFo::TFontCacheElement, std::allocator<PoDoFo::TFontCacheElement> > >, true>
+scalbln
+__destroy<PoDoFo::PdfExtension *>
+sort
+uninitialized_copy<std::move_iterator<PoDoFo::PdfParser::TXRefEntry *>, PoDoFo::PdfParser::TXRefEntry *>
+PdfDestination
+vprintf
+SetNonStrokingColor
+destroy<PoDoFo::PdfPage *>
+destroy<PoDoFo::PdfFontTTFSubset::CMapv4Range>
+global
+__niter_base<const PoDoFo::PdfReference *, std::vector<PoDoFo::PdfReference, std::allocator<PoDoFo::PdfReference> > >
+__copy_m<PoDoFo::PdfReference *>
+operator!=<PoDoFo::PdfObject *const *, PoDoFo::PdfObject **, std::vector<PoDoFo::PdfObject *, std::allocator<PoDoFo::PdfObject *> > >
+epsilon
+vwprintf
+_Construct<PoDoFo::PdfParser::TXRefEntry>
+construct<PoDoFo::EPdfFilter, const PoDoFo::EPdfFilter &>
+_M_insert_unique<const long &>
+nextafterl
+_M_push_back_aux<const GraphicsStack::TGraphicsStackElement &>
+move<__gnu_cxx::__normal_iterator<PoDoFo::PdfObject **, std::vector<PoDoFo::PdfObject *, std::allocator<PoDoFo::PdfObject *> > >, __gnu_cxx::__normal_iterator<PoDoFo::PdfObject **, std::vector<PoDoFo::PdfObject *, std::allocator<PoDoFo::PdfObject *> > > >
+emplace_back<char>
+_M_realloc_insert<const PoDoFo::PdfEncodingDifference::TDifference &>
+swap<PoDoFo::PdfXRef::PdfXRefBlock>
+_M_create_node<const std::piecewise_construct_t &, std::tuple<const PoDoFo::PdfReference &>, std::tuple<> >
+Encode
+nearbyintl
+Print
+emplace_back<unsigned int>
+_M_get_insert_unique_pos
+value_comp
+_M_push_front_aux<const PoDoFo::PdfReference &>
+GetTrapped
+SetFontSize
+_Destroy<PoDoFo::PdfObject *>
+__copy_m<unsigned int>
+GetFontMetrics
+forward<PoDoFo::EPdfTokenType &>
+_M_create_node<const long &>
+labs
+move<PoDoFo::PdfXRef::TXRefItem &>
+operator!=<PoDoFo::PdfXRef::TXRefItem *>
+forward<PoDoFo::PdfFontTTFSubset::TTrueTypeTable>
+_M_transfer
+operator!=<PoDoFo::PdfPage *, PoDoFo::PdfPage *&, PoDoFo::PdfPage **>
+_Destroy<std::_Deque_iterator<PoDoFo::PdfErrorInfo, PoDoFo::PdfErrorInfo &, PoDoFo::PdfErrorInfo *>, PoDoFo::PdfErrorInfo>
+__get_helper<0, unsigned short &&>
+~PdfListBox
+uninitialized_fill_n<PoDoFo::PdfObject *, unsigned long, PoDoFo::PdfObject>
+__partial_sort<__gnu_cxx::__normal_iterator<PoDoFo::PdfObject **, std::vector<PoDoFo::PdfObject *, std::allocator<PoDoFo::PdfObject *> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(const PoDoFo::PdfObject *, const PoDoFo::PdfObject *)> >
+IsItalic
+operator()<__gnu_cxx::__normal_iterator<PoDoFo::TFontCacheElement *, std::vector<PoDoFo::TFontCacheElement, std::allocator<PoDoFo::TFontCacheElement> > >, const PoDoFo::TFontCacheElement>
+PdfDate
+__niter_base<PoDoFo::PdfReference *, std::vector<PoDoFo::PdfReference, std::allocator<PoDoFo::PdfReference> > >
+asinhf
+__destroy<std::_Deque_iterator<PoDoFo::PdfErrorInfo, PoDoFo::PdfErrorInfo &, PoDoFo::PdfErrorInfo *> >
+Seek
+fillUnicodeStream
+min<unsigned long>
+__uninitialized_move_if_noexcept_a<long *, long *, std::allocator<long> >
+GenerateInitialVector
+__move_median_to_first<__gnu_cxx::__normal_iterator<PoDoFo::PdfXRef::PdfXRefBlock *, std::vector<PoDoFo::PdfXRef::PdfXRefBlock, std::allocator<PoDoFo::PdfXRef::PdfXRefBlock> > >, __gnu_cxx::__ops::_Iter_less_iter>
+move_backward<__gnu_cxx::__normal_iterator<PoDoFo::TFontCacheElement *, std::vector<PoDoFo::TFontCacheElement, std::allocator<PoDoFo::TFontCacheElement> > >, __gnu_cxx::__normal_iterator<PoDoFo::TFontCacheElement *, std::vector<PoDoFo::TFontCacheElement, std::allocator<PoDoFo::TFontCacheElement> > > >
+construct<std::pair<const unsigned long, unsigned short>, const std::piecewise_construct_t &, std::tuple<const unsigned long &>, std::tuple<> >
+equal_range<std::_Deque_iterator<PoDoFo::PdfReference, PoDoFo::PdfReference &, PoDoFo::PdfReference *>, PoDoFo::PdfReference, PoDoFo::ReferenceComparatorPredicate>
+__uninitialized_move_if_noexcept_a<std::__cxx11::list<PoDoFo::PdfReference *, std::allocator<PoDoFo::PdfReference *> > *, std::__cxx11::list<PoDoFo::PdfReference *, std::allocator<PoDoFo::PdfReference *> > *, std::allocator<std::__cxx11::list<PoDoFo::PdfReference *, std::allocator<PoDoFo::PdfReference *> > > >
+GetData
+operator!=<std::__cxx11::list<PoDoFo::PdfReference *, std::allocator<PoDoFo::PdfReference *> > *>
+GetChildCount
+__miter_base<__gnu_cxx::__normal_iterator<const PoDoFo::PdfEncodingDifference::TDifference *, std::vector<PoDoFo::PdfEncodingDifference::TDifference, std::allocator<PoDoFo::PdfEncodingDifference::TDifference> > > >
+__uninit_copy<std::move_iterator<PoDoFo::EPdfFilter *>, PoDoFo::EPdfFilter *>
+podofo_is_little_endian
+GetBaseEncoding
+PdfComboBox
+EnableLogging
+modf
+SetLimits
+__final_insertion_sort<__gnu_cxx::__normal_iterator<PoDoFo::PdfReference *, std::vector<PoDoFo::PdfReference, std::allocator<PoDoFo::PdfReference> > >, __gnu_cxx::__ops::_Iter_less_iter>
+upper_bound
+__uninitialized_copy_move<std::_Deque_iterator<PoDoFo::PdfErrorInfo, const PoDoFo::PdfErrorInfo &, const PoDoFo::PdfErrorInfo *>, std::_Deque_iterator<PoDoFo::PdfErrorInfo, PoDoFo::PdfErrorInfo &, PoDoFo::PdfErrorInfo *>, std::_Deque_iterator<PoDoFo::PdfErrorInfo, PoDoFo::PdfErrorInfo &, PoDoFo::PdfErrorInfo *>, std::allocator<PoDoFo::PdfErrorInfo> >
+pair<std::_Rb_tree_iterator<std::pair<PoDoFo::PdfObject *const, PoDoFo::PdfAnnotation *> >, std::_Rb_tree_iterator<std::pair<PoDoFo::PdfObject *const, PoDoFo::PdfAnnotation *> >, true>
+_Destroy<PoDoFo::PdfParser::TXRefEntry *>
+forward<const std::piecewise_construct_t &>
+__final_insertion_sort<__gnu_cxx::__normal_iterator<PoDoFo::PdfObject **, std::vector<PoDoFo::PdfObject *, std::allocator<PoDoFo::PdfObject *> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(const PoDoFo::PdfObject *, const PoDoFo::PdfObject *)> >
+advance<std::_Deque_iterator<PoDoFo::PdfReference, PoDoFo::PdfReference &, PoDoFo::PdfReference *>, long>
+IsPushButton
+_Destroy<double *>
+_M_unhook
+lower_bound<__gnu_cxx::__normal_iterator<PoDoFo::PdfObject **, std::vector<PoDoFo::PdfObject *, std::allocator<PoDoFo::PdfObject *> > >, PoDoFo::PdfObject *, bool (*)(const PoDoFo::PdfObject *, const PoDoFo::PdfObject *)>
+move<PoDoFo::PdfReference &>
+stack<std::deque<std::__cxx11::basic_string<char>, std::allocator<std::__cxx11::basic_string<char> > >, void>
+wcscat
+copy<GraphicsStack::TGraphicsStackElement **, GraphicsStack::TGraphicsStackElement **>
+InitBase14Font
+__make_move_if_noexcept_iterator<PoDoFo::PdfExtension, std::move_iterator<PoDoFo::PdfExtension *> >
+forward<PoDoFo::PdfLZWFilter::TLzwItem>
+SetFirstEmptyBlock
+PDF_MIN<int>
+erf
+SetWordSpace
+__copy_move_b<PoDoFo::PdfObject **>
+~PdfAcroForm
+move<PoDoFo::PdfReference>
+uninitialized_copy<__gnu_cxx::__normal_iterator<PoDoFo::PdfVecObjects::Observer *const *, std::vector<PoDoFo::PdfVecObjects::Observer *, std::allocator<PoDoFo::PdfVecObjects::Observer *> > >, PoDoFo::PdfVecObjects::Observer **>
+_M_realloc_insert<char>
+~PdfEncryptAESV2
+strcpy
+GetHexValue
+LogMessage
+CharWidthMM
+construct<unsigned char, unsigned char>
+__unguarded_partition<__gnu_cxx::__normal_iterator<PoDoFo::PdfObject **, std::vector<PoDoFo::PdfObject *, std::allocator<PoDoFo::PdfObject *> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(const PoDoFo::PdfObject *, const PoDoFo::PdfObject *)> >
+PdfArray
+forward<std::_Rb_tree_node<long> *&>
+__iter_comp_val<PoDoFo::ReferenceComparatorPredicate>
+PrintErrorMsg
+_M_erase
+operator!=<PoDoFo::TBFRange *>
+toupper
+IsCommitOnSelectionChange
+~PdfDocument
+emplace_front<PoDoFo::PdfErrorInfo>
+PdfInfo
+Detach
+PutColorOnStack
+__copy_move_a2<true, PoDoFo::EPdfFilter *, PoDoFo::EPdfFilter *>
+GetPdfVersion
+atanhl
+~PdfFontType3
+HasXRefStream
+IsNextToken
+copy_backward<PoDoFo::PdfReference **, PoDoFo::PdfReference **>
+GetObject
+GetOffset
+finish
+uninitialized_copy<std::move_iterator<long *>, long *>
+SetMaxReserveSize
+__distance<__gnu_cxx::__normal_iterator<PoDoFo::PdfObject **, std::vector<PoDoFo::PdfObject *, std::allocator<PoDoFo::PdfObject *> > > >
+__uninit_copy<__gnu_cxx::__normal_iterator<const unsigned char *, std::vector<unsigned char, std::allocator<unsigned char> > >, unsigned char *>
+pair<__gnu_cxx::__normal_iterator<PoDoFo::PdfObject **, std::vector<PoDoFo::PdfObject *, std::allocator<PoDoFo::PdfObject *> > >, __gnu_cxx::__normal_iterator<PoDoFo::PdfObject **, std::vector<PoDoFo::PdfObject *, std::allocator<PoDoFo::PdfObject *> > >, true>
+merge
+_M_insert_aux<PoDoFo::PdfXRef::PdfXRefBlock>
+GetItemDisplayText
+GetSize
+__copy_m<PoDoFo::EPdfFilter>
+GetCopy
+forward<std::_Rb_tree_iterator<std::__cxx11::basic_string<char> > >
+log1pf
+move<PoDoFo::PdfPage *&>
+InsertOneReferenceIntoVector
+_M_addref
+__iterator_category<__gnu_cxx::__normal_iterator<PoDoFo::PdfReference *, std::vector<PoDoFo::PdfReference, std::allocator<PoDoFo::PdfReference> > > >
+PdfContents
+swprintf
+~PdfDestination
+realloc
+operator><char, std::char_traits<char>, std::allocator<char> >
+forward<std::_Rb_tree_node<std::pair<PoDoFo::PdfObject *const, PoDoFo::PdfAnnotation *> > *&>
+PdfOwnedDataType
+SetError
+pair<std::_Rb_tree_node<std::pair<const unsigned short, unsigned short> > *&, std::_Rb_tree_node_base *&, true>
+SetSelectedItem
+GetName
+_Destroy<long *, long>
+~TBFRange
+__copy_move_b<std::__cxx11::basic_string<char> *>
+_Destroy<PoDoFo::PdfObject>
+forward<std::tuple<const unsigned short &> >
+_M_get_Node_allocator
+ToString
+equal_range<const PoDoFo::PdfNamedColor *, PoDoFo::PdfNamedColor, PoDoFo::NamedColorComparatorPredicate>
+what
+SetTrapped
+pair<std::_Rb_tree_node<unsigned short> *&, std::_Rb_tree_node_base *&, true>
+StartPage
+_M_realloc_insert<const PoDoFo::PdfVariant &>
+get<0, std::vector<char, std::allocator<char> > *, std::default_delete<std::vector<char, std::allocator<char> > > >
+BuildColorSpace
+nextafter
+SetObjectNumber
+ConvertToRGB
+SetPageOpenAction
+__sort_heap<__gnu_cxx::__normal_iterator<PoDoFo::TFontCacheElement *, std::vector<PoDoFo::TFontCacheElement, std::allocator<PoDoFo::TFontCacheElement> > >, __gnu_cxx::__ops::_Iter_less_iter>
+forward<__gnu_cxx::__normal_iterator<PoDoFo::TFontCacheElement *, std::vector<PoDoFo::TFontCacheElement, std::allocator<PoDoFo::TFontCacheElement> > > >
+_M_insert_rval
+SetLinearized
+GetLocaTableSize
+UpdateDocumentVersion
+uninitialized_copy<PoDoFo::PdfObject *, PoDoFo::PdfObject *>
+DeletePages
+__copy_move_a2<false, PoDoFo::PdfReference *, PoDoFo::PdfReference *>
+GetEncodedUnicode
+~PdfComboBox
+__introsort_loop<__gnu_cxx::__normal_iterator<PoDoFo::TFontCacheElement *, std::vector<PoDoFo::TFontCacheElement, std::allocator<PoDoFo::TFontCacheElement> > >, long, __gnu_cxx::__ops::_Iter_less_iter>
+SetChecked
+GetAppearanceCharacteristics
+Rebalance
+~PdfReference
+construct<std::pair<const PoDoFo::PdfName, PoDoFo::PdfObject *>, const std::piecewise_construct_t &, std::tuple<const PoDoFo::PdfName &>, std::tuple<> >
+TakeEncrypt
+_Vector_impl
+__copy_move_b<PoDoFo::PdfReference *>
+_S_key
+_M_insert_aux
+~PdfFont
+_Destroy<PoDoFo::PdfFontTTFSubset::TTrueTypeTable *>
+move<std::__cxx11::basic_string<char> &>
+ReadTrailer
+construct<unsigned int, unsigned int>
+PdfCheckBox
+forward<std::_Rb_tree_iterator<int> &>
+GetWriteMode
+PdfObjectStreamParserObject
+__advance<__gnu_cxx::__normal_iterator<PoDoFo::PdfReference *, std::vector<PoDoFo::PdfReference, std::allocator<PoDoFo::PdfReference> > >, long>
+Allocate
+trunc
+forward<const PoDoFo::PdfFontTTFSubset::CMapv4Range &>
+advance<__gnu_cxx::__normal_iterator<PoDoFo::PdfObject **, std::vector<PoDoFo::PdfObject *, std::allocator<PoDoFo::PdfObject *> > >, long>
+GetStrikeOutPositionMM
+wcscmp
+_M_node_count
+GetAlternateCaption
+Device
+IsEmptyPageNode
+__copy_move_backward_a2<false, std::__cxx11::basic_string<char> **, std::__cxx11::basic_string<char> **>
+GetFromResources
+__uninitialized_copy_a<__gnu_cxx::__normal_iterator<PoDoFo::PdfPage *const *, std::vector<PoDoFo::PdfPage *, std::allocator<PoDoFo::PdfPage *> > >, PoDoFo::PdfPage **, PoDoFo::PdfPage *>
+GetInheritedKeyFromObject
+_Destroy<PoDoFo::PdfXRef::PdfXRefBlock *, PoDoFo::PdfXRef::PdfXRefBlock>
+TypeNameToIndex
+__uninitialized_default_n_a<PoDoFo::PdfParser::TXRefEntry *, unsigned long, PoDoFo::PdfParser::TXRefEntry>
+__copy_move_a2<false, __gnu_cxx::__normal_iterator<const PoDoFo::PdfXRef::TXRefItem *, std::vector<PoDoFo::PdfXRef::TXRefItem, std::allocator<PoDoFo::PdfXRef::TXRefItem> > >, __gnu_cxx::__normal_iterator<PoDoFo::PdfXRef::TXRefItem *, std::vector<PoDoFo::PdfXRef::TXRefItem, std::allocator<PoDoFo::PdfXRef::TXRefItem> > > >
+operator!=<std::_Rb_tree_iterator<std::pair<const unsigned short, PoDoFo::PdfFontTTFSubset::TGlyphData> > >
+__uninitialized_default<std::_Deque_iterator<PoDoFo::PdfPage *, PoDoFo::PdfPage *&, PoDoFo::PdfPage **> >
+IsEditAllowed
+uninitialized_fill_n<unsigned char *, unsigned long, unsigned char>
+GetNeedAppearances
+set
+Get
+~allocator
+_M_replace_facet
+FilterTypeToName
+GetIndices
+_M_insert_<std::__cxx11::basic_string<char>, std::_Rb_tree<std::__cxx11::basic_string<char>, std::__cxx11::basic_string<char>, std::_Identity<std::__cxx11::basic_string<char> >, std::less<std::__cxx11::basic_string<char> >, std::allocator<std::__cxx11::basic_string<char> > >::_Alloc_node>
+operator-<const PoDoFo::PdfObject *, std::vector<PoDoFo::PdfObject, std::allocator<PoDoFo::PdfObject> > >
+PdfEncryptAESV2
+__equal_range<__gnu_cxx::__normal_iterator<PoDoFo::TFontCacheElement *, std::vector<PoDoFo::TFontCacheElement, std::allocator<PoDoFo::TFontCacheElement> > >, PoDoFo::TFontCacheElement, __gnu_cxx::__ops::_Iter_less_val, __gnu_cxx::__ops::_Val_less_iter>
+ReadDictionary
+__niter_base<GraphicsStack::TGraphicsStackElement **>
+SetPrevXRefOffset
+operator-<const long *, std::vector<long, std::allocator<long> > >
+operator==<PoDoFo::PdfObject, std::allocator<PoDoFo::PdfObject> >
+CreateFontSubset
+_Destroy<std::__cxx11::basic_string<char> *>
+__copy_move_backward_a2<true, PoDoFo::TFontCacheElement *, PoDoFo::TFontCacheElement *>
+_S_initialize
+operator!=<const PoDoFo::PdfEncodingDifference::TDifference *, PoDoFo::PdfEncodingDifference::TDifference *, std::vector<PoDoFo::PdfEncodingDifference::TDifference, std::allocator<PoDoFo::PdfEncodingDifference::TDifference> > >
+__uninit_copy<std::move_iterator<PoDoFo::PdfPage **>, PoDoFo::PdfPage **>
+allocate
+tolower
+__copy_move_a2<false, __gnu_cxx::__normal_iterator<const unsigned char *, std::vector<unsigned char, std::allocator<unsigned char> > >, unsigned char *>
+move_iterator
+AddResource
+forward<const unsigned short &>
+operator->
+_M_realloc_insert<const PoDoFo::PdfObject &>
+move<PoDoFo::TFontCacheElement &>
+_M_erase_aux
+fixed
+erfl
+IsUnderlined
+CreateNext
+_Destroy<__gnu_cxx::__normal_iterator<PoDoFo::PdfReference *, std::vector<PoDoFo::PdfReference, std::allocator<PoDoFo::PdfReference> > >, PoDoFo::PdfReference>
+~PdfEncryptRC4Base
+PdfFontSimple
+~PdfElement
+__lower_bound<const PoDoFo::PdfNamedColor *, PoDoFo::PdfNamedColor, __gnu_cxx::__ops::_Iter_comp_val<PoDoFo::NamedColorComparatorPredicate> >
+genHexMap
+__pop_heap<__gnu_cxx::__normal_iterator<PoDoFo::PdfObject **, std::vector<PoDoFo::PdfObject *, std::allocator<PoDoFo::PdfObject *> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(const PoDoFo::PdfObject *, const PoDoFo::PdfObject *)> >
+setlocale
+GetMaxRecursionDepth
+~PdfFontConfigWrapper
+__uninitialized_move_if_noexcept_a<unsigned short *, unsigned short *, std::allocator<unsigned short> >
+__get_helper<0, PoDoFo::PdfOutputStream *, std::default_delete<PoDoFo::PdfOutputStream> >
+_M_destroy_data_aux
+_M_erase_at_begin
+SetIncrementalUpdate
+~PdfMemStream
+printf
+__uninit_copy<const PoDoFo::PdfXRef::PdfXRefBlock *, PoDoFo::PdfXRef::PdfXRefBlock *>
+GetDataType
+__copy_move_a<true, PoDoFo::PdfObject *, PoDoFo::PdfObject *>
+Lock
+_S_on_swap
+forward<__gnu_cxx::__normal_iterator<PoDoFo::PdfEncodingDifference::TDifference *, std::vector<PoDoFo::PdfEncodingDifference::TDifference, std::allocator<PoDoFo::PdfEncodingDifference::TDifference> > > >
+__unguarded_linear_insert<__gnu_cxx::__normal_iterator<PoDoFo::TFontCacheElement *, std::vector<PoDoFo::TFontCacheElement, std::allocator<PoDoFo::TFontCacheElement> > >, __gnu_cxx::__ops::_Val_less_iter>
+SetFontType
+fdim
+_Destroy<char *, char>
+FillGlyphArray
+InitPdfObject
+remainder
+PdfMemoryOutputStream
+PdfType1Encrypt
+__copy_move_backward_a<false, GraphicsStack::TGraphicsStackElement **, GraphicsStack::TGraphicsStackElement **>
+SetNonStrokingColorGray
+~PdfFileSpec
+SetProducer
+~PdfXRefBlock
+nearbyintf
+GetRealBuffer
+~PdfStream
+__miter_base<__gnu_cxx::__normal_iterator<PoDoFo::PdfObject *, std::vector<PoDoFo::PdfObject, std::allocator<PoDoFo::PdfObject> > > >
+make_move_iterator<PoDoFo::PdfObject *>
+eof
+_M_push_front_aux<PoDoFo::PdfErrorInfo>
+__addressof<PoDoFo::PdfReference>
+__uninitialized_copy_a<unsigned char *, unsigned char *, unsigned char>
+ReadDocumentStructure
+__copy_move_backward_a<true, PoDoFo::PdfXRef::PdfXRefBlock *, PoDoFo::PdfXRef::PdfXRefBlock *>
+IsPasswordField
+__make_move_if_noexcept_iterator<unsigned char, std::move_iterator<unsigned char *> >
+__copy_m<PoDoFo::PdfPage **>
+~PdfObjectStreamParserObject
+ungetwc
+PdfDataType
+__get_helper<0, const PoDoFo::PdfReference &>
+__niter_base<unsigned int *>
+strftime
+GetBack
+uninitialized_copy<std::move_iterator<char *>, char *>
+_M_range_insert<__gnu_cxx::__normal_iterator<PoDoFo::PdfXRef::TXRefItem *, std::vector<PoDoFo::PdfXRef::TXRefItem, std::allocator<PoDoFo::PdfXRef::TXRefItem> > > >
+CMapv4Range
+_M_move_impl
+operator-<PoDoFo::PdfObject *const *, std::vector<PoDoFo::PdfObject *, std::allocator<PoDoFo::PdfObject *> > >
+_Deque_base
+__iterator_category<__gnu_cxx::__normal_iterator<PoDoFo::PdfEncodingDifference::TDifference *, std::vector<PoDoFo::PdfEncodingDifference::TDifference, std::allocator<PoDoFo::PdfEncodingDifference::TDifference> > > >
+GetUEValue
+destroy<std::pair<const long, double> >
+destroy<std::pair<PoDoFo::PdfObject *const, PoDoFo::PdfAnnotation *> >
+find<std::_Deque_iterator<PoDoFo::PdfObject *, PoDoFo::PdfObject *&, PoDoFo::PdfObject **>, PoDoFo::PdfObject *>
+_Destroy<PoDoFo::PdfVariant>
+PdfObject
+PdfFileInputStream
+uninitialized_copy<std::move_iterator<PoDoFo::PdfReference *>, PoDoFo::PdfReference *>
+roundf
+~PdfString
+__miter_base<PoDoFo::PdfReference **>
+GetColor
+~TXRefItem
+_Temporary_value<const PoDoFo::PdfXRef::PdfXRefBlock &>
+GetMaxReserveSize
+IsRGB
+_Destroy<PoDoFo::PdfLZWFilter::TLzwItem *>
+operator==<const PoDoFo::PdfEncodingDifference::TDifference *, PoDoFo::PdfEncodingDifference::TDifference *, std::vector<PoDoFo::PdfEncodingDifference::TDifference, std::allocator<PoDoFo::PdfEncodingDifference::TDifference> > >
+_Destroy<PoDoFo::PdfErrorInfo *>
+find<__gnu_cxx::__normal_iterator<const long *, std::vector<long, std::allocator<long> > >, long>
+sort<__gnu_cxx::__normal_iterator<PoDoFo::PdfXRef::PdfXRefBlock *, std::vector<PoDoFo::PdfXRef::PdfXRefBlock, std::allocator<PoDoFo::PdfXRef::PdfXRefBlock> > > >
+_M_init
+operator-<const PoDoFo::TFontCacheElement *, PoDoFo::TFontCacheElement *, std::vector<PoDoFo::TFontCacheElement, std::allocator<PoDoFo::TFontCacheElement> > >
+strncasecmp
+pair<std::_Rb_tree_node<std::pair<const unsigned int, unsigned long> > *&, std::_Rb_tree_node_base *&, true>
+__distance<__gnu_cxx::__normal_iterator<PoDoFo::PdfEncodingDifference::TDifference *, std::vector<PoDoFo::PdfEncodingDifference::TDifference, std::allocator<PoDoFo::PdfEncodingDifference::TDifference> > > >
+wmemmove
+GetPdfAscent
+__insertion_sort<__gnu_cxx::__normal_iterator<PoDoFo::PdfXRef::PdfXRefBlock *, std::vector<PoDoFo::PdfXRef::PdfXRefBlock, std::allocator<PoDoFo::PdfXRef::PdfXRefBlock> > >, __gnu_cxx::__ops::_Iter_less_iter>
+Empty
+__destroy<PoDoFo::PdfFontTTFSubset::CMapv4Range *>
+nextafterf
+forward<std::tuple<> >
+__uninitialized_copy_a<std::move_iterator<PoDoFo::TBFRange *>, PoDoFo::TBFRange *, PoDoFo::TBFRange>
+putwc
+PdfErrorInfo
+iswupper
+deque
+SetTitle
+scalbnf
+~PdfListField
+move<PoDoFo::PdfErrorInfo &>
+forward<unsigned int>
+GetStrikeoutThicknessMM
+InitFontSizes
+id
+iswgraph
+~set
+operator-<unsigned short *, std::vector<unsigned short, std::allocator<unsigned short> > >
+llroundl
+~_Rb_tree_impl
+GetChar
+move<PoDoFo::NamedColorComparatorPredicate &>
+PdfElement
+AssertMutable
+lowest
+__destroy<__gnu_cxx::__normal_iterator<PoDoFo::PdfObject *, std::vector<PoDoFo::PdfObject, std::allocator<PoDoFo::PdfObject> > > >
+__uninit_copy<std::move_iterator<std::_Deque_iterator<PoDoFo::PdfErrorInfo, PoDoFo::PdfErrorInfo &, PoDoFo::PdfErrorInfo *> >, std::_Deque_iterator<PoDoFo::PdfErrorInfo, PoDoFo::PdfErrorInfo &, PoDoFo::PdfErrorInfo *> >
+__distance<__gnu_cxx::__normal_iterator<PoDoFo::PdfObject *const *, std::vector<PoDoFo::PdfObject *, std::allocator<PoDoFo::PdfObject *> > > >
+Reference
+to_char_type
+~PdfNamesTree
+GetNextVariant
+operator!=<PoDoFo::PdfReference *>
+__niter_base<PoDoFo::PdfXRef::PdfXRefBlock *>
+Set
+forward<const PoDoFo::TBFRange &>
+operator!=<PoDoFo::PdfXRef::PdfXRefBlock *, std::vector<PoDoFo::PdfXRef::PdfXRefBlock, std::allocator<PoDoFo::PdfXRef::PdfXRefBlock> > >
+UnescapeName<const char *>
+_Destroy<GraphicsStack::TGraphicsStackElement>
+_Iter_less_val
+__copy_move_a2<true, double *, double *>
+_Destroy<std::__cxx11::list<PoDoFo::PdfReference *, std::allocator<PoDoFo::PdfReference *> > >
+wmemcpy
+podofo_multiplication_overflow
+hex
+forward<PoDoFo::PdfVariant>
+_Destroy<PoDoFo::EPdfFilter *>
+forward<std::_Rb_tree_iterator<unsigned short> >
+pair<std::_Rb_tree_iterator<unsigned short> &, bool &, true>
+tmpnam
+isprint
+cbrtf
+GetLineSpacingMM
+__equal_range<std::_Deque_iterator<PoDoFo::PdfReference, PoDoFo::PdfReference &, PoDoFo::PdfReference *>, PoDoFo::PdfReference, __gnu_cxx::__ops::_Iter_less_val, __gnu_cxx::__ops::_Val_less_iter>
+__unguarded_partition<__gnu_cxx::__normal_iterator<PoDoFo::PdfReference *, std::vector<PoDoFo::PdfReference, std::allocator<PoDoFo::PdfReference> > >, __gnu_cxx::__ops::_Iter_less_iter>
+operator-<PoDoFo::PdfObject *const *, PoDoFo::PdfObject **, std::vector<PoDoFo::PdfObject *, std::allocator<PoDoFo::PdfObject *> > >
+_M_push_back_aux<PoDoFo::PdfPage *>
+GetKeyLength
+GetPageBox
+HasAction
+__final_insertion_sort<__gnu_cxx::__normal_iterator<PoDoFo::PdfXRef::TXRefItem *, std::vector<PoDoFo::PdfXRef::TXRefItem, std::allocator<PoDoFo::PdfXRef::TXRefItem> > >, __gnu_cxx::__ops::_Iter_less_iter>
+__niter_base<PoDoFo::PdfReference **>
+move<PoDoFo::PdfExtension &>
+PDF_MAX<unsigned long>
+_M_reallocate_map
+__get_helper<0, unsigned int &&>
+PdfIdentityEncoding
+uninitialized_copy<const PoDoFo::PdfXRef::PdfXRefBlock *, PoDoFo::PdfXRef::PdfXRefBlock *>
+forward<PoDoFo::TFontCacheElement>
+HasValue
+WritePdfHeader
+SetScrollBarsEnabled
+construct<std::pair<const long, double>, const std::piecewise_construct_t &, std::tuple<long &&>, std::tuple<> >
+__miter_base<PoDoFo::EPdfFilter *>
+cbrtl
+GetKeyAsName
+__uninit_fill_n<unsigned char *, unsigned long, unsigned char>
+GetNonStrokingColorSpace
+copy<std::move_iterator<long *>, long *>
+_Destroy<PoDoFo::PdfVariant *, PoDoFo::PdfVariant>
+~PdfWinAnsiEncoding
+erfcl
+~PdfFilteredDecodeStream
+__make_heap<__gnu_cxx::__normal_iterator<PoDoFo::PdfReference *, std::vector<PoDoFo::PdfReference, std::allocator<PoDoFo::PdfReference> > >, __gnu_cxx::__ops::_Iter_less_iter>
+GetDataTypeString
+__uninitialized_move_if_noexcept_a<unsigned char *, unsigned char *, std::allocator<unsigned char> >
+GetStartOfTTFOffsets
+__uninit_copy<const PoDoFo::PdfReference *, PoDoFo::PdfReference *>
+IsRequired
+copysignf
+strtok
+_M_emplace_hint_unique<const std::piecewise_construct_t &, std::tuple<const PoDoFo::PdfReference &>, std::tuple<> >
+GetFontSubset
+__copy_m<PoDoFo::PdfObject *>
+reverse
+make_move_iterator<PoDoFo::PdfXRef::TXRefItem *>
+IsCieLab
+PdfFontCID
+move_backward<PoDoFo::PdfXRef::PdfXRefBlock *, PoDoFo::PdfXRef::PdfXRefBlock *>
+__sort_heap<__gnu_cxx::__normal_iterator<PoDoFo::PdfXRef::PdfXRefBlock *, std::vector<PoDoFo::PdfXRef::PdfXRefBlock, std::allocator<PoDoFo::PdfXRef::PdfXRefBlock> > >, __gnu_cxx::__ops::_Iter_less_iter>
+IsWhitespace
+UnescapeName<__gnu_cxx::__normal_iterator<const char *, std::__cxx11::basic_string<char> > >
+IsEmpty
+pair<std::_Rb_tree_node<std::pair<const PoDoFo::PdfName, PoDoFo::PdfObject *> > *&, std::_Rb_tree_node_base *&, true>
+SetValidateAction
+operator()<unsigned short>
+SetMultiSelect
+GetError
+__copy_move_b<PoDoFo::PdfObject *, PoDoFo::PdfObject *>
+exp2
+IsFileField
+__copy_move_a<false, PoDoFo::PdfErrorInfo **, PoDoFo::PdfErrorInfo **>
+MustGetObject
+operator==<PoDoFo::PdfLZWFilter::TLzwItem *>
+PdfPredictorDecoder
+FindInBuffer
+get<0, const unsigned short &>
+distance<const PoDoFo::PdfNamedColor *>
+pow
+__niter_base<std::_Deque_iterator<PoDoFo::PdfPage *, PoDoFo::PdfPage *&, PoDoFo::PdfPage **> >
+__uninit_copy<std::move_iterator<PoDoFo::PdfFontTTFSubset::TTrueTypeTable *>, PoDoFo::PdfFontTTFSubset::TTrueTypeTable *>
+uninitialized_copy<std::move_iterator<PoDoFo::PdfExtension *>, PoDoFo::PdfExtension *>
+__uninit_default_n<PoDoFo::PdfParser::TXRefEntry *, unsigned long>
+forward<PoDoFo::PdfFontTTFSubset::CMapv4Range>
+copy<__gnu_cxx::__normal_iterator<PoDoFo::PdfPage *const *, std::vector<PoDoFo::PdfPage *, std::allocator<PoDoFo::PdfPage *> > >, PoDoFo::PdfPage **>
+_M_default_append
+__destroy<PoDoFo::EPdfFilter *>
+_M_push_back_aux<PoDoFo::PdfObject *>
+operator!=<PoDoFo::PdfXRef::TXRefItem *, std::vector<PoDoFo::PdfXRef::TXRefItem, std::allocator<PoDoFo::PdfXRef::TXRefItem> > >
+fminf
+gmtime
+getloc
+_M_insert_unique<const int &>
+TFontCacheElement
+CreateLinearizationDictionary
+ErrorName
+pop
+__niter_base<double *>
+strtoul
+operator==<const PoDoFo::PdfReference *, PoDoFo::PdfReference *, std::vector<PoDoFo::PdfReference, std::allocator<PoDoFo::PdfReference> > >
+HasFileAttachement
+forward_as_tuple<unsigned int>
+destroy<PoDoFo::PdfObject>
+ceil
+__equal_aux<const PoDoFo::PdfObject *, const PoDoFo::PdfObject *>
+GetNumFields
+__miter_base<__gnu_cxx::__normal_iterator<PoDoFo::PdfObject **, std::vector<PoDoFo::PdfObject *, std::allocator<PoDoFo::PdfObject *> > > >
+FindToken
+uninitialized_copy<std::move_iterator<PoDoFo::TBFRange *>, PoDoFo::TBFRange *>
+__miter_base<__gnu_cxx::__normal_iterator<PoDoFo::PdfReference *, std::vector<PoDoFo::PdfReference, std::allocator<PoDoFo::PdfReference> > > >

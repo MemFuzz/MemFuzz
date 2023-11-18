@@ -1,0 +1,24 @@
+StructName(ColorMapObject)
+[ MemberName(ColorCount) DW_TAG_base_type(int)  ] [ MemberName(BitsPerPixel) DW_TAG_base_type(int)  ] [ MemberName(SortFlag) DW_TAG_base_type(_Bool)  ] [ MemberName(Colors) DW_TAG_pointer_type DW_TAG_typedef DW_TAG_structure_type(GifColorType)  ] 
+;
+StructName(GifColorType)
+[ MemberName(Red) DW_TAG_typedef DW_TAG_base_type(unsigned char)  ] [ MemberName(Green) DW_TAG_typedef DW_TAG_base_type(unsigned char)  ] [ MemberName(Blue) DW_TAG_typedef DW_TAG_base_type(unsigned char)  ] 
+;
+StructName(GifFileType)
+[ MemberName(SWidth) DW_TAG_typedef DW_TAG_base_type(int)  ] [ MemberName(SHeight) DW_TAG_typedef DW_TAG_base_type(int)  ] [ MemberName(SColorResolution) DW_TAG_typedef DW_TAG_base_type(int)  ] [ MemberName(SBackGroundColor) DW_TAG_typedef DW_TAG_base_type(int)  ] [ MemberName(AspectByte) DW_TAG_typedef DW_TAG_base_type(unsigned char)  ] [ MemberName(SColorMap) DW_TAG_pointer_type DW_TAG_typedef DW_TAG_structure_type(ColorMapObject)  ] [ MemberName(ImageCount) DW_TAG_base_type(int)  ] [ MemberName(Image) DW_TAG_typedef DW_TAG_structure_type(GifImageDesc)  ] [ MemberName(SavedImages) DW_TAG_pointer_type DW_TAG_typedef DW_TAG_structure_type(SavedImage)  ] [ MemberName(ExtensionBlockCount) DW_TAG_base_type(int)  ] [ MemberName(ExtensionBlocks) DW_TAG_pointer_type DW_TAG_typedef DW_TAG_structure_type(ExtensionBlock)  ] [ MemberName(Error) DW_TAG_base_type(int)  ] [ MemberName(UserData) DW_TAG_pointer_type DW_TAG_base_type(void)  ] [ MemberName(Private) DW_TAG_pointer_type DW_TAG_base_type(void)  ] 
+;
+StructName(GifImageDesc)
+[ MemberName(Left) DW_TAG_typedef DW_TAG_base_type(int)  ] [ MemberName(Top) DW_TAG_typedef DW_TAG_base_type(int)  ] [ MemberName(Width) DW_TAG_typedef DW_TAG_base_type(int)  ] [ MemberName(Height) DW_TAG_typedef DW_TAG_base_type(int)  ] [ MemberName(Interlace) DW_TAG_base_type(_Bool)  ] [ MemberName(ColorMap) DW_TAG_pointer_type DW_TAG_typedef DW_TAG_structure_type(ColorMapObject)  ] 
+;
+StructName(SavedImage)
+[ MemberName(ImageDesc) DW_TAG_typedef DW_TAG_structure_type(GifImageDesc)  ] [ MemberName(RasterBits) DW_TAG_pointer_type DW_TAG_typedef DW_TAG_base_type(unsigned char)  ] [ MemberName(ExtensionBlockCount) DW_TAG_base_type(int)  ] [ MemberName(ExtensionBlocks) DW_TAG_pointer_type DW_TAG_typedef DW_TAG_structure_type(ExtensionBlock)  ] 
+;
+StructName(ExtensionBlock)
+[ MemberName(ByteCount) DW_TAG_base_type(int)  ] [ MemberName(Bytes) DW_TAG_pointer_type DW_TAG_typedef DW_TAG_base_type(unsigned char)  ] [ MemberName(Function) DW_TAG_base_type(int)  ] 
+;
+StructName(_IO_FILE)
+[ MemberName(_flags) DW_TAG_base_type(int)  ] [ MemberName(_IO_read_ptr) DW_TAG_pointer_type DW_TAG_base_type(char)  ] [ MemberName(_IO_read_end) DW_TAG_pointer_type DW_TAG_base_type(char)  ] [ MemberName(_IO_read_base) DW_TAG_pointer_type DW_TAG_base_type(char)  ] [ MemberName(_IO_write_base) DW_TAG_pointer_type DW_TAG_base_type(char)  ] [ MemberName(_IO_write_ptr) DW_TAG_pointer_type DW_TAG_base_type(char)  ] [ MemberName(_IO_write_end) DW_TAG_pointer_type DW_TAG_base_type(char)  ] [ MemberName(_IO_buf_base) DW_TAG_pointer_type DW_TAG_base_type(char)  ] [ MemberName(_IO_buf_end) DW_TAG_pointer_type DW_TAG_base_type(char)  ] [ MemberName(_IO_save_base) DW_TAG_pointer_type DW_TAG_base_type(char)  ] [ MemberName(_IO_backup_base) DW_TAG_pointer_type DW_TAG_base_type(char)  ] [ MemberName(_IO_save_end) DW_TAG_pointer_type DW_TAG_base_type(char)  ] [ MemberName(_markers) DW_TAG_pointer_type DW_TAG_structure_type(_IO_marker)  ] [ MemberName(_chain) DW_TAG_pointer_type DW_TAG_structure_type(_IO_FILE)  ] [ MemberName(_fileno) DW_TAG_base_type(int)  ] [ MemberName(_flags2) DW_TAG_base_type(int)  ] [ MemberName(_old_offset) DW_TAG_typedef DW_TAG_base_type(long int)  ] [ MemberName(_cur_column) DW_TAG_base_type(unsigned short)  ] [ MemberName(_vtable_offset) DW_TAG_base_type(signed char)  ] [ MemberName(_shortbuf) DW_TAG_array_type(1 1) DW_TAG_base_type(char)  ] [ MemberName(_lock) DW_TAG_pointer_type DW_TAG_unknown DW_TAG_typedef DW_TAG_unknown  ] [ MemberName(_offset) DW_TAG_typedef DW_TAG_base_type(long int)  ] [ MemberName(__pad1) DW_TAG_pointer_type DW_TAG_base_type(void)  ] [ MemberName(__pad2) DW_TAG_pointer_type DW_TAG_base_type(void)  ] [ MemberName(__pad3) DW_TAG_pointer_type DW_TAG_base_type(void)  ] [ MemberName(__pad4) DW_TAG_pointer_type DW_TAG_base_type(void)  ] [ MemberName(__pad5) DW_TAG_typedef DW_TAG_base_type(long unsigned int)  ] [ MemberName(_mode) DW_TAG_base_type(int)  ] [ MemberName(_unused2) DW_TAG_array_type(1 20) DW_TAG_base_type(char)  ] 
+;
+StructName(_IO_marker)
+[ MemberName(_next) DW_TAG_pointer_type DW_TAG_structure_type(_IO_marker)  ] [ MemberName(_sbuf) DW_TAG_pointer_type DW_TAG_structure_type(_IO_FILE)  ] [ MemberName(_pos) DW_TAG_base_type(int)  ] 
+;

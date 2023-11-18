@@ -1,0 +1,10 @@
+The directory Schematic/Classic contains the material that used to be in 
+Schematic in previous versions of Xfig. Figures are now compounded to present
+a single object. To align figures with grid it is necessary to set units as
+follows: Edit --> Set units; select Imperial (fraction).
+
+The directories Schematic/{Imperial,Metric} have been added. 
+Imperial icons will align with grid if units are set to 
+Imperial (fraction). Metric will do the same when units are set to Metric (cm). 
+
+Contributed by Niko Sauer.

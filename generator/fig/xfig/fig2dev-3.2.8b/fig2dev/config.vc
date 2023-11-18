@@ -1,0 +1,130 @@
+/*
+ * Fig2dev: Translate Fig code to various Devices
+ * Copyright (c) 1991 by Micah Beck
+ * Parts Copyright (c) 1985-1988 by Supoj Sutanthavibul
+ * Parts Copyright (c) 1989-2015 by Brian V. Smith
+ * Parts Copyright (c) 2015-2020 by Thomas Loimer
+ *
+ * Any party obtaining a copy of these files is granted, free of charge, a
+ * full and unrestricted irrevocable, world-wide, paid up, royalty-free,
+ * nonexclusive right and license to deal in this software and documentation
+ * files (the "Software"), including without limitation the rights to use,
+ * copy, modify, merge, publish, distribute, sublicense and/or sell copies
+ * of the Software, and to permit persons who receive copies from any such
+ * party to do so, with the only requirement being that the above copyright
+ * and this permission notice remain intact.
+ *
+ */
+
+/*
+ * fig2dev/config.vc:  Set options for compilation with MS Visual Studio.
+ * Author: Thomas Loimer, 2020.
+ *
+ */
+
+/* Visual Studio defines _MSC_VER to a string indicating the version numer */
+
+/*
+ * The following macros define capabilities of fig2dev which must be
+ * set at compile-time.
+ */
+
+/* Define to 1 if the default papersize for the dxf- and ibmgl-drivers is A4,
+   not letter. */
+#define A4 1
+
+/* Define to the name of the ghostscript command. */
+#define GSEXE "gswin32c"
+
+/* Define to 1 to use internationalization of text input for some drivers. */
+#define I18N 1
+
+/* Define to 1 if the ibmgl-driver should create instructions for the IBM
+   Graphics Enhancement Cartridge. */
+#define IBMGEC 1
+
+/* Define to 1 to use LaTeX2e-graphics in pstex- and latex-drivers. */
+#define LATEX2E_GRAPHICS 1
+
+/* Define to 1 to use the New Font Selection Scheme for LaTeX. */
+#define NFSS 1
+
+/* Define to 1 to not use baseline-shift sub/superscripts in the svg-driver */
+#undef NOSUPER
+
+/* Define to 1 if pict2e-graphics should honor \XFigwidth or \XFigheight. */
+#undef SCALE_PICT2E
+
+/* Define to 1 to use boxes with rounded corners in the tpic-driver. */
+#define TPIC_ARC_BOX 1
+
+/*
+ * The following macros define additional libraries and headers which
+ * can be compiled in. The development versions of these libraries must
+ * be available on the build system, and the run-time libraries must be
+ * available on the host when the program is executed.
+ */
+
+/* Define to 1 if you have the <iconv.h> header and libiconv. */
+#undef HAVE_ICONV
+
+/* Define to 1 if you have the <png.h> header file and libpng. */
+#undef HAVE_PNG_H
+
+/*
+ *                  Nothing more to do below this line.
+ *************************************************************************
+ */
+
+/*
+ * The macros below describe the capabilities of the C Standard Library
+ * as implemented by the Unified C Runtime Environment.
+ */
+
+#undef HAVE_GETHOSTNAME
+#undef HAVE_GETLINE
+#undef HAVE_GETOPT
+#undef HAVE_GETPWUID
+#undef HAVE_MKSTEMP
+#undef HAVE_STRINGS_H
+#undef HAVE_UNISTD_H
+
+#define HAVE_FDOPEN 1
+#define HAVE_IO_H 1
+#define HAVE_STDBOOL_H 1
+#define HAVE_STRERROR 1
+#define HAVE_STRING_H 1
+#define HAVE__BOOL 1
+#define HAVE__SETMODE 1
+
+/* POSIX compatibility */
+#define popen _popen
+#define pclose _pclose
+#define strcasecmp _stricmp
+#define strncasecmp _strnicmp
+#define restrict __restrict
+#define ssize_t int
+
+/* Nasty hack - make the calls to signal() at least compilable under windows. */
+#define SIGPIPE SIGABRT
+
+/* Define to suppress warnings of Visual Studio when using POSIX functions */
+#define _CRT_NONSTDC_NO_WARNINGS 1
+#define _CRT_SECURE_NO_WARNINGS 1
+/* curl defines _CRT_NONSTDC_NO_DEPRECATE, _CRT_SECURE_NO_DEPRECATE. */
+
+
+/* Name of package */
+#define PACKAGE "fig2dev"
+/* The address where bug reports for this package should be sent. */
+//#define PACKAGE_BUGREPORT "thomas.loimer@tuwien.ac.at"
+/* The full name of this package. */
+#define PACKAGE_NAME "fig2dev"
+/* The full name and version of this package. */
+//#define PACKAGE_STRING "fig2dev 3.2.8b"
+/* The one symbol short name of this package. */
+//#define PACKAGE_TARNAME "fig2dev"
+/* The home page for this package. */
+//#define PACKAGE_URL "https://sourceforge.net/projects/mcj"
+/* The version of this package. */
+#define PACKAGE_VERSION "3.2.8b"

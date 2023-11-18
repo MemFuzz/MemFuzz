@@ -1,0 +1,62 @@
+image: Visual Studio 2019
+configuration: Release
+platform:
+  - Win32
+  - x64
+
+install:
+  - if %PLATFORM% == Win32 (set ARCH=x86)
+  - if %PLATFORM% == x64 (set ARCH=x64)
+  ## Set up nasm
+  - choco install nasm
+  - set PATH=%PATH%;C:\Program Files\NASM
+  ## Set up libpng
+  - cd C:\Tools\vcpkg
+  - vcpkg install libpng:%ARCH%-windows
+  - vcpkg install libpng:%ARCH%-windows-static
+
+before_build:
+  - cd %APPVEYOR_BUILD_FOLDER%
+  - nasm -v
+  - cmake --version
+  - git describe --always --tags --dirty
+  - FOR /F %%a in ('git describe --always --tags --dirty') do set GIT_VERSION=%%a
+
+build_script:
+  ## Build shared
+  - cmake -B shared -A %PLATFORM%
+          -DENABLE_SHARED=1 -DENABLE_STATIC=0
+          -DREQUIRE_SIMD=1
+          -DCMAKE_TOOLCHAIN_FILE=C:/tools/vcpkg/scripts/buildsystems/vcpkg.cmake
+
+  - cmake --build shared --config Release
+
+  ## Build static
+  - cmake -B static -A %PLATFORM%
+          -DENABLE_SHARED=0 -DENABLE_STATIC=1
+          -DREQUIRE_SIMD=1
+          -DCMAKE_TOOLCHAIN_FILE=C:/tools/vcpkg/scripts/buildsystems/vcpkg.cmake
+          -DVCPKG_TARGET_TRIPLET=%ARCH%-windows-static
+
+  - cmake --build static --config Release
+
+after_build:
+  - 7z a mozjpeg-%GIT_VERSION%-win-%ARCH%.zip shared/Release static/Release
+
+artifacts:
+  - path: '*.zip'
+
+cache:
+  - C:\ProgramData\chocolatey\bin
+  - C:\ProgramData\chocolatey\lib
+  - C:\Program Files\NASM
+  - C:\tools\vcpkg\installed
+
+deploy:
+  description: 'Automated build using Appveyor'
+  provider: GitHub
+  auth_token:
+    secure: 2Jj47Q5HnaPob9U4yX2t4q4TYTw4JWU6cS56mM12aoRLgfYkZ4gRZPySIzfmTPqC
+  artifact: /.*\.zip/
+  on:
+    APPVEYOR_REPO_TAG: true        # deploy on tag push only

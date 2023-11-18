@@ -1,0 +1,278 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<html>
+<head>
+<title>Getting and Installing Xfig</title>
+</head>
+
+<body>
+<a href="contents.html"><img src="images/xfig-title.png"
+  alt="XFIG Users Manual" border=0></a>
+
+<hr>
+
+<h1>Getting and Installing Xfig and Fig2dev</h1>
+
+<p>
+You need the <b>fig2dev</b> program in addition to <b>xfig</b> to be complete.
+<b>Xfig</b> saves figures in its own, proprietary .fig format.
+The <b>fig2dev</b> program translates the .fig files to various languages and
+formats such as PostScript, png, jpeg, pstricks, tikz, etc.
+<b>Fig2dev</b> allows you to print and export figures.
+</p>
+
+<p>
+Most probably, <b>xfig</b> and <b>fig2dev</b> are available as pre-built
+(binary) packages using the package or software manager of your operating
+system. You will have to install both the xfig as well as the fig2dev or
+transfig package. Until about 2016, the fig2dev package was called transfig.
+</p>
+
+<p>
+Binary packages of xfig and fig2dev (or transfig) are available for a number
+of Linux operating systems (debian, ubuntu, fedora, centos, suse, arch, etc.),
+some BSD's (netbsd, openbsd, freebsd), and for Darwin (fink, macports, brew).
+</p>
+
+<p>
+For Windows, xfig can run under <a href="http://www.cygwin.com">cygwin</a>.
+Xfig and fig2dev are available as cygwin packages.
+Fig2dev can probably be compiled with VisualStudio.
+</p>
+
+
+<hr>
+
+<h2>Installing Other Software</h2>
+
+In addition to <b>xfig</b> and <b>fig2dev</b>, it is very useful to have
+<ul>
+<li><b>ghostscript</b> (the <tt>gs</tt> command) and one out of the</li>
+<li><b>netpbm</b>, <b>imagemagick</b> or <b>graphicsmagick</b> packages
+    installed.</li>
+</ul>
+
+<p>
+Xfig will call ghostscript to display postscript or pdf files embedded as a
+<a href="drawing.html#picture">picture</a>.
+Fig2dev will need ghostscript to be able to
+<a href="printing.html#export">export</a> to pdf and to a number of bitmap
+formats (gif, tiff, ppm, etc.).</p>
+
+<hr>
+
+<h2><a name="getting_xfig">Getting and Installing from Sources</a></h2>
+
+<p>
+You can get the sources for <b>xfig</b> and <b>fig2dev</b> from
+<a href="https://sourceforge.net/projects/mcj/"
+  >https://sourceforge.net/projects/mcj</a>.
+Files such as <tt>xfig+fig2dev-3.2.Xx.tar.xz</tt> contain the sources for both
+programs, while <tt>xfig-3.2.Xx.tar.xz</tt> and <tt>fig2dev-3.2.Xx</tt> contain
+the sources for xfig and fig2dev, respectively.
+</p>
+
+<p>
+Uncompress and untar the archives (<tt>tar xaf *.tar.xz</tt> or
+<tt>tar xJf *.tar.xz</tt>),
+navigate into the base directory, e.g.,<br>
+&emsp;<tt>cd fig2dev-3.2.??</tt><br>
+configure, build and install the program:<br>
+&emsp;<tt>./configure</tt><br>
+&emsp;<tt>make</tt><br>
+&emsp;<tt>make install</tt><br>
+</p>
+
+<p>
+See the INSTALL files of
+<a href="https://sourceforge.net/p/mcj/xfig/ci/master/tree/INSTALL">xfig</a> and
+<a href="https://sourceforge.net/p/mcj/fig2dev/ci/master/tree/INSTALL"
+  >fig2dev</a> for further instructions. Especially xfig needs some further
+options to ./configure.
+</p>
+
+<p>
+To build xfig, the minimum requirements are the runtime libraries and the header
+files for libx11, libxt, libxaw (or libxaw3d), libxi, and libxpm. For fig2dev,
+the zlib (zlib1g) runtime libraries and development (header) files are needed.
+Optionally, the png, jpeg and tiff libraries are recommended for reading and
+displaying image files in xfig. Fig2dev will need the png library to export .fig
+files containing a png image to postscript, pdf or any image format.
+</p>
+
+<a name="install-ghostfonts"></a>
+<img src="images/blueramp.png" alt="-">
+<h2>Installing Ghostscript's Type 1 fonts under X</h2>
+
+You can use Ghostscript's high quality Type 1 fonts on your X server (and therefore in xfig).
+
+Copy the necessary files from Ghostscript's fonts directory to /usr/X11R6/lib/X11/fonts/Type1/ (or wherever your X server Type 1 fonts are).
+
+<pre>
+$ cp /usr/share/ghostscript/fonts/*l.pfb /usr/X11R6/lib/X11/fonts/Type1
+</pre>
+
+Append the file
+<tt>/usr/share/ghostscript/fonts/fonts.scale</tt> to <tt>Type1/fonts.scale</tt>.
+The first line in the latter file contains is the number of fonts listed in that file.
+Change that number to include the additional fonts.
+
+<p>
+Now run <tt>mkfontdir(1)</tt> to update the font database:
+
+<pre>
+$ mkfontdir
+</pre>
+
+<p>
+If your operating system has the <tt>chkfontpath</tt> command, alternative is to add
+the Ghostscript font directory to the X server font path:
+
+<pre>
+chkfontpath -a /usr/share/ghostscript/fonts/fonts/
+</pre>
+
+In either case, if your X-server is running already you have to tell it to reread the font databases with
+ <tt>xset(1)</tt>:
+
+<pre>
+$ xset fp rehash
+</pre>
+
+
+<a name="related-software"></a>
+<img src="images/blueramp.png" alt="-">
+<h2>Related Software</h2>
+
+<dl>
+<dt><img src="images/redball.png" align=bottom alt="-">
+<a name="ghostscript"><b>GhostScript</b></a><br>
+<dd>
+<b>xfig</b> will invoke <b>GhostScript</b> (the <tt>gs</tt> command)
+when displaying an imported <a href="drawing.html#picture">PostScript image</a>
+or when exporting to pdf or any bitmap format.
+
+<dt><img src="images/redball.png" align=bottom alt="-">
+<b>AutoTrace</b><br>
+<dd>
+Converts bitmap to vector graphics - has a Fig file output driver.
+Available from
+<a href="http://autotrace.sourceforge.net">http://autotrace.sourceforge.net</a>.
+Written by Martin Weber.
+
+<dt><img src="images/redball.png" align=bottom alt="-">
+<b>chemtool</b><br>
+<dd>A chemical structure editor for X11 available from
+<a href="http://ruby.chemie.uni-freiburg.de/~martin/chemtool/chemtool.html"
+  >http://ruby.chemie.uni-freiburg.de/~martin/chemtool/chemtool.html</a>
+that writes Fig output (and relies on fig2dev for anything more fancy than xbm).
+
+<dt><img src="images/redball.png" align=bottom alt="-">
+<b>figbuild</b><br>
+<dd>
+figbuild reads xfig files (Version 3.x, tested with 3.1, 3.2) plus
+its own config file for heights, and generates a Radiance input
+file. Written by Peter Apian-Bennewitz, then at Fraunhofer ISE, Germany.
+See <a href="http://www.pab-opto.de/progs/figbuild"
+  >http://www.pab-opto.de/progs/figbuild</a>
+
+<dt><img src="images/redball.png" align=bottom alt="-">
+<a name="gimp"><b>GIMP</b></a><br>
+<dd>
+A comprehensive image manipulation program, GIMP (Gnu Image Manipulation
+Program) is freely available from
+<a href="http://www.gimp.org/">http://www.gimp.org/</a>.
+
+<dt><img src="images/redball.png" align=bottom alt="-">
+<a name="gnuplot"><b>gnuplot</b></a><br>
+<dd>
+<b>gnuplot</b> is a plotting package which can output in <b>Fig</b> and other formats.
+The official distribution site is
+<a href="http://www.gnuplot.info/">http://www.gnuplot.info/</a>.
+
+<dt><img src="images/redball.png" align=bottom alt="-">
+<a name="hp2xx"><b>hp2xx</b></a><br>
+<dd>
+<b>hp2xx</b> can convert HP-GL files into other formats
+such as PostScript, LaTeX or <b>Fig</b>.
+It is available from
+<a href="https://www.gnu.org/software/hp2xx">https://www.gnu.org/software/hp2xx</a>.
+
+<dt><img src="images/redball.png" align=bottom alt="-">
+<b>Msphinx</b><br>
+<dd>
+A friendly package to handle satellite images. It can directly link to
+<b>Xfig</b>.
+Find it at: <a href="https://www-loa.univ-lille1.fr/informatique/logiciels/Msphinx.html">https://www-loa.univ-lille1.fr/informatique/logiciels/Msphinx.html</a>.
+
+<dt><img src="images/redball.png" align=bottom alt="-">
+<a name="netpbm"><b>netpbm</b></a><br>
+<dd>
+<b>fig2dev</b> will invoke the appropriate command from the <b>netpbm</b>
+package when <a href="printing.html#export">exporting</a> figures
+to bitmap formats.
+<b>netpbm</b> is available from
+<a href="https://sourceforge.net/projects/netpbm"
+  >https://sourceforge.net/projects/netpbm/</a>, see also
+<a href="http://netpbm.sourceforge.net">http://netpbm.sourceforge.net</a>.
+
+<dt><img src="images/redball.png" align=bottom alt="-">
+<b>plotutils (GNU)</b><br>
+<dd>
+includes an application for XY plotting (graph),
+a plot filter (plot), a Tektronix translator (tek2plot),
+a program for displaying font character maps (plotfont),
+and a library for drawing 2-D vector graphics (libplot),
+and a translator to <b>Fig</b> format (plot2fig).
+By Robert S. Maier &lt;rsm@math.arizona.edu&gt;.
+See <a href="https://www.gnu.org/software/plotutils"
+  >https://www.gnu.org/software/plotutils</a>.
+
+<dt><img src="images/redball.png" align=bottom alt="-">
+<a name="pstoedit"><b>pstoedit</b></a><br>
+<dd>
+<b>pstoedit</b> can convert PostScript files into <b>Fig</b> format.
+It is available from
+<a href="https://pstoedit.sourceforge.io">https://pstoedit.sourceforge.io</a>,
+see also
+<a href="http://pstoedit.net">http://pstoedit.net</a>.
+
+<dt><img src="images/redball.png" align=bottom alt="-">
+<b>xfigbar</b> and <b>xfigpie</b><br>
+<dd>
+Two C programs to produce bar and pie charts as Fig
+files.  Written by John Conover &lt;john@johncon.johncon.com&gt;,
+these programs are available at:
+<a href="http://www.johncon.com/john/archive/xfigutilities.tar.gz">
+http://www.johncon.com/john/archive/xfigutilities.tar.gz</a>
+
+<dt><img src="images/redball.png" align=bottom alt="-">
+<a name="xpaint"><b>xpaint</b></a><br>
+<dd>
+<b>xpaint</b> is a painting program which runs under X11.
+It is available from
+<a href="https://sourceforge.net/projects/sf-xpaint/files/sf-xpaint">
+  https://sourceforge.net/projects/sf-xpaint/files/sf-xpaint</a>,
+see
+<a href="http://sf-xpaint.sourceforge.net">http://sf-xpaint.sourceforge.net</a>.
+
+<dt><img src="images/redball.png" align=bottom alt="-">
+<b>xv</b><br>
+<dd>
+<b>xv</b> can be used to display images in various formats
+and allows some editing of those images (cropping, color editing scaling/rotating etc).
+By default, <b>xfig</b> will invoke <b>xv</b>
+when the Edit Image button is pressed
+in the <a href="editing.html#edit-pict-panel">edit PICTURE object</a> panel.
+<b>xv</b> is shareware and is available from
+<a href="http://www.trilon.com/xv">http://www.trilon.com/xv</a>.
+
+</dl>
+
+<hr>
+
+[ <a href="contents.html">Contents</a> |
+ <a href="introduction.html">Introduction</a> |
+ <a href="authors.html">Credits</a> ]
+
+</body>
+</html>

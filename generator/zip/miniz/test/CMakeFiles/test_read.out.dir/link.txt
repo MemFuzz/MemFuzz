@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/test_read.out.dir/test_read.c.o -o test_read.out  ../libzip.a 

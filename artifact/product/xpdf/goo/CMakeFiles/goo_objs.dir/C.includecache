@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/youwei/Product/xpdf-4.02/goo/gtypes.h
+
+/home/youwei/Product/xpdf-4.02/goo/parseargs.c
+stdio.h
+-
+stddef.h
+-
+string.h
+-
+stdlib.h
+-
+ctype.h
+-
+parseargs.h
+/home/youwei/Product/xpdf-4.02/goo/parseargs.h
+
+/home/youwei/Product/xpdf-4.02/goo/parseargs.h
+gtypes.h
+/home/youwei/Product/xpdf-4.02/goo/gtypes.h
+

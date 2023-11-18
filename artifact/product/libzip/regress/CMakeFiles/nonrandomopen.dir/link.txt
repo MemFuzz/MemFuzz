@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC -shared  -o libnonrandomopen.so CMakeFiles/nonrandomopen.dir/nonrandomopen.c.o 

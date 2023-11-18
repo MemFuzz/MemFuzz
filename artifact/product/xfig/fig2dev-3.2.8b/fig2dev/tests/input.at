@@ -1,0 +1,195 @@
+dnl Fig2dev: Translate Fig code to various Devices
+dnl Copyright (c) 1991 by Micah Beck
+dnl Parts Copyright (c) 1985-1988 by Supoj Sutanthavibul
+dnl Parts Copyright (c) 1989-2015 by Brian V. Smith
+dnl Parts Copyright (c) 2015-2021 by Thomas Loimer
+dnl
+dnl Any party obtaining a copy of these files is granted, free of charge, a
+dnl full and unrestricted irrevocable, world-wide, paid up, royalty-free,
+dnl nonexclusive right and license to deal in this software and documentation
+dnl files (the "Software"), including without limitation the rights to use,
+dnl copy, modify, merge, publish, distribute, sublicense and/or sell copies
+dnl of the Software, and to permit persons who receive copies from any such
+dnl party to do so, with the only requirement being that the above copyright
+dnl and this permission notice remain intact.
+
+dnl input.at
+dnl Author: Thomas Loimer, 2017, 2018
+
+dnl Test capabilities of fig2dev widely related to input.
+dnl Reading and sanitizing a fig file is tested in read.at.
+
+
+AT_BANNER([Correctly process the command line.])
+
+AT_SETUP([do not overwrite .fig file])
+AT_KEYWORDS(fig2dev.c)
+# The ge format produces the smalles output.
+AT_CHECK([fig2dev -L ge $srcdir/data/line.fig nice.figure.fig
+],1,ignore,[Outfile is a .fig file, aborting
+])
+AT_CLEANUP
+
+AT_SETUP([Use "-" for stdin])
+AT_KEYWORDS(diversions)
+AT_CHECK([fig2dev -Leps - out.eps <$srcdir/data/line.fig
+],0)
+AT_CLEANUP
+
+AT_SETUP([Use "-" for stdout])
+AT_KEYWORDS(diversions)
+AT_CHECK([fig2dev -Leps $srcdir/data/line.fig - >out.eps
+],0)
+AT_CLEANUP
+
+AT_SETUP([Use "- -" for stdin and stdout])
+AT_KEYWORDS(diversions)
+AT_CHECK([fig2dev -Leps - - <$srcdir/data/line.fig >out.eps
+],0)
+AT_CLEANUP
+
+AT_SETUP([Guess jpeg output format from output filename])
+AT_KEYWORDS(read.c)
+AT_SKIP_IF([NO_GS])
+AT_CHECK([fig2dev $srcdir/data/line.fig line.jpg
+],0)
+AT_CLEANUP
+
+AT_SETUP([Guess tiff output format from output filename])
+AT_KEYWORDS(read.c)
+AT_SKIP_IF([NO_GS || \
+	( ! pnmtotiff -version && ! convert -version &&  ! gm version)])
+AT_CHECK([fig2dev $srcdir/data/line.fig line.tif
+],0)
+AT_CLEANUP
+
+AT_BANNER([Parse color specifications (test lookup_X_color() in colors.c)])
+
+AT_SETUP([accept correct hexadecimal rgb-values])
+AT_KEYWORDS(colors hex)
+AT_CHECK([fig2dev -Leps -g'#1e9' $srcdir/data/line.fig
+], 0, ignore-nolog)
+AT_CHECK([fig2dev -Leps -g'#11e090' $srcdir/data/line.fig
+], 0, ignore-nolog)
+AT_CHECK([fig2dev -Leps -g'#114ea090c' $srcdir/data/line.fig
+], 0, ignore-nolog)
+AT_CHECK([fig2dev -Leps -g'#1144ea0f90c0' $srcdir/data/line.fig
+], 0, ignore-nolog)
+AT_CLEANUP
+
+AT_SETUP([fail on malformed hexadecimal rgb-values])
+AT_KEYWORDS(colors hex)
+AT_CHECK([fig2dev -Leps -g'#144ea0f90c0' $srcdir/data/line.fig
+], 0, ignore-nolog,
+[Can't parse color '#144ea0f90c0', ignoring background option
+])
+AT_CHECK([fig2dev -Leps -g'#30g' $srcdir/data/line.fig
+], 0, ignore-nolog, [Can't parse color '#30g', ignoring background option
+])
+AT_CLEANUP
+
+AT_SETUP([use built-in color database, blanks in names])
+AT_KEYWORDS(colors names)
+AT_CHECK([fig2dev -Leps -g'misty rose' $srcdir/data/line.fig
+], 0, ignore-nolog)
+AT_CLEANUP
+
+AT_BANNER([Read installed files.])
+AT_SETUP([$i18ndir/cs_CZ.ps must exist])
+AT_KEYWORDS(installpath)
+AT_SKIP_IF([test "x$INSTALLCHECK" = xno])
+AT_CHECK(["$abs_builddir"/test1], 0)
+AT_CLEANUP
+
+AT_BANNER([Find and decompress embedded image files.])
+
+# Test search for and optionally decompression of embedded image files.
+#
+# Feeding a fig-file via stdin to fig2dev causes fig2dev to search
+# for the embedded image file in the current directory. Otherwise,
+# fig2dev searches relative to the location of the fig-file.
+# A pipe is alright for translation to eps, but not for translation
+# to tiff.
+# "pipe ok" and "no pipe" in AT_SETUP refers to whether the image is of
+# a type which fig2dev internally can read from a pipe, or not.
+
+m4_define([NO_GZIP],[! gunzip --version || ! gzip --version])
+
+AT_SETUP([name in fig file img.gz, file img.gz, pipe ok])
+AT_KEYWORDS(readpics gz imgpipe)
+dnl Not possible, to set a var globally!
+dnl AS_IF([gunzip --version && gzip --version], [hasgzip=0], [hasgzip=127])
+AT_SKIP_IF([NO_GZIP])
+AT_CHECK([gzip -q -c $srcdir/data/line.eps >line.eps.gz && \
+	$SED '11 s/eps/eps.gz/' $srcdir/data/boxwimg.fig | fig2dev -L eps
+],0,ignore)
+AT_CLEANUP
+
+AT_SETUP([name in fig file img.Z, file img.Z, no pipe])
+AT_KEYWORDS(readpics Z imgfile)
+AT_SKIP_IF([NO_GZIP || NO_GS || ! pnmtotiff -version])
+AT_CHECK([gzip -q -c $srcdir/data/line.eps >line.eps.Z && \
+	$SED '11 s/eps/eps.Z/' $srcdir/data/boxwimg.fig >boxwimg.fig && \
+	fig2dev -L tiff boxwimg.fig b.tif
+])
+AT_CLEANUP
+
+AT_SETUP([name in fig file img, file img.gz, pipe ok])
+AT_KEYWORDS(readpics gz imgpipe)
+AT_SKIP_IF([NO_GZIP])
+# Use cat, so fig2dev looks in the current dir, not in $srcdir/data
+AT_CHECK([gzip -q -c $srcdir/data/line.eps >line.eps.gz && \
+	cat $srcdir/data/boxwimg.fig | fig2dev -L eps
+],0,ignore)
+AT_CLEANUP
+
+AT_SETUP([name in fig file img, file img.z, no pipe])
+AT_KEYWORDS(readpics z imgfile)
+AT_SKIP_IF([NO_GZIP || NO_GS || ! pnmtotiff -version])
+AT_CHECK([gzip -q -c $srcdir/data/line.eps >line.eps.z && \
+	cp $srcdir/data/boxwimg.fig . && fig2dev -L tiff boxwimg.fig b.tif
+])
+AT_CLEANUP
+
+AT_SETUP([name in fig file img, file img.Z, pipe ok])
+AT_KEYWORDS(readpics Z imgpipe)
+AT_SKIP_IF([NO_GZIP])
+# Use cat, so fig2dev looks in the current dir, not in $srcdir/data
+AT_CHECK([gzip -q -c $srcdir/data/line.eps >line.eps.Z && \
+	cat $srcdir/data/boxwimg.fig | fig2dev -L eps
+],0,ignore)
+AT_CLEANUP
+
+AT_SETUP([absolute path in fig file, pipe ok])
+AT_KEYWORDS(readpics fullpath imgpipe)
+# if the path contains '%', the sed-command below fails
+AT_SKIP_IF([echo $abs_srcdir | $FGREP %])
+AT_CHECK([$SED "11 s%line%$abs_srcdir/data/line%" $srcdir/data/boxwimg.fig | \
+		fig2dev -L eps
+],0,ignore)
+AT_CLEANUP
+
+AT_SETUP([long image name, non-existing file, ticket #125])
+AT_KEYWORDS(readpics)
+AT_CHECK([fig2dev -Leps <<EOF
+FIG_FILE_TOP
+2 5 0 1 0 -1 50 -1 -1 0.0 0 0 -1 0 0 5
+	0 use a file name that does not exist and is at least 128 characters long - this triggered a bug whereupon the string buffer was freed two times
+	 0 0 100 0 100 60 0 60 0 0
+EOF
+],0,ignore,ignore)
+AT_CLEANUP
+
+AT_SETUP([non-existing file with suffix (.Z), ticket #126])
+AT_KEYWORDS(readpics)
+AT_CHECK([fig2dev -Leps <<EOF
+FIG_FILE_TOP
+2 5 0 1 0 -1 50 -1 -1 0.0 0 0 -1 0 0 5
+	0 non-existing.Z
+	 0 0 100 0 100 60 0 60 0 0
+EOF
+],0,ignore,[No such picture file: non-existing.Z
+])
+AT_CLEANUP
+
+m4_undefine([NO_GZIP])

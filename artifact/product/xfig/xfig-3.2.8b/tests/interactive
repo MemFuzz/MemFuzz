@@ -1,0 +1,51 @@
+Below a description of the behavior of xfig, to be checked interactively.
+
+The user may open the file panel, browse the directory tree, cancel, and
+subsequent save, export or image input should go to the last directory
+the user saved to, exported to or read images, respectively, not to the
+directory where the user last searched.
+
+Expected values for the file (Save as), export and image directories.
+In the code, these are called cur_file_dir, cur_export_dir and cur_browse_dir.
+
+
+Test 1
+------
+
+Create 2 directories, base/save and base/save2;
+Create save/f.fig
+Start xfig in base, Open save/f.fig, Open.. cd to save2, Cancel; Save
+	Result 1: No file save2/f.fig, Open.., current dir is save.
+
+Test 2
+------
+
+Create 3 more directories in base/: export, image, new.
+Create a figure new/o.fig, Exit;
+Provide an image image/a.jpg
+
+Start xfig in base; Create a new figure
+Save as.., cd to save, save as save/f.fig
+Save as.., cd to base, Cancel; Save as..
+	Result 1: Current dir is save/
+Export.., cd to export, export as export/f.eps
+Save as..
+	Result 2: Current dir is save
+Add a line to the figure, Save as..
+	Result 3: Current dir is save
+Export..
+	Result 4: Current dir is export
+Export..,  cd to base, Cancel; Export..
+	Result 5: Current dir is export
+Open image tool, browse to image/, import a.jpg; Save as..
+	Result 6: Current dir is save
+Again open image tool
+	Result 7: Current dir is image
+(The original image dir is not restored on Cancel.)
+cd to base, Cancel; Open image tool
+	Result 8: Current dir is base
+Merge dir always stays save dir
+Merge.., cd to new, Merge new/o.fig; Save as..
+	Result 9: Current dir is save
+Start xfig, Open.., Go Home, Cancel; Save as..
+	Result 10: Current file and export dir is $HOME, not invalid

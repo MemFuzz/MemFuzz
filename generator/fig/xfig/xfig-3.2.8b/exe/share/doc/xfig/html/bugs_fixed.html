@@ -1,0 +1,456 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<html>
+<head>
+<title>Bugs Fixed</title>
+</head>
+
+<body>
+<a href="contents.html"><img src="images/xfig-title.png"
+  alt="XFIG Users Manual" border=0></a>
+
+<h1>Bugs Fixed</h1>
+
+<h2>Current release:</h2>
+<h2>Bugs Fixed in <i>xfig 3.2.8b</i></h2>
+	<img src="images/blueballdot.png">
+	Adding points to splines works if boxes are present in the figure.
+	<br><img src="images/blueballdot.png">
+	Stay in the working directory when browsing picture files.
+<br><br> <img src="images/blueramp.png" alt="-">
+
+<h2>Older releases of xfig:</h2>
+<h2>Bugs Fixed in <i>xfig 3.2.8</i></h2>
+	<img src="images/blueballdot.png">
+	Read version 1.3 fig files.
+	<br><img src="images/blueballdot.png">
+	The default resolution of embedded raster images is changed
+	  from 80 dpi to 72 dpi.
+	<br><img src="images/blueballdot.png">
+	Read compressed files, but do not silently uncompress them.
+	<br><img src="images/blueballdot.png">
+	Get correct bounding box (/MediaBox) of embedded pdf files.
+<hr>
+
+<h2>Bugs Fixed in <i>xfig 3.2.7b</i></h2>
+	Ticket numbers refer to https://sourceforge.net/p/mcj/tickets/#.
+	<br><img src="images/blueballdot.png">
+	Fix core dump when clicking File -&gt; Export. Ticket #45.
+	<br><img src="images/blueballdot.png">
+	When exiting, cleanly pull down all windows. Ticket #54.
+	<br><img src="images/blueballdot.png">
+	Adding and deleting arrows to arcs works, ticket #46.
+	<br><img src="images/blueballdot.png">
+	Allow more than 100 comment lines, ticket #47.
+	<br><img src="images/blueballdot.png">
+	Make <tt>xfig -update</tt> work again, would segfault.
+	<br><img src="images/blueballdot.png">
+	Correctly draw interpolated splines, ticket #35.
+	<br><img src="images/blueballdot.png">
+	Position points on grid, if appres.userspacing unequal 1. Ticket #31.
+<hr>
+
+<h2>Bugs Fixed in <i>xfig 3.2.7a</i></h2>
+	Debian bug numbers refer to https://bugs.debian.org/#.
+	<br><img src="images/blueballdot.png"> Really fix a bug that a figure
+	was saved in a second directory upon using the "Open.." dialog and
+	pressing "Cancel". Ticket #9, debian bug #270113.
+<hr>
+
+<h2>Bugs Fixed in <i>xfig 3.2.7</i> </h2>
+	<br><img src="images/blueballdot.png"> Interpolated splines are now created with the recommended value of the
+	  shape factor of -0.5, not with -1.0. A description of the shape factor
+	  as used in xfig has been added in the file doc/FORMAT3.2
+	<br><img src="images/blueballdot.png"> Apply xfig-3.2.6a-fallback-for-nonscalable-fonts.patch and
+	  xfig-3.2.6a-scalable-fonts.patch from Hans de Goede.
+	<br><img src="images/blueballdot.png"> Apply debian patches 08_every_time.patch, 10_RELEASE_DATE.patch,
+	  11_declare_swap_colors.patch, from Roland Rosenfeld.
+	<br><img src="images/blueballdot.png"> Apply debian patch 07_colorsliderarrows.patch. Debian bug #870365.
+	<br><img src="images/blueballdot.png"> Change map of India to disputed boundaries, from
+	  https://en.wikipedia.org/wiki/File:India_disputed_areas_map.svg,
+	  retrieved 2018-02-25. Debian bug #270799, 09_india_disputed.patch
+	<br><img src="images/blueballdot.png"> Prevent integer overflow in {floor,ceil}_coords_{x,y}(). Fixes debian
+	  bug #300436. Also prevent integer overflow in round_coords().
+	<br><img src="images/blueballdot.png"> Completely remove alloca.h and alloca() from the code.
+	<br><img src="images/blueballdot.png"> When entering the "Save as..." dialog, moving to a new directory and
+	  pressing "Cancel", a subsequent "Save" wrote to the new directory.
+	  This happened analogously for the "Export" dialog. Fixed, ticket #9.
+
+<hr>
+<h2>Bugs Fixed in <i>xfig 3.2.6a</i></h2>
+	<img src="images/blueballdot.png"> Add compile-switch --enable-tablet for using an input tablet.
+	<br><img src="images/blueballdot.png"> Eventually, sorted out the xpm switches. Only use --enable-xpm-splash.
+	<br><img src="images/blueballdot.png"> Improve ./configure and add diagnostic output.
+
+<hr>
+<h2>Bugs Fixed in <i>xfig 3.2.6</i></h2>
+	<br><img src="images/blueballdot.png"> Update documentation to LaTeX and Xfig.
+	From Roland Rosenfeld <roland@spinnaker.de>:
+	<br><img src="images/blueballdot.png"> Update LaTeX documentation, use \documentclass instead of
+	  \documentstyle, \usepackage instead of \input.
+	<br><img src="images/blueballdot.png"> Builds on hurd, had to #include <limits.h> in a few places.
+	<br><img src="images/blueballdot.png"> Use application/x-xfig, not image/x-xfig in xfig.desktop file.
+	  See https://bugs.launchpad.net/ubuntu/+source/xfig/+bug/690067 and
+	  https://bugs.launchpad.net/ubuntu/+source/xfig/+bug/1045848 .
+
+<hr>
+<h2>Bugs Fixed in <i>xfig 3.2.6-rc</i></h2>
+	<img src="images/blueballdot.png"> Should compile on Mac (Darwin) after installing dependencies using
+	  Macports, Fink or Homebrew.
+	<br><img src="images/blueballdot.png"> To compile on ancient systems, try make -DANCIENT.
+	<br><img src="images/blueballdot.png"> Report correct paths to installed files in the man page.
+	<br><img src="images/blueballdot.png"> Add pathmax.h and dirstruct.h, to define DIRSTRUCT and PATH_MAX.
+
+	<br><br>From Vladislav Zavjalov; Commit numbers refer to
+	http://git.altlinux.org/people/slazav/packages/?p=xfig.git;a=commit;h=#
+	<br><img src="images/blueballdot.png"> Preserve comments when deleting objects; Commit #6c42e5c
+	<br><img src="images/blueballdot.png"> Restore colors and main comment after Delete All + Undo; #34f6105
+	<br><img src="images/blueballdot.png"> Draw horizontal scrollbar if property buttons are too wide to fit
+	  on the screen. Commit #e9c1394
+	<br><img src="images/blueballdot.png"> Add save8bit app-resource to allow saving 8-bit files. #5bd9fbb
+	<br><img src="images/blueballdot.png"> Move Xfuncs.h and Xosdefs.h out from fig.h. Commit #b433478
+	<br><img src="images/blueballdot.png"> Move -l flags from LDFLAGS to LDADD. Commit #2d57c85
+
+	<br><br>From Roland Rosenfeld. Bug numbers refer to https://bugs.debian.org/#.
+	<br><img src="images/blueballdot.png"> Do not link with -lXmu, if linking with Xaw3d > 1.5e.
+	<br><img src="images/blueballdot.png"> Make japanese documentation available for LANG=ja_JP.ujis.
+	<br><img src="images/blueballdot.png"> Set the Creation date in xfig_man.html to the date when
+	  creating the source tarball.
+	<br><img src="images/blueballdot.png"> Really fix reading png files,
+	  https://bugzilla.redhat.com/show_bug.cgi?id=1150330
+	<br><img src="images/blueballdot.png"> Delete some superfluos files, fix typos (Caribbean),
+	  add semicolon in xfig.desktop (debian bug #812477).
+
+	<br><br>From Brian V. Smith:
+	<br><img src="images/blueballdot.png"> old link for "Xfig On Microsoft Windows (Getting and Installing Xfig html page)
+	<br><img src="images/blueballdot.png"> dash_list wrong dimension causes segfault on some line styles
+	<br><img src="images/blueballdot.png"> Should handle systems where REG_NOERROR (regular expression) is undefined now
+	<br><img src="images/blueballdot.png"> Missing xfig_man.html
+	<br><img src="images/blueballdot.png"> When exporting, wasn't setting locale to "C" for all command-line parameters, so floating point numbers would contain "," instead of "."
+	<br><img src="images/blueballdot.png"> Didn't allow enough space for fonts (would segfault when popping up File panels)
+	<br><img src="images/blueballdot.png"> Moving arc point would segfault
+
+<hr>
+<h2>Bugs Fixed in <i>xfig 3.2.6-beta</i></h2>
+
+	From Roland Rosenfeld. Bug numbers refer to https://bugs.debian.org/#.
+	In fact, most of the bugs below, also those from other sources, were
+	fixed by applying the debian-patches.
+	<br><img src="images/blueballdot.png"> Position independent executables work, fixes #756791.
+	<br><img src="images/blueballdot.png"> Revert previous change of X-spline parameter.
+	<br><img src="images/blueballdot.png"> Use C locale for fig2dev, to correctly interpret decimal point.
+	  Fixes debian bug #782737.
+	<br><img src="images/blueballdot.png"> Correct grid mode distances in man page. Debian bug #314820.
+	<br><img src="images/blueballdot.png"> Extend xfig.desktop.
+	<br><img src="images/blueballdot.png"> Fix unsecure use of temporary file. From Thomas Hoger, gentoo.
+	  Debian bug #565341.
+	<br><img src="images/blueballdot.png"> Escape - in man-page.
+	<br><img src="images/blueballdot.png"> Securely print string.
+	<br><img src="images/blueballdot.png"> Restore old shadow behaviour.
+	<br><img src="images/blueballdot.png"> Fix reading "/MediaBox" when importing pdf. Closes debian bug #530898.
+	<br><img src="images/blueballdot.png"> With -papersize b1, use B1, not B10. Debian bug #535181.
+
+	<br><br>From Vladislav Zavjalov. Information on bugs is found
+	at https://bugzilla.altlinux.org/show_bug.cgi?id=#
+	<br><img src="images/blueballdot.png"> Do not use fontsets for symbol and dingbat fonts, #26579.
+	<br><img src="images/blueballdot.png"> Fix compiler warnigs in w_indpanel.c. Commit feabe27.
+	<br><img src="images/blueballdot.png"> Restore correct depths when loading a figure, then undo.
+	  Commit b5c79b3.
+	<br><img src="images/blueballdot.png"> Restore filename after delete region, undo. Commit 219d690.
+	<br><img src="images/blueballdot.png"> Restore user color when opening new fig-file. Commit fccd915.
+	<br><img src="images/blueballdot.png"> Restore correct depths when joining lines with different depths.
+	  Commit a77bcaf.
+	<br><img src="images/blueballdot.png"> Fix xfontlist->fset initialization. Commit a592399.
+	<br><img src="images/blueballdot.png"> Fix default origin (100000,100000) -> (0,0) for filled objects.
+	  Commit 4d87e60.
+	<br><img src="images/blueballdot.png"> Fix 100% cpu-load by save panel. Commit 81a4596.
+	<br><img src="images/blueballdot.png"> Do not use local SimpleMenu.c with XAW3D1_5E. Would segfault on
+	  some 64-bit systems when opening main menu.
+	<br><img src="images/blueballdot.png"> Missing argument may cause crash or undefined behaviour.
+	  Debian bug #795642. From Michael Tautschnig.
+
+	<br><br>From Hans de Goede. Bug information
+	at https://bugzilla.redhat.com/show_bug.cgi?id=#.
+	<br><img src="images/blueballdot.png"> Patch for importing png-files, bug #1150330. From David Kaufmann.
+	<br><img src="images/blueballdot.png"> Fix crash when changing arrow size. Red Hat bug #1046102.
+	<br><img src="images/blueballdot.png"> Fix crash when creating dash-dotted lines. Red Hat bug #1023744.
+	<br>From Michael Srb, thanks to Maurizio Pollini and David Kaufmann.
+	<br><img src="images/blueballdot.png"> Fix crash on exit. From Peter Volkov at gentoo
+
+<hr>
+<h2>Bugs Fixed in <i>xfig 3.2.5c</i></h2>
+	<img src="images/blueballdot.png"> Increased default width of layer panel from 58 to 64 to accomodate scrollbar width
+	<br><img src="images/blueballdot.png"> missing comma in FIXED_JAPANESE_PDF #ifdef case in w_cmdpanel.c
+	<br><img src="images/blueballdot.png"> printer name enclosed in apostrophes when printing in case has spaces in name
+	<br><img src="images/blueballdot.png"> new link from Elizabeth Bailey for Fig applications referenced in installation.html
+	<br><img src="images/blueballdot.png"> old link to duke.uask.ca for Fig applications has new link in installation.html
+	<br><img src="images/blueballdot.png"> Typo in message "GIF read error on extention ..." should be "extension"
+	<br><img src="images/blueballdot.png"> Possibility of stack overflow with malformed Fig files.
+	<br><img src="images/blueballdot.png"> In version 1.4 of the PNG library dither was removed so xfig now uses quantize when
+	  importing PNG images with palettes
+	<br><img src="images/blueballdot.png"> Other updates for PNG library version 1.5 from Peter Volkov
+	<br><img src="images/blueballdot.png"> Some versions of Cygwin don't have either REG_NOERROR or REG_OKAY defined so REG_NOERROR defined to be 0
+	<br><img src="images/blueballdot.png"> Changed X-Spline parameter to match original intent of X-Spline authors:
+	  changed definition of Q(s) from -s to -0.5 * s in u_draw_spline.c
+	<br><img src="images/blueballdot.png"> Allowance for stricter ghostscript in -dSAFER mode.  Was causing error on reading EPS images.
+	  From Hans de Goede
+	<br><img src="images/blueballdot.png"> Security vulnerability with importing images fixed
+	  (RedHat bug # 657981 - xfig buffer overflow when opening .fig file with malicius color definition)
+	<br><img src="images/blueballdot.png"> When exporting to combined PS/PDF/LATEX the -D option to exclude all but active layers
+	  was not passed to fig2dev
+	<br><img src="images/blueballdot.png"> Uses 24-bit color instead of 8-bit when importing eps files (pcx24b driver for ghostscript)
+	<br><img src="images/blueballdot.png"> Bug in freeing null fontset
+	<br><img src="images/blueballdot.png"> Semicolon (;) added at end of MimeType line in xfig.desktop as per
+	  http://standards.freedesktop.org/desktop-entry-spec/desktop-entry-spec-latest.html
+	<br><img src="images/blueballdot.png"> Reference to "Darwin Ports" changed to "MacPorts"
+	<br><img src="images/blueballdot.png"> Renamed O_TEXT to O_TXT to avoid conflicts with system define
+	<br><img src="images/blueballdot.png"> On lines with Round or Projecting cap style and arrowheads, the line endpoint stuck out
+	  beyond the arrowhead
+
+<br>
+<br>
+	From Vladsilav Zavjalov:
+<br>
+	<br><img src="images/blueballdot.png"> Uses fontsets for all fonts in international mode
+	<br><img src="images/blueballdot.png"> SEGV when zooming while creating object (e.g. text)
+	<br><img src="images/blueballdot.png"> Add locale_encoding appres which acts similar to euc_encoding, but uses system locale and
+	  mbrlen function for multibyte character length calculation.
+	<br><img src="images/blueballdot.png"> Move "file not found" error message from check_docfile() to launch_viewer(),
+	  remove excess check_docfile() call.
+	  Error message is not shown when looking for a locale-dependent docs. It is shown only
+	  if no docs found at all.
+	<br><img src="images/blueballdot.png"> Do not do strcpy with equal arguments in w_cmdpanel.c/update_cur_filename()
+	<br><img src="images/blueballdot.png"> Print to file had extra argument in sprintf in international mode
+	<br><img src="images/blueballdot.png"> Message panel not tall enough with 3D Athena widgets
+	<br><img src="images/blueballdot.png"> Warnings about different size of int and void * on 64-bit system.
+	  To fix this problem I changed int to intptr_t in some places.
+<hr>
+<h2>Bugs Fixed in <i>xfig 3.2.5b</i></h2>
+	<img src="images/blueballdot.png"> Dimension line indicator incorrectly showed arrow length/width
+	<br><img src="images/blueballdot.png"> Several patches from Fedora xfig maintainer
+	<br><img src="images/blueballdot.png"> divide by 0 under certain circumstances in ruler code - From Libor Pechacek
+	<br><img src="images/blueballdot.png"> Segfault if PRINTER env variable was not defined
+
+<hr>
+<h2>Bugs Fixed in <i>xfig 3.2.5a</i></h2>
+	<img src="images/blueballdot.png"> dimension line arrowhead width and length used %d instead of %f in
+	  dialog, always displaying 0
+	<br><img src="images/blueballdot.png"> leftover debugging printf(...color = ) in startup
+	<br><img src="images/blueballdot.png"> finally fixed size of mode panel so it doesn't cover indicator panel
+	   under certain circumstances
+	<br><img src="images/blueballdot.png"> removed "Alpha" from splash
+	<br><img src="images/blueballdot.png"> updated copyright date in Help/About
+	<br><img src="images/blueballdot.png"> problem with depth panel height due to snap mode indicator
+	<br><img src="images/blueballdot.png"> snap indicator indicated "Focus" when "Diameter" was selected
+	<br><img src="images/blueballdot.png"> w_keyboard.c had pointer assignment reversed
+	<br><img src="images/blueballdot.png"> extraneous "done" in Imakefile in "install.jhtml" section From Eric Scott
+	<br><img src="images/blueballdot.png"> many protoytpe cleanups from Eric Scott
+	<br><img src="images/blueballdot.png"> #ifndef __FreeBSD__ added around #include &lt alloca.h &gt from Eric Scott
+	<br><img src="images/blueballdot.png"> uses rint() instead of lrint() for those with non-C99 compilers
+	<br><img src="images/blueballdot.png"> Solaris doesn't have REG_NOERROR for regex, so have new #define for that
+	<br><img src="images/blueballdot.png"> added dependency on version.h and patchlevel.h for f_util.c and f_save.c to Imakefile
+	<br><img src="images/blueballdot.png"> In imperial fractional scale mode, if the user scale factor wasn't 1.0, xfig
+	  would switch to decimal mode.  This has been fixed to remain in fractional mode.
+	<br><img src="images/blueballdot.png"> Added condition for GLIBC to not declare srandom(int)
+	<br><img src="images/blueballdot.png"> Better resizing of message popup panel
+	<br><img src="images/blueballdot.png"> Map of Spain included Portugal. From Eugen Dedu.
+	<br><img src="images/blueballdot.png"> Double-clicking on either style or family would crash xfig
+	<br><img src="images/blueballdot.png"> Export/Print grid units were not reset when loading Fig file of different units
+	<br><img src="images/blueballdot.png"> When converting empty export/print grid units to fractional inches would make 0/2
+	<br><img src="images/blueballdot.png"> Escaped hyphens in man page From Roland Rosendfeld
+	<br><img src="images/blueballdot.png"> When exporting to all three: PostScript, PDF and TeX, incorrectly generated
+	  PostScript and PDF that included LaTeX-only (special) text
+	<br><img src="images/blueballdot.png"> Bug when doing Save As to a shorter filename - would corrupt name sometimes
+	<br><img src="images/blueballdot.png"> Note about 450 pixels/cm didn't make it from the FORMAT3.1 file to FORMAT3.2
+	<br><img src="images/blueballdot.png"> Print command was using -P instead of -d for lp
+	<br><img src="images/blueballdot.png"> On Cygwin, needed to double-escape PRINTER environment when backslashes in name
+	<br><img src="images/blueballdot.png"> w_library.c had incompatible poiner type in call to ScanLibraryDirectory
+	<br><img src="images/blueballdot.png"> Not enough characters allocated for ruler inch/cm indicators.  Would cause segfault
+	  on zooming out because of longer ruler text, e.g. -10210cm
+
+<hr>
+<h2><a name="bugsfixed"><i>Bugs Fixed in xfig 3.2.5</i></a></h2>
+	<img src="images/blueballdot.png"> xfig would crash on 64-bit processors because of a missing include, which
+	  causes new_string() to be declared implicitly as returning an integer.
+	  This may cause the top 32 bits to get lost and hence the crash.
+	<br><img src="images/blueballdot.png"> Blanks not preserved in imported picture filename when reading Fig file
+	<br><img src="images/blueballdot.png"> When in metric mode, decimal precision was ignored for dimension lines
+	<br><img src="images/blueballdot.png"> When showing vertex numbers on objects, first vertex is now 0 to match
+	  edit window vertex numbers
+	<br><img src="images/blueballdot.png"> Also, vertex numbers are not shown on inactive (grayed) layers
+	<br><img src="images/blueballdot.png"> Widget shadow resources moved from Fig-color to Fig because they don't
+	  really have anything to do with color. There was a problem when running
+	  KDE because it set a global resource *Scrollbar*height: which made xfig
+	  freeze when *customization: -color was NOT used.
+	<br><img src="images/blueballdot.png"> The point positioning indicator is turned on when editing a compound
+	  object to show the user that it is used
+	<br><img src="images/blueballdot.png"> Increased the maximum size of images that can be imported.  There was
+	  a limit in the PostScript image encoder of 4096x4096 pixels.  This was
+	  increased to 8192x8192.
+	<br><img src="images/blueballdot.png"> Centered text was changed to left-justified when flipped horizontally
+	  inside a compound object.
+	<br><img src="images/blueballdot.png"> With -v option, after reporting the version, xfig would say that -v
+	  was an unknown option
+	<br><img src="images/blueballdot.png"> Local locale was being used when writing the xfig cut buffer file
+	  instead of switching to "C" locale.  This created commas instead of
+	  decimal (.) for numbers in those particular locales.
+	  From Dirk Osswald
+	<br><img src="images/blueballdot.png"> Local locale was used when forming command for calling fig2dev,
+	  resulting in commas instead of decimals for floating point numbers.
+	<br><img src="images/blueballdot.png"> count_user_colors buffer overflow fixed
+	<br><img src="images/blueballdot.png"> Under Cygwin, temporary file stayed around after unlink(), causing
+	  error when importing more than one ps/eps/pdf file
+	<br><img src="images/blueballdot.png"> Segfault when using -update because appres resources were NULL
+	<br><img src="images/blueballdot.png"> -update option failed when not first option passed to xfig
+	<br><img src="images/blueballdot.png"> Clicking window manager "close window" button in library titlebar
+	  didn't close the window
+	<br><img src="images/blueballdot.png"> Wasn't distributing objects in compounds when there were only 2 objects
+	<br><img src="images/blueballdot.png"> Some compilers complain about the order of declaration in u_fonts.h - fixed
+	<br><img src="images/blueballdot.png"> Northern part of map of India was incorrect (Libraries/Maps/Asia/india.fig)
+	<br><img src="images/blueballdot.png"> Map of Serbia was misnamed "yugoslavia.fig" (Libraries/Maps/Europe/yugoslavia.fig)
+	<br><img src="images/blueballdot.png"> Map of Central Europe had old Yugoslavia instead of Croatia, Serbia, Bosnia-
+	  Herzegovina, and Macedonia (also, Slovenia was mistakenly inside the border)
+	<br><img src="images/blueballdot.png"> Editing a compound object with more than 200 texts would crash xfig
+
+<hr>
+<h2><a name="bugsfixed">Bugs Fixed in <i>xfig 3.2.5-alpha5</i></a></h2>
+	<img src="images/blueballdot.png"> typo in latex_and_xfig.html and LATEX_AND_XFIG files. Text should be:
+		  \convertMPtoPDF{foo.0}{1}{1}
+		  It was missing parameters {1}{1}
+	<br><img src="images/blueballdot.png"> -correct_font_size missing from -help option list and man pages
+	<br><img src="images/blueballdot.png"> -help and -version didn't work unless they were first in the options
+	<br><img src="images/blueballdot.png"> -O option wasn't passed to fig2dev for overlapping pages in multiple
+		  page mode for PostScript export
+
+<hr>
+<h2><a name="bugsfixed-alpha4">Bugs Fixed in <i>xfig 3.2.5-alpha4</i></a></h2>
+	<br><img src="images/blueballdot.png"> When loading a library object, if it contained only a compound and
+		  nothing else, when xfig promoted that compound to the toplevel the
+		  main comment was lost
+	<br><img src="images/blueballdot.png"> Incorrect header files used for SmeBSB resulted in either segfault or
+		  none of the command panel entries being underlined
+	<br><img src="images/blueballdot.png"> Drawing very large splines (e.g. at zoom = 0.01) caused integer
+		  roundoff errors, making xfig loop indefinitely
+	<br><img src="images/blueballdot.png"> Bug where a line that had a zero width or length arrowhead was not
+		  redrawn after being moved, copied, canvas redraw, etc.
+	<br><img src="images/blueballdot.png"> The page border and axis lines would obscure Fig objects when moving,
+		  copying etc. other objects on the canvas.
+	<br><img src="images/blueballdot.png"> In the popup picture editor, if the relative position of the corners
+		  of the picture were changed, the rotation field was not updated
+		  (this bug was in 3.2.5-alpha3 only)
+
+<hr>
+<h2><a name="bugsfixed-alpha3">Bugs Fixed in <i>xfig 3.2.5-alpha3</i></a></h2>
+	<img src="images/blueballdot.png"> Missing #ifdef XAW3D in SimpleMenu.c
+	<br><img src="images/blueballdot.png"> Bug when breaking a compound object - depths were added twice to the
+		  counts
+	<br><img src="images/blueballdot.png"> When implicitly cancelling the placement of a library object by
+		  choosing another mode, xfig would tell user to cancel or finish the
+		  current operation, but there was no way to do that
+	<br><img src="images/blueballdot.png"> Picture Reread button was active before file was read the first time
+	<br><img src="images/blueballdot.png"> Rereading picture in edit popup produced bad colors
+	<br><img src="images/blueballdot.png"> When using multiple copies of an imported picture, h/w ratio was not
+		  computed for copies
+	<br><img src="images/blueballdot.png"> Importing PCX images were incorrect when bytes per line different from
+		  width*bpp
+	<br><img src="images/blueballdot.png"> When passed a filename containing a directory name for a Fig object
+		  library using -library_dir, and that directory only contains Fig files
+		  and no subdirectories with Fig files, xfig segfaulted
+	<br><img src="images/blueballdot.png"> Several checks for memory allocation failure added to the library
+		  loading procs
+	<br><img src="images/blueballdot.png"> Forgot to free allocated memory when return abnormally from loading
+		  libraries
+	<br><img src="images/blueballdot.png"> Path length check in loading libraries fixed
+	<br><img src="images/blueballdot.png"> Missing include for put_msg prototype in e_measeure.c
+	<br><img src="images/blueballdot.png"> Needed #ifdef for XtVersion in SmeBSB.c (X11R5 doesn't have
+		  international fontset)
+	<br><img src="images/blueballdot.png"> Added SIGPIPE signal to ignore in case an external program dies when we're
+		  using pipes
+	<br><img src="images/blueballdot.png"> Screen capture on an MSBFirst X server with 24/32 bits per pixel was
+		  incorrect.
+	<br><img src="images/blueballdot.png"> Importing any image file on such a server was incorrect (bytes/bits
+		  reversed).
+	<br><img src="images/blueballdot.png"> Reading GIF or PCX files on 24-bit server *and* on big-endian machine
+		  (e.g. Sparcstation) resulted in bytes being swapped and funny colors
+	<br><img src="images/blueballdot.png"> Could popup unit dialog when drawing/editing objects
+	<br><img src="images/blueballdot.png"> Embedded whitespace in filenames in recently loaded files weren't
+		  parsed properly (.xfigrc)
+	<br><img src="images/blueballdot.png"> When pasting an object on the canvas, point positioning grid wasn't used
+	<br><img src="images/blueballdot.png"> Bug when reading a compressed eps file (file handle was passed to open
+		  proc instead of name)
+	<br><img src="images/blueballdot.png"> Minor grid spec used twice instead of minor/major when passed to fig2dev
+	<br><img src="images/blueballdot.png"> Fixed conversions of export/print grid values when switching to/from
+		  metric, decimal or fraction
+	<br><img src="images/blueballdot.png"> When loading or merging a file, xfig appended ".fig" to the name if
+		  there wasn't ".fig" in the name. Now it only appends ".fig" if there
+		  is no suffix (no ".").
+	<br><img src="images/blueballdot.png"> When appending the ".fig" before the previous change, xfig would segfault
+	<br><img src="images/blueballdot.png"> Libraries/Electronic/Schematic/transformer and transformer_ironcore
+		  aligned to 1/16" grid
+	<br><img src="images/blueballdot.png"> Bugs in indicator panel display of text flags, dimension line params
+		  and arrow size params when cycling through settings with middle or
+		  right mouse button
+	<br><img src="images/blueballdot.png"> Bug in callbacks for dimension line checkboxes that select actual
+		  length or user text
+	<br><img src="images/blueballdot.png"> When exporting to Combined PDF/LaTeX it uses ".pdf" and ".pdf_t"
+		  suffixes because LaTeX doesn't recognize ".pdftex" as a PDF file
+	<br><img src="images/blueballdot.png"> Better clipping around arrowheads on thick lines (lines that are
+		  thicker than the arrowhead is wide)
+	<br><img src="images/blueballdot.png"> Checks for open splines of less than 2 points when reading figure file and
+		  removes them
+	<br><img src="images/blueballdot.png"> Clicking middle mouse button after creating first point of closed
+		  spline switched to freehand mode
+	<br><img src="images/blueballdot.png"> Export panel sections would get messed up when changing export
+		  languages
+	<br><img src="images/blueballdot.png"> Now checks whether scrollbars support StartScroll before trying to use
+		  it for the wheel scrolling.  When the Xaw widgets are compiled with
+		  ARROW_SCROLLBAR, there is no such action.
+	<br><img src="images/blueballdot.png"> pstex_t export lacked border option (-b) to align LaTeX text when
+		  pstex figure specified border (also fixed in fig2dev)
+	<br><img src="images/blueballdot.png"> Create one picture object with no filename, then create another and
+		  xfig crashed
+	<br><img src="images/blueballdot.png"> Some bugs when freeing dimension line components
+	<br><img src="images/blueballdot.png"> Bad choices for grid dot spacing in metric mode in the 5mm grid, and
+		  decimal inch mode in the 0.5 and 1.0 inch grids
+	<br><img src="images/blueballdot.png"> -international flag missing from xfig.html and xfig.man docs
+	<br><img src="images/blueballdot.png"> Added call to XsetLocaleModifiers() when initializing input method
+		  (-international mode only)
+	<br><img src="images/blueballdot.png"> xfig was limiting arrowhead lengths to 50 pixels instead of 50 inches,
+		  and the width to 10 pixels instead of 10 inches.
+	<br><img src="images/blueballdot.png"> edit panel for circles shouldn't have "angle" entry
+	<br><img src="images/blueballdot.png"> edit panel wasn't allowing typing in of negative angles for text and
+		  ellipses
+	<br><img src="images/blueballdot.png"> Objects were sometimes drawn with a wild point when zooming
+	<br><img src="images/blueballdot.png"> Full path was being added to default export filename and wasn't
+		  changing when user changed directories
+	<br><img src="images/blueballdot.png"> When drawing a box or rounded box with the "show line lengths" on, the
+		  sizes were in Fig units (1200ppi) instead of user units.
+	<br><img src="images/blueballdot.png"> Spacing cedilla (ISO 0xB8 / octal 270) was missing from CompKeyDB file
+	<br><img src="images/blueballdot.png"> Changing the units in the popup edit panel for a text object caused a
+		  segfault.
+	<br><img src="images/blueballdot.png"> Rulers and grid didn't change scale when user scale was != 1.0.  Even
+		  though the message window showed the correct user scale when drawing
+		  objects, the rulers and grid still showed the unscaled values.
+	<br><img src="images/blueballdot.png"> Axis lines through 0,0 now drawn after page border so it remains
+		  visible when there is a grid
+	<br><img src="images/blueballdot.png"> Segfault if current directory was deleted after starting xfig
+	<br><img src="images/blueballdot.png"> Positioning grid was set to "ANY" when editing a compound object,
+		  causing the original bounding box to be lost
+	<br><img src="images/blueballdot.png"> Bug in arc drawing caused arcs to be drawn as circles at high zoom
+	<br><img src="images/blueballdot.png"> Computing the area of a polygon larger than 38x38 inches overflowed
+		  calculation
+	<br><img src="images/blueballdot.png"> Bug in bounds calculation for ellipses and circles that increased
+		  bounding box even with line width = 1
+	<br><img src="images/blueballdot.png"> Limit on number of styles in a family wasn't checked
+	<br><img src="images/blueballdot.png"> If all depths were turned off and any edit operation was attempted on
+		  the canvas such as move object, delete object, xfig would hang,
+		  searching for objects indefinitely.
+
+
+<hr>
+
+[ <a href="contents.html">Contents</a> |
+ <a href="introduction.html">Introduction</a> |
+ <a href="authors.html">Credits</a> ]
+
+</body>
+</html>

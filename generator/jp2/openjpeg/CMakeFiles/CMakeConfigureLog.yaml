@@ -1,0 +1,1980 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/youwei/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineSystem.cmake:204 (message)"
+      - "CMakeLists.txt:27 (project)"
+    message: |
+      The system is: Linux - 5.15.0-88-generic - x86_64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/youwei/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/youwei/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/youwei/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:27 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /usr/bin/cc 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is GNU, found in:
+        /home/youwei/MemFuzz/generator/jp2/src/CMakeFiles/3.26.3/CompilerIdC/a.out
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/youwei/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/home/youwei/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:27 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/home/youwei/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-9P0DKf"
+      binary: "/home/youwei/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-9P0DKf"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: /home/youwei/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-9P0DKf
+        
+        Run Build Command(s):/home/youwei/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_d4829/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d4829.dir/build.make CMakeFiles/cmTC_d4829.dir/build
+        gmake[1]: Entering directory '/home/youwei/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-9P0DKf'
+        Building C object CMakeFiles/cmTC_d4829.dir/CMakeCCompilerABI.c.o
+        /usr/bin/cc   -v -o CMakeFiles/cmTC_d4829.dir/CMakeCCompilerABI.c.o -c /home/youwei/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeCCompilerABI.c
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/cc
+        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d4829.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d4829.dir/'
+         /usr/lib/gcc/x86_64-linux-gnu/11/cc1 -quiet -v -imultiarch x86_64-linux-gnu /home/youwei/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_d4829.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccWm2mq3.s
+        GNU C17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)
+        	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/include-fixed"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/lib/gcc/x86_64-linux-gnu/11/include
+         /usr/local/include
+         /usr/include/x86_64-linux-gnu
+         /usr/include
+        End of search list.
+        GNU C17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)
+        	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: 50eaa2331df977b8016186198deb2d18
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d4829.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d4829.dir/'
+         as -v --64 -o CMakeFiles/cmTC_d4829.dir/CMakeCCompilerABI.c.o /tmp/ccWm2mq3.s
+        GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38
+        COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d4829.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d4829.dir/CMakeCCompilerABI.c.'
+        Linking C executable cmTC_d4829
+        /home/youwei/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d4829.dir/link.txt --verbose=1
+        /usr/bin/cc  -v -rdynamic CMakeFiles/cmTC_d4829.dir/CMakeCCompilerABI.c.o -o cmTC_d4829 
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/cc
+        COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper
+        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) 
+        COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_d4829' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_d4829.'
+         /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/cc1taZNb.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_d4829 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_d4829.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_d4829' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_d4829.'
+        gmake[1]: Leaving directory '/home/youwei/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-9P0DKf'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/youwei/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "/home/youwei/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:27 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/usr/lib/gcc/x86_64-linux-gnu/11/include]
+          add: [/usr/local/include]
+          add: [/usr/include/x86_64-linux-gnu]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/11/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/11/include]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/usr/lib/gcc/x86_64-linux-gnu/11/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/youwei/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
+      - "/home/youwei/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:27 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: /home/youwei/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-9P0DKf]
+        ignore line: []
+        ignore line: [Run Build Command(s):/home/youwei/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_d4829/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d4829.dir/build.make CMakeFiles/cmTC_d4829.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/youwei/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-9P0DKf']
+        ignore line: [Building C object CMakeFiles/cmTC_d4829.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_d4829.dir/CMakeCCompilerABI.c.o -c /home/youwei/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeCCompilerABI.c]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/cc]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d4829.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d4829.dir/']
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/cc1 -quiet -v -imultiarch x86_64-linux-gnu /home/youwei/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_d4829.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccWm2mq3.s]
+        ignore line: [GNU C17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)]
+        ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/include-fixed"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/include/x86_64-linux-gnu]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU C17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)]
+        ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: 50eaa2331df977b8016186198deb2d18]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d4829.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d4829.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_d4829.dir/CMakeCCompilerABI.c.o /tmp/ccWm2mq3.s]
+        ignore line: [GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d4829.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d4829.dir/CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_d4829]
+        ignore line: [/home/youwei/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d4829.dir/link.txt --verbose=1]
+        ignore line: [/usr/bin/cc  -v -rdynamic CMakeFiles/cmTC_d4829.dir/CMakeCCompilerABI.c.o -o cmTC_d4829 ]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/cc]
+        ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) ]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_d4829' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_d4829.']
+        link line: [ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/cc1taZNb.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_d4829 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_d4829.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/11/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/cc1taZNb.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-export-dynamic] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-znow] ==> ignore
+          arg [-zrelro] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_d4829] ==> ignore
+          arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/11] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib]
+          arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+          arg [-L/lib/../lib] ==> dir [/lib/../lib]
+          arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+          arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..]
+          arg [CMakeFiles/cmTC_d4829.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [-lc] ==> lib [c]
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11] ==> [/usr/lib/gcc/x86_64-linux-gnu/11]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib] ==> [/usr/lib]
+        collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+        collapse library dir [/lib/../lib] ==> [/lib]
+        collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> [/usr/lib]
+        implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+        implicit objs: [/usr/lib/x86_64-linux-gnu/Scrt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o;/usr/lib/x86_64-linux-gnu/crtn.o]
+        implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/11;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/youwei/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "cmake/EnsureFileInclude.cmake:13 (CHECK_INCLUDE_FILE)"
+      - "CMakeLists.txt:212 (ensure_file_include)"
+    checks:
+      - "Looking for string.h"
+    directories:
+      source: "/home/youwei/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-W2PQlN"
+      binary: "/home/youwei/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-W2PQlN"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/youwei/MemFuzz/generator/jp2/src/cmake"
+    buildResult:
+      variable: "HAVE_STRING_H"
+      cached: true
+      stdout: |
+        Change Dir: /home/youwei/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-W2PQlN
+        
+        Run Build Command(s):/home/youwei/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_83d6f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_83d6f.dir/build.make CMakeFiles/cmTC_83d6f.dir/build
+        gmake[1]: Entering directory '/home/youwei/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-W2PQlN'
+        Building C object CMakeFiles/cmTC_83d6f.dir/CheckIncludeFile.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_83d6f.dir/CheckIncludeFile.c.o -c /home/youwei/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-W2PQlN/CheckIncludeFile.c
+        Linking C executable cmTC_83d6f
+        /home/youwei/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_83d6f.dir/link.txt --verbose=1
+        /usr/bin/cc -rdynamic CMakeFiles/cmTC_83d6f.dir/CheckIncludeFile.c.o -o cmTC_83d6f 
+        gmake[1]: Leaving directory '/home/youwei/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-W2PQlN'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/youwei/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "cmake/EnsureFileInclude.cmake:13 (CHECK_INCLUDE_FILE)"
+      - "CMakeLists.txt:213 (ensure_file_include)"
+    checks:
+      - "Looking for memory.h"
+    directories:
+      source: "/home/youwei/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-O82zAx"
+      binary: "/home/youwei/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-O82zAx"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/youwei/MemFuzz/generator/jp2/src/cmake"
+    buildResult:
+      variable: "HAVE_MEMORY_H"
+      cached: true
+      stdout: |
+        Change Dir: /home/youwei/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-O82zAx
+        
+        Run Build Command(s):/home/youwei/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_27c5b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_27c5b.dir/build.make CMakeFiles/cmTC_27c5b.dir/build
+        gmake[1]: Entering directory '/home/youwei/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-O82zAx'
+        Building C object CMakeFiles/cmTC_27c5b.dir/CheckIncludeFile.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_27c5b.dir/CheckIncludeFile.c.o -c /home/youwei/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-O82zAx/CheckIncludeFile.c
+        Linking C executable cmTC_27c5b
+        /home/youwei/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_27c5b.dir/link.txt --verbose=1
+        /usr/bin/cc -rdynamic CMakeFiles/cmTC_27c5b.dir/CheckIncludeFile.c.o -o cmTC_27c5b 
+        gmake[1]: Leaving directory '/home/youwei/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-O82zAx'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/youwei/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "cmake/EnsureFileInclude.cmake:13 (CHECK_INCLUDE_FILE)"
+      - "CMakeLists.txt:214 (ensure_file_include)"
+    checks:
+      - "Looking for stdlib.h"
+    directories:
+      source: "/home/youwei/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-52Wj2e"
+      binary: "/home/youwei/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-52Wj2e"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/youwei/MemFuzz/generator/jp2/src/cmake"
+    buildResult:
+      variable: "HAVE_STDLIB_H"
+      cached: true
+      stdout: |
+        Change Dir: /home/youwei/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-52Wj2e
+        
+        Run Build Command(s):/home/youwei/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_60281/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_60281.dir/build.make CMakeFiles/cmTC_60281.dir/build
+        gmake[1]: Entering directory '/home/youwei/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-52Wj2e'
+        Building C object CMakeFiles/cmTC_60281.dir/CheckIncludeFile.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_60281.dir/CheckIncludeFile.c.o -c /home/youwei/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-52Wj2e/CheckIncludeFile.c
+        Linking C executable cmTC_60281
+        /home/youwei/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_60281.dir/link.txt --verbose=1
+        /usr/bin/cc -rdynamic CMakeFiles/cmTC_60281.dir/CheckIncludeFile.c.o -o cmTC_60281 
+        gmake[1]: Leaving directory '/home/youwei/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-52Wj2e'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/youwei/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "cmake/EnsureFileInclude.cmake:13 (CHECK_INCLUDE_FILE)"
+      - "CMakeLists.txt:215 (ensure_file_include)"
+    checks:
+      - "Looking for stdio.h"
+    directories:
+      source: "/home/youwei/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-rl3kQp"
+      binary: "/home/youwei/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-rl3kQp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/youwei/MemFuzz/generator/jp2/src/cmake"
+    buildResult:
+      variable: "HAVE_STDIO_H"
+      cached: true
+      stdout: |
+        Change Dir: /home/youwei/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-rl3kQp
+        
+        Run Build Command(s):/home/youwei/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_f5b32/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f5b32.dir/build.make CMakeFiles/cmTC_f5b32.dir/build
+        gmake[1]: Entering directory '/home/youwei/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-rl3kQp'
+        Building C object CMakeFiles/cmTC_f5b32.dir/CheckIncludeFile.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_f5b32.dir/CheckIncludeFile.c.o -c /home/youwei/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-rl3kQp/CheckIncludeFile.c
+        Linking C executable cmTC_f5b32
+        /home/youwei/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f5b32.dir/link.txt --verbose=1
+        /usr/bin/cc -rdynamic CMakeFiles/cmTC_f5b32.dir/CheckIncludeFile.c.o -o cmTC_f5b32 
+        gmake[1]: Leaving directory '/home/youwei/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-rl3kQp'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/youwei/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "cmake/EnsureFileInclude.cmake:13 (CHECK_INCLUDE_FILE)"
+      - "CMakeLists.txt:216 (ensure_file_include)"
+    checks:
+      - "Looking for math.h"
+    directories:
+      source: "/home/youwei/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-FVTtDS"
+      binary: "/home/youwei/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-FVTtDS"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/youwei/MemFuzz/generator/jp2/src/cmake"
+    buildResult:
+      variable: "HAVE_MATH_H"
+      cached: true
+      stdout: |
+        Change Dir: /home/youwei/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-FVTtDS
+        
+        Run Build Command(s):/home/youwei/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_5aee0/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5aee0.dir/build.make CMakeFiles/cmTC_5aee0.dir/build
+        gmake[1]: Entering directory '/home/youwei/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-FVTtDS'
+        Building C object CMakeFiles/cmTC_5aee0.dir/CheckIncludeFile.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_5aee0.dir/CheckIncludeFile.c.o -c /home/youwei/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-FVTtDS/CheckIncludeFile.c
+        Linking C executable cmTC_5aee0
+        /home/youwei/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5aee0.dir/link.txt --verbose=1
+        /usr/bin/cc -rdynamic CMakeFiles/cmTC_5aee0.dir/CheckIncludeFile.c.o -o cmTC_5aee0 
+        gmake[1]: Leaving directory '/home/youwei/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-FVTtDS'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/youwei/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "cmake/EnsureFileInclude.cmake:13 (CHECK_INCLUDE_FILE)"
+      - "CMakeLists.txt:217 (ensure_file_include)"
+    checks:
+      - "Looking for float.h"
+    directories:
+      source: "/home/youwei/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-7wpPhH"
+      binary: "/home/youwei/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-7wpPhH"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/youwei/MemFuzz/generator/jp2/src/cmake"
+    buildResult:
+      variable: "HAVE_FLOAT_H"
+      cached: true
+      stdout: |
+        Change Dir: /home/youwei/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-7wpPhH
+        
+        Run Build Command(s):/home/youwei/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_e0cb4/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e0cb4.dir/build.make CMakeFiles/cmTC_e0cb4.dir/build
+        gmake[1]: Entering directory '/home/youwei/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-7wpPhH'
+        Building C object CMakeFiles/cmTC_e0cb4.dir/CheckIncludeFile.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_e0cb4.dir/CheckIncludeFile.c.o -c /home/youwei/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-7wpPhH/CheckIncludeFile.c
+        Linking C executable cmTC_e0cb4
+        /home/youwei/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e0cb4.dir/link.txt --verbose=1
+        /usr/bin/cc -rdynamic CMakeFiles/cmTC_e0cb4.dir/CheckIncludeFile.c.o -o cmTC_e0cb4 
+        gmake[1]: Leaving directory '/home/youwei/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-7wpPhH'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/youwei/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "cmake/EnsureFileInclude.cmake:13 (CHECK_INCLUDE_FILE)"
+      - "CMakeLists.txt:218 (ensure_file_include)"
+    checks:
+      - "Looking for time.h"
+    directories:
+      source: "/home/youwei/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-Yw98EB"
+      binary: "/home/youwei/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-Yw98EB"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/youwei/MemFuzz/generator/jp2/src/cmake"
+    buildResult:
+      variable: "HAVE_TIME_H"
+      cached: true
+      stdout: |
+        Change Dir: /home/youwei/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-Yw98EB
+        
+        Run Build Command(s):/home/youwei/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_5fbbd/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5fbbd.dir/build.make CMakeFiles/cmTC_5fbbd.dir/build
+        gmake[1]: Entering directory '/home/youwei/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-Yw98EB'
+        Building C object CMakeFiles/cmTC_5fbbd.dir/CheckIncludeFile.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_5fbbd.dir/CheckIncludeFile.c.o -c /home/youwei/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-Yw98EB/CheckIncludeFile.c
+        Linking C executable cmTC_5fbbd
+        /home/youwei/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5fbbd.dir/link.txt --verbose=1
+        /usr/bin/cc -rdynamic CMakeFiles/cmTC_5fbbd.dir/CheckIncludeFile.c.o -o cmTC_5fbbd 
+        gmake[1]: Leaving directory '/home/youwei/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-Yw98EB'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/youwei/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "cmake/EnsureFileInclude.cmake:13 (CHECK_INCLUDE_FILE)"
+      - "CMakeLists.txt:219 (ensure_file_include)"
+    checks:
+      - "Looking for stdarg.h"
+    directories:
+      source: "/home/youwei/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-FyjpjL"
+      binary: "/home/youwei/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-FyjpjL"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/youwei/MemFuzz/generator/jp2/src/cmake"
+    buildResult:
+      variable: "HAVE_STDARG_H"
+      cached: true
+      stdout: |
+        Change Dir: /home/youwei/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-FyjpjL
+        
+        Run Build Command(s):/home/youwei/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_24ed1/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_24ed1.dir/build.make CMakeFiles/cmTC_24ed1.dir/build
+        gmake[1]: Entering directory '/home/youwei/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-FyjpjL'
+        Building C object CMakeFiles/cmTC_24ed1.dir/CheckIncludeFile.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_24ed1.dir/CheckIncludeFile.c.o -c /home/youwei/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-FyjpjL/CheckIncludeFile.c
+        Linking C executable cmTC_24ed1
+        /home/youwei/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_24ed1.dir/link.txt --verbose=1
+        /usr/bin/cc -rdynamic CMakeFiles/cmTC_24ed1.dir/CheckIncludeFile.c.o -o cmTC_24ed1 
+        gmake[1]: Leaving directory '/home/youwei/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-FyjpjL'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/youwei/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "cmake/EnsureFileInclude.cmake:13 (CHECK_INCLUDE_FILE)"
+      - "CMakeLists.txt:220 (ensure_file_include)"
+    checks:
+      - "Looking for ctype.h"
+    directories:
+      source: "/home/youwei/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-1Gvk47"
+      binary: "/home/youwei/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-1Gvk47"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/youwei/MemFuzz/generator/jp2/src/cmake"
+    buildResult:
+      variable: "HAVE_CTYPE_H"
+      cached: true
+      stdout: |
+        Change Dir: /home/youwei/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-1Gvk47
+        
+        Run Build Command(s):/home/youwei/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_8dba7/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_8dba7.dir/build.make CMakeFiles/cmTC_8dba7.dir/build
+        gmake[1]: Entering directory '/home/youwei/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-1Gvk47'
+        Building C object CMakeFiles/cmTC_8dba7.dir/CheckIncludeFile.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_8dba7.dir/CheckIncludeFile.c.o -c /home/youwei/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-1Gvk47/CheckIncludeFile.c
+        Linking C executable cmTC_8dba7
+        /home/youwei/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8dba7.dir/link.txt --verbose=1
+        /usr/bin/cc -rdynamic CMakeFiles/cmTC_8dba7.dir/CheckIncludeFile.c.o -o cmTC_8dba7 
+        gmake[1]: Leaving directory '/home/youwei/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-1Gvk47'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/youwei/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "cmake/EnsureFileInclude.cmake:13 (CHECK_INCLUDE_FILE)"
+      - "CMakeLists.txt:221 (ensure_file_include)"
+    checks:
+      - "Looking for assert.h"
+    directories:
+      source: "/home/youwei/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-fOtgDQ"
+      binary: "/home/youwei/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-fOtgDQ"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/youwei/MemFuzz/generator/jp2/src/cmake"
+    buildResult:
+      variable: "HAVE_ASSERT_H"
+      cached: true
+      stdout: |
+        Change Dir: /home/youwei/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-fOtgDQ
+        
+        Run Build Command(s):/home/youwei/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_85385/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_85385.dir/build.make CMakeFiles/cmTC_85385.dir/build
+        gmake[1]: Entering directory '/home/youwei/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-fOtgDQ'
+        Building C object CMakeFiles/cmTC_85385.dir/CheckIncludeFile.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_85385.dir/CheckIncludeFile.c.o -c /home/youwei/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-fOtgDQ/CheckIncludeFile.c
+        Linking C executable cmTC_85385
+        /home/youwei/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_85385.dir/link.txt --verbose=1
+        /usr/bin/cc -rdynamic CMakeFiles/cmTC_85385.dir/CheckIncludeFile.c.o -o cmTC_85385 
+        gmake[1]: Leaving directory '/home/youwei/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-fOtgDQ'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/youwei/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "cmake/EnsureFileInclude.cmake:13 (CHECK_INCLUDE_FILE)"
+      - "CMakeLists.txt:224 (ensure_file_include)"
+    checks:
+      - "Looking for stdint.h"
+    directories:
+      source: "/home/youwei/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-lUcB8f"
+      binary: "/home/youwei/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-lUcB8f"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/youwei/MemFuzz/generator/jp2/src/cmake"
+    buildResult:
+      variable: "OPJ_HAVE_STDINT_H"
+      cached: true
+      stdout: |
+        Change Dir: /home/youwei/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-lUcB8f
+        
+        Run Build Command(s):/home/youwei/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_06268/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_06268.dir/build.make CMakeFiles/cmTC_06268.dir/build
+        gmake[1]: Entering directory '/home/youwei/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-lUcB8f'
+        Building C object CMakeFiles/cmTC_06268.dir/CheckIncludeFile.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_06268.dir/CheckIncludeFile.c.o -c /home/youwei/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-lUcB8f/CheckIncludeFile.c
+        Linking C executable cmTC_06268
+        /home/youwei/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_06268.dir/link.txt --verbose=1
+        /usr/bin/cc -rdynamic CMakeFiles/cmTC_06268.dir/CheckIncludeFile.c.o -o cmTC_06268 
+        gmake[1]: Leaving directory '/home/youwei/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-lUcB8f'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/youwei/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "cmake/EnsureFileInclude.cmake:13 (CHECK_INCLUDE_FILE)"
+      - "CMakeLists.txt:225 (ensure_file_include)"
+    checks:
+      - "Looking for inttypes.h"
+    directories:
+      source: "/home/youwei/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-0yWbFj"
+      binary: "/home/youwei/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-0yWbFj"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/youwei/MemFuzz/generator/jp2/src/cmake"
+    buildResult:
+      variable: "OPJ_HAVE_INTTYPES_H"
+      cached: true
+      stdout: |
+        Change Dir: /home/youwei/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-0yWbFj
+        
+        Run Build Command(s):/home/youwei/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_b8ddc/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b8ddc.dir/build.make CMakeFiles/cmTC_b8ddc.dir/build
+        gmake[1]: Entering directory '/home/youwei/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-0yWbFj'
+        Building C object CMakeFiles/cmTC_b8ddc.dir/CheckIncludeFile.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_b8ddc.dir/CheckIncludeFile.c.o -c /home/youwei/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-0yWbFj/CheckIncludeFile.c
+        Linking C executable cmTC_b8ddc
+        /home/youwei/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b8ddc.dir/link.txt --verbose=1
+        /usr/bin/cc -rdynamic CMakeFiles/cmTC_b8ddc.dir/CheckIncludeFile.c.o -o cmTC_b8ddc 
+        gmake[1]: Leaving directory '/home/youwei/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-0yWbFj'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/youwei/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "CMakeLists.txt:229 (CHECK_INCLUDE_FILE)"
+    checks:
+      - "Looking for strings.h"
+    directories:
+      source: "/home/youwei/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-F2VzRh"
+      binary: "/home/youwei/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-F2VzRh"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/youwei/MemFuzz/generator/jp2/src/cmake"
+    buildResult:
+      variable: "HAVE_STRINGS_H"
+      cached: true
+      stdout: |
+        Change Dir: /home/youwei/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-F2VzRh
+        
+        Run Build Command(s):/home/youwei/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_b3711/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b3711.dir/build.make CMakeFiles/cmTC_b3711.dir/build
+        gmake[1]: Entering directory '/home/youwei/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-F2VzRh'
+        Building C object CMakeFiles/cmTC_b3711.dir/CheckIncludeFile.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_b3711.dir/CheckIncludeFile.c.o -c /home/youwei/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-F2VzRh/CheckIncludeFile.c
+        Linking C executable cmTC_b3711
+        /home/youwei/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b3711.dir/link.txt --verbose=1
+        /usr/bin/cc -rdynamic CMakeFiles/cmTC_b3711.dir/CheckIncludeFile.c.o -o cmTC_b3711 
+        gmake[1]: Leaving directory '/home/youwei/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-F2VzRh'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/youwei/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "CMakeLists.txt:230 (CHECK_INCLUDE_FILE)"
+    checks:
+      - "Looking for sys/stat.h"
+    directories:
+      source: "/home/youwei/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-7G61Jz"
+      binary: "/home/youwei/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-7G61Jz"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/youwei/MemFuzz/generator/jp2/src/cmake"
+    buildResult:
+      variable: "HAVE_SYS_STAT_H"
+      cached: true
+      stdout: |
+        Change Dir: /home/youwei/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-7G61Jz
+        
+        Run Build Command(s):/home/youwei/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_9ee8d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_9ee8d.dir/build.make CMakeFiles/cmTC_9ee8d.dir/build
+        gmake[1]: Entering directory '/home/youwei/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-7G61Jz'
+        Building C object CMakeFiles/cmTC_9ee8d.dir/CheckIncludeFile.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_9ee8d.dir/CheckIncludeFile.c.o -c /home/youwei/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-7G61Jz/CheckIncludeFile.c
+        Linking C executable cmTC_9ee8d
+        /home/youwei/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9ee8d.dir/link.txt --verbose=1
+        /usr/bin/cc -rdynamic CMakeFiles/cmTC_9ee8d.dir/CheckIncludeFile.c.o -o cmTC_9ee8d 
+        gmake[1]: Leaving directory '/home/youwei/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-7G61Jz'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/youwei/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "CMakeLists.txt:231 (CHECK_INCLUDE_FILE)"
+    checks:
+      - "Looking for sys/types.h"
+    directories:
+      source: "/home/youwei/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-cKzm00"
+      binary: "/home/youwei/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-cKzm00"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/youwei/MemFuzz/generator/jp2/src/cmake"
+    buildResult:
+      variable: "HAVE_SYS_TYPES_H"
+      cached: true
+      stdout: |
+        Change Dir: /home/youwei/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-cKzm00
+        
+        Run Build Command(s):/home/youwei/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_bd31d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_bd31d.dir/build.make CMakeFiles/cmTC_bd31d.dir/build
+        gmake[1]: Entering directory '/home/youwei/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-cKzm00'
+        Building C object CMakeFiles/cmTC_bd31d.dir/CheckIncludeFile.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_bd31d.dir/CheckIncludeFile.c.o -c /home/youwei/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-cKzm00/CheckIncludeFile.c
+        Linking C executable cmTC_bd31d
+        /home/youwei/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bd31d.dir/link.txt --verbose=1
+        /usr/bin/cc -rdynamic CMakeFiles/cmTC_bd31d.dir/CheckIncludeFile.c.o -o cmTC_bd31d 
+        gmake[1]: Leaving directory '/home/youwei/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-cKzm00'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/youwei/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "CMakeLists.txt:232 (CHECK_INCLUDE_FILE)"
+    checks:
+      - "Looking for unistd.h"
+    directories:
+      source: "/home/youwei/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-Uh8sjC"
+      binary: "/home/youwei/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-Uh8sjC"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/youwei/MemFuzz/generator/jp2/src/cmake"
+    buildResult:
+      variable: "HAVE_UNISTD_H"
+      cached: true
+      stdout: |
+        Change Dir: /home/youwei/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-Uh8sjC
+        
+        Run Build Command(s):/home/youwei/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_a029f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a029f.dir/build.make CMakeFiles/cmTC_a029f.dir/build
+        gmake[1]: Entering directory '/home/youwei/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-Uh8sjC'
+        Building C object CMakeFiles/cmTC_a029f.dir/CheckIncludeFile.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_a029f.dir/CheckIncludeFile.c.o -c /home/youwei/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-Uh8sjC/CheckIncludeFile.c
+        Linking C executable cmTC_a029f
+        /home/youwei/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a029f.dir/link.txt --verbose=1
+        /usr/bin/cc -rdynamic CMakeFiles/cmTC_a029f.dir/CheckIncludeFile.c.o -o cmTC_a029f 
+        gmake[1]: Leaving directory '/home/youwei/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-Uh8sjC'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake/TestLargeFiles.cmake:29 (try_compile)"
+      - "CMakeLists.txt:236 (OPJ_TEST_LARGE_FILES)"
+    directories:
+      source: "/home/youwei/MemFuzz/generator/jp2/src/CMakeFiles/CMakeTmp"
+      binary: "/home/youwei/MemFuzz/generator/jp2/src/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/youwei/MemFuzz/generator/jp2/src/cmake"
+    buildResult:
+      variable: "FILE64_OK"
+      cached: true
+      stdout: |
+        Change Dir: /home/youwei/MemFuzz/generator/jp2/src/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):/home/youwei/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_068fc/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_068fc.dir/build.make CMakeFiles/cmTC_068fc.dir/build
+        gmake[1]: Entering directory '/home/youwei/MemFuzz/generator/jp2/src/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_068fc.dir/TestFileOffsetBits.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_068fc.dir/TestFileOffsetBits.c.o -c /home/youwei/MemFuzz/generator/jp2/src/cmake/TestFileOffsetBits.c
+        Linking C executable cmTC_068fc
+        /home/youwei/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_068fc.dir/link.txt --verbose=1
+        /usr/bin/cc -rdynamic CMakeFiles/cmTC_068fc.dir/TestFileOffsetBits.c.o -o cmTC_068fc 
+        gmake[1]: Leaving directory '/home/youwei/MemFuzz/generator/jp2/src/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake/TestLargeFiles.cmake:94 (try_compile)"
+      - "CMakeLists.txt:236 (OPJ_TEST_LARGE_FILES)"
+    directories:
+      source: "/home/youwei/MemFuzz/generator/jp2/src/CMakeFiles/CMakeTmp"
+      binary: "/home/youwei/MemFuzz/generator/jp2/src/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/youwei/MemFuzz/generator/jp2/src/cmake"
+    buildResult:
+      variable: "FSEEKO_COMPILE_OK"
+      cached: true
+      stdout: |
+        Change Dir: /home/youwei/MemFuzz/generator/jp2/src/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):/home/youwei/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_80686/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_80686.dir/build.make CMakeFiles/cmTC_80686.dir/build
+        gmake[1]: Entering directory '/home/youwei/MemFuzz/generator/jp2/src/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_80686.dir/TestLargeFiles.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_80686.dir/TestLargeFiles.c.o -c /home/youwei/MemFuzz/generator/jp2/src/CMakeFiles/TestLargeFiles.c
+        Linking C executable cmTC_80686
+        /home/youwei/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_80686.dir/link.txt --verbose=1
+        /usr/bin/cc -rdynamic CMakeFiles/cmTC_80686.dir/TestLargeFiles.c.o -o cmTC_80686 
+        gmake[1]: Leaving directory '/home/youwei/MemFuzz/generator/jp2/src/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/youwei/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CheckIncludeFiles.cmake:137 (try_compile)"
+      - "CMakeLists.txt:240 (check_include_files)"
+    checks:
+      - "Looking for include file malloc.h"
+    directories:
+      source: "/home/youwei/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-qtFy7x"
+      binary: "/home/youwei/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-qtFy7x"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/youwei/MemFuzz/generator/jp2/src/cmake"
+    buildResult:
+      variable: "OPJ_HAVE_MALLOC_H"
+      cached: true
+      stdout: |
+        Change Dir: /home/youwei/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-qtFy7x
+        
+        Run Build Command(s):/home/youwei/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_730a2/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_730a2.dir/build.make CMakeFiles/cmTC_730a2.dir/build
+        gmake[1]: Entering directory '/home/youwei/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-qtFy7x'
+        Building C object CMakeFiles/cmTC_730a2.dir/OPJ_HAVE_MALLOC_H.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_730a2.dir/OPJ_HAVE_MALLOC_H.c.o -c /home/youwei/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-qtFy7x/OPJ_HAVE_MALLOC_H.c
+        Linking C executable cmTC_730a2
+        /home/youwei/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_730a2.dir/link.txt --verbose=1
+        /usr/bin/cc -rdynamic CMakeFiles/cmTC_730a2.dir/OPJ_HAVE_MALLOC_H.c.o -o cmTC_730a2 
+        gmake[1]: Leaving directory '/home/youwei/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-qtFy7x'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/youwei/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CheckSymbolExists.cmake:145 (try_compile)"
+      - "/home/youwei/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CheckSymbolExists.cmake:71 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:243 (check_symbol_exists)"
+    checks:
+      - "Looking for _aligned_malloc"
+    directories:
+      source: "/home/youwei/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-PcCG2n"
+      binary: "/home/youwei/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-PcCG2n"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/youwei/MemFuzz/generator/jp2/src/cmake"
+    buildResult:
+      variable: "OPJ_HAVE__ALIGNED_MALLOC"
+      cached: true
+      stdout: |
+        Change Dir: /home/youwei/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-PcCG2n
+        
+        Run Build Command(s):/home/youwei/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_e41c2/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e41c2.dir/build.make CMakeFiles/cmTC_e41c2.dir/build
+        gmake[1]: Entering directory '/home/youwei/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-PcCG2n'
+        Building C object CMakeFiles/cmTC_e41c2.dir/CheckSymbolExists.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_e41c2.dir/CheckSymbolExists.c.o -c /home/youwei/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-PcCG2n/CheckSymbolExists.c
+        /home/youwei/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-PcCG2n/CheckSymbolExists.c: In function ‘main’:
+        /home/youwei/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-PcCG2n/CheckSymbolExists.c:8:19: error: ‘_aligned_malloc’ undeclared (first use in this function)
+            8 |   return ((int*)(&_aligned_malloc))[argc];
+              |                   ^~~~~~~~~~~~~~~
+        /home/youwei/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-PcCG2n/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+        gmake[1]: *** [CMakeFiles/cmTC_e41c2.dir/build.make:78: CMakeFiles/cmTC_e41c2.dir/CheckSymbolExists.c.o] Error 1
+        gmake[1]: Leaving directory '/home/youwei/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-PcCG2n'
+        gmake: *** [Makefile:127: cmTC_e41c2/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/youwei/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CheckSymbolExists.cmake:145 (try_compile)"
+      - "/home/youwei/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CheckSymbolExists.cmake:71 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:246 (check_symbol_exists)"
+    checks:
+      - "Looking for posix_memalign"
+    directories:
+      source: "/home/youwei/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-0LN4kQ"
+      binary: "/home/youwei/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-0LN4kQ"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/youwei/MemFuzz/generator/jp2/src/cmake"
+    buildResult:
+      variable: "OPJ_HAVE_POSIX_MEMALIGN"
+      cached: true
+      stdout: |
+        Change Dir: /home/youwei/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-0LN4kQ
+        
+        Run Build Command(s):/home/youwei/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_55503/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_55503.dir/build.make CMakeFiles/cmTC_55503.dir/build
+        gmake[1]: Entering directory '/home/youwei/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-0LN4kQ'
+        Building C object CMakeFiles/cmTC_55503.dir/CheckSymbolExists.c.o
+        /usr/bin/cc -D_POSIX_C_SOURCE=200112L   -o CMakeFiles/cmTC_55503.dir/CheckSymbolExists.c.o -c /home/youwei/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-0LN4kQ/CheckSymbolExists.c
+        Linking C executable cmTC_55503
+        /home/youwei/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_55503.dir/link.txt --verbose=1
+        /usr/bin/cc -rdynamic CMakeFiles/cmTC_55503.dir/CheckSymbolExists.c.o -o cmTC_55503 
+        gmake[1]: Leaving directory '/home/youwei/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-0LN4kQ'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/youwei/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CheckSymbolExists.cmake:145 (try_compile)"
+      - "/home/youwei/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CheckSymbolExists.cmake:71 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:249 (check_symbol_exists)"
+    checks:
+      - "Looking for memalign"
+    directories:
+      source: "/home/youwei/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-8dJmVD"
+      binary: "/home/youwei/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-8dJmVD"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/youwei/MemFuzz/generator/jp2/src/cmake"
+    buildResult:
+      variable: "OPJ_HAVE_MEMALIGN"
+      cached: true
+      stdout: |
+        Change Dir: /home/youwei/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-8dJmVD
+        
+        Run Build Command(s):/home/youwei/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_685e1/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_685e1.dir/build.make CMakeFiles/cmTC_685e1.dir/build
+        gmake[1]: Entering directory '/home/youwei/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-8dJmVD'
+        Building C object CMakeFiles/cmTC_685e1.dir/CheckSymbolExists.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_685e1.dir/CheckSymbolExists.c.o -c /home/youwei/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-8dJmVD/CheckSymbolExists.c
+        Linking C executable cmTC_685e1
+        /home/youwei/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_685e1.dir/link.txt --verbose=1
+        /usr/bin/cc -rdynamic CMakeFiles/cmTC_685e1.dir/CheckSymbolExists.c.o -o cmTC_685e1 
+        gmake[1]: Leaving directory '/home/youwei/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-8dJmVD'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/youwei/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/home/youwei/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CheckCSourceCompiles.cmake:76 (cmake_check_source_compiles)"
+      - "/home/youwei/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "/home/youwei/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "src/lib/openjp2/CMakeLists.txt:181 (find_package)"
+    directories:
+      source: "/home/youwei/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-IIdgDt"
+      binary: "/home/youwei/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-IIdgDt"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/youwei/MemFuzz/generator/jp2/src/cmake"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: /home/youwei/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-IIdgDt
+        
+        Run Build Command(s):/home/youwei/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_218d3/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_218d3.dir/build.make CMakeFiles/cmTC_218d3.dir/build
+        gmake[1]: Entering directory '/home/youwei/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-IIdgDt'
+        Building C object CMakeFiles/cmTC_218d3.dir/src.c.o
+        /usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_218d3.dir/src.c.o -c /home/youwei/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-IIdgDt/src.c
+        Linking C executable cmTC_218d3
+        /home/youwei/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_218d3.dir/link.txt --verbose=1
+        /usr/bin/cc -rdynamic CMakeFiles/cmTC_218d3.dir/src.c.o -o cmTC_218d3 
+        gmake[1]: Leaving directory '/home/youwei/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-IIdgDt'
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CMakeDetermineSystem.cmake:204 (message)"
+      - "CMakeLists.txt:27 (project)"
+    message: |
+      The system is: Linux - 4.15.0-142-generic - x86_64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/local/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/local/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:27 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /usr/bin/cc 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is GNU, found in:
+        /home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/3.26.0-rc2/CompilerIdC/a.out
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/usr/local/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:27 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-kkMiKE"
+      binary: "/home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-kkMiKE"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: /home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-kkMiKE
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_11e09/fast && /usr/bin/make  -f CMakeFiles/cmTC_11e09.dir/build.make CMakeFiles/cmTC_11e09.dir/build
+        make[1]: Entering directory '/home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-kkMiKE'
+        Building C object CMakeFiles/cmTC_11e09.dir/CMakeCCompilerABI.c.o
+        /usr/bin/cc   -v -o CMakeFiles/cmTC_11e09.dir/CMakeCCompilerABI.c.o -c /usr/local/share/cmake-3.26/Modules/CMakeCCompilerABI.c
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/cc
+        OFFLOAD_TARGET_NAMES=nvptx-none
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.5.0-3ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+        Thread model: posix
+        gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_11e09.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+         /usr/lib/gcc/x86_64-linux-gnu/7/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/local/share/cmake-3.26/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_11e09.dir/CMakeCCompilerABI.c.o -version -fstack-protector-strong -Wformat -Wformat-security -o /tmp/ccIkMJvG.s
+        GNU C11 (Ubuntu 7.5.0-3ubuntu1~18.04) version 7.5.0 (x86_64-linux-gnu)
+        	compiled by GNU C version 7.5.0, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.19-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/7/../../../../x86_64-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/lib/gcc/x86_64-linux-gnu/7/include
+         /usr/local/include
+         /usr/lib/gcc/x86_64-linux-gnu/7/include-fixed
+         /usr/include/x86_64-linux-gnu
+         /usr/include
+        End of search list.
+        GNU C11 (Ubuntu 7.5.0-3ubuntu1~18.04) version 7.5.0 (x86_64-linux-gnu)
+        	compiled by GNU C version 7.5.0, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.19-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: b62ed4a2880cd4159476ea8293b72fa8
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_11e09.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+         as -v --64 -o CMakeFiles/cmTC_11e09.dir/CMakeCCompilerABI.c.o /tmp/ccIkMJvG.s
+        GNU assembler version 2.30 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.30
+        COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_11e09.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+        Linking C executable cmTC_11e09
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_11e09.dir/link.txt --verbose=1
+        /usr/bin/cc  -v -rdynamic CMakeFiles/cmTC_11e09.dir/CMakeCCompilerABI.c.o -o cmTC_11e09 
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/cc
+        COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
+        OFFLOAD_TARGET_NAMES=nvptx-none
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.5.0-3ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+        Thread model: posix
+        gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) 
+        COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_11e09' '-mtune=generic' '-march=x86-64'
+         /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cc9L5AOA.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_11e09 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_11e09.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_11e09' '-mtune=generic' '-march=x86-64'
+        make[1]: Leaving directory '/home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-kkMiKE'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "/usr/local/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:27 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/usr/lib/gcc/x86_64-linux-gnu/7/include]
+          add: [/usr/local/include]
+          add: [/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed]
+          add: [/usr/include/x86_64-linux-gnu]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/7/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/7/include]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed] ==> [/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed]
+        collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/usr/lib/gcc/x86_64-linux-gnu/7/include;/usr/local/include;/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed;/usr/include/x86_64-linux-gnu;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
+      - "/usr/local/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:27 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: /home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-kkMiKE]
+        ignore line: []
+        ignore line: [Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_11e09/fast && /usr/bin/make  -f CMakeFiles/cmTC_11e09.dir/build.make CMakeFiles/cmTC_11e09.dir/build]
+        ignore line: [make[1]: Entering directory '/home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-kkMiKE']
+        ignore line: [Building C object CMakeFiles/cmTC_11e09.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_11e09.dir/CMakeCCompilerABI.c.o -c /usr/local/share/cmake-3.26/Modules/CMakeCCompilerABI.c]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/cc]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.5.0-3ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_11e09.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/7/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/local/share/cmake-3.26/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_11e09.dir/CMakeCCompilerABI.c.o -version -fstack-protector-strong -Wformat -Wformat-security -o /tmp/ccIkMJvG.s]
+        ignore line: [GNU C11 (Ubuntu 7.5.0-3ubuntu1~18.04) version 7.5.0 (x86_64-linux-gnu)]
+        ignore line: [	compiled by GNU C version 7.5.0  GMP version 6.1.2  MPFR version 4.0.1  MPC version 1.1.0  isl version isl-0.19-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/7/../../../../x86_64-linux-gnu/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/7/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/7/include-fixed]
+        ignore line: [ /usr/include/x86_64-linux-gnu]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU C11 (Ubuntu 7.5.0-3ubuntu1~18.04) version 7.5.0 (x86_64-linux-gnu)]
+        ignore line: [	compiled by GNU C version 7.5.0  GMP version 6.1.2  MPFR version 4.0.1  MPC version 1.1.0  isl version isl-0.19-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: b62ed4a2880cd4159476ea8293b72fa8]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_11e09.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_11e09.dir/CMakeCCompilerABI.c.o /tmp/ccIkMJvG.s]
+        ignore line: [GNU assembler version 2.30 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.30]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_11e09.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+        ignore line: [Linking C executable cmTC_11e09]
+        ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_11e09.dir/link.txt --verbose=1]
+        ignore line: [/usr/bin/cc  -v -rdynamic CMakeFiles/cmTC_11e09.dir/CMakeCCompilerABI.c.o -o cmTC_11e09 ]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/cc]
+        ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.5.0-3ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) ]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_11e09' '-mtune=generic' '-march=x86-64']
+        link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cc9L5AOA.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_11e09 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_11e09.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/7/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/cc9L5AOA.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-export-dynamic] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-znow] ==> ignore
+          arg [-zrelro] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_11e09] ==> ignore
+          arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/7] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib]
+          arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+          arg [-L/lib/../lib] ==> dir [/lib/../lib]
+          arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+          arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..]
+          arg [CMakeFiles/cmTC_11e09.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [-lc] ==> lib [c]
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7] ==> [/usr/lib/gcc/x86_64-linux-gnu/7]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib] ==> [/usr/lib]
+        collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+        collapse library dir [/lib/../lib] ==> [/lib]
+        collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> [/usr/lib]
+        implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+        implicit objs: [/usr/lib/x86_64-linux-gnu/Scrt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o;/usr/lib/x86_64-linux-gnu/crtn.o]
+        implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/7;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "cmake/EnsureFileInclude.cmake:13 (CHECK_INCLUDE_FILE)"
+      - "CMakeLists.txt:212 (ensure_file_include)"
+    checks:
+      - "Looking for string.h"
+    directories:
+      source: "/home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-dWbvO1"
+      binary: "/home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-dWbvO1"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/liu2598/MemFuzz/generator/jp2/src/cmake"
+    buildResult:
+      variable: "HAVE_STRING_H"
+      cached: true
+      stdout: |
+        Change Dir: /home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-dWbvO1
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_f074d/fast && /usr/bin/make  -f CMakeFiles/cmTC_f074d.dir/build.make CMakeFiles/cmTC_f074d.dir/build
+        make[1]: Entering directory '/home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-dWbvO1'
+        Building C object CMakeFiles/cmTC_f074d.dir/CheckIncludeFile.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_f074d.dir/CheckIncludeFile.c.o -c /home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-dWbvO1/CheckIncludeFile.c
+        Linking C executable cmTC_f074d
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f074d.dir/link.txt --verbose=1
+        /usr/bin/cc -rdynamic CMakeFiles/cmTC_f074d.dir/CheckIncludeFile.c.o -o cmTC_f074d 
+        make[1]: Leaving directory '/home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-dWbvO1'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "cmake/EnsureFileInclude.cmake:13 (CHECK_INCLUDE_FILE)"
+      - "CMakeLists.txt:213 (ensure_file_include)"
+    checks:
+      - "Looking for memory.h"
+    directories:
+      source: "/home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-KK8wbp"
+      binary: "/home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-KK8wbp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/liu2598/MemFuzz/generator/jp2/src/cmake"
+    buildResult:
+      variable: "HAVE_MEMORY_H"
+      cached: true
+      stdout: |
+        Change Dir: /home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-KK8wbp
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_b09aa/fast && /usr/bin/make  -f CMakeFiles/cmTC_b09aa.dir/build.make CMakeFiles/cmTC_b09aa.dir/build
+        make[1]: Entering directory '/home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-KK8wbp'
+        Building C object CMakeFiles/cmTC_b09aa.dir/CheckIncludeFile.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_b09aa.dir/CheckIncludeFile.c.o -c /home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-KK8wbp/CheckIncludeFile.c
+        Linking C executable cmTC_b09aa
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b09aa.dir/link.txt --verbose=1
+        /usr/bin/cc -rdynamic CMakeFiles/cmTC_b09aa.dir/CheckIncludeFile.c.o -o cmTC_b09aa 
+        make[1]: Leaving directory '/home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-KK8wbp'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "cmake/EnsureFileInclude.cmake:13 (CHECK_INCLUDE_FILE)"
+      - "CMakeLists.txt:214 (ensure_file_include)"
+    checks:
+      - "Looking for stdlib.h"
+    directories:
+      source: "/home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-fZHDRM"
+      binary: "/home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-fZHDRM"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/liu2598/MemFuzz/generator/jp2/src/cmake"
+    buildResult:
+      variable: "HAVE_STDLIB_H"
+      cached: true
+      stdout: |
+        Change Dir: /home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-fZHDRM
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_6f9f9/fast && /usr/bin/make  -f CMakeFiles/cmTC_6f9f9.dir/build.make CMakeFiles/cmTC_6f9f9.dir/build
+        make[1]: Entering directory '/home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-fZHDRM'
+        Building C object CMakeFiles/cmTC_6f9f9.dir/CheckIncludeFile.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_6f9f9.dir/CheckIncludeFile.c.o -c /home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-fZHDRM/CheckIncludeFile.c
+        Linking C executable cmTC_6f9f9
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6f9f9.dir/link.txt --verbose=1
+        /usr/bin/cc -rdynamic CMakeFiles/cmTC_6f9f9.dir/CheckIncludeFile.c.o -o cmTC_6f9f9 
+        make[1]: Leaving directory '/home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-fZHDRM'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "cmake/EnsureFileInclude.cmake:13 (CHECK_INCLUDE_FILE)"
+      - "CMakeLists.txt:215 (ensure_file_include)"
+    checks:
+      - "Looking for stdio.h"
+    directories:
+      source: "/home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-aBisRa"
+      binary: "/home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-aBisRa"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/liu2598/MemFuzz/generator/jp2/src/cmake"
+    buildResult:
+      variable: "HAVE_STDIO_H"
+      cached: true
+      stdout: |
+        Change Dir: /home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-aBisRa
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_c4d5a/fast && /usr/bin/make  -f CMakeFiles/cmTC_c4d5a.dir/build.make CMakeFiles/cmTC_c4d5a.dir/build
+        make[1]: Entering directory '/home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-aBisRa'
+        Building C object CMakeFiles/cmTC_c4d5a.dir/CheckIncludeFile.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_c4d5a.dir/CheckIncludeFile.c.o -c /home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-aBisRa/CheckIncludeFile.c
+        Linking C executable cmTC_c4d5a
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c4d5a.dir/link.txt --verbose=1
+        /usr/bin/cc -rdynamic CMakeFiles/cmTC_c4d5a.dir/CheckIncludeFile.c.o -o cmTC_c4d5a 
+        make[1]: Leaving directory '/home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-aBisRa'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "cmake/EnsureFileInclude.cmake:13 (CHECK_INCLUDE_FILE)"
+      - "CMakeLists.txt:216 (ensure_file_include)"
+    checks:
+      - "Looking for math.h"
+    directories:
+      source: "/home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-rB719y"
+      binary: "/home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-rB719y"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/liu2598/MemFuzz/generator/jp2/src/cmake"
+    buildResult:
+      variable: "HAVE_MATH_H"
+      cached: true
+      stdout: |
+        Change Dir: /home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-rB719y
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_99b54/fast && /usr/bin/make  -f CMakeFiles/cmTC_99b54.dir/build.make CMakeFiles/cmTC_99b54.dir/build
+        make[1]: Entering directory '/home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-rB719y'
+        Building C object CMakeFiles/cmTC_99b54.dir/CheckIncludeFile.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_99b54.dir/CheckIncludeFile.c.o -c /home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-rB719y/CheckIncludeFile.c
+        Linking C executable cmTC_99b54
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_99b54.dir/link.txt --verbose=1
+        /usr/bin/cc -rdynamic CMakeFiles/cmTC_99b54.dir/CheckIncludeFile.c.o -o cmTC_99b54 
+        make[1]: Leaving directory '/home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-rB719y'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "cmake/EnsureFileInclude.cmake:13 (CHECK_INCLUDE_FILE)"
+      - "CMakeLists.txt:217 (ensure_file_include)"
+    checks:
+      - "Looking for float.h"
+    directories:
+      source: "/home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-sAmoMX"
+      binary: "/home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-sAmoMX"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/liu2598/MemFuzz/generator/jp2/src/cmake"
+    buildResult:
+      variable: "HAVE_FLOAT_H"
+      cached: true
+      stdout: |
+        Change Dir: /home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-sAmoMX
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_4cac2/fast && /usr/bin/make  -f CMakeFiles/cmTC_4cac2.dir/build.make CMakeFiles/cmTC_4cac2.dir/build
+        make[1]: Entering directory '/home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-sAmoMX'
+        Building C object CMakeFiles/cmTC_4cac2.dir/CheckIncludeFile.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_4cac2.dir/CheckIncludeFile.c.o -c /home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-sAmoMX/CheckIncludeFile.c
+        Linking C executable cmTC_4cac2
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4cac2.dir/link.txt --verbose=1
+        /usr/bin/cc -rdynamic CMakeFiles/cmTC_4cac2.dir/CheckIncludeFile.c.o -o cmTC_4cac2 
+        make[1]: Leaving directory '/home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-sAmoMX'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "cmake/EnsureFileInclude.cmake:13 (CHECK_INCLUDE_FILE)"
+      - "CMakeLists.txt:218 (ensure_file_include)"
+    checks:
+      - "Looking for time.h"
+    directories:
+      source: "/home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-5risGm"
+      binary: "/home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-5risGm"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/liu2598/MemFuzz/generator/jp2/src/cmake"
+    buildResult:
+      variable: "HAVE_TIME_H"
+      cached: true
+      stdout: |
+        Change Dir: /home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-5risGm
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_925f0/fast && /usr/bin/make  -f CMakeFiles/cmTC_925f0.dir/build.make CMakeFiles/cmTC_925f0.dir/build
+        make[1]: Entering directory '/home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-5risGm'
+        Building C object CMakeFiles/cmTC_925f0.dir/CheckIncludeFile.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_925f0.dir/CheckIncludeFile.c.o -c /home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-5risGm/CheckIncludeFile.c
+        Linking C executable cmTC_925f0
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_925f0.dir/link.txt --verbose=1
+        /usr/bin/cc -rdynamic CMakeFiles/cmTC_925f0.dir/CheckIncludeFile.c.o -o cmTC_925f0 
+        make[1]: Leaving directory '/home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-5risGm'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "cmake/EnsureFileInclude.cmake:13 (CHECK_INCLUDE_FILE)"
+      - "CMakeLists.txt:219 (ensure_file_include)"
+    checks:
+      - "Looking for stdarg.h"
+    directories:
+      source: "/home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-cvLtTL"
+      binary: "/home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-cvLtTL"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/liu2598/MemFuzz/generator/jp2/src/cmake"
+    buildResult:
+      variable: "HAVE_STDARG_H"
+      cached: true
+      stdout: |
+        Change Dir: /home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-cvLtTL
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_f0953/fast && /usr/bin/make  -f CMakeFiles/cmTC_f0953.dir/build.make CMakeFiles/cmTC_f0953.dir/build
+        make[1]: Entering directory '/home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-cvLtTL'
+        Building C object CMakeFiles/cmTC_f0953.dir/CheckIncludeFile.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_f0953.dir/CheckIncludeFile.c.o -c /home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-cvLtTL/CheckIncludeFile.c
+        Linking C executable cmTC_f0953
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f0953.dir/link.txt --verbose=1
+        /usr/bin/cc -rdynamic CMakeFiles/cmTC_f0953.dir/CheckIncludeFile.c.o -o cmTC_f0953 
+        make[1]: Leaving directory '/home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-cvLtTL'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "cmake/EnsureFileInclude.cmake:13 (CHECK_INCLUDE_FILE)"
+      - "CMakeLists.txt:220 (ensure_file_include)"
+    checks:
+      - "Looking for ctype.h"
+    directories:
+      source: "/home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-BePSob"
+      binary: "/home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-BePSob"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/liu2598/MemFuzz/generator/jp2/src/cmake"
+    buildResult:
+      variable: "HAVE_CTYPE_H"
+      cached: true
+      stdout: |
+        Change Dir: /home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-BePSob
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_17b20/fast && /usr/bin/make  -f CMakeFiles/cmTC_17b20.dir/build.make CMakeFiles/cmTC_17b20.dir/build
+        make[1]: Entering directory '/home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-BePSob'
+        Building C object CMakeFiles/cmTC_17b20.dir/CheckIncludeFile.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_17b20.dir/CheckIncludeFile.c.o -c /home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-BePSob/CheckIncludeFile.c
+        Linking C executable cmTC_17b20
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_17b20.dir/link.txt --verbose=1
+        /usr/bin/cc -rdynamic CMakeFiles/cmTC_17b20.dir/CheckIncludeFile.c.o -o cmTC_17b20 
+        make[1]: Leaving directory '/home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-BePSob'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "cmake/EnsureFileInclude.cmake:13 (CHECK_INCLUDE_FILE)"
+      - "CMakeLists.txt:221 (ensure_file_include)"
+    checks:
+      - "Looking for assert.h"
+    directories:
+      source: "/home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-AJxPcB"
+      binary: "/home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-AJxPcB"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/liu2598/MemFuzz/generator/jp2/src/cmake"
+    buildResult:
+      variable: "HAVE_ASSERT_H"
+      cached: true
+      stdout: |
+        Change Dir: /home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-AJxPcB
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_921e3/fast && /usr/bin/make  -f CMakeFiles/cmTC_921e3.dir/build.make CMakeFiles/cmTC_921e3.dir/build
+        make[1]: Entering directory '/home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-AJxPcB'
+        Building C object CMakeFiles/cmTC_921e3.dir/CheckIncludeFile.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_921e3.dir/CheckIncludeFile.c.o -c /home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-AJxPcB/CheckIncludeFile.c
+        Linking C executable cmTC_921e3
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_921e3.dir/link.txt --verbose=1
+        /usr/bin/cc -rdynamic CMakeFiles/cmTC_921e3.dir/CheckIncludeFile.c.o -o cmTC_921e3 
+        make[1]: Leaving directory '/home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-AJxPcB'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "cmake/EnsureFileInclude.cmake:13 (CHECK_INCLUDE_FILE)"
+      - "CMakeLists.txt:224 (ensure_file_include)"
+    checks:
+      - "Looking for stdint.h"
+    directories:
+      source: "/home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-5iAvj1"
+      binary: "/home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-5iAvj1"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/liu2598/MemFuzz/generator/jp2/src/cmake"
+    buildResult:
+      variable: "OPJ_HAVE_STDINT_H"
+      cached: true
+      stdout: |
+        Change Dir: /home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-5iAvj1
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_28864/fast && /usr/bin/make  -f CMakeFiles/cmTC_28864.dir/build.make CMakeFiles/cmTC_28864.dir/build
+        make[1]: Entering directory '/home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-5iAvj1'
+        Building C object CMakeFiles/cmTC_28864.dir/CheckIncludeFile.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_28864.dir/CheckIncludeFile.c.o -c /home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-5iAvj1/CheckIncludeFile.c
+        Linking C executable cmTC_28864
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_28864.dir/link.txt --verbose=1
+        /usr/bin/cc -rdynamic CMakeFiles/cmTC_28864.dir/CheckIncludeFile.c.o -o cmTC_28864 
+        make[1]: Leaving directory '/home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-5iAvj1'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "cmake/EnsureFileInclude.cmake:13 (CHECK_INCLUDE_FILE)"
+      - "CMakeLists.txt:225 (ensure_file_include)"
+    checks:
+      - "Looking for inttypes.h"
+    directories:
+      source: "/home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-a522Ir"
+      binary: "/home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-a522Ir"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/liu2598/MemFuzz/generator/jp2/src/cmake"
+    buildResult:
+      variable: "OPJ_HAVE_INTTYPES_H"
+      cached: true
+      stdout: |
+        Change Dir: /home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-a522Ir
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_8dc9a/fast && /usr/bin/make  -f CMakeFiles/cmTC_8dc9a.dir/build.make CMakeFiles/cmTC_8dc9a.dir/build
+        make[1]: Entering directory '/home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-a522Ir'
+        Building C object CMakeFiles/cmTC_8dc9a.dir/CheckIncludeFile.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_8dc9a.dir/CheckIncludeFile.c.o -c /home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-a522Ir/CheckIncludeFile.c
+        Linking C executable cmTC_8dc9a
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8dc9a.dir/link.txt --verbose=1
+        /usr/bin/cc -rdynamic CMakeFiles/cmTC_8dc9a.dir/CheckIncludeFile.c.o -o cmTC_8dc9a 
+        make[1]: Leaving directory '/home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-a522Ir'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "CMakeLists.txt:229 (CHECK_INCLUDE_FILE)"
+    checks:
+      - "Looking for strings.h"
+    directories:
+      source: "/home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-Ff6lrS"
+      binary: "/home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-Ff6lrS"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/liu2598/MemFuzz/generator/jp2/src/cmake"
+    buildResult:
+      variable: "HAVE_STRINGS_H"
+      cached: true
+      stdout: |
+        Change Dir: /home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-Ff6lrS
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_5e6d8/fast && /usr/bin/make  -f CMakeFiles/cmTC_5e6d8.dir/build.make CMakeFiles/cmTC_5e6d8.dir/build
+        make[1]: Entering directory '/home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-Ff6lrS'
+        Building C object CMakeFiles/cmTC_5e6d8.dir/CheckIncludeFile.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_5e6d8.dir/CheckIncludeFile.c.o -c /home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-Ff6lrS/CheckIncludeFile.c
+        Linking C executable cmTC_5e6d8
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5e6d8.dir/link.txt --verbose=1
+        /usr/bin/cc -rdynamic CMakeFiles/cmTC_5e6d8.dir/CheckIncludeFile.c.o -o cmTC_5e6d8 
+        make[1]: Leaving directory '/home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-Ff6lrS'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "CMakeLists.txt:230 (CHECK_INCLUDE_FILE)"
+    checks:
+      - "Looking for sys/stat.h"
+    directories:
+      source: "/home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-eOv8rj"
+      binary: "/home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-eOv8rj"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/liu2598/MemFuzz/generator/jp2/src/cmake"
+    buildResult:
+      variable: "HAVE_SYS_STAT_H"
+      cached: true
+      stdout: |
+        Change Dir: /home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-eOv8rj
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_b03ae/fast && /usr/bin/make  -f CMakeFiles/cmTC_b03ae.dir/build.make CMakeFiles/cmTC_b03ae.dir/build
+        make[1]: Entering directory '/home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-eOv8rj'
+        Building C object CMakeFiles/cmTC_b03ae.dir/CheckIncludeFile.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_b03ae.dir/CheckIncludeFile.c.o -c /home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-eOv8rj/CheckIncludeFile.c
+        Linking C executable cmTC_b03ae
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b03ae.dir/link.txt --verbose=1
+        /usr/bin/cc -rdynamic CMakeFiles/cmTC_b03ae.dir/CheckIncludeFile.c.o -o cmTC_b03ae 
+        make[1]: Leaving directory '/home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-eOv8rj'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "CMakeLists.txt:231 (CHECK_INCLUDE_FILE)"
+    checks:
+      - "Looking for sys/types.h"
+    directories:
+      source: "/home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-tSt7LK"
+      binary: "/home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-tSt7LK"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/liu2598/MemFuzz/generator/jp2/src/cmake"
+    buildResult:
+      variable: "HAVE_SYS_TYPES_H"
+      cached: true
+      stdout: |
+        Change Dir: /home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-tSt7LK
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_22867/fast && /usr/bin/make  -f CMakeFiles/cmTC_22867.dir/build.make CMakeFiles/cmTC_22867.dir/build
+        make[1]: Entering directory '/home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-tSt7LK'
+        Building C object CMakeFiles/cmTC_22867.dir/CheckIncludeFile.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_22867.dir/CheckIncludeFile.c.o -c /home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-tSt7LK/CheckIncludeFile.c
+        Linking C executable cmTC_22867
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_22867.dir/link.txt --verbose=1
+        /usr/bin/cc -rdynamic CMakeFiles/cmTC_22867.dir/CheckIncludeFile.c.o -o cmTC_22867 
+        make[1]: Leaving directory '/home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-tSt7LK'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "CMakeLists.txt:232 (CHECK_INCLUDE_FILE)"
+    checks:
+      - "Looking for unistd.h"
+    directories:
+      source: "/home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-2bz3oc"
+      binary: "/home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-2bz3oc"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/liu2598/MemFuzz/generator/jp2/src/cmake"
+    buildResult:
+      variable: "HAVE_UNISTD_H"
+      cached: true
+      stdout: |
+        Change Dir: /home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-2bz3oc
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_97081/fast && /usr/bin/make  -f CMakeFiles/cmTC_97081.dir/build.make CMakeFiles/cmTC_97081.dir/build
+        make[1]: Entering directory '/home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-2bz3oc'
+        Building C object CMakeFiles/cmTC_97081.dir/CheckIncludeFile.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_97081.dir/CheckIncludeFile.c.o -c /home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-2bz3oc/CheckIncludeFile.c
+        Linking C executable cmTC_97081
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_97081.dir/link.txt --verbose=1
+        /usr/bin/cc -rdynamic CMakeFiles/cmTC_97081.dir/CheckIncludeFile.c.o -o cmTC_97081 
+        make[1]: Leaving directory '/home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-2bz3oc'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake/TestLargeFiles.cmake:29 (try_compile)"
+      - "CMakeLists.txt:236 (OPJ_TEST_LARGE_FILES)"
+    directories:
+      source: "/home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/CMakeTmp"
+      binary: "/home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/liu2598/MemFuzz/generator/jp2/src/cmake"
+    buildResult:
+      variable: "FILE64_OK"
+      cached: true
+      stdout: |
+        Change Dir: /home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_42b90/fast && /usr/bin/make  -f CMakeFiles/cmTC_42b90.dir/build.make CMakeFiles/cmTC_42b90.dir/build
+        make[1]: Entering directory '/home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_42b90.dir/TestFileOffsetBits.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_42b90.dir/TestFileOffsetBits.c.o -c /home/liu2598/MemFuzz/generator/jp2/src/cmake/TestFileOffsetBits.c
+        Linking C executable cmTC_42b90
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_42b90.dir/link.txt --verbose=1
+        /usr/bin/cc -rdynamic CMakeFiles/cmTC_42b90.dir/TestFileOffsetBits.c.o -o cmTC_42b90 
+        make[1]: Leaving directory '/home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake/TestLargeFiles.cmake:94 (try_compile)"
+      - "CMakeLists.txt:236 (OPJ_TEST_LARGE_FILES)"
+    directories:
+      source: "/home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/CMakeTmp"
+      binary: "/home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/liu2598/MemFuzz/generator/jp2/src/cmake"
+    buildResult:
+      variable: "FSEEKO_COMPILE_OK"
+      cached: true
+      stdout: |
+        Change Dir: /home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_6f33e/fast && /usr/bin/make  -f CMakeFiles/cmTC_6f33e.dir/build.make CMakeFiles/cmTC_6f33e.dir/build
+        make[1]: Entering directory '/home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_6f33e.dir/TestLargeFiles.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_6f33e.dir/TestLargeFiles.c.o -c /home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/TestLargeFiles.c
+        Linking C executable cmTC_6f33e
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6f33e.dir/link.txt --verbose=1
+        /usr/bin/cc -rdynamic CMakeFiles/cmTC_6f33e.dir/TestLargeFiles.c.o -o cmTC_6f33e 
+        make[1]: Leaving directory '/home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CheckIncludeFiles.cmake:137 (try_compile)"
+      - "CMakeLists.txt:240 (check_include_files)"
+    checks:
+      - "Looking for include file malloc.h"
+    directories:
+      source: "/home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-PZDrYE"
+      binary: "/home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-PZDrYE"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/liu2598/MemFuzz/generator/jp2/src/cmake"
+    buildResult:
+      variable: "OPJ_HAVE_MALLOC_H"
+      cached: true
+      stdout: |
+        Change Dir: /home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-PZDrYE
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_788f3/fast && /usr/bin/make  -f CMakeFiles/cmTC_788f3.dir/build.make CMakeFiles/cmTC_788f3.dir/build
+        make[1]: Entering directory '/home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-PZDrYE'
+        Building C object CMakeFiles/cmTC_788f3.dir/OPJ_HAVE_MALLOC_H.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_788f3.dir/OPJ_HAVE_MALLOC_H.c.o -c /home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-PZDrYE/OPJ_HAVE_MALLOC_H.c
+        Linking C executable cmTC_788f3
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_788f3.dir/link.txt --verbose=1
+        /usr/bin/cc -rdynamic CMakeFiles/cmTC_788f3.dir/OPJ_HAVE_MALLOC_H.c.o -o cmTC_788f3 
+        make[1]: Leaving directory '/home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-PZDrYE'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CheckSymbolExists.cmake:145 (try_compile)"
+      - "/usr/local/share/cmake-3.26/Modules/CheckSymbolExists.cmake:71 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:243 (check_symbol_exists)"
+    checks:
+      - "Looking for _aligned_malloc"
+    directories:
+      source: "/home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-Ue29Q7"
+      binary: "/home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-Ue29Q7"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/liu2598/MemFuzz/generator/jp2/src/cmake"
+    buildResult:
+      variable: "OPJ_HAVE__ALIGNED_MALLOC"
+      cached: true
+      stdout: |
+        Change Dir: /home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-Ue29Q7
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_44ef7/fast && /usr/bin/make  -f CMakeFiles/cmTC_44ef7.dir/build.make CMakeFiles/cmTC_44ef7.dir/build
+        make[1]: Entering directory '/home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-Ue29Q7'
+        Building C object CMakeFiles/cmTC_44ef7.dir/CheckSymbolExists.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_44ef7.dir/CheckSymbolExists.c.o -c /home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-Ue29Q7/CheckSymbolExists.c
+        /home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-Ue29Q7/CheckSymbolExists.c: In function ‘main’:
+        /home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-Ue29Q7/CheckSymbolExists.c:8:19: error: ‘_aligned_malloc’ undeclared (first use in this function); did you mean ‘__builtin_malloc’?
+           return ((int*)(&_aligned_malloc))[argc];
+                           ^~~~~~~~~~~~~~~
+                           __builtin_malloc
+        /home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-Ue29Q7/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+        CMakeFiles/cmTC_44ef7.dir/build.make:77: recipe for target 'CMakeFiles/cmTC_44ef7.dir/CheckSymbolExists.c.o' failed
+        make[1]: *** [CMakeFiles/cmTC_44ef7.dir/CheckSymbolExists.c.o] Error 1
+        make[1]: Leaving directory '/home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-Ue29Q7'
+        Makefile:127: recipe for target 'cmTC_44ef7/fast' failed
+        make: *** [cmTC_44ef7/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CheckSymbolExists.cmake:145 (try_compile)"
+      - "/usr/local/share/cmake-3.26/Modules/CheckSymbolExists.cmake:71 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:246 (check_symbol_exists)"
+    checks:
+      - "Looking for posix_memalign"
+    directories:
+      source: "/home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-3otITA"
+      binary: "/home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-3otITA"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/liu2598/MemFuzz/generator/jp2/src/cmake"
+    buildResult:
+      variable: "OPJ_HAVE_POSIX_MEMALIGN"
+      cached: true
+      stdout: |
+        Change Dir: /home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-3otITA
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_6de6a/fast && /usr/bin/make  -f CMakeFiles/cmTC_6de6a.dir/build.make CMakeFiles/cmTC_6de6a.dir/build
+        make[1]: Entering directory '/home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-3otITA'
+        Building C object CMakeFiles/cmTC_6de6a.dir/CheckSymbolExists.c.o
+        /usr/bin/cc -D_POSIX_C_SOURCE=200112L   -o CMakeFiles/cmTC_6de6a.dir/CheckSymbolExists.c.o -c /home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-3otITA/CheckSymbolExists.c
+        Linking C executable cmTC_6de6a
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6de6a.dir/link.txt --verbose=1
+        /usr/bin/cc -rdynamic CMakeFiles/cmTC_6de6a.dir/CheckSymbolExists.c.o -o cmTC_6de6a 
+        make[1]: Leaving directory '/home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-3otITA'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CheckSymbolExists.cmake:145 (try_compile)"
+      - "/usr/local/share/cmake-3.26/Modules/CheckSymbolExists.cmake:71 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:249 (check_symbol_exists)"
+    checks:
+      - "Looking for memalign"
+    directories:
+      source: "/home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-q8q4e4"
+      binary: "/home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-q8q4e4"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/liu2598/MemFuzz/generator/jp2/src/cmake"
+    buildResult:
+      variable: "OPJ_HAVE_MEMALIGN"
+      cached: true
+      stdout: |
+        Change Dir: /home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-q8q4e4
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_a8e1a/fast && /usr/bin/make  -f CMakeFiles/cmTC_a8e1a.dir/build.make CMakeFiles/cmTC_a8e1a.dir/build
+        make[1]: Entering directory '/home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-q8q4e4'
+        Building C object CMakeFiles/cmTC_a8e1a.dir/CheckSymbolExists.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_a8e1a.dir/CheckSymbolExists.c.o -c /home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-q8q4e4/CheckSymbolExists.c
+        Linking C executable cmTC_a8e1a
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a8e1a.dir/link.txt --verbose=1
+        /usr/bin/cc -rdynamic CMakeFiles/cmTC_a8e1a.dir/CheckSymbolExists.c.o -o cmTC_a8e1a 
+        make[1]: Leaving directory '/home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-q8q4e4'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/local/share/cmake-3.26/Modules/CheckCSourceCompiles.cmake:76 (cmake_check_source_compiles)"
+      - "/usr/local/share/cmake-3.26/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "/usr/local/share/cmake-3.26/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "src/lib/openjp2/CMakeLists.txt:181 (find_package)"
+    directories:
+      source: "/home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-LGwTUx"
+      binary: "/home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-LGwTUx"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/liu2598/MemFuzz/generator/jp2/src/cmake"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: /home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-LGwTUx
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_8fbe6/fast && /usr/bin/make  -f CMakeFiles/cmTC_8fbe6.dir/build.make CMakeFiles/cmTC_8fbe6.dir/build
+        make[1]: Entering directory '/home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-LGwTUx'
+        Building C object CMakeFiles/cmTC_8fbe6.dir/src.c.o
+        /usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_8fbe6.dir/src.c.o -c /home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-LGwTUx/src.c
+        Linking C executable cmTC_8fbe6
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8fbe6.dir/link.txt --verbose=1
+        /usr/bin/cc -rdynamic CMakeFiles/cmTC_8fbe6.dir/src.c.o -o cmTC_8fbe6 
+        CMakeFiles/cmTC_8fbe6.dir/src.c.o: In function `main':
+        src.c:(.text+0x3e): undefined reference to `pthread_create'
+        src.c:(.text+0x4a): undefined reference to `pthread_detach'
+        src.c:(.text+0x56): undefined reference to `pthread_cancel'
+        src.c:(.text+0x67): undefined reference to `pthread_join'
+        src.c:(.text+0x7b): undefined reference to `pthread_atfork'
+        collect2: error: ld returned 1 exit status
+        CMakeFiles/cmTC_8fbe6.dir/build.make:98: recipe for target 'cmTC_8fbe6' failed
+        make[1]: *** [cmTC_8fbe6] Error 1
+        make[1]: Leaving directory '/home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-LGwTUx'
+        Makefile:127: recipe for target 'cmTC_8fbe6/fast' failed
+        make: *** [cmTC_8fbe6/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CheckLibraryExists.cmake:71 (try_compile)"
+      - "/usr/local/share/cmake-3.26/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "/usr/local/share/cmake-3.26/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "src/lib/openjp2/CMakeLists.txt:181 (find_package)"
+    directories:
+      source: "/home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-aw2MT1"
+      binary: "/home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-aw2MT1"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/liu2598/MemFuzz/generator/jp2/src/cmake"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: /home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-aw2MT1
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_44a13/fast && /usr/bin/make  -f CMakeFiles/cmTC_44a13.dir/build.make CMakeFiles/cmTC_44a13.dir/build
+        make[1]: Entering directory '/home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-aw2MT1'
+        Building C object CMakeFiles/cmTC_44a13.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_44a13.dir/CheckFunctionExists.c.o -c /home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-aw2MT1/CheckFunctionExists.c
+        Linking C executable cmTC_44a13
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_44a13.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create -rdynamic CMakeFiles/cmTC_44a13.dir/CheckFunctionExists.c.o -o cmTC_44a13  -lpthreads 
+        /usr/bin/ld: cannot find -lpthreads
+        collect2: error: ld returned 1 exit status
+        CMakeFiles/cmTC_44a13.dir/build.make:98: recipe for target 'cmTC_44a13' failed
+        make[1]: *** [cmTC_44a13] Error 1
+        make[1]: Leaving directory '/home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-aw2MT1'
+        Makefile:127: recipe for target 'cmTC_44a13/fast' failed
+        make: *** [cmTC_44a13/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CheckLibraryExists.cmake:71 (try_compile)"
+      - "/usr/local/share/cmake-3.26/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "/usr/local/share/cmake-3.26/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "src/lib/openjp2/CMakeLists.txt:181 (find_package)"
+    directories:
+      source: "/home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-rJjF7v"
+      binary: "/home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-rJjF7v"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/liu2598/MemFuzz/generator/jp2/src/cmake"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: /home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-rJjF7v
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_9b4bc/fast && /usr/bin/make  -f CMakeFiles/cmTC_9b4bc.dir/build.make CMakeFiles/cmTC_9b4bc.dir/build
+        make[1]: Entering directory '/home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-rJjF7v'
+        Building C object CMakeFiles/cmTC_9b4bc.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_9b4bc.dir/CheckFunctionExists.c.o -c /home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-rJjF7v/CheckFunctionExists.c
+        Linking C executable cmTC_9b4bc
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9b4bc.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create -rdynamic CMakeFiles/cmTC_9b4bc.dir/CheckFunctionExists.c.o -o cmTC_9b4bc  -lpthread 
+        make[1]: Leaving directory '/home/liu2598/MemFuzz/generator/jp2/src/CMakeFiles/CMakeScratch/TryCompile-rJjF7v'
+        
+      exitCode: 0
+...

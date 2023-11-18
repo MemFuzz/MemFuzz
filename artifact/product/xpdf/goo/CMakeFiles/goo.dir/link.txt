@@ -1,0 +1,2 @@
+/usr/bin/ar qc libgoo.a  CMakeFiles/goo_objs.dir/FixedPoint.cc.o CMakeFiles/goo_objs.dir/GHash.cc.o CMakeFiles/goo_objs.dir/GList.cc.o CMakeFiles/goo_objs.dir/GString.cc.o CMakeFiles/goo_objs.dir/gfile.cc.o CMakeFiles/goo_objs.dir/gmem.cc.o CMakeFiles/goo_objs.dir/gmempp.cc.o CMakeFiles/goo_objs.dir/parseargs.c.o
+/usr/bin/ranlib libgoo.a

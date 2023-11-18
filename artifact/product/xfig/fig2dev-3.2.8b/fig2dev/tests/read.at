@@ -1,0 +1,560 @@
+dnl Fig2dev: Translate Fig code to various Devices
+dnl Copyright (c) 1991 by Micah Beck
+dnl Parts Copyright (c) 1985-1988 by Supoj Sutanthavibul
+dnl Parts Copyright (c) 1989-2015 by Brian V. Smith
+dnl Parts Copyright (c) 2015-2021 by Thomas Loimer
+dnl
+dnl Any party obtaining a copy of these files is granted, free of charge, a
+dnl full and unrestricted irrevocable, world-wide, paid up, royalty-free,
+dnl nonexclusive right and license to deal in this software and documentation
+dnl files (the "Software"), including without limitation the rights to use,
+dnl copy, modify, merge, publish, distribute, sublicense and/or sell copies
+dnl of the Software, and to permit persons who receive copies from any such
+dnl party to do so, with the only requirement being that the above copyright
+dnl and this permission notice remain intact.
+
+dnl read.at
+dnl Author: Thomas Loimer, 2017-2020
+
+
+AT_BANNER([Sanitize and harden input.])
+
+AT_SETUP([co-incident points])
+AT_KEYWORDS(read.c coincident)
+
+AT_CHECK([fig2dev -L pict2e <<EOF | grep 'polygon\(([[0-9]]*,[[0-9]]*)\)\{4\}'
+FIG_FILE_TOP
+2 2 0 1 -1 -1 50 -1 -1 0.000 0 0 -1 0 0 8
+	0 10200 1200 10200 1200 10200 1200 9225
+	1200 9225 0 9225 0 10200 0 10200
+EOF
+],0,ignore)
+
+AT_CLEANUP
+
+AT_SETUP([open rectangle])
+AT_KEYWORDS(read.c open)
+AT_CHECK([fig2dev -L pict2e <<EOF | grep 'polygon\(([[0-9]]*,[[0-9]]*)\)\{4\}'
+FIG_FILE_TOP
+2 2 0 1 -1 -1 50 -1 -1 0.000 0 0 -1 0 0 4
+	 0 10200 1200 10200 1200 9225 0 9225
+EOF
+],0,ignore,[An open rectangle at line 11 - close it.
+])
+AT_CLEANUP
+
+AT_SETUP([open arc box])
+AT_KEYWORDS(read.c open)
+AT_CHECK([fig2dev -L pict2e <<EOF
+FIG_FILE_TOP
+2 4 0 1 -1 -1 50 -1 -1 0.000 0 0 15 0 0 4
+	 0 10200 1200 10200 1200 9225 0 9225
+EOF
+],0,ignore,[An open rectangle with rounded corners at line 11 - close it.
+])
+AT_CLEANUP
+
+AT_SETUP([open polygon])
+AT_KEYWORDS(read.c open)
+AT_CHECK([fig2dev -L pict2e <<EOF | grep 'polygon\(([[0-9]]*,[[0-9]]*)\)\{4\}'
+FIG_FILE_TOP
+2 3 0 1 -1 -1 50 -1 -1 0.000 0 0 15 0 0 5
+	 0 10200 600 9825 1200 10200 1200 9225 0 9225
+EOF
+],0,ignore,[An open polygon at line 11 - close it.
+])
+AT_CLEANUP
+
+AT_SETUP([convert box to polygon])
+AT_KEYWORDS(read.c polygon)
+AT_CHECK([fig2dev -L pict2e <<EOF | grep 'polygon\(([[0-9]]*,[[0-9]]*)\)\{3\}'
+FIG_FILE_TOP
+2 2 0 1 -1 -1 50 -1 -1 0.000 0 0 -1 0 0 4
+	 0 10200 1200 9225 0 9225 0 10200
+EOF
+],0,ignore,[A rectangle with 3 corners at line 11 - convert to a polygon.
+])
+AT_CLEANUP
+
+AT_SETUP([convert malformed, open box to a polygon])
+AT_KEYWORDS(read.c open polygon)
+AT_CHECK([fig2dev -L pict2e <<EOF
+FIG_FILE_TOP
+2 2 0 1 -1 -1 50 -1 -1 0.000 0 0 -1 0 0 3
+	 0 10200 1200 9225 0 9225
+EOF
+],0,ignore,[An open rectangle at line 11 - close it.
+A rectangle with 3 corners at line 11 - convert to a polygon.
+])
+AT_CLEANUP
+
+AT_SETUP([convert box with one point to polyline])
+AT_KEYWORDS(read.c tk)
+AT_CHECK([fig2dev -L tk <<EOF
+FIG_FILE_TOP
+2 2 0 1 -1 -1 50 -1 -1 0.0 0 0 -1 0 0 1
+	 0 600
+EOF
+],0,ignore,[A rectangle with 1 points at line 11 - convert to a polyline.
+])
+AT_CLEANUP
+
+AT_SETUP([fail on a malformed arc-box])
+AT_KEYWORDS(read.c malformed arc-box)
+AT_CHECK([fig2dev -L pict2e <<EOF
+FIG_FILE_TOP
+2 4 0 1 -1 -1 50 -1 -1 0.000 0 0 60 0 0 4
+	 0 10200 1200 9225 0 9225 0 10200
+EOF
+],1,[],[A malformed rectangle with rounded corners at line 11 - it has 3 corners.
+])
+AT_CLEANUP
+
+AT_SETUP([fail on a distorted arc-box])
+AT_KEYWORDS(read.c distorted arc-box)
+AT_CHECK([fig2dev -L pict2e <<EOF
+FIG_FILE_TOP
+2 4 0 1 -1 -1 50 -1 -1 0.000 0 0 60 0 0 5
+	 0 10200 1210 10200 1200 9225 0 9225 0 10200
+EOF
+],1,[],[A distorted or inclined rectangle with rounded corners at line 11.
+])
+AT_CLEANUP
+
+AT_SETUP([fail on a distorted arc-box])
+AT_KEYWORDS(read.c distorted arc-box)
+AT_CHECK([fig2dev -L pict2e <<EOF
+FIG_FILE_TOP
+2 4 0 1 -1 -1 50 -1 -1 0.000 0 0 60 0 0 5
+	 0 10200 1200 10210 1200 9225 0 9225 0 10200
+EOF
+],1,[],[A distorted or inclined rectangle with rounded corners at line 11.
+])
+AT_CLEANUP
+
+AT_SETUP([remove arrow tips from single point])
+AT_KEYWORDS(read.c polyline)
+AT_CHECK([fig2dev -L pict2e <<EOF
+FIG_FILE_TOP
+2 1 0 1 -1 -1 50 -1 -1 0. 0 0 0 1 1 1
+	0 0 2. 120. 240.
+	0 0 2. 120. 240.
+	0 0
+EOF
+],0,ignore,[A single point with a forward arrow - remove the arrow.
+A single point with a backward arrow - remove the arrow.
+])
+AT_CLEANUP
+
+AT_SETUP([remove arrow tips on polygon with single point])
+AT_KEYWORDS(read.c polygon svg)
+AT_CHECK([fig2dev -L svg <<EOF
+FIG_FILE_TOP
+2 3 0 1 -1 -1 50 -1 -1 0. 0 0 0 0 1 1
+	0 0 2. 120. 240.
+	0 0
+EOF
+],0,ignore,[A polygon with 1 points at line 12 - convert to a polyline.
+A single point with a backward arrow - remove the arrow.
+])
+AT_CLEANUP
+
+AT_SETUP([reject huge arrow-type, ticket #57])
+AT_KEYWORDS(arrow.c arrow)
+AT_CHECK([fig2dev -L box <<EOF
+FIG_FILE_TOP
+2 1 0 1 -1 -1 50 -1 -1 0. 0 0 0 1 0 2
+	10000000000000 0 1 60 120
+0 0 600 0
+EOF
+], 1, ignore, [Invalid forward arrow at line 11.
+])
+AT_CLEANUP
+
+AT_SETUP([convert short polygon to polyline, ticket #56])
+AT_KEYWORDS(read.c polygon)
+AT_CHECK([fig2dev -L ptk <<EOF
+FIG_FILE_TOP
+2 3 0 1 -1 -1 50 -1 -1 0.0 0 0 -1 0 0 1
+	0 0
+EOF
+], 0, ignore, [A polygon with 1 points at line 11 - convert to a polyline.
+])
+AT_CLEANUP
+
+AT_SETUP([reject negative font type])
+AT_KEYWORDS(read.c font)
+AT_CHECK([fig2dev -L box <<EOF
+FIG_FILE_TOP
+4 0 0 1 0 -99999 12 0 4 135 360 0 0 A\001
+EOF
+],1,ignore,[Invalid text object at line 10.
+])
+AT_CLEANUP
+
+AT_SETUP([allow negative circle or ellipse radii])
+AT_KEYWORDS(read.c ellipse)
+AT_CHECK([fig2dev -L box <<EOF
+FIG_FILE_TOP
+1 2 0 1 0 7 50 -1 -1 0.0 1 0.0 0 0 -1200 -600 -1200 600 1200 -600
+EOF
+], 0, ignore)
+AT_CLEANUP
+
+AT_SETUP([reject huge arc radius, ticket #133])
+AT_KEYWORDS(read.c arc)
+# The tk output driver prints to a fixed string, floating point values,
+# hence huge radii lead to buffer overflow.
+AT_CHECK([fig2dev -L tk <<EOF
+FIG_FILE_TOP
+5 1 0 15 0 7 50 0 -1 0.0 1 0 0 0 0.0 1e99 0 0 600 600 1200 1200
+EOF
+], 1, ignore, [Invalid arc object at line 10.
+])
+AT_CLEANUP
+
+AT_SETUP([survive debian bugs #881143, #881144])
+AT_KEYWORDS([font pic tikz])
+AT_CHECK([fig2dev -L pic <<EOF
+
+22-222
+
+4
+0+4 71111111iNf7-3  3 3 0ítyn
+EOF
+],1,ignore,[Invalid text object.
+])
+AT_CHECK([fig2dev -L tikz <<EOF
+
+ 1  1
+
+1
+
+11 4-51
+
+11 0 5
+1
+91
+1
+c!!!!
+EOF
+],1,ignore,[Invalid text object.
+])
+AT_CLEANUP
+
+AT_SETUP([reject out-of-range pattern, debian bug #881396])
+AT_KEYWORDS([read.c])
+AT_CHECK([fig2dev -L box <<EOF
+FIG_FILE_TOP
+3 0 0 0 0 0 0 0 123456789 0 0-0-0 00
+EOF
+],1,ignore,[Invalid spline object at line 10.
+])
+AT_CLEANUP
+
+AT_SETUP([survive debian bug #890016])
+AT_KEYWORDS([read1_3.c])
+AT_CHECK([fig2dev -L box <<EOF
+711111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111
+
+
+0
+1
+16 3
+
+16 6
+
+0
+
+16 6
+
+0
+1
+1 6
+1=6
+EOF
+],1,ignore,ignore)
+AT_CLEANUP
+
+AT_SETUP([ignore too many comment lines, ticket #25])
+AT_KEYWORDS([read.c])
+AT_CHECK([fig2dev -L box <<EOF
+#FIG 3.2
+Landscape
+Center
+Inches
+Letter
+100.
+Single
+-2
+m4_for([i], [1], [102], [], [#
+])dnl
+1200 2
+2 1 0 1 -1 -1 50 -1 -1 0.0 0 0 -1 0 0 2
+        0 0 100 100
+EOF
+],0,ignore-nolog)
+AT_CLEANUP
+
+AT_SETUP([correctly free invalid line object, ticket #26])
+AT_KEYWORDS([read1_3.c])
+AT_CHECK([fig2dev -L box <<EOF
+
+22233333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333322213222
+22222
+2
+EOF
+],1,ignore,ignore)
+AT_CLEANUP
+
+AT_SETUP([correctly free invalid spline, ticket #27])
+AT_KEYWORDS([read.c])
+AT_CHECK([fig2dev -L box <<EOF
+#FIG 2
+1200 2
+3 0 0 0 0 0 0 0 0. 0 1
+0
+EOF
+],1,ignore,[Incomplete spline object at line 4.
+])
+AT_CLEANUP
+
+AT_SETUP([allow last line without newline, ticket #28])
+AT_KEYWORDS([read.c])
+AT_CHECK([AS_ECHO_N(['#FIG 2
+0']) | fig2dev -L box],
+1, ignore, [Incomplete resolution information at line 2.
+])
+AT_CLEANUP
+
+AT_SETUP([correctly free invalid line object])
+AT_KEYWORDS([read.c])
+AT_CHECK([fig2dev -L box <<EOF
+#FIG 2
+1200 2
+2 1 1 1 -1 50 0 0 0. 0 0
+0
+EOF
+], 1, ignore, [Incomplete line object at line 4.
+])
+AT_CLEANUP
+
+AT_SETUP([correctly free invalid line with picture])
+AT_KEYWORDS([read.c])
+AT_CHECK([fig2dev -L box <<EOF
+FIG_FILE_TOP
+2 5 0 1 0 -1 50 0 0 0. 0 0 0 0 0 5
+0 img
+0
+EOF
+], 1, ignore, [Incomplete line object at line 12.
+])
+AT_CLEANUP
+
+AT_SETUP([ignore splines with one point, ticket #29])
+AT_KEYWORDS([read.c])
+AT_CHECK([fig2dev -L box <<EOF
+FIG_FILE_TOP
+3 2 0 0 0 0 50 0 0 0. 0 0 0 0
+0 0 0
+EOF
+], 1, ignore, [Incomplete spline object at line 11.
+])
+AT_CLEANUP
+
+AT_SETUP([ignore splines with one point in format 1.3])
+AT_KEYWORDS([read1_3.c])
+AT_CHECK([fig2dev -L box <<EOF
+1200 2 9 9
+3 10 0 1 1 0 0 0 0 0 0
+9999 0
+EOF
+], 1, ignore, [spline with a single point
+])
+AT_CLEANUP
+
+AT_SETUP([ignore splines with one point in format 2, #129])
+AT_KEYWORDS([read.c])
+AT_CHECK([fig2dev -L box <<EOF
+#FIG 2
+1200 2
+3 1 2 0 1 0 0 7 0 0 0
+600 0 9999 0
+EOF
+], 1, ignore, [Incomplete spline object at line 4.
+])
+AT_CLEANUP
+
+AT_SETUP([accept closed splines with three points])
+AT_KEYWORDS([read.c])
+AT_CHECK([fig2dev -L box <<EOF
+FIG_FILE_TOP
+3 1 0 1 0 0 50 0 0 0. 0 0 0 3
+0 0 600 0 0 600
+1.0 1.0 1.0
+EOF
+], 0, ignore)
+AT_CLEANUP
+
+AT_SETUP([set invalid color number to default, ticket #30])
+AT_KEYWORDS([read.c])
+AT_CHECK([fig2dev -L pict2e <<EOF
+#FIG 2
+1200 2
+2 1 1 1 -502350 50 0 0 0. 0 0
+0 0 100 100 9999 0
+EOF
+],0,ignore-nolog,[Invalid color number -502350 at line 3, using default color.
+])
+AT_CLEANUP
+
+AT_SETUP([set ppi when reading fig files format 1.3])
+AT_KEYWORDS([read1_3.c])
+AT_CHECK([fig2dev -L dxf <<EOF
+1200 2 9 9
+3 10 0 1 1 0 0 0 0 0 0
+100 100 200 0 9999 0
+EOF
+], 0, ignore)
+AT_CLEANUP
+
+AT_SETUP([process circle arrow at mag > 42, ticket #52])
+AT_KEYWORDS([bound.c])
+# With the -fsanitize=address option, a magnification >= 42 triggers an error.
+# Without the -fsanitize=address option, a segfault only results
+# if the array is accessed far enough from its valid range;
+# Use a magnification of 420.
+AT_CHECK([fig2dev -L box <<EOF
+#FIG 3.2
+Landscape
+Center
+Inches
+Letter
+42000.0
+Single
+-2
+1200 2
+2 1 0 1 0 7 50 -1 -1 0.0 0 0 -1 1 0 2
+	5 0 1.0 60.0 120.0
+	 0 0 600 0
+EOF
+], 0, ignore)
+AT_CLEANUP
+
+AT_SETUP([allow text ending with multiple ^A, ticket #55])
+AT_KEYWORDS([read.c])
+AT_CHECK([fig2dev -L box <<EOF
+#FIG 2
+1200 2
+4 2 0 0 1 0 0 0 6 110 376 639 5 Text
+EOF
+], 0, ignore)
+AT_CLEANUP
+
+AT_SETUP([reject too long papersize specification])
+AT_KEYWORDS([read.c])
+AT_CHECK([fig2dev -L box <<EOF
+#FIG 3.2
+Landscape
+Center
+Inches
+Papersize_name_too_long
+EOF
+], 1, ignore,
+    [Invalid paper size specification at line 5: Papersize_name_too_long
+])
+AT_CLEANUP
+
+AT_SETUP([allow tex font -1, tickets #71, #75, #81])
+AT_KEYWORDS([pict2e tikz])
+AT_DATA([text.fig], [FIG_FILE_TOP
+4 0 0 50 -1 -1 12 0.0 0 150 405 0 0 Text\001
+])
+AT_CHECK([fig2dev -L pict2e text.fig
+], 0, ignore)
+AT_CHECK([fig2dev -L tikz text.fig
+], 0, ignore)
+AT_CHECK([fig2dev -L mp text.fig
+], 0, ignore)
+AT_CLEANUP
+
+AT_SETUP([reject ASCII NUL ('\0') in input, ticket #80])
+AT_KEYWORDS([read.c svg])
+AT_CHECK([fig2dev -L svg $srcdir/data/text_w_ascii0.fig],
+1, ignore, [ASCII NUL ('\0') in line 11.
+])
+AT_CLEANUP
+
+AT_SETUP([reject out of range text angle, ticket #76])
+AT_KEYWORDS([read.c pstricks])
+AT_CHECK([fig2dev -L pstricks <<EOF
+FIG_FILE_TOP
+4 0 0 50 0 -1 12 9e26 0 150 405 0 0 Very slanted text\001
+EOF
+], 1, ignore, [Invalid text object at line 10.
+])
+AT_CLEANUP
+
+AT_SETUP([reject out-of-range pattern fills, ticket #63])
+AT_KEYWORDS([read.c cgm])
+AT_CHECK([fig2dev -L cgm <<EOF
+FIG_FILE_TOP
+2 3 0 0 0 7 50 -1 63 0.000 0 0 -1 0 0 4
+	 0 0 1200 0 600 800 0 0
+EOF
+], 1, ignore, [Invalid line object at line 10.
+])
+AT_CLEANUP
+
+AT_SETUP([allow files end without eol, tickets #83, #84])
+AT_KEYWORDS([read.c])
+AT_CHECK([AS_ECHO_N(["FIG_FILE_TOP
+4 0 0 50 0 -1 12 0 0 150 405 0 0 No end-of-line here -->"]) | \
+	fig2dev -L box], 0, ignore)
+AT_CHECK([AS_ECHO_N(["FIG_FILE_TOP
+4 0 0 50 0 -1 12 0 0 150 405 0 0 Start string
+No end-of-line after one backslash --> \\"]) | \
+	fig2dev -L box], 0, ignore)
+AT_CLEANUP
+
+AT_SETUP([do not reach beyond buffer, ticket #85])
+AT_KEYWORDS([read.c])
+AT_CHECK([AS_ECHO_N(["FIG_FILE_TOP
+4 0 0 50 0 -1 12 0 0 150 405 0 0 500chars -and then - no end-of-line HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH"]) \
+	| fig2dev -L box], 0, ignore)
+AT_CLEANUP
+
+AT_SETUP([reject negative font size, ticket #86])
+AT_KEYWORDS([read.c])
+AT_CHECK([AS_ECHO(["2 4 7 0 4 0 -116 0 4 9 3585 6974 3 2"]) | fig2dev -L epic
+], 1, ignore, [Invalid text object.
+])
+AT_CLEANUP
+
+AT_SETUP([reject huge spline controls values, #65, #127])
+AT_KEYWORDS([read.c])
+# Use an output language that does not natively support Bezier splines.
+# Otherwise, the huge values are simply copied to the output.
+AT_CHECK([fig2dev -L epic <<EOF
+#FIG 3.1
+Landscape
+Center
+Metric
+1200 2
+3 2 0 1 0 7 50 -1 -1 0.0 0 0 0 2
+	 0 0 1200 0
+	 600 600 600 9e999
+	 600 600 600 600
+EOF
+], 1, ignore, [Spline control points out of range at line 8.
+])
+AT_CLEANUP
+
+AT_BANNER([Dynamically allocate picture file name.])
+
+AT_SETUP([prepend fig file path to picture file name])
+AT_KEYWORDS(read.c picfilename)
+AT_CHECK([fig2dev -L eps $srcdir/data/boxwimg.fig | \
+	$FGREP "% Begin Imported EPS File: $srcdir/data/line.eps"
+],0,ignore)
+AT_CLEANUP

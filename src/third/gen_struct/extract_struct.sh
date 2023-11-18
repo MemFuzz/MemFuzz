@@ -1,0 +1,3 @@
+# find the struct member
+./pahole --show_only_data_members --expand_types ~/Product/xpdf/master/exe_raw/bin/pdfinfo
+# or we can find print function in c++ without --show_only_data_member and then search for key words like print, dump, save...

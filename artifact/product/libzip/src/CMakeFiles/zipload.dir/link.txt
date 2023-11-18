@@ -1,0 +1,1 @@
+/usr/bin/cc -rdynamic CMakeFiles/zipload.dir/zipload.c.o -o zipload  ../lib/libzip.a /usr/lib/x86_64-linux-gnu/libbz2.so /usr/lib/x86_64-linux-gnu/liblzma.so /usr/lib/x86_64-linux-gnu/libcrypto.so /usr/lib/x86_64-linux-gnu/libz.so 

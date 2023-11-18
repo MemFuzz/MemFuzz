@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Creator: fig2dev Version @PACKAGE_VERSION@ -->
+<!-- CreationDate: 2017-01-04 21:21:21 -->
+<!-- Magnification: 1 -->
+<svg	xmlns="http://www.w3.org/2000/svg"
+	xmlns:xlink="http://www.w3.org/1999/xlink"
+	width="73pt" height="113pt"
+	viewBox="-76 -376 1202 1877">
+<g fill="none">
+<!-- Line -->
+<rect x="-75" y="-375" width="1200" height="1875" fill="#bfbfbf"/>
+<!-- Arc -->
+<!-- 9 -->
+<path d="M 331,272 L 61,481 A 341 341 0 0 0 300 612 z"
+	stroke="#000000" stroke-width="8px" stroke-dasharray="30 9 10 9 10 9"/>
+<!-- Arc -->
+<!-- 10 -->
+<path d="M 390,306 L 376,639 A 333 333 0 0 0 587 575 z" fill="#000000"
+	stroke="#ffffff" stroke-width="8px"/>
+<!-- Arc -->
+<!-- 11 -->
+<path d="M 711,620 L 513,420 A 281 281 0 0 1 702 339 z" fill="#4c4c4c"
+	stroke="#ffffff" stroke-width="8px"/>
+<!-- Arc -->
+<!-- 12 -->
+<defs>
+<path d="M 1063,300 L 793,509 A 341 341 0 0 0 1032 640 z" id="p0"/>
+<pattern id="tile0" patternUnits="userSpaceOnUse"
+	x="0" y="0" width="134" height="134">
+<g stroke-width="7.5" stroke="#000000" fill="none">
+<path d="M164,-30 a67,67 0 0,1 -134,0 a67,67 0 0,1 -67,67 a67,67 0 0,0 134,0 a67,67 0 0,0 67,67 a67,67 0 0,1 -134,0 a67,67 0 0,1 -67,67"/>
+</g>
+</pattern>
+</defs>
+<use xlink:href="#p0" fill="#ffffff"/>
+<use xlink:href="#p0" fill="url(#tile0)"
+	stroke="#000000" stroke-width="8px"/>
+<!-- Arc -->
+<!-- 13 -->
+<defs>
+<clipPath id="cp0">
+	<path clip-rule="evenodd" d="M -76,-376 H 1126 V 1501 H -76 z
+		M 116,893 209,902 123,937 233,906 231,892z
+		M 6,606 2,612 -2,618 -4,625 -5,632 -5,639 -3,646 -1,653 3,660 7,665 12,670 18,674 25,677 32,679 39,680 47,679 54,678 60,675 67,671 72,667 82,603 72,593z"/>
+</clipPath>
+</defs>
+<path d="M 75,600 A 168 168 0 0 0 225 900" clip-path="url(#cp0)"
+	stroke="#000000" stroke-width="8px"/>
+<!-- Forward arrow to point 225,900 -->
+<polyline points=" 116,893 209,902 123,937"
+	stroke="#000000" stroke-width="8px" stroke-miterlimit="8"/>
+<!-- Backward arrow to point 75,600 -->
+<polygon points=" 72,667 77,661 80,655 83,648 85,641 85,634 84,627 83,620 80,613
+ 76,607 71,602 65,597 59,594 52,591 45,590 37,590 30,591 23,593 17,596 11,601
+ 6,606 2,612 -2,618 -4,625 -5,632 -5,639 -3,646 -1,653 3,660 7,665 12,670 18,674
+ 25,677 32,679 39,680 47,679 54,678 60,675 67,671 72,667"
+	stroke="#000000" stroke-width="8px" stroke-miterlimit="8"/>
+<!-- Arc -->
+<!-- 14 -->
+<defs>
+<clipPath id="cp1">
+	<path clip-rule="evenodd" d="M -76,-376 H 1126 V 1501 H -76 z
+		M 334,682 241,673 327,638 217,669 219,683z
+		M 444,969 448,963 452,957 454,950 455,943 455,936 453,929 451,922 447,915 443,910 438,905 432,901 425,898 418,896 411,895 403,896 396,897 390,900 383,904 378,908 368,972 378,982z"/>
+</clipPath>
+<path d="M 375,975 A 168 168 0 0 0 225 675" id="p1"/>
+</defs>
+<use xlink:href="#p1" fill="#000000"/>
+<use xlink:href="#p1" clip-path="url(#cp1)"
+	stroke="#ffffff" stroke-width="8px"/>
+<!-- Forward arrow to point 225,675 -->
+<polyline points=" 334,682 241,673 327,638"
+	stroke="#ffffff" stroke-width="8px" stroke-miterlimit="8"/>
+<!-- Backward arrow to point 375,975 -->
+<polygon points=" 378,908 373,914 370,920 367,927 365,934 365,941 366,948 367,955
+ 370,962 374,968 379,973 385,978 391,981 398,984 405,985 413,985 420,984 427,982
+ 433,979 439,974 444,969 448,963 452,957 454,950 455,943 455,936 453,929 451,922
+ 447,915 443,910 438,905 432,901 425,898 418,896 411,895 403,896 396,897 390,900
+ 383,904 378,908"
+	stroke="#ffffff" stroke-width="8px" stroke-miterlimit="8"/>
+<!-- Arc -->
+<!-- 15 -->
+<defs>
+<clipPath id="cp2">
+	<path clip-rule="evenodd" d="M -76,-376 H 1126 V 1501 H -76 z
+		M 641,968 734,977 648,1012 758,981 756,967z
+		M 531,681 527,687 523,693 521,700 520,707 520,714 522,721 524,728 528,735 532,740 537,745 543,749 550,752 557,754 564,755 572,754 579,753 585,750 592,746 597,742 607,678 597,668z"/>
+</clipPath>
+<path d="M 600,675 A 168 168 0 0 0 750 975" id="p2"/>
+</defs>
+<use xlink:href="#p2" fill="#4c4c4c"/>
+<use xlink:href="#p2" clip-path="url(#cp2)"
+	stroke="#ffffff" stroke-width="8px"/>
+<!-- Forward arrow to point 750,975 -->
+<polyline points=" 641,968 734,977 648,1012"
+	stroke="#ffffff" stroke-width="8px" stroke-miterlimit="8"/>
+<!-- Backward arrow to point 600,675 -->
+<polygon points=" 597,742 602,736 605,730 608,723 610,716 610,709 609,702 608,695
+ 605,688 601,682 596,677 590,672 584,669 577,666 570,665 562,665 555,666 548,668
+ 542,671 536,676 531,681 527,687 523,693 521,700 520,707 520,714 522,721 524,728
+ 528,735 532,740 537,745 543,749 550,752 557,754 564,755 572,754 579,753 585,750
+ 592,746 597,742"
+	stroke="#ffffff" stroke-width="8px" stroke-miterlimit="8"/>
+<!-- Arc -->
+<!-- 16 -->
+<defs>
+<clipPath id="cp3">
+	<path clip-rule="evenodd" d="M -76,-376 H 1126 V 1501 H -76 z
+		M 859,682 766,673 852,638 742,669 744,683z
+		M 969,969 973,963 977,957 979,950 980,943 980,936 978,929 976,922 972,915 968,910 963,905 957,901 950,898 943,896 936,895 928,896 921,897 915,900 908,904 903,908 893,972 903,982z"/>
+</clipPath>
+<path d="M 900,975 A 168 168 0 0 0 750 675" id="p3"/>
+<pattern id="tile1" patternUnits="userSpaceOnUse"
+	x="0" y="0" width="67" height="67">
+<g stroke-width="7.5" stroke="#000000" fill="none">
+<path d="M -1,30 H 68 M 30,-1 V 68"/>
+</g>
+</pattern>
+</defs>
+<use xlink:href="#p3" fill="#ffffff"/>
+<use xlink:href="#p3" fill="url(#tile1)"/> <use xlink:href="#p3" clip-path="url(#cp3)"
+	stroke="#000000" stroke-width="8px"/>
+<!-- Forward arrow to point 750,675 -->
+<polyline points=" 859,682 766,673 852,638"
+	stroke="#000000" stroke-width="8px" stroke-miterlimit="8"/>
+<!-- Backward arrow to point 900,975 -->
+<polygon points=" 903,908 898,914 895,920 892,927 890,934 890,941 891,948 892,955
+ 895,962 899,968 904,973 910,978 916,981 923,984 930,985 938,985 945,984 952,982
+ 958,979 964,974 969,969 973,963 977,957 979,950 980,943 980,936 978,929 976,922
+ 972,915 968,910 963,905 957,901 950,898 943,896 936,895 928,896 921,897 915,900
+ 908,904 903,908"
+	stroke="#000000" stroke-width="8px" stroke-miterlimit="8"/>
+<!-- Ellipse -->
+<!-- 5 -->
+<ellipse transform="translate(150,225) rotate(-45)" rx="150" ry="75"
+	stroke="#000000" stroke-width="8px"/>
+<!-- Ellipse -->
+<!-- 6 -->
+<ellipse transform="translate(454,190) rotate(-315)" rx="188" ry="38" fill="#000000"
+	stroke="#ffffff" stroke-width="8px"/>
+<!-- Ellipse -->
+<!-- 7 -->
+<ellipse transform="translate(674,187) rotate(-315)" rx="188" ry="38" fill="#4c4c4c"
+	stroke="#ffffff" stroke-width="8px"/>
+<!-- Circle -->
+<!-- 8 -->
+<defs>
+<circle cx="937" cy="150" r="136" id="p4"/>
+<pattern id="tile2" patternUnits="userSpaceOnUse"
+	x="0" y="0" width="134" height="134">
+<g stroke-width="7.5" stroke="#000000" fill="none">
+<path d="M-4,63 71,138 M63,-4 138,71 M-4,71 71,-4 M63,138 138,63"/>
+</g>
+</pattern>
+</defs>
+<use xlink:href="#p4" fill="#ffffff"/>
+<use xlink:href="#p4" fill="url(#tile2)"
+	stroke="#000000" stroke-width="8px"/>
+<!-- Line -->
+<!-- 1 -->
+<rect x="0" y="-300" width="300" height="300" rx="120"
+	stroke="#000000" stroke-width="8px"/>
+<!-- Line -->
+<!-- 2 -->
+<polygon points=" 375,-300 375,0 600,0" fill="#000000"
+	stroke="#ffffff" stroke-width="8px"/>
+<!-- Line -->
+<!-- 3 -->
+<polygon points=" 450,-300 675,0 675,-300" fill="#4c4c4c"
+	stroke="#ffffff" stroke-width="8px"/>
+<!-- Line -->
+<!-- 4 -->
+<defs>
+<rect x="750" y="-300" width="300" height="300" id="p5"/>
+<pattern id="tile3" patternUnits="userSpaceOnUse"
+	x="0" y="0" width="134" height="67">
+<g stroke-width="7.5" stroke="#000000" fill="none">
+<path d="M -7,30 73,70 M 61,-3 141,37 M -7,37 73,-3 M 61,70 141,30"/>
+</g>
+</pattern>
+</defs>
+<use xlink:href="#p5" fill="#ffffff"/>
+<use xlink:href="#p5" fill="url(#tile3)"
+	stroke="#000000" stroke-width="8px"/>
+<!-- Line -->
+<!-- 17 -->
+<defs>
+<clipPath id="cp4">
+	<path clip-rule="evenodd" d="M -76,-376 H 1126 V 1501 H -76 z
+		M 162,1308 205,1294 154,1191 141,1196z
+		M 173,1005 165,1006 159,1009 152,1012 146,1016 141,1022 137,1028 134,1034 132,1041 131,1048 132,1055 133,1063 136,1069 139,1076 144,1081 149,1086 155,1090 162,1093 169,1094 176,1095 228,1057 228,1043z"/>
+</clipPath>
+</defs>
+<polyline points=" 225,1050 0,1050 0,1425 225,1425 150,1200" clip-path="url(#cp4)"
+	stroke="#000000" stroke-width="8px"/>
+<!-- Forward arrow to point 150,1200 -->
+<polygon points=" 205,1294 155,1215 162,1308 205,1294"
+	stroke="#000000" stroke-width="8px" stroke-miterlimit="8"/>
+<!-- Backward arrow to point 225,1050 -->
+<polygon points=" 176,1095 183,1094 191,1093 197,1090 203,1086 209,1081 213,1076
+ 217,1069 219,1063 221,1055 221,1048 220,1041 218,1034 215,1028 211,1022 206,1016
+ 200,1012 194,1009 187,1006 180,1005 173,1005 165,1006 159,1009 152,1012 146,1016
+ 141,1022 137,1028 134,1034 132,1041 131,1048 132,1055 133,1063 136,1069 139,1076
+ 144,1081 149,1086 155,1090 162,1093 169,1094 176,1095"
+	stroke="#000000" stroke-width="8px" stroke-miterlimit="8"/>
+<!-- Line -->
+<!-- 18 -->
+<defs>
+<clipPath id="cp5">
+	<path clip-rule="evenodd" d="M -76,-376 H 1126 V 1501 H -76 z
+		M 451,1300 494,1286 443,1183 430,1188z
+		M 462,997 454,998 448,1001 441,1004 435,1008 430,1014 426,1020 423,1026 421,1033 420,1040 421,1047 422,1055 425,1061 428,1068 433,1073 438,1078 444,1082 451,1085 458,1086 465,1087 517,1049 517,1035z"/>
+</clipPath>
+<polyline points=" 514,1042 289,1042 289,1417 514,1417 439,1192" id="p6"/>
+</defs>
+<use xlink:href="#p6" fill="#000000"/>
+<use xlink:href="#p6" clip-path="url(#cp5)"
+	stroke="#ffffff" stroke-width="8px"/>
+<!-- Forward arrow to point 439,1192 -->
+<polygon points=" 494,1286 444,1207 451,1300 494,1286"
+	stroke="#ffffff" stroke-width="8px" stroke-miterlimit="8"/>
+<!-- Backward arrow to point 514,1042 -->
+<polygon points=" 465,1087 472,1086 480,1085 486,1082 492,1078 498,1073 502,1068
+ 506,1061 508,1055 510,1047 510,1040 509,1033 507,1026 504,1020 500,1014 495,1008
+ 489,1004 483,1001 476,998 469,997 462,997 454,998 448,1001 441,1004 435,1008
+ 430,1014 426,1020 423,1026 421,1033 420,1040 421,1047 422,1055 425,1061 428,1068
+ 433,1073 438,1078 444,1082 451,1085 458,1086 465,1087"
+	stroke="#ffffff" stroke-width="8px" stroke-miterlimit="8"/>
+<!-- Line -->
+<!-- 19 -->
+<defs>
+<clipPath id="cp6">
+	<path clip-rule="evenodd" d="M -76,-376 H 1126 V 1501 H -76 z
+		M 624,1171 581,1185 632,1288 645,1283z
+		M 613,1474 621,1473 627,1470 634,1467 640,1463 645,1457 649,1452 652,1445 654,1438 655,1431 654,1424 653,1416 650,1410 647,1403 642,1398 637,1393 631,1389 624,1386 617,1385 610,1384 558,1422 558,1436z"/>
+</clipPath>
+<polyline points=" 561,1429 786,1429 786,1054 561,1054 636,1279" id="p7"/>
+</defs>
+<use xlink:href="#p7" fill="#4c4c4c"/>
+<use xlink:href="#p7" clip-path="url(#cp6)"
+	stroke="#ffffff" stroke-width="8px"/>
+<!-- Forward arrow to point 636,1279 -->
+<polygon points=" 581,1185 631,1264 624,1171 581,1185"
+	stroke="#ffffff" stroke-width="8px" stroke-miterlimit="8"/>
+<!-- Backward arrow to point 561,1429 -->
+<polygon points=" 610,1384 603,1385 595,1386 589,1389 583,1393 577,1398 573,1403
+ 569,1410 567,1416 565,1424 565,1431 566,1438 568,1445 571,1452 575,1457 580,1463
+ 586,1467 592,1470 599,1473 606,1474 613,1474 621,1473 627,1470 634,1467 640,1463
+ 645,1457 649,1452 652,1445 654,1438 655,1431 654,1424 653,1416 650,1410 647,1403
+ 642,1398 637,1393 631,1389 624,1386 617,1385 610,1384"
+	stroke="#ffffff" stroke-width="8px" stroke-miterlimit="8"/>
+<!-- Line -->
+<!-- 20 -->
+<defs>
+<clipPath id="cp7">
+	<path clip-rule="evenodd" d="M -76,-376 H 1126 V 1501 H -76 z
+		M 1005,1309 1048,1295 997,1192 984,1197z
+		M 1016,1006 1008,1007 1002,1010 995,1013 989,1017 984,1023 980,1029 977,1035 975,1042 974,1049 975,1056 976,1064 979,1070 982,1077 987,1082 992,1087 998,1091 1005,1094 1012,1095 1019,1096 1071,1058 1071,1044z"/>
+</clipPath>
+<polyline points=" 1068,1051 843,1051 843,1426 1068,1426 993,1201" id="p8"/>
+<pattern id="tile4" patternUnits="userSpaceOnUse"
+	x="0" y="0" width="268" height="67">
+<g stroke-width="7.5" stroke="#000000" fill="none">
+<path d="M -1,30 H 269"/>
+</g>
+</pattern>
+</defs>
+<use xlink:href="#p8" fill="#ffffff"/>
+<use xlink:href="#p8" fill="url(#tile4)"/> <use xlink:href="#p8" clip-path="url(#cp7)"
+	stroke="#000000" stroke-width="8px"/>
+<!-- Forward arrow to point 993,1201 -->
+<polygon points=" 1048,1295 998,1216 1005,1309 1048,1295"
+	stroke="#000000" stroke-width="8px" stroke-miterlimit="8"/>
+<!-- Backward arrow to point 1068,1051 -->
+<polygon points=" 1019,1096 1026,1095 1034,1094 1040,1091 1046,1087 1052,1082
+ 1056,1077 1060,1070 1062,1064 1064,1056 1064,1049 1063,1042 1061,1035 1058,1029
+ 1054,1023 1049,1017 1043,1013 1037,1010 1030,1007 1023,1006 1016,1006 1008,1007
+ 1002,1010 995,1013 989,1017 984,1023 980,1029 977,1035 975,1042 974,1049 975,1056
+ 976,1064 979,1070 982,1077 987,1082 992,1087 998,1091 1005,1094 1012,1095 1019,1096
+"
+	stroke="#000000" stroke-width="8px" stroke-miterlimit="8"/>
+</g>
+</svg>

@@ -1,0 +1,26 @@
+libgcc_sup_x86_linux_a-m_libgcc_sup.o: m_libgcc_sup.c \
+ /usr/include/stdc-predef.h ../config.h pub_core_basics.h \
+ ../include/pub_tool_basics.h ../VEX/pub/libvex_basictypes.h \
+ /usr/lib/gcc/x86_64-linux-gnu/7/include/stdarg.h pub_core_clientstate.h \
+ ../include/pub_tool_clientstate.h ../include/pub_tool_basics.h \
+ ../include/pub_tool_xarray.h
+
+/usr/include/stdc-predef.h:
+
+../config.h:
+
+pub_core_basics.h:
+
+../include/pub_tool_basics.h:
+
+../VEX/pub/libvex_basictypes.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/7/include/stdarg.h:
+
+pub_core_clientstate.h:
+
+../include/pub_tool_clientstate.h:
+
+../include/pub_tool_basics.h:
+
+../include/pub_tool_xarray.h:

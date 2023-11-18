@@ -1,0 +1,7 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/youwei/MemFuzz/src/src'
+make static
+gcc -g -c a.c
+gcc -g -o a a.o libmemfuzz.a
+make: Leaving directory '/home/youwei/MemFuzz/src/src'
+ 

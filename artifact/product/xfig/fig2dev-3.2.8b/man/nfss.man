@@ -1,0 +1,10 @@
+.TP
+.B \-F
+Don't set the font face, series, and style; only set it's size and the
+baselineskip. By default, fig2dev sets all 5 font parameters when it
+puts some text. The disadvantage is that you can't set the font from your
+LaTeX document. With this option on, you can set the font from your LaTeX
+document.
+.IP
+If any of the pictures included in your LaTeX document has been generated
+with \fB\-F\fR, then all pictures must be generated with this option.

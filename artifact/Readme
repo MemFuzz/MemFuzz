@@ -1,0 +1,3 @@
+p1: The parser result.
+p2: The fuzzing result.
+product: The target program and the generator used in p1 and p2. Make all the application before running p1 and p2.

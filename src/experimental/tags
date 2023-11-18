@@ -1,0 +1,38 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ABRThandler	pdfinfo.cc	/^void ABRThandler(int sig)$/;"	f
+KILLhandler	pdfinfo.cc	/^void KILLhandler(int sig)$/;"	f
+argDesc	pdfinfo.cc	/^static ArgDesc argDesc[] = {$/;"	v	file:
+cfgFileName	pdfinfo.cc	/^static char cfgFileName[256] = "";$/;"	v	file:
+dump_err	pdfinfo.cc	/^void dump_err()$/;"	f
+err_msg	pdfinfo.cc	/^std::string err_msg = "no error";$/;"	v
+firstPage	pdfinfo.cc	/^static int firstPage = 1;$/;"	v	file:
+fuzz_one	pdfinfo.cc	/^int fuzz_one(int argc, char *argv[]) {$/;"	f
+genpdf1	pdfinfo.cc	/^int genpdf1(int argc, char *argv[]) {$/;"	f
+greet_AFL	pdfinfo.cc	/^static void greet_AFL()$/;"	f	file:
+lastPage	pdfinfo.cc	/^static int lastPage = 0;$/;"	v	file:
+list_dir	pdfinfo.cc	/^std::vector<std::string> list_dir(const char* dirpath)$/;"	f
+main	pdfinfo.cc	/^int main(int argc, char *argv[])$/;"	f
+main	pdfinfo.cc	/^int main(int argc, char* argv[])$/;"	f
+mem_usage	pdfinfo.cc	/^void mem_usage(double& vm_usage, double& resident_set) $/;"	f
+ownerPassword	pdfinfo.cc	/^static char ownerPassword[33] = "\\001";$/;"	v	file:
+parseInfoDate	pdfinfo.cc	/^static GString *parseInfoDate(GString *s) {$/;"	f	file:
+parseXMPDate	pdfinfo.cc	/^static GString *parseXMPDate(GString *s) {$/;"	f	file:
+printBox	pdfinfo.cc	/^static void printBox(const char *text, PDFRectangle *box) {$/;"	f	file:
+printBoxes	pdfinfo.cc	/^static GBool printBoxes = gFalse;$/;"	v	file:
+printHelp	pdfinfo.cc	/^static GBool printHelp = gFalse;$/;"	v	file:
+printInfoString	pdfinfo.cc	/^static void printInfoString(Object *infoDict, const char *infoKey,$/;"	f	file:
+printMetadata	pdfinfo.cc	/^static GBool printMetadata = gFalse;$/;"	v	file:
+printVersion	pdfinfo.cc	/^static GBool printVersion = gFalse;$/;"	v	file:
+rawDates	pdfinfo.cc	/^static GBool rawDates = gFalse;$/;"	v	file:
+receive_ctl	pdfinfo.cc	/^static int receive_ctl()$/;"	f	file:
+receive_file	pdfinfo.cc	/^static void receive_file(unsigned *len, unsigned char* buf)$/;"	f	file:
+send_file	pdfinfo.cc	/^static void send_file(unsigned len, const unsigned char* buf)$/;"	f	file:
+send_msg	pdfinfo.cc	/^static void send_msg(int msg)$/;"	f	file:
+setup_shm	pdfinfo.cc	/^void setup_shm(void) {$/;"	f
+textEncName	pdfinfo.cc	/^static char textEncName[128] = "";$/;"	v	file:
+userPassword	pdfinfo.cc	/^static char userPassword[33] = "\\001";$/;"	v	file:

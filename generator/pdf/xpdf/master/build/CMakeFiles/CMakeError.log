@@ -1,0 +1,42 @@
+Determining if the function fseek64 exists failed with the following output:
+Change Dir: /home/youwei/MemFuzz/generator/pdf/xpdf/master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_faf92/fast && /usr/bin/make  -f CMakeFiles/cmTC_faf92.dir/build.make CMakeFiles/cmTC_faf92.dir/build
+make[1]: Entering directory '/home/youwei/MemFuzz/generator/pdf/xpdf/master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_faf92.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -g -DCHECK_FUNCTION_EXISTS=fseek64 -o CMakeFiles/cmTC_faf92.dir/CheckFunctionExists.c.o -c /usr/local/lib/python2.7/dist-packages/cmake/data/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_faf92
+/usr/local/lib/python2.7/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_faf92.dir/link.txt --verbose=1
+/usr/bin/gcc -g -DCHECK_FUNCTION_EXISTS=fseek64 -g  -rdynamic CMakeFiles/cmTC_faf92.dir/CheckFunctionExists.c.o -o cmTC_faf92 
+CMakeFiles/cmTC_faf92.dir/CheckFunctionExists.c.o: In function `main':
+/usr/local/lib/python2.7/dist-packages/cmake/data/share/cmake-3.22/Modules/CheckFunctionExists.c:17: undefined reference to `fseek64'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_faf92.dir/build.make:98: recipe for target 'cmTC_faf92' failed
+make[1]: *** [cmTC_faf92] Error 1
+make[1]: Leaving directory '/home/youwei/MemFuzz/generator/pdf/xpdf/master/build/CMakeFiles/CMakeTmp'
+Makefile:127: recipe for target 'cmTC_faf92/fast' failed
+make: *** [cmTC_faf92/fast] Error 2
+
+
+
+Determining if the function _fseeki64 exists failed with the following output:
+Change Dir: /home/youwei/MemFuzz/generator/pdf/xpdf/master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_1a874/fast && /usr/bin/make  -f CMakeFiles/cmTC_1a874.dir/build.make CMakeFiles/cmTC_1a874.dir/build
+make[1]: Entering directory '/home/youwei/MemFuzz/generator/pdf/xpdf/master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1a874.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -g -DCHECK_FUNCTION_EXISTS=_fseeki64 -o CMakeFiles/cmTC_1a874.dir/CheckFunctionExists.c.o -c /usr/local/lib/python2.7/dist-packages/cmake/data/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_1a874
+/usr/local/lib/python2.7/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1a874.dir/link.txt --verbose=1
+/usr/bin/gcc -g -DCHECK_FUNCTION_EXISTS=_fseeki64 -g  -rdynamic CMakeFiles/cmTC_1a874.dir/CheckFunctionExists.c.o -o cmTC_1a874 
+CMakeFiles/cmTC_1a874.dir/CheckFunctionExists.c.o: In function `main':
+/usr/local/lib/python2.7/dist-packages/cmake/data/share/cmake-3.22/Modules/CheckFunctionExists.c:17: undefined reference to `_fseeki64'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_1a874.dir/build.make:98: recipe for target 'cmTC_1a874' failed
+make[1]: *** [cmTC_1a874] Error 1
+make[1]: Leaving directory '/home/youwei/MemFuzz/generator/pdf/xpdf/master/build/CMakeFiles/CMakeTmp'
+Makefile:127: recipe for target 'cmTC_1a874/fast' failed
+make: *** [cmTC_1a874/fast] Error 2
+
+
+

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libfofi.a CMakeFiles/fofi_objs.dir/FoFiBase.cc.o CMakeFiles/fofi_objs.dir/FoFiEncodings.cc.o CMakeFiles/fofi_objs.dir/FoFiIdentifier.cc.o CMakeFiles/fofi_objs.dir/FoFiTrueType.cc.o CMakeFiles/fofi_objs.dir/FoFiType1.cc.o CMakeFiles/fofi_objs.dir/FoFiType1C.cc.o
+/usr/bin/ranlib libfofi.a

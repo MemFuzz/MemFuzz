@@ -1,0 +1,166 @@
+#!/bin/sh
+
+# PRODUCT: the name of the product
+PRODUCT="xpdf"
+VERSION=$1
+
+PRODUCT_PATH=$HOME/MemFuzz/generator/pdf/
+AFL_PATH=$HOME/AFL
+
+BASE_PATH=$PRODUCT_PATH/$PRODUCT/$VERSION
+SRC_PATH=$BASE_PATH/src
+BUILD_PATH=$BASE_PATH/build
+EXE_RAW_PATH=$BASE_PATH/exe_raw
+EXE_COV_PATH=$BASE_PATH/exe_cov
+EXE_KLEE_PATH=$BASE_PATH/exe_klee
+EXE_ANGORA_TAINT_PATH=$BASE_PATH/exe_angora_taint
+EXE_ANGORA_LIGHT_PATH=$BASE_PATH/exe_angora_light
+EXE_ASAN_PATH=$BASE_PATH/exe_asan
+
+
+CC_RAW=gcc
+CXX_RAW=g++
+CFLAGS_RAW="-g"
+CXXFLAGS_RAW="-g"
+LDFLAGS_RAW="-g"
+
+CC_COV="$AFL_PATH/afl-gcc"
+CXX_COV="$AFL_PATH/afl-g++"
+CFLAGS_COV="-g"
+CXXFLAGS_COV="-g"
+
+CC_ASAN=gcc
+CXX_ASAN=g++
+CFLAGS_ASAN="-g -fsanitize=address"
+CXXFLAGS_ASAN="-g -fsanitize=address"
+LDFLAGS_ASAN="-g -fsanitize=address"
+
+
+
+CC_KLEE=wllvm
+CXX_KLEE=wllvm++
+CFLAGS_KLEE="-g"
+CXXFLAGS_KLEE="-g"
+export LLVM_COMPILER=clang
+
+
+
+
+build_raw()
+{
+  cd $BASE_PATH
+  rm -rf build
+  rm -rf exe_raw
+  mkdir build
+  mkdir exe_raw
+
+  cd $BUILD_PATH
+  CC=$CC_RAW CXX=$CXX_RAW CFLAGS="$CFLAGS_RAW" CXXFLAGS="$CXXFLAGS_RAW" LDFLAGS="$LDFLAGS_RAW" \
+  cmake -DBUILD_SHARED_LIBS=OFF -DCMAKE_INSTALL_PREFIX=$EXE_RAW_PATH -DMULTITHREADED=0 $SRC_PATH
+  make -j64
+  make install
+}
+
+build_cov()
+{
+  cd $BASE_PATH
+  rm -rf build
+  rm -rf exe_cov
+  mkdir build
+  mkdir exe_cov
+
+  cd $BUILD_PATH
+  CC=$CC_COV CXX=$CXX_COV CFLAGS="$CFLAGS_COV" CXXFLAGS="$CXXFLAGS_COV" LDFLAGS="$LDFLAGS_COV" \
+  cmake -DBUILD_SHARED_LIBS=OFF -DCMAKE_INSTALL_PREFIX=$EXE_COV_PATH $SRC_PATH
+  make -j64
+  make install
+}
+
+build_asan()
+{
+    
+  cd $BASE_PATH
+  rm -rf build
+  rm -rf exe_asan
+  mkdir build
+  mkdir exe_asan
+
+  cd $BUILD_PATH
+  CC=$CC_ASAN CXX=$CXX_ASAN CFLAGS="$CFLAGS_ASAN" CXXFLAGS="$CXXFLAGS_ASAN" LDFLAGS="$LDFLAGS_ASAN" \
+  cmake -DBUILD_SHARED_LIBS=OFF -DCMAKE_INSTALL_PREFIX=$EXE_ASAN_PATH $SRC_PATH
+  make -j64
+  make install
+}
+
+build_klee()
+{
+  cd $BASE_PATH
+  rm -rf build
+  rm -rf exe_klee
+  mkdir build
+  mkdir exe_klee
+
+  cd $BUILD_PATH
+  CC=$CC_KLEE CXX=$CXX_KLEE CFLAGS="$CFLAGS_KLEE" CXXFLAGS="$CXXFLAGS_KLEE" LDFLAGS="$LDFLAGS_KLEE" \
+  cmake -DBUILD_SHARED_LIBS=OFF -DCMAKE_INSTALL_PREFIX=$EXE_KLEE_PATH $SRC_PATH
+  make -j64
+  make install
+}
+
+build_angora_taint()
+{
+  export PATH=$HOME/Angora/llvm/clang+llvm/bin:$PATH
+  #export LD_LIBRARY_PATH=$HOME/Angora/llvm/clang+llvm/lib:$LD_LIBRARY_PATH
+  export LD_LIBRARY_PATH=$HOME/Angora/Angora/bin/lib:$LD_LIBRARY_PATH
+  export ANGORA_TAINT_RULE_LIST=$HOME/Product/libzip/rule/all.txt
+  CC_ANGORA=$HOME/Angora/Angora/bin/angora-clang
+  CXX_ANGORA=$HOME/Angora/Angora/bin/angora-clang++
+  LD=$HOME/Angora/Angora/bin/angora-clang
+  CFLAGS_ANGORA="-g"
+  CXXFLAGS_ANGORA="-g"
+  
+
+  cd $BASE_PATH
+  rm -rf build
+  rm -rf exe_angora_taint
+  mkdir build
+  mkdir exe_angora_taint
+
+  cd $BUILD_PATH
+  CC=$CC_ANGORA CXX=$CXX_ANGORA CFLAGS="$CFLAGS_ANGORA" CXXFLAGS="$CXXFLAGS_ANGORA" LDFLAGS="$LDFLAGS_ANGORA" \
+  cmake -DCMAKE_C_COMPILER=$CC_ANGORA -DCMAKE_CXX_COMPILER=$CXX_ANGORA -DBUILD_SHARED_LIBS=OFF -DCMAKE_INSTALL_PREFIX=$EXE_ANGORA_TAINT_PATH $SRC_PATH
+  USE_TRACK=1 make -j64
+  make install
+}
+
+build_angora_light()
+{
+  export PATH=$HOME/Angora/llvm/clang+llvm/bin:$PATH
+  export LD_LIBRARY_PATH=$HOME/Angora/llvm/clang+llvm/lib:$LD_LIBRARY_PATH
+  CC_ANGORA=$HOME/Angora/Angora/bin/angora-clang
+  CXX_ANGORA=$HOME/Angora/Angora/bin/angora-clang++
+  LD=$HOME/Angora/Angora/bin/angora-clang
+  CFLAGS_ANGORA="-g"
+  CXXFLAGS_ANGORA="-g"
+
+  cd $BASE_PATH
+  rm -rf build
+  rm -rf exe_angora_light
+  mkdir build
+  mkdir exe_angora_light
+
+  cd $BUILD_PATH
+  CC=$CC_ANGORA CXX=$CXX_ANGORA CFLAGS="$CFLAGS_ANGORA" CXXFLAGS="$CXXFLAGS_ANGORA" LDFLAGS="$LDFLAGS_ANGORA" \
+  cmake -DBUILD_SHARED_LIBS=OFF -DCMAKE_INSTALL_PREFIX=$EXE_ANGORA_LIGHT_PATH $SRC_PATH
+  USE_FAST=1 make -j64
+  make install
+}
+
+if [ ! -z $VERSION ] && [ -d "$BASE_PATH" ]; then
+  build_raw
+  #build_cov
+  #build_klee
+  #build_angora_taint
+  #build_angora_light
+  #build_asan
+fi

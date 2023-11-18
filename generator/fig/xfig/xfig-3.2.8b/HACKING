@@ -1,0 +1,58 @@
+Copyright notice
+----------------
+
+All files contain a copyright notice as below.
+Authors or contributors of a substantial portion of a file
+are listed below the copyright notice, cf. Makefile.am.
+The maintainer adds his copyright line at the top,
+on the occasion of a modification of the file - and amends
+the copyright line for Brian V. Smith by "-2015".
+
+/*
+ * FIG : Facility for Interactive Generation of figures
+ * Copyright (c) 1985-1988 by Supoj Sutanthavibul
+ * Parts Copyright (c) 1989-2015 by Brian V. Smith
+ * Parts Copyright (c) 1991 by Paul King
+ * Parts Copyright (c) 2016-2019 by Thomas Loimer
+ *
+ * Any party obtaining a copy of these files is granted, free of charge, a
+ * full and unrestricted irrevocable, world-wide, paid up, royalty-free,
+ * nonexclusive right and license to deal in this software and documentation
+ * files (the "Software"), including without limitation the rights to use,
+ * copy, modify, merge, publish, distribute, sublicense and/or sell copies
+ * of the Software, and to permit persons who receive copies from any such
+ * party to do so, with the only requirement being that the above copyright
+ * and this permission notice remain intact.
+ *
+ */
+
+
+Compiling from development sources
+----------------------------------
+
+To build from the development sources, the autoconf tools must be installed.
+In the top source directory, do
+  autoreconf -i
+  # -i ... install missing files (depmod, install-sh, etc.)
+  ./configure; make; make install
+
+To update the documentation, do
+  cd doc
+  make documentation
+This requires the programs fig2dev and htmldoc. make documentation re-creates
+doc/html/images/xfig-title.png and rebuilds xfig_ref_en.pdf from the html pages.
+
+Optionally, make check and, after installing, make install-check.
+Only very rudimentary tests are provided, thus not much is gained
+from running them. Some tests require that the linker understands the
+"-allow-multiple-definition" option. This does not seem to be the
+case for the standard linker of BSD-variants and Darwin.
+Try "make check LDFLAGS=-fuse-ld=gold" or "-fuse-ld=lld" to use a linker
+that understands this option and allows multiply defined symbols.
+
+The version of the package is given in the file version.m4.
+Edit the file to adapt the version string. If the sources are maintained
+in a git-tree, with
+  ./configure --enable-versioning
+the script update-version_m4 is run and changes the version string to a
+string given by git describe.

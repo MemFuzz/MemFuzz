@@ -1,0 +1,1 @@
+/usr/bin/cc -rdynamic CMakeFiles/add_from_filep.dir/add_from_filep.c.o -o add_from_filep  ../lib/libzip.a /usr/lib/x86_64-linux-gnu/libbz2.so /usr/lib/x86_64-linux-gnu/liblzma.so /usr/lib/x86_64-linux-gnu/libcrypto.so /usr/lib/x86_64-linux-gnu/libz.so 

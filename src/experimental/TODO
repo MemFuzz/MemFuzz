@@ -1,0 +1,17 @@
+support generating template for c++
+
+array shuffle for basic types.
+
+Bit field in C/C++                # Detected. We need to use macro to mutate bit fields as they can not be passed by pointers. I think probably we do not need to mutate them as there are not critical cases.
+
+AFL seems buggy in this version? Pipe problems?
+
+rename the in-class anonymous struct
+
+Automate the incomplete structure replacement.
+
+Prioritize types need less time.
+
+For pointer types, we need always check if the address is valid. We do not implement for basic types but it works okay. Do we need to add them?
+
+Union handling problem. If we mutate an address and add it to the dup, we can not mutate it again. We need special case to handle it.

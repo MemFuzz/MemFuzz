@@ -1,0 +1,1 @@
+/usr/bin/cc -rdynamic CMakeFiles/ziptool_regress.dir/ziptool_regress.c.o CMakeFiles/ziptool_regress.dir/source_hole.c.o -o ziptool_regress  ../lib/libzip.a /usr/lib/x86_64-linux-gnu/libbz2.so /usr/lib/x86_64-linux-gnu/liblzma.so /usr/lib/x86_64-linux-gnu/libcrypto.so /usr/lib/x86_64-linux-gnu/libz.so 

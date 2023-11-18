@@ -1,0 +1,19 @@
+ASAN:DEADLYSIGNAL
+=================================================================
+==43761==ERROR: AddressSanitizer: SEGV on unknown address 0x000000000000 (pc 0x55edbf07dd28 bp 0x7ffc11c69440 sp 0x7ffc11c69400 T0)
+==43761==The signal is caused by a READ memory access.
+==43761==Hint: address points to the zero page.
+    #0 0x55edbf07dd27 in mutate_zip /home/liu2598/MemFuzz/generator/zip/src/src/build/memfuzz_mutate.c:131
+    #1 0x55edbf07e5be in mutate_zip_source /home/liu2598/MemFuzz/generator/zip/src/src/build/memfuzz_mutate.c:271
+    #2 0x55edbf07e216 in mutate_zip /home/liu2598/MemFuzz/generator/zip/src/src/build/memfuzz_mutate.c:195
+    #3 0x55edbf07e5be in mutate_zip_source /home/liu2598/MemFuzz/generator/zip/src/src/build/memfuzz_mutate.c:271
+    #4 0x55edbf07efc0 in mutate_zip_entry /home/liu2598/MemFuzz/generator/zip/src/src/build/memfuzz_mutate.c:450
+    #5 0x55edbf07e11f in mutate_zip /home/liu2598/MemFuzz/generator/zip/src/src/build/memfuzz_mutate.c:180
+    #6 0x55edbf087984 in main1 /home/liu2598/MemFuzz/generator/zip/src/src/generator.c:168
+    #7 0x55edbf087ac9 in main /home/liu2598/MemFuzz/generator/zip/src/src/generator.c:196
+    #8 0x7f6d71cbbc86 in __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x21c86)
+    #9 0x55edbf07d289 in _start (/home/liu2598/MemFuzz/generator/zip/src/src/generator+0x4289)
+
+AddressSanitizer can not provide additional info.
+SUMMARY: AddressSanitizer: SEGV /home/liu2598/MemFuzz/generator/zip/src/src/build/memfuzz_mutate.c:131 in mutate_zip
+==43761==ABORTING

@@ -1,0 +1,1 @@
+/usr/bin/cc -rdynamic CMakeFiles/pngfix.dir/contrib/tools/pngfix.c.o -o pngfix  -Wl,-rpath,/home/liu2598/MemFuzz/generator/png/src: libpng16.so.16.38.git -lz -lm 

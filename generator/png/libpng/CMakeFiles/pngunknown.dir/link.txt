@@ -1,0 +1,1 @@
+/usr/bin/cc -rdynamic CMakeFiles/pngunknown.dir/contrib/libtests/pngunknown.c.o -o pngunknown  -Wl,-rpath,/home/liu2598/MemFuzz/generator/png/src libpng16.so.16.38.git -lz -lm 

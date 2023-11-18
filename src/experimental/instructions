@@ -1,0 +1,65 @@
+# MemFuzz
+
+## Environment: 
+The codes are tested under Ubuntu 18.04. The tool should work as long as your system supports malloc__hook_ because MemFuzz initializes all heap allocated memory to 0 and records the address as well as size to do safe memory access.
+
+## Install:
+`cd third/gen_struct && cmake . && make -j64`\
+`cd third/pahole/src && cmake . && make -j64`
+
+## Usage:
+1. Run `./parse_elf.py <ELF file>` to synthesize codes. Your program should be compiled with "-g".
+
+2. Put memfuzz_* to ./build and copy the files from ./src to ./build.\
+`cp memfuzz* ./build `\
+`cp ./src* ./build/`
+
+3. Test if the generated files compile. The most common issue is that there are some unknown structures, add some #include<xxx> to memfuzz_struct.h to fix it. The headers are usually some common libraries. For example, "#include <pthread.h>", "#include <zlib.h>", "#include<setjmp.h>" etc. In case you do not know the header for a structure, you can replace the corresponing fields with char tmp[xxx], where xxx is the size of the incomplete structure. MemFuzz writes down the size for each structure member in memfuzz_struct.h so it is trivial. 
+
+4. Add custom strategy (array-length relationships and dictionary) to memfuzz_mutate.c and compile the files by running make in ./build. \
+`cd build && make static`
+
+5. Choose a target application to do instrumentation. Insert "alloc_init(); memfuzz_init();" at the beginning of main function.
+
+6. Call "mutate_xxx(obj);" after parsers to mutate the data structure. Note the input file should be MEMFUZZ_INFILE.
+The data structure should be allocated from heap because we use longjmp to jump out of mutation and do printing. The data structure allocated from heap is taken care of by MemFuzz.\
+The mutation function should be insert inside setjmp(). For example, in giflib:\
+      GifFileIn = Parser(MEMFUZZ_INFILE);\
+      ...\
+      if(setjmp(memfuzz_jmp_buf) == 0)\
+      {\
+          mutate_GifFileType(GifFileIn, 0);\
+          exit(0);\
+      }\
+      ...\
+      Printer(MEMFUZZ_OUTFILE);\
+
+7. Insert the printer function after the mutation. Note the output file name should be set to MEMFUZZ_OUTFILE. \
+!!!Important: the file descriptor should be opened after mutation function because we use fork to protect printer function. If the file descriptor is forked, several process can write to the same file and this causes problem.\
+The following code snippets are incorrect as outfd will be forked and cause race condition.\
+      GifFileIn = Parser(xxx);\
+      ...\
+      int outfd = open(MEMFUZZ_OUTFILE);\
+      if(setjmp(memfuzz_jmp_buf) == 0)\
+      {\
+          mutate_GifFileType(GifFileIn, 0);\
+          exit(0);\
+      }\
+      ...\
+      Printer(outfd);
+
+8. Create a wrapper for main function, which should take no parameter but directly reads file from MEMFUZZ_INFILE and outputs to MEMFUZZ_OUTFILE.
+
+8. Compile the generator. You should link to glib in this step.
+
+9. Run the modified fuzzer with the generator by adding "-G <generator>" besides the normal fuzzing parameters.\
+`./afl-2.52b/afl-fuzz -i <input> -o <output> -S memfuzz -G <generator> -- <proragm cmd>`
+
+## Common problems
+By define MEMFUZZ_DEBUG, the codes can be run separately from AFL and keep generating files. Use gdb to debug the generator. We list several issues that may prevent generator from work.
+
+1. Your mutation is performed on an address at stack instead of heap. To prevent main process from crash, MemFuzz only access known address recorded by malloc hook. You may malloc a new pointer and copy the value in the stack to the pointer.
+
+2. The output file descriptor should not be opened before mutate_xxx() or you may get a huge file...
+
+

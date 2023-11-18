@@ -1,0 +1,1 @@
+Fix bug in pahole. It shows struct instead of struct pointer in libjpeg. (Fixed. It was caused by a mix of pointer, typedef and const tags, which has const tag before struct tag)

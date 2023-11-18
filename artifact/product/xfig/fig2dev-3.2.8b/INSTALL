@@ -1,0 +1,144 @@
+Short summary
+-------------
+
+    ./configure && make && make install
+    # Optionally: make check, make installcheck
+
+Requirements
+------------
+Compilation: C header files, optionally libz and libpng header files.
+Run-time: Optionally ghostscript (for any bitmap output) and
+          optionally one out of netpbm | ImageMagick | Graphicsmagick
+	  program packages (to embed various image formats).
+
+
+	Installation under Windows
+	--------------------------
+
+For compilation under Windows, a rudimentary Makefile is provided in the
+fig2dev subdirectory.  From the commandline, navigate to this subdirectory,
+and issue the command
+
+    name /f Nmakefile
+
+For installation, you would manually have to copy the folder i18n/ to the
+location given in the Nmakefile.  Chances are good that fig2dev works to
+your satisfaction also without these files.
+
+Requirements
+------------
+At run-time, fig2dev needs ghostscript to convert fig-files to pdf, and
+ghostscript and one out of the netpbm package, ImageMagick, or
+GraphicsMagick, to convert to any bitmap file.
+
+
+	Installation under Unix, Linux, Darwin (MacOS)
+	----------------------------------------------
+
+To compile and install fig2dev, issue the commands
+
+    ./configure && make && make install
+
+where "make install" must be given as root.
+When compiling from the development sources, do
+
+   autoreconf -i
+
+before giving the three commands above.
+
+Optionally,
+
+    ./configure; make; make check; make install; make installcheck
+
+will run tests (make check) with the freshly built executable still at
+its location in the build tree, and (make installcheck) with the
+executable installed in its final location.
+
+The commands above will compile fig2dev and copy the executables fig2dev,
+fig2ps2tex and pic2tpic to /usr/local/bin.  Three man-pages for these
+binaries are put into /usr/local/man/man1.  Furthermore, files which may
+be needed at runtime are put under /usr/local/share/fig2dev.  These are
+internationalization files, which may be used by the PostScript and all
+bitmap output languages.  They are stored under
+/usr/local/share/fig2dev/i18n.
+
+
+	Requirements
+	------------
+
+Minimum requirement are the C library header files. On debian, these are
+contained in the
+
+    libc6-dev, linux-libc-dev
+
+packages.  For rpm-based distributions, these packages have the string
+"-devel-" in their name.
+
+Optionally, to compress output to Postscript when embedding images in
+fig files, the zlib header files are needed,
+
+    zlib1g-dev (zlib-devel for rpm).
+
+To write fig files with embedded png images to PostScript, pdf or any
+bitmap format, install
+
+    libpng-dev.
+
+
+To run fig2dev, the packages
+
+    ghostscript, and one out of
+    netpbm | ImageMagick | GraphicsMagick
+
+are needed to produce various bitmap output formats, or process fig files
+with embedded images.
+
+
+Darwin (MacOS)
+--------------
+Under Darwin, necessary libraries and header files are often installed
+in non-standard locations.  These locations must be given in the LDFLAGS
+and CPPFLAGS variables.  For instance, with packages installed from
+macports, try
+
+    ./configure LDFLAGS=-L/opt/local/lib CPPFLAGS=-I/opt/local/include
+
+or with packages from fink, try
+
+    ./configure LDFLAGS=-L/sw/lib CPPFLAGS=-I/sw/include
+
+
+
+	Options
+	-------
+
+The configure script and also the make-command can be customized in
+many ways, either by giving options, e.g., ./configure --prefix=/usr,
+or by setting variables, e.g., make CC=clang or ./configure CFLAGS=-O2.
+
+Options relevant for fig2dev are, here given with their default
+settings, are
+
+  --prefix=/usr/local
+  --bindir=${prefix}/bin
+  --datarootdir=${prefix}/share
+  --mandir=${prefix}/man
+
+Compilation flags are typically
+
+    CC=gcc CFLAGS='-g -O2' LIBS='-lpng -lz -lm'
+
+To check where files will be installed, after "./configure && make" try
+
+    make DESTDIR=/tmp/fig2dev install
+
+This will move the intallation location to /tmp/fig2dev. The file tree under
+/tmp/fig2dev then shows where files would be installed by "make install",
+
+    ls -R /tmp/fig2dev or tree /tmp/fig2dev
+
+To get a list of possible features to enable or disable, type
+
+    ./configure --help
+
+and see the "Optional Features" and "Optional Packages" sections.
